@@ -1,0 +1,17 @@
+{
+  "name": "presitracker-data",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Données publiques, schéma et validateur de Presitracker2027",
+  "type": "module",
+  "scripts": {
+    "validate": "node validate.mjs presitracker-data.json"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ajv": "8.20.0",
+    "ajv-formats": "3.0.1"
+  }
+}

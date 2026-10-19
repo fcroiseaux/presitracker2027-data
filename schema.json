@@ -1,0 +1,388 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:presitracker2027:schema:presitracker-data:v1",
+  "title": "Fichier de données Presitracker2027, version 1",
+  "description": "Schéma exécutable de presitracker-data.json, conforme à docs/format-donnees.md (version 1 du 19 octobre 2026). Les règles d'intégrité qui ne s'expriment pas en schéma (références croisées, préfixes d'identifiants, cohérence des historiques, stabilité entre deux versions) sont vérifiées par data/validate.mjs.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "updatedAt", "election", "themes", "sources", "candidates", "questionnaire", "polls", "agenda", "editorialLog"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "updatedAt": { "$ref": "#/$defs/timestamp" },
+    "election": { "$ref": "#/$defs/election" },
+    "themes": {
+      "type": "array",
+      "minItems": 17,
+      "maxItems": 17,
+      "items": { "$ref": "#/$defs/theme" }
+    },
+    "sources": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": { "$ref": "#/$defs/id" },
+      "additionalProperties": { "$ref": "#/$defs/source" }
+    },
+    "candidates": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/candidate" }
+    },
+    "questionnaire": { "$ref": "#/$defs/questionnaire" },
+    "polls": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/poll" }
+    },
+    "agenda": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/agendaItem" }
+    },
+    "editorialLog": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/editorialEntry" }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{1,63}$"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}(\\.[0-9]+)?Z$"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https?://"
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "sourceIds": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/id" }
+    },
+    "themeKey": {
+      "enum": ["eco", "ent", "fis", "fin", "ret", "edu", "san", "def", "eur", "etr", "imm", "sec", "ecol", "inst", "num", "log", "agr"]
+    },
+    "candidateStatus": {
+      "enum": ["pressenti", "declare", "officiel", "retire"]
+    },
+    "election": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "round1", "round2", "round1Overseas", "round2Overseas", "sourceIds"],
+      "properties": {
+        "name": { "$ref": "#/$defs/text" },
+        "round1": { "$ref": "#/$defs/date" },
+        "round2": { "$ref": "#/$defs/date" },
+        "round1Overseas": { "$ref": "#/$defs/date" },
+        "round2Overseas": { "$ref": "#/$defs/date" },
+        "sourceIds": { "$ref": "#/$defs/sourceIds" }
+      }
+    },
+    "theme": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["key", "name", "summary", "subthemes"],
+      "properties": {
+        "key": { "$ref": "#/$defs/themeKey" },
+        "name": { "$ref": "#/$defs/text" },
+        "summary": { "$ref": "#/$defs/text" },
+        "subthemes": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["key", "name"],
+            "properties": {
+              "key": { "$ref": "#/$defs/id" },
+              "name": { "$ref": "#/$defs/text" }
+            }
+          }
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "publisher", "url", "kind"],
+      "properties": {
+        "title": { "$ref": "#/$defs/text" },
+        "publisher": { "$ref": "#/$defs/text" },
+        "url": { "$ref": "#/$defs/url" },
+        "date": { "$ref": "#/$defs/date" },
+        "kind": { "enum": ["programme", "presse", "entretien", "discours", "reseau-social", "officiel", "sondage"] }
+      }
+    },
+    "candidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "firstName", "lastName", "sortName", "party", "partyShort", "status", "statusDate", "statusSourceIds", "statusHistory", "bio", "currentRoles", "measures"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "firstName": { "$ref": "#/$defs/text" },
+        "lastName": { "$ref": "#/$defs/text" },
+        "sortName": { "type": "string", "pattern": "^[a-z0-9][a-z0-9 '-]*$" },
+        "party": { "$ref": "#/$defs/text" },
+        "partyShort": { "$ref": "#/$defs/text" },
+        "status": { "$ref": "#/$defs/candidateStatus" },
+        "statusDate": { "$ref": "#/$defs/date" },
+        "statusSourceIds": { "$ref": "#/$defs/sourceIds" },
+        "statusHistory": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["date", "status", "sourceIds"],
+            "properties": {
+              "date": { "$ref": "#/$defs/date" },
+              "status": { "$ref": "#/$defs/candidateStatus" },
+              "note": { "$ref": "#/$defs/text" },
+              "sourceIds": { "$ref": "#/$defs/sourceIds" }
+            }
+          }
+        },
+        "bio": { "$ref": "#/$defs/text" },
+        "currentRoles": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/text" }
+        },
+        "birthYear": { "type": "integer", "minimum": 1900, "maximum": 2009 },
+        "websiteUrl": { "$ref": "#/$defs/url" },
+        "programmeUrl": { "$ref": "#/$defs/url" },
+        "sponsorships": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["count", "asOf", "sourceIds"],
+          "properties": {
+            "count": { "type": "integer", "minimum": 0 },
+            "asOf": { "$ref": "#/$defs/date" },
+            "sourceIds": { "$ref": "#/$defs/sourceIds" }
+          }
+        },
+        "measures": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/measure" }
+        }
+      }
+    },
+    "measure": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "themeKey", "subthemeKey", "title", "detail", "kind", "status", "firstSeen", "lastChanged", "sourceIds", "history"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "themeKey": { "$ref": "#/$defs/themeKey" },
+        "subthemeKey": { "$ref": "#/$defs/id" },
+        "title": { "$ref": "#/$defs/text" },
+        "detail": { "$ref": "#/$defs/text" },
+        "kind": { "enum": ["programme", "declaration", "vote"] },
+        "status": { "enum": ["active", "abandonnee"] },
+        "firstSeen": { "$ref": "#/$defs/date" },
+        "lastChanged": { "$ref": "#/$defs/date" },
+        "sourceIds": { "$ref": "#/$defs/sourceIds" },
+        "history": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/historyEntry" }
+        }
+      }
+    },
+    "historyEntry": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["date", "type", "sourceIds"],
+          "properties": {
+            "date": { "$ref": "#/$defs/date" },
+            "type": { "const": "ajout" },
+            "note": { "$ref": "#/$defs/text" },
+            "sourceIds": { "$ref": "#/$defs/sourceIds" }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["date", "type", "before", "after", "sourceIds"],
+          "properties": {
+            "date": { "$ref": "#/$defs/date" },
+            "type": { "const": "modification" },
+            "before": { "$ref": "#/$defs/text" },
+            "after": { "$ref": "#/$defs/text" },
+            "note": { "$ref": "#/$defs/text" },
+            "sourceIds": { "$ref": "#/$defs/sourceIds" }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["date", "type", "note", "sourceIds"],
+          "properties": {
+            "date": { "$ref": "#/$defs/date" },
+            "type": { "const": "abandon" },
+            "note": { "$ref": "#/$defs/text" },
+            "sourceIds": { "$ref": "#/$defs/sourceIds" }
+          }
+        }
+      ]
+    },
+    "questionnaire": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["version", "scale", "questions"],
+      "properties": {
+        "version": { "$ref": "#/$defs/date" },
+        "scale": {
+          "const": [
+            { "value": 2, "label": "Tout à fait d'accord" },
+            { "value": 1, "label": "Plutôt d'accord" },
+            { "value": 0, "label": "Ni d'accord ni pas d'accord" },
+            { "value": -1, "label": "Plutôt pas d'accord" },
+            { "value": -2, "label": "Pas du tout d'accord" }
+          ]
+        },
+        "questions": {
+          "type": "array",
+          "minItems": 34,
+          "maxItems": 34,
+          "items": { "$ref": "#/$defs/question" }
+        }
+      }
+    },
+    "question": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "themeKey", "core", "statement", "context", "contextSourceIds", "stances"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^q-[a-z0-9][a-z0-9-]{1,61}$" },
+        "themeKey": { "$ref": "#/$defs/themeKey" },
+        "core": { "type": "boolean" },
+        "statement": { "$ref": "#/$defs/text" },
+        "context": { "$ref": "#/$defs/text" },
+        "contextSourceIds": { "$ref": "#/$defs/sourceIds" },
+        "stances": {
+          "type": "object",
+          "propertyNames": { "$ref": "#/$defs/id" },
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["value", "note", "sourceIds"],
+            "properties": {
+              "value": { "type": "integer", "minimum": -2, "maximum": 2 },
+              "note": { "$ref": "#/$defs/text" },
+              "measureIds": {
+                "type": "array",
+                "uniqueItems": true,
+                "items": { "$ref": "#/$defs/id" }
+              },
+              "sourceIds": { "$ref": "#/$defs/sourceIds" }
+            }
+          }
+        }
+      }
+    },
+    "poll": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "institute", "sponsors", "fieldworkStart", "fieldworkEnd", "publishedAt", "population", "round", "hypotheses"],
+      "anyOf": [
+        { "required": ["noticeUrl"] },
+        { "required": ["reportUrl"] }
+      ],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "institute": { "$ref": "#/$defs/text" },
+        "sponsors": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/text" }
+        },
+        "fieldworkStart": { "$ref": "#/$defs/date" },
+        "fieldworkEnd": { "$ref": "#/$defs/date" },
+        "publishedAt": { "$ref": "#/$defs/date" },
+        "population": { "$ref": "#/$defs/text" },
+        "sampleSize": { "type": "integer", "minimum": 1 },
+        "method": { "$ref": "#/$defs/text" },
+        "margin": { "$ref": "#/$defs/text" },
+        "noticeUrl": { "$ref": "#/$defs/url" },
+        "reportUrl": { "$ref": "#/$defs/url" },
+        "round": { "enum": [1, 2] },
+        "hypotheses": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "label", "results"],
+            "properties": {
+              "id": { "$ref": "#/$defs/id" },
+              "label": { "$ref": "#/$defs/text" },
+              "results": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "oneOf": [
+                    {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": ["candidateId", "value"],
+                      "properties": {
+                        "candidateId": { "$ref": "#/$defs/id" },
+                        "value": { "type": "number", "minimum": 0, "maximum": 100 }
+                      }
+                    },
+                    {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": ["label", "value"],
+                      "properties": {
+                        "label": { "$ref": "#/$defs/text" },
+                        "value": { "type": "number", "minimum": 0, "maximum": 100 }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "agendaItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "date", "title", "description", "kind", "sourceIds"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "date": { "$ref": "#/$defs/date" },
+        "title": { "$ref": "#/$defs/text" },
+        "description": { "$ref": "#/$defs/text" },
+        "kind": { "enum": ["scrutin", "echeance", "debat", "autre"] },
+        "sourceIds": { "$ref": "#/$defs/sourceIds" }
+      }
+    },
+    "editorialEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["date", "text"],
+      "properties": {
+        "date": { "$ref": "#/$defs/date" },
+        "text": { "$ref": "#/$defs/text" }
+      }
+    }
+  }
+}
