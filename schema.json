@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "urn:presitracker2027:schema:presitracker-data:v1",
-  "title": "Fichier de données Presitracker2027, version 1",
+  "title": "Fichier de données PresiTracker2027, version 1",
   "description": "Schéma exécutable de presitracker-data.json, conforme à docs/format-donnees.md (version 1 du 19 octobre 2026). Les règles d'intégrité qui ne s'expriment pas en schéma (références croisées, préfixes d'identifiants, cohérence des historiques, stabilité entre deux versions) sont vérifiées par data/validate.mjs.",
   "type": "object",
   "additionalProperties": false,

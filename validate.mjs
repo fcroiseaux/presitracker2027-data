@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Validateur du fichier de données Presitracker2027 (docs/format-donnees.md).
+// Validateur du fichier de données PresiTracker2027 (docs/format-donnees.md).
 // Usage : node data/validate.mjs <fichier.json> [--previous <ancien.json>]
 // Vérifie le schéma JSON (data/schema.json), les règles d'intégrité non exprimables
 // en schéma et, avec --previous, les règles de stabilité entre deux versions.

@@ -1,6 +1,6 @@
-# Données de Presitracker2027
+# Données de PresiTracker2027
 
-Données publiques de [Presitracker2027](https://github.com/fcroiseaux/presitracker2027-data), application neutre de suivi de l'élection présidentielle française de 2027 : candidats recensés, programmes mesure par mesure avec l'historique de leurs modifications, positions sur le questionnaire, sondages avec leur notice, agenda.
+Données publiques de [PresiTracker2027](https://github.com/fcroiseaux/presitracker2027-data), application neutre de suivi de l'élection présidentielle française de 2027 : candidats recensés, programmes mesure par mesure avec l'historique de leurs modifications, positions sur le questionnaire, sondages avec leur notice, agenda.
 
 - `presitracker-data.json` : le fichier de données, mis à jour chaque jour. L'historique Git de ce fichier est le journal public de toutes les modifications.
 - `schema.json` : le schéma JSON (draft 2020-12).
