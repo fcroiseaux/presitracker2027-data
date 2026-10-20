@@ -8,3 +8,7 @@ Données publiques de [PresiTracker2027](https://github.com/fcroiseaux/presitrac
 - `CONSIGNE.md` : la consigne de la rédaction automatisée qui met le fichier à jour chaque matin (règles de neutralité, sources, procédure).
 
 Chaque information renvoie à une source datée. Pour signaler une erreur, ouvrez une issue en citant l'identifiant concerné (candidat, mesure, source ou sondage).
+
+## Licence
+
+Données sous Licence Ouverte 2.0 (Etalab) : réutilisation libre, y compris commerciale, en citant « PresiTracker2027 » et la date des données. Détails dans [`LICENCE.md`](LICENCE.md).
