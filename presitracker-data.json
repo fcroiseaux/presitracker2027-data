@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T06:17:21Z",
+  "updatedAt": "2026-10-20T06:49:06Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -4193,6 +4193,55 @@
       "url": "https://www.diplomatie.gouv.fr/fr/presse-et-ressources/decouvrir-et-informer/actualites/soutien-apporte-a-l-ukraine-face-a-l-agression-russe-reponse-de-jean-noel-barrot-ministre-de-l",
       "date": "2025-12-11",
       "kind": "discours"
+    },
+    "lcp-2026-10-11-victoire-de-raphael-glucksmann-a-la-primaire": {
+      "title": "Victoire de Raphaël Glucksmann à la primaire socialiste: premières réactions des candidats vaincus et des autres partis de gauche",
+      "publisher": "LCP",
+      "url": "https://lcp.fr/actualites/victoire-de-raphael-glucksmann-a-la-primaire-socialiste-premieres-reactions-des",
+      "date": "2026-10-11",
+      "kind": "presse"
+    },
+    "lcp-2026-08-27-primaire-sociale-democrate-boris-vallaud-soutien": {
+      "title": "Primaire sociale-démocrate: le chef des députés PS, Boris Vallaud, apporte son soutien à Raphaël Glucksmann",
+      "publisher": "LCP",
+      "url": "https://lcp.fr/actualites/primaire-sociale-democrate-le-chef-des-deputes-ps-boris-vallaud-apporte-son-soutien-a",
+      "date": "2026-08-27",
+      "kind": "presse"
+    },
+    "lcp-2026-08-27-francois-hollande-propose-la-retraite-a-63-ans": {
+      "title": "Présidentielle: François Hollande propose la retraite à 63 ans et dira \"en décembre\" s'il est candidat",
+      "publisher": "LCP",
+      "url": "https://lcp.fr/actualites/presidentielle-francois-hollande-propose-la-retraite-a-63-ans-et-dira-en-decembre-s-il",
+      "date": "2026-08-27",
+      "kind": "presse"
+    },
+    "sudradio-2026-08-27-francois-hollande-un-pas-de-plus": {
+      "title": "Présidentielle 2027 : François Hollande, un pas de plus vers une candidature",
+      "publisher": "Sud Radio",
+      "url": "https://www.sudradio.fr/politique/presidentielle-2027-francois-hollande-un-pas-de-plus-vers-une-candidature",
+      "date": "2026-08-27",
+      "kind": "presse"
+    },
+    "sudradio-2026-10-13-a-20-ans-cette-fille-d-agriculteurs": {
+      "title": "À 20 ans, cette fille d'agriculteurs se lance dans la course à l'Élysée",
+      "publisher": "Sud Radio",
+      "url": "https://www.sudradio.fr/sud-radio/a-20-ans-cette-fille-dagriculteurs-se-lance-dans-la-course-a-lelysee",
+      "date": "2026-10-13",
+      "kind": "entretien"
+    },
+    "sudradio-2026-10-15-attal-coalition-des-democrates": {
+      "title": "Gabriel Attal appelle à une coalition des démocrates en France",
+      "publisher": "Sud Radio (avec AFP)",
+      "url": "https://www.sudradio.fr/societe/presidentielle-attal-pour-une-coalition-des-democrates",
+      "date": "2026-10-15",
+      "kind": "presse"
+    },
+    "sudradio-2026-10-14-polony-propositions-lycees-education": {
+      "title": "Présidentielle 2027 : les propositions chocs de Natacha Polony pour sortir de la crise lycéenne et étudiante",
+      "publisher": "Sud Radio",
+      "url": "https://www.sudradio.fr/sud-radio/no-future-et-irresponsabilite-generalisee-les-declarations-chocs-et-les-solutions-de-natacha-polony-pour-les-lycees-et-leducation",
+      "date": "2026-10-14",
+      "kind": "entretien"
     }
   },
   "candidates": [
@@ -6222,7 +6271,8 @@
           "sourceIds": [
             "attalpresident-2026-10-04-parisien-rassemblement-dette",
             "attalpresident-2026-10-11-mesures-jeunesse-avenir",
-            "attalpresident-2026-10-15-lettre-finances-publiques"
+            "attalpresident-2026-10-15-lettre-finances-publiques",
+            "sudradio-2026-10-15-attal-coalition-des-democrates"
           ],
           "history": [
             {
@@ -12887,6 +12937,127 @@
       "measures": []
     },
     {
+      "id": "delmur",
+      "firstName": "Mélody",
+      "lastName": "Delmur",
+      "sortName": "delmur",
+      "party": "As de Cœur",
+      "partyShort": "ADC",
+      "status": "declare",
+      "statusDate": "2026-10-13",
+      "statusSourceIds": [
+        "sudradio-2026-10-13-a-20-ans-cette-fille-d-agriculteurs"
+      ],
+      "statusHistory": [
+        {
+          "date": "2026-10-13",
+          "status": "declare",
+          "note": "Candidature annoncée dans un entretien à Sud Radio, avec un appel aux élus pour obtenir les parrainages manquants.",
+          "sourceIds": [
+            "sudradio-2026-10-13-a-20-ans-cette-fille-d-agriculteurs"
+          ]
+        }
+      ],
+      "bio": "Fondatrice et présidente du parti As de Cœur, créé lorsqu'elle avait 18 ans. Fille d'agriculteurs, originaire de Villefranche-de-Rouergue (Aveyron). Annonce à 20 ans sa candidature à l'élection présidentielle de 2027.",
+      "currentRoles": [
+        "Présidente du parti As de Cœur"
+      ],
+      "measures": [
+        {
+          "id": "delmur-eur-sortie-ue",
+          "themeKey": "eur",
+          "subthemeKey": "eur-appartenance",
+          "title": "Sortie de l'Union européenne",
+          "detail": "Mélody Delmur est favorable à la sortie de la France de l'Union européenne, qui « ne va pas se faire immédiatement après l'élection ». Position exprimée dans un entretien à Sud Radio publié le 13 octobre 2026.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-10-13",
+          "lastChanged": "2026-10-13",
+          "sourceIds": [
+            "sudradio-2026-10-13-a-20-ans-cette-fille-d-agriculteurs"
+          ],
+          "history": [
+            {
+              "date": "2026-10-13",
+              "type": "ajout",
+              "sourceIds": [
+                "sudradio-2026-10-13-a-20-ans-cette-fille-d-agriculteurs"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "delmur-ent-egalite-salariale-conge-menstruel",
+          "themeKey": "ent",
+          "subthemeKey": "ent-droit-travail",
+          "title": "Égalité salariale et création d'un congé menstruel",
+          "detail": "Mélody Delmur propose de « renforcer la sécurité et le droit des femmes, entre égalité salariale et congé menstruel ». Entretien à Sud Radio publié le 13 octobre 2026.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-10-13",
+          "lastChanged": "2026-10-13",
+          "sourceIds": [
+            "sudradio-2026-10-13-a-20-ans-cette-fille-d-agriculteurs"
+          ],
+          "history": [
+            {
+              "date": "2026-10-13",
+              "type": "ajout",
+              "sourceIds": [
+                "sudradio-2026-10-13-a-20-ans-cette-fille-d-agriculteurs"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "delmur-ecol-maltraitance-animale",
+          "themeKey": "ecol",
+          "subthemeKey": "ecol-biodiversite",
+          "title": "Lutte renforcée contre la maltraitance animale",
+          "detail": "Mélody Delmur propose de « durcir la lutte contre la maltraitance animale ». Entretien à Sud Radio publié le 13 octobre 2026.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-10-13",
+          "lastChanged": "2026-10-13",
+          "sourceIds": [
+            "sudradio-2026-10-13-a-20-ans-cette-fille-d-agriculteurs"
+          ],
+          "history": [
+            {
+              "date": "2026-10-13",
+              "type": "ajout",
+              "sourceIds": [
+                "sudradio-2026-10-13-a-20-ans-cette-fille-d-agriculteurs"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "delmur-san-sante-mentale-priorite",
+          "themeKey": "san",
+          "subthemeKey": "san-prevention",
+          "title": "Santé mentale érigée en priorité nationale",
+          "detail": "Mélody Delmur propose de faire de la santé mentale « une véritable priorité nationale ». Entretien à Sud Radio publié le 13 octobre 2026.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-10-13",
+          "lastChanged": "2026-10-13",
+          "sourceIds": [
+            "sudradio-2026-10-13-a-20-ans-cette-fille-d-agriculteurs"
+          ],
+          "history": [
+            {
+              "date": "2026-10-13",
+              "type": "ajout",
+              "sourceIds": [
+                "sudradio-2026-10-13-a-20-ans-cette-fille-d-agriculteurs"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "dubuisson",
       "firstName": "Emmanuel",
       "lastName": "Dubuisson",
@@ -17062,7 +17233,152 @@
         "Député de la 1re circonscription de la Corrèze (depuis 2024)"
       ],
       "birthYear": 1954,
-      "measures": []
+      "measures": [
+        {
+          "id": "hollande-ret-63-ans-duree-cotisation",
+          "themeKey": "ret",
+          "subthemeKey": "ret-age",
+          "title": "Retraite à 63 ans, puis allongement de la durée de cotisation",
+          "detail": "François Hollande indique qu'« au 1er janvier 2028, l'âge légal sera aux alentours de 63 ans » et propose de « partir de là, puis allonger les durées de cotisation au fur et à mesure de l'évolution de l'espérance de vie », par un mécanisme d'ajustement confié aux partenaires sociaux. Proposition présentée dans un entretien au Point et dans son livre « Unir. Nouveau monde, nouvelle gauche » (Robert Laffont), rapportée par LCP le 27 août 2026.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-08-27",
+          "lastChanged": "2026-08-27",
+          "sourceIds": [
+            "lcp-2026-08-27-francois-hollande-propose-la-retraite-a-63-ans",
+            "sudradio-2026-08-27-francois-hollande-un-pas-de-plus"
+          ],
+          "history": [
+            {
+              "date": "2026-08-27",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-08-27-francois-hollande-propose-la-retraite-a-63-ans",
+                "sudradio-2026-08-27-francois-hollande-un-pas-de-plus"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hollande-ret-indexation-1-pourcent",
+          "themeKey": "ret",
+          "subthemeKey": "ret-pensions",
+          "title": "Indexation des pensions limitée à 1 % pendant cinq ans",
+          "detail": "François Hollande propose de limiter la revalorisation des pensions à 1 % par an pendant cinq ans. Proposition présentée dans un entretien au Point et dans son livre « Unir. Nouveau monde, nouvelle gauche » (Robert Laffont), rapportée par LCP le 27 août 2026.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-08-27",
+          "lastChanged": "2026-08-27",
+          "sourceIds": [
+            "lcp-2026-08-27-francois-hollande-propose-la-retraite-a-63-ans",
+            "sudradio-2026-08-27-francois-hollande-un-pas-de-plus"
+          ],
+          "history": [
+            {
+              "date": "2026-08-27",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-08-27-francois-hollande-propose-la-retraite-a-63-ans",
+                "sudradio-2026-08-27-francois-hollande-un-pas-de-plus"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hollande-ret-capitalisation-partenaires-sociaux",
+          "themeKey": "ret",
+          "subthemeKey": "ret-financement",
+          "title": "Part de retraite par capitalisation contrôlée par les partenaires sociaux",
+          "detail": "François Hollande propose d'introduire une part de capitalisation dans les retraites, contrôlée par les partenaires sociaux. Proposition présentée dans un entretien au Point et dans son livre « Unir. Nouveau monde, nouvelle gauche » (Robert Laffont), rapportée par LCP le 27 août 2026.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-08-27",
+          "lastChanged": "2026-08-27",
+          "sourceIds": [
+            "lcp-2026-08-27-francois-hollande-propose-la-retraite-a-63-ans",
+            "sudradio-2026-08-27-francois-hollande-un-pas-de-plus"
+          ],
+          "history": [
+            {
+              "date": "2026-08-27",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-08-27-francois-hollande-propose-la-retraite-a-63-ans",
+                "sudradio-2026-08-27-francois-hollande-un-pas-de-plus"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hollande-fis-tva-24",
+          "themeKey": "fis",
+          "subthemeKey": "fis-consommation",
+          "title": "Taux normal de TVA porté progressivement de 20 à 24 %",
+          "detail": "François Hollande propose de relever progressivement le taux normal de TVA de 20 % à 24 %. Proposition présentée dans un entretien au Point et dans son livre « Unir. Nouveau monde, nouvelle gauche » (Robert Laffont), rapportée par LCP le 27 août 2026.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-08-27",
+          "lastChanged": "2026-08-27",
+          "sourceIds": [
+            "lcp-2026-08-27-francois-hollande-propose-la-retraite-a-63-ans"
+          ],
+          "history": [
+            {
+              "date": "2026-08-27",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-08-27-francois-hollande-propose-la-retraite-a-63-ans"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hollande-fis-tva-0-energie-alimentation",
+          "themeKey": "fis",
+          "subthemeKey": "fis-consommation",
+          "title": "TVA ramenée de 5,5 % à 0 % sur l'énergie et les produits de première nécessité",
+          "detail": "François Hollande propose de ramener le taux réduit de TVA de 5,5 % à 0 % sur l'énergie, carburants compris, et sur les produits de première nécessité, notamment alimentaires. Proposition présentée dans un entretien au Point et dans son livre « Unir. Nouveau monde, nouvelle gauche » (Robert Laffont), rapportée par LCP le 27 août 2026.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-08-27",
+          "lastChanged": "2026-08-27",
+          "sourceIds": [
+            "lcp-2026-08-27-francois-hollande-propose-la-retraite-a-63-ans"
+          ],
+          "history": [
+            {
+              "date": "2026-08-27",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-08-27-francois-hollande-propose-la-retraite-a-63-ans"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hollande-fis-contribution-grandes-successions",
+          "themeKey": "fis",
+          "subthemeKey": "fis-patrimoine",
+          "title": "Contribution sur les grandes successions finançant une baisse des cotisations salariales",
+          "detail": "François Hollande propose de financer une baisse des cotisations salariales, destinée à « rapprocher le salaire net du brut », par une contribution sur les grandes successions. Proposition présentée dans un entretien au Point et dans son livre « Unir. Nouveau monde, nouvelle gauche » (Robert Laffont), rapportée par LCP le 27 août 2026.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-08-27",
+          "lastChanged": "2026-08-27",
+          "sourceIds": [
+            "lcp-2026-08-27-francois-hollande-propose-la-retraite-a-63-ans"
+          ],
+          "history": [
+            {
+              "date": "2026-08-27",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-08-27-francois-hollande-propose-la-retraite-a-63-ans"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "jadot",
@@ -37784,6 +38100,121 @@
               ]
             }
           ]
+        },
+        {
+          "id": "polony-edu-fermeture-filieres-sans-debouches",
+          "themeKey": "edu",
+          "subthemeKey": "edu-pro",
+          "title": "Fermeture des filières sans débouchés",
+          "detail": "Natacha Polony propose de fermer les filières « dont on sait très bien qu'elles ne débouchent sur rien ». Entretien à Sud Radio publié le 14 octobre 2026.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-10-14",
+          "lastChanged": "2026-10-14",
+          "sourceIds": [
+            "sudradio-2026-10-14-polony-propositions-lycees-education"
+          ],
+          "history": [
+            {
+              "date": "2026-10-14",
+              "type": "ajout",
+              "sourceIds": [
+                "sudradio-2026-10-14-polony-propositions-lycees-education"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "polony-edu-financements-vers-primaire",
+          "themeKey": "edu",
+          "subthemeKey": "edu-ecole",
+          "title": "Financements réorientés vers l'école primaire",
+          "detail": "Natacha Polony propose de « faire basculer les financements vers le primaire », estimant que la France paie « beaucoup trop pour les lycées ». Entretien à Sud Radio publié le 14 octobre 2026.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-10-14",
+          "lastChanged": "2026-10-14",
+          "sourceIds": [
+            "sudradio-2026-10-14-polony-propositions-lycees-education"
+          ],
+          "history": [
+            {
+              "date": "2026-10-14",
+              "type": "ajout",
+              "sourceIds": [
+                "sudradio-2026-10-14-polony-propositions-lycees-education"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "polony-edu-loi-programmation-10-ans",
+          "themeKey": "edu",
+          "subthemeKey": "edu-ecole",
+          "title": "Loi de programmation de l'éducation sur dix ans",
+          "detail": "Natacha Polony propose « une loi de programmation de 10 ans » pour l'école. Entretien à Sud Radio publié le 14 octobre 2026.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-10-14",
+          "lastChanged": "2026-10-14",
+          "sourceIds": [
+            "sudradio-2026-10-14-polony-propositions-lycees-education"
+          ],
+          "history": [
+            {
+              "date": "2026-10-14",
+              "type": "ajout",
+              "sourceIds": [
+                "sudradio-2026-10-14-polony-propositions-lycees-education"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "polony-edu-salaires-enseignants-20-30",
+          "themeKey": "edu",
+          "subthemeKey": "edu-enseignants",
+          "title": "Salaires des enseignants augmentés de 20 à 30 %",
+          "detail": "Natacha Polony propose d'augmenter les salaires des enseignants « entre 20 et 30 % », en contrepartie d'un temps de travail qui comptabiliserait « autre chose que simplement le temps passé devant les élèves ». Entretien à Sud Radio publié le 14 octobre 2026.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-10-14",
+          "lastChanged": "2026-10-14",
+          "sourceIds": [
+            "sudradio-2026-10-14-polony-propositions-lycees-education"
+          ],
+          "history": [
+            {
+              "date": "2026-10-14",
+              "type": "ajout",
+              "sourceIds": [
+                "sudradio-2026-10-14-polony-propositions-lycees-education"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "polony-sec-centres-educatifs-fermes",
+          "themeKey": "sec",
+          "subthemeKey": "sec-mineurs",
+          "title": "Centres éducatifs fermés pour les jeunes qui commencent à dériver",
+          "detail": "Natacha Polony se dit favorable à « des centres éducatifs fermés qui fonctionnent réellement pour les jeunes qui commencent à dériver ». Entretien à Sud Radio publié le 14 octobre 2026.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-10-14",
+          "lastChanged": "2026-10-14",
+          "sourceIds": [
+            "sudradio-2026-10-14-polony-propositions-lycees-education"
+          ],
+          "history": [
+            {
+              "date": "2026-10-14",
+              "type": "ajout",
+              "sourceIds": [
+                "sudradio-2026-10-14-polony-propositions-lycees-education"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -50615,6 +51046,16 @@
             "sourceIds": [
               "rassemblementnational-nd-la-france-entreprend"
             ]
+          },
+          "hollande": {
+            "value": -1,
+            "note": "Propose une contribution sur les grandes successions.",
+            "measureIds": [
+              "hollande-fis-contribution-grandes-successions"
+            ],
+            "sourceIds": [
+              "lcp-2026-08-27-francois-hollande-propose-la-retraite-a-63-ans"
+            ]
           }
         }
       },
@@ -50956,6 +51397,17 @@
             "sourceIds": [
               "debout-la-france-2024-02-05-projet-retraites"
             ]
+          },
+          "hollande": {
+            "value": -1,
+            "note": "Propose de partir d'un âge légal d'environ 63 ans, puis d'allonger la durée de cotisation.",
+            "measureIds": [
+              "hollande-ret-63-ans-duree-cotisation"
+            ],
+            "sourceIds": [
+              "lcp-2026-08-27-francois-hollande-propose-la-retraite-a-63-ans",
+              "sudradio-2026-08-27-francois-hollande-un-pas-de-plus"
+            ]
           }
         }
       },
@@ -51090,6 +51542,17 @@
             ],
             "sourceIds": [
               "lesecologistes-2026-07-13-programme-pour-une-prosperite-ecol"
+            ]
+          },
+          "hollande": {
+            "value": 2,
+            "note": "Propose une part de capitalisation contrôlée par les partenaires sociaux.",
+            "measureIds": [
+              "hollande-ret-capitalisation-partenaires-sociaux"
+            ],
+            "sourceIds": [
+              "lcp-2026-08-27-francois-hollande-propose-la-retraite-a-63-ans",
+              "sudradio-2026-08-27-francois-hollande-un-pas-de-plus"
             ]
           }
         }
@@ -51875,6 +52338,16 @@
             ],
             "sourceIds": [
               "anousmaintenant-nd-manifeste-64-alternative-citoyenne"
+            ]
+          },
+          "delmur": {
+            "value": 2,
+            "note": "Se prononce pour la sortie de la France de l'Union européenne.",
+            "measureIds": [
+              "delmur-eur-sortie-ue"
+            ],
+            "sourceIds": [
+              "sudradio-2026-10-13-a-20-ans-cette-fille-d-agriculteurs"
             ]
           }
         }
@@ -59606,6 +60079,19 @@
       ]
     },
     {
+      "id": "evt-attal-declaration-2026-10-15",
+      "date": "2026-10-15",
+      "type": "declaration",
+      "candidateIds": [
+        "attal"
+      ],
+      "text": "Dans un entretien à franceinfo, rapporté par l'AFP, appelle à une coalition allant des électeurs sociaux-démocrates à ceux de la droite républicaine.",
+      "quote": "« Que vous ayez des électeurs différents qui puissent se retrouver dans un projet commun », « des électeurs sociaux-démocrates jusqu'aux électeurs de la droite républicaine ».",
+      "sourceIds": [
+        "sudradio-2026-10-15-attal-coalition-des-democrates"
+      ]
+    },
+    {
       "id": "evt-polony-candidature-2026-10-14",
       "date": "2026-10-14",
       "type": "candidature",
@@ -59615,6 +60101,18 @@
       "text": "Natacha Polony annonce sa candidature sur France Inter.",
       "sourceIds": [
         "lcp-2026-10-14-natacha-polony-annonce-sa-candidature-a"
+      ]
+    },
+    {
+      "id": "evt-delmur-candidature-2026-10-13",
+      "date": "2026-10-13",
+      "type": "candidature",
+      "candidateIds": [
+        "delmur"
+      ],
+      "text": "Annonce sa candidature dans un entretien à Sud Radio.",
+      "sourceIds": [
+        "sudradio-2026-10-13-a-20-ans-cette-fille-d-agriculteurs"
       ]
     },
     {
@@ -59667,6 +60165,74 @@
       "sourceIds": [
         "lcp-2026-10-11-primaire-socialiste-vainqueur-des-le-1er",
         "franceinfo-2026-10-19-portraits-qui-sont-les-candidats-deja"
+      ]
+    },
+    {
+      "id": "evt-glucksmann-investiture-2026-10-11",
+      "date": "2026-10-11",
+      "type": "investiture",
+      "candidateIds": [
+        "glucksmann"
+      ],
+      "text": "Désigné candidat dès le premier tour de la primaire sociale-démocrate (PS, Place publique, GRS), avec 66,17 % des voix.",
+      "sourceIds": [
+        "lcp-2026-10-11-primaire-socialiste-vainqueur-des-le-1er"
+      ]
+    },
+    {
+      "id": "evt-faure-ralliement-2026-10-11",
+      "date": "2026-10-11",
+      "type": "ralliement",
+      "candidateIds": [
+        "faure",
+        "glucksmann"
+      ],
+      "text": "Au soir de la primaire sociale-démocrate, appelle à soutenir Raphaël Glucksmann.",
+      "quote": "« Nous avons désormais un candidat, à nous tous et nous toutes de forger ensemble cet esprit de victoire. »",
+      "sourceIds": [
+        "lcp-2026-10-11-victoire-de-raphael-glucksmann-a-la-primaire"
+      ]
+    },
+    {
+      "id": "evt-royal-ralliement-2026-10-11",
+      "date": "2026-10-11",
+      "type": "ralliement",
+      "candidateIds": [
+        "royal",
+        "glucksmann"
+      ],
+      "text": "Au soir de la primaire sociale-démocrate, annonce son soutien au vainqueur, Raphaël Glucksmann, conformément à la charte signée par les candidats.",
+      "quote": "« pour celui qui a gagné ce soir »",
+      "sourceIds": [
+        "lcp-2026-10-11-victoire-de-raphael-glucksmann-a-la-primaire"
+      ]
+    },
+    {
+      "id": "evt-maurel-ralliement-2026-10-11",
+      "date": "2026-10-11",
+      "type": "ralliement",
+      "candidateIds": [
+        "maurel",
+        "glucksmann"
+      ],
+      "text": "Au soir de la primaire sociale-démocrate, annonce son soutien à Raphaël Glucksmann.",
+      "quote": "« notre soutien qui sera loyal et exigeant »",
+      "sourceIds": [
+        "lcp-2026-10-11-victoire-de-raphael-glucksmann-a-la-primaire"
+      ]
+    },
+    {
+      "id": "evt-guedj-ralliement-2026-10-11",
+      "date": "2026-10-11",
+      "type": "ralliement",
+      "candidateIds": [
+        "guedj",
+        "glucksmann"
+      ],
+      "text": "Au soir de la primaire sociale-démocrate, annonce qu'il fera campagne aux côtés de Raphaël Glucksmann.",
+      "quote": "« Je continuerai ma campagne à la place que Raphaël Glucksmann jugera utile. »",
+      "sourceIds": [
+        "lcp-2026-10-11-victoire-de-raphael-glucksmann-a-la-primaire"
       ]
     },
     {
@@ -59767,6 +60333,18 @@
       ]
     },
     {
+      "id": "evt-roussel-investiture-2026-09-06",
+      "date": "2026-09-06",
+      "type": "investiture",
+      "candidateIds": [
+        "roussel"
+      ],
+      "text": "Désigné candidat du PCF par un vote des adhérents organisé du 3 au 6 septembre 2026, avec 72 % des voix.",
+      "sourceIds": [
+        "lcp-2026-09-06-fabien-roussel-officiellement-candidat-du-pcf"
+      ]
+    },
+    {
       "id": "evt-maurel-candidature-2026-09-04",
       "date": "2026-09-04",
       "type": "candidature",
@@ -59827,6 +60405,20 @@
       ]
     },
     {
+      "id": "evt-vallaud-ralliement-2026-08-27",
+      "date": "2026-08-27",
+      "type": "ralliement",
+      "candidateIds": [
+        "vallaud",
+        "glucksmann"
+      ],
+      "text": "Annonce son soutien à Raphaël Glucksmann dans une lettre aux militants socialistes et renonce à se présenter à la primaire sociale-démocrate.",
+      "quote": "« je ne serai pas candidat à la désignation militante »",
+      "sourceIds": [
+        "lcp-2026-08-27-primaire-sociale-democrate-boris-vallaud-soutien"
+      ]
+    },
+    {
       "id": "evt-jadot-retrait-2026-08-24",
       "date": "2026-08-24",
       "type": "retrait",
@@ -59884,6 +60476,20 @@
         "darmanin"
       ],
       "text": "Annonce à La Voix du Nord qu'il ne se présentera pas à l'élection présidentielle et qu'il soutient Édouard Philippe.",
+      "sourceIds": [
+        "lcp-2026-08-17-presidentielle-2027-gerald-darmanin-ne-sera"
+      ]
+    },
+    {
+      "id": "evt-darmanin-ralliement-2026-08-17",
+      "date": "2026-08-17",
+      "type": "ralliement",
+      "candidateIds": [
+        "darmanin",
+        "philippe"
+      ],
+      "text": "Annonce son soutien à Édouard Philippe dans un entretien à La Voix du Nord.",
+      "quote": "« j'ai décidé de ne pas rajouter de la division et donc de ne pas me présenter à l'élection présidentielle »",
       "sourceIds": [
         "lcp-2026-08-17-presidentielle-2027-gerald-darmanin-ne-sera"
       ]
@@ -60169,6 +60775,18 @@
       ]
     },
     {
+      "id": "evt-retailleau-investiture-2026-04-19",
+      "date": "2026-04-19",
+      "type": "investiture",
+      "candidateIds": [
+        "retailleau"
+      ],
+      "text": "Désigné candidat des Républicains par 73,8 % des adhérents votants.",
+      "sourceIds": [
+        "publicsenat-2026-04-19-presidentielle-bruno-retailleau-desig"
+      ]
+    },
+    {
       "id": "evt-lisnard-candidature-2026-03-31",
       "date": "2026-03-31",
       "type": "candidature",
@@ -60342,6 +60960,10 @@
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-10-20",
+      "text": "Recherche des nouveautés depuis la mise à jour du matin : aucune nouvelle enquête d’intentions de vote (dernière intégrée : Cluster17, publiée le 18 octobre) ni aucun retrait relevé. Nouvelle candidature : Mélody Delmur, présidente du parti As de Cœur, annoncée le 13 octobre 2026 sur Sud Radio ; 4 mesures ajoutées et 1 position renseignée (sortie de l’Union européenne). Vie de la campagne, rattrapage des faits antérieurs : 3 investitures (Bruno Retailleau le 19 avril, Fabien Roussel le 6 septembre, Raphaël Glucksmann le 11 octobre 2026), 7 ralliements (Gérald Darmanin à Édouard Philippe le 17 août ; Boris Vallaud à Raphaël Glucksmann le 27 août ; Olivier Faure, Jérôme Guedj, Emmanuel Maurel et Ségolène Royal à Raphaël Glucksmann au soir de la primaire du 11 octobre, d’après leurs réactions rapportées par LCP) et 1 déclaration de la semaine (Gabriel Attal, 15 octobre). Le ralliement de Yannick Jadot à Raphaël Glucksmann (24 août) n’a pas été ajouté : sa source n’a pas pu être ouverte aujourd’hui ; il le sera après vérification. Aucun parrainage officiel n’est encore publié. Rotation hebdomadaire : François Hollande, 6 mesures ajoutées (retraites, TVA, successions) à partir de son entretien au Point et de son livre publiés fin août 2026, rapportés par LCP et Sud Radio, et 3 positions renseignées (âge de la retraite, capitalisation, droits de succession) ; Natacha Polony, 5 mesures ajoutées sur l’éducation et les mineurs (entretien à Sud Radio du 14 octobre) ; Gabriel Attal, une source ajoutée au « frein d’urgence » de 20 Md€, sans changement de la mesure. Également passés en revue sans changement, faute de source nouvelle vérifiable : Olivier Becht, Sylvain Durif (son programme de 50 engagements n’a pas pu être consulté), Pierre Couchon, Manuel Valls, Thierry Breton, Bruno Le Maire, Dominique de Villepin et Élisabeth Borne."
+    },
     {
       "date": "2026-10-20",
       "text": "Création de la rubrique « Vie de la campagne » : 62 candidatures et retraits repris des changements de statut déjà sourcés. Les ralliements, alliances, investitures, parrainages et déclarations seront ajoutés au fil des mises à jour. Accord corrigé dans la note de statut de Ségolène Royal (« Battue »)."
