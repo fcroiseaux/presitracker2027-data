@@ -46,7 +46,8 @@ Pour chaque sujet, cherche ce qui a été publié depuis la date de la dernière
 - **Mesures** : nouveaux programmes ou chapitres publiés, propositions annoncées en meeting ou en entretien, précisions chiffrées, changements de position, renonciations explicites. Passe en revue **tous** les candidats recensés, pas seulement les plus médiatisés ; à défaut de temps, fais une rotation documentée dans le journal pour que chacun soit revu au moins une fois par semaine.
 - **Questionnaire** : positions nouvellement documentées sur les 34 affirmations, à partir des mesures ajoutées ou modifiées.
 - **Sondages** : enquêtes d'intentions de vote publiées, avec rapport de l'institut et notice de la Commission des sondages.
-- **Vie de la campagne** : candidatures, retraits, ralliements, alliances et candidatures communes, investitures et résultats de primaires, décomptes officiels de parrainages, déclarations publiques des candidats (§4.3, « Vie de la campagne »).
+- **Parrainages** : promesses chiffrées annoncées par les candidats ou leurs équipes, puis décomptes officiels publiés par le Conseil constitutionnel (§4.3, « Candidats », `sponsorships`).
+- **Vie de la campagne** : candidatures, retraits, ralliements, alliances et candidatures communes, investitures et résultats de primaires, franchissement des 500 parrainages validés, déclarations publiques des candidats (§4.3, « Vie de la campagne »).
 - **Agenda** : décret de convocation, ouverture et clôture des parrainages, liste officielle, campagne officielle, débats annoncés par les organisateurs, autres échéances officielles.
 
 ### 4.3 Mettre à jour le fichier
@@ -56,7 +57,11 @@ Pour chaque sujet, cherche ce qui a été publié depuis la date de la dernière
 - Un candidat ne disparaît jamais du fichier. Un renoncement donne `status: "retire"` avec une nouvelle entrée `statusHistory` datée et sourcée.
 - Tout changement de statut ajoute une entrée à la fin de `statusHistory` ; `status` et `statusDate` reprennent cette dernière entrée. Les entrées précédentes ne sont jamais modifiées.
 - Un nouveau candidat reçoit un identifiant en minuscules ASCII (nom de famille sans accent, initiale du prénom en cas d'homonymie) qui ne servira jamais à une autre personne. Renseigne `bio` (deux à quatre phrases factuelles), `currentRoles`, et `birthYear`, `websiteUrl`, `programmeUrl` seulement s'ils sont vérifiés.
-- `sponsorships` n'apparaît qu'avec un décompte officiel du Conseil constitutionnel.
+- `sponsorships` (méthodologie §10) : suivi des 500 parrainages, un relevé ajouté à la fin du tableau à chaque nouveau chiffre, jamais modifié ensuite.
+  - `kind: "officiel"` : nombre de parrainages validés pour le candidat dans la dernière publication du Conseil constitutionnel (source de nature `officiel`, page de la publication datée). Pendant la collecte, ajoute un relevé à chaque publication où le chiffre du candidat change.
+  - `kind: "annonce"` : nombre de promesses de parrainage annoncé par le candidat ou son équipe, avec la source qui rapporte ce chiffre (entretien, communiqué, article de presse nationale) et la date de l'annonce. Un chiffre approché (« plus de 300 ») est saisi au nombre cité (300) ; une annonce sans nombre n'est pas saisie. Jamais d'estimation, jamais de chiffre prêté par un adversaire.
+  - Aucune promesse après le premier décompte officiel d'un candidat. Applique la même recherche à tous les candidats déclarés et pressentis, dans le cadre de la rotation hebdomadaire.
+  - Rattrapage : tant qu'aucun candidat n'a de `sponsorships`, recherche pour chaque candidat déclaré la dernière annonce chiffrée de promesses depuis le 1er janvier 2026.
 
 **Mesures.**
 
@@ -87,7 +92,7 @@ Pour chaque sujet, cherche ce qui a été publié depuis la date de la dernière
 - `type` : `candidature`, `retrait`, `ralliement`, `alliance`, `investiture`, `parrainages` ou `declaration`. `candidateIds` commence par le sujet du fait, puis les autres candidats recensés concernés (celui que l'on rallie, les partenaires d'une alliance). Une formation non candidate est nommée dans le texte.
 - `text` : une ou deux phrases factuelles qui commencent par le verbe, sans le nom du sujet (les apps l'affichent au-dessus) : « Annonce sa candidature sur France Inter. », « Annonce son ralliement à Raphaël Glucksmann. », « Désigné candidat à l'issue de la primaire sociale-démocrate. ». Même formule pour tous, aucun qualificatif, aucune interprétation.
 - Un changement de statut d'un candidat (déclaration, retrait) donne à la fois l'entrée `statusHistory` et le fait `candidature` ou `retrait` correspondant, avec la même date et la même source. Un retrait au profit d'un autre candidat donne en plus un fait `ralliement`.
-- `parrainages` : uniquement les décomptes officiels publiés par le Conseil constitutionnel, un fait par candidat et par publication, chiffre dans le texte.
+- `parrainages` : uniquement quand un candidat franchit le seuil de 500 parrainages validés dans une publication du Conseil constitutionnel (un fait par candidat, chiffre dans le texte). Le suivi chiffré relève de `sponsorships`.
 - `declaration` : au plus une par candidat et par semaine, la plus récente prise de position publique du candidat sur sa candidature, une alliance ou un thème du questionnaire. `quote` reprend les propos mot pour mot entre guillemets français (deux phrases au plus) ; `text` dit où et quand (« Dans un entretien au Parisien, se prononce sur la retraite à 62 ans. »). Applique la même règle à tous les candidats déclarés, dans le cadre de la rotation hebdomadaire ; sans citation vérifiable, ne publie pas.
 - Rattrapage : tant que `campaignEvents` ne contient aucun fait de type `ralliement`, `alliance`, `investiture` ou `parrainages`, commence par rechercher et ajouter ces faits depuis le 1er janvier 2026 (par exemple le résultat de la primaire sociale-démocrate du 11 octobre 2026), puis les déclarations de la semaine écoulée.
 
@@ -110,7 +115,7 @@ Si la validation échoue et que tu ne peux pas la corriger, ne publie rien : la 
 
 ### 4.5 Écrire le journal éditorial
 
-Ajoute en tête de `editorialLog` une entrée datée du jour qui résume, en phrases neutres, les changements : candidatures, faits de campagne ajoutés, mesures ajoutées, modifiées ou abandonnées (par candidat), positions renseignées, sondages ajoutés, échéances, corrections et leur motif, choix de méthode. Les jours sans changement, écris « Aucun changement relevé » en précisant les candidats passés en revue.
+Ajoute en tête de `editorialLog` une entrée datée du jour qui résume, en phrases neutres, les changements : candidatures, faits de campagne ajoutés, relevés de parrainages, mesures ajoutées, modifiées ou abandonnées (par candidat), positions renseignées, sondages ajoutés, échéances, corrections et leur motif, choix de méthode. Les jours sans changement, écris « Aucun changement relevé » en précisant les candidats passés en revue.
 
 ### 4.6 Publier
 

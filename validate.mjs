@@ -144,7 +144,21 @@ function checkIntegrity(data) {
     if (last.status !== c.status) err(cw, `status « ${c.status} » différent du dernier statusHistory « ${last.status} »`);
     if (last.date !== c.statusDate) err(cw, `statusDate ${c.statusDate} différente de la date du dernier statusHistory ${last.date}`);
     if (c.statusDate > today) err(cw, `statusDate ${c.statusDate} postérieure à updatedAt`);
-    if (c.sponsorships) refSources(`${cw}.sponsorships`, c.sponsorships.sourceIds);
+    // Parrainages : triés, sans date future ; les décomptes officiels ne baissent pas, aucune promesse après le premier.
+    let sp = '';
+    let lastOfficial = -1;
+    (c.sponsorships || []).forEach((s, i) => {
+      const pw = `${cw}.sponsorships[${i}]`;
+      refSources(pw, s.sourceIds);
+      if (s.date < sp) err(pw, `non trié par date (${s.date} après ${sp})`);
+      if (s.date > today) err(pw, `date ${s.date} postérieure à updatedAt`);
+      sp = s.date;
+      if (s.kind === 'officiel') {
+        if (s.count < lastOfficial) err(pw, `décompte officiel en baisse (${lastOfficial} → ${s.count})`);
+        lastOfficial = s.count;
+        if (!s.sourceIds.some((id) => data.sources[id]?.kind === 'officiel')) err(pw, 'un décompte officiel cite une source « officiel » (Conseil constitutionnel)');
+      } else if (lastOfficial >= 0) err(pw, 'promesse annoncée après un décompte officiel : seul le décompte officiel est suivi');
+    });
 
     for (const m of c.measures) {
       const mw = `${cw}.measures.${m.id}`;
@@ -299,6 +313,16 @@ function checkStability(data, prev) {
         break;
       }
     }
+    // Parrainages : les relevés publiés sont conservés.
+    const pspon = Array.isArray(pc.sponsorships) ? pc.sponsorships : [];
+    const nspon = nc.sponsorships || [];
+    for (let i = 0; i < pspon.length; i++) {
+      const n = nspon[i];
+      if (!n || n.date !== pspon[i].date || n.count !== pspon[i].count || n.kind !== pspon[i].kind) {
+        warn(w, `sponsorships[${i}] modifié ou supprimé : le suivi des parrainages ne devrait que s'allonger`);
+        break;
+      }
+    }
     if (pc.status !== nc.status && !(nh.length > ph.length)) warn(w, `statut passé de « ${pc.status} » à « ${nc.status} » sans nouvelle entrée statusHistory`);
 
     // Mesures.
@@ -431,7 +455,7 @@ function main() {
   if (stats) {
     const nm = data.candidates.reduce((n, c) => n + c.measures.length, 0);
     const ns = data.questionnaire.questions.reduce((n, q) => n + Object.keys(q.stances).length, 0);
-    console.log(`\nContenu : ${data.candidates.length} candidats, ${nm} mesures, ${Object.keys(data.sources).length} sources, ${data.questionnaire.questions.length} questions (${ns} positions renseignées), ${data.polls.length} sondages, ${data.agenda.length} échéances, ${data.campaignEvents.length} événements de campagne.`);
+    console.log(`\nContenu : ${data.candidates.length} candidats, ${nm} mesures, ${Object.keys(data.sources).length} sources, ${data.questionnaire.questions.length} questions (${ns} positions renseignées), ${data.polls.length} sondages, ${data.agenda.length} échéances, ${data.campaignEvents.length} événements de campagne, ${data.candidates.filter((c) => c.sponsorships).length} candidats avec un suivi des parrainages.`);
   }
   if (errors.length) {
     console.log(`\nÉCHEC : ${errors.length} erreur(s), ${warnings.length} avertissement(s).`);
