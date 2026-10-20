@@ -44,7 +44,7 @@ Pour chaque sujet, cherche ce qui a été publié depuis la date de la dernière
 
 - **Candidatures** : nouvelles déclarations, nouvelles intentions prêtées par la presse nationale, renonciations, investitures, ralliements qui s'accompagnent d'un retrait, décisions de justice qui changent la situation d'un candidat, décomptes officiels de parrainages publiés par le Conseil constitutionnel, liste officielle.
 - **Mesures** : nouveaux programmes ou chapitres publiés, propositions annoncées en meeting ou en entretien, précisions chiffrées, changements de position, renonciations explicites. Passe en revue **tous** les candidats recensés, pas seulement les plus médiatisés ; à défaut de temps, fais une rotation documentée dans le journal pour que chacun soit revu au moins une fois par semaine.
-- **Questionnaire** : positions nouvellement documentées sur les 34 affirmations, à partir des mesures ajoutées ou modifiées.
+- **Questionnaire** : positions nouvellement documentées sur les 34 affirmations du test et sur les affirmations de la banque, à partir des mesures ajoutées ou modifiées ; positions de la banque complétées par rotation (§4.3, « Questionnaire »).
 - **Sondages** : enquêtes d'intentions de vote publiées, avec rapport de l'institut et notice de la Commission des sondages.
 - **Parrainages** : promesses chiffrées annoncées par les candidats ou leurs équipes, puis décomptes officiels publiés par le Conseil constitutionnel (§4.3, « Candidats », `sponsorships`).
 - **Vie de la campagne** : candidatures, retraits, ralliements, alliances et candidatures communes, investitures et résultats de primaires, franchissement des 500 parrainages validés, déclarations publiques des candidats (§4.3, « Vie de la campagne »).
@@ -77,7 +77,8 @@ Pour chaque sujet, cherche ce qui a été publié depuis la date de la dernière
 **Questionnaire.**
 
 - Renseigne une position (`stances`) seulement quand une mesure ou une déclaration sourcée la justifie, avec `value` (−2 à +2), `note` (une phrase), `measureIds` et `sourceIds`.
-- Ne modifie pas les énoncés au quotidien. Si un énoncé doit changer de sens, crée une nouvelle question avec un nouvel identifiant, retire l'ancienne et change `questionnaire.version`. Toujours deux questions par thème, dont une `core`.
+- Ne modifie pas les énoncés au quotidien. Si un énoncé doit changer de sens, crée une nouvelle question avec un nouvel identifiant, retire l'ancienne et change `questionnaire.version`. Toujours deux questions par thème dans le test (`questions`), dont une `core` ; cette règle ne concerne pas la banque.
+- **Banque** (`questionnaire.bank`, définition `bankQuestion` de `schema.json`) : ne modifie jamais l'énoncé d'une question publiée de la banque. Si le sens doit changer, crée une nouvelle question avec un nouvel identifiant `q-<themeKey>-<slug>`, jamais réutilisé ; ne retire l'ancienne qu'en cas d'erreur avérée, en changeant `questionnaire.version` et en l'expliquant dans le journal éditorial. Un ajout à la banque ne demande pas de changer `questionnaire.version`. Les positions de la banque suivent les mêmes règles de sourçage que le test : une mesure ou une déclaration sourcée, jamais l'étiquette partisane. Complète-les par rotation, quelques thèmes par jour, de sorte que chaque thème de la banque soit revu au moins une fois par semaine ; indique dans le journal les thèmes passés en revue. Une question sans position reste valable : elle sert à la consultation, pas à la proximité.
 
 **Sondages.**
 

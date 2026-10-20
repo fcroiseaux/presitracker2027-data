@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "urn:presitracker2027:schema:presitracker-data:v1",
   "title": "Fichier de données PresiTracker2027, version 1",
-  "description": "Schéma exécutable de presitracker-data.json, conforme à docs/format-donnees.md (version 1 du 19 octobre 2026). Les règles d'intégrité qui ne s'expriment pas en schéma (références croisées, préfixes d'identifiants, cohérence des historiques, stabilité entre deux versions) sont vérifiées par data/validate.mjs.",
+  "description": "Schéma exécutable de presitracker-data.json, conforme à docs/format-donnees.md (version 1 du 19 octobre 2026, banque de questions ajoutée le 20 octobre 2026). Les règles d'intégrité qui ne s'expriment pas en schéma (références croisées, préfixes d'identifiants, cohérence des historiques, stabilité entre deux versions) sont vérifiées par data/validate.mjs.",
   "type": "object",
   "additionalProperties": false,
   "required": ["schemaVersion", "updatedAt", "election", "themes", "sources", "candidates", "questionnaire", "polls", "agenda", "campaignEvents", "editorialLog"],
@@ -271,6 +271,31 @@
           "minItems": 34,
           "maxItems": 34,
           "items": { "$ref": "#/$defs/question" }
+        },
+        "bank": {
+          "description": "Banque de questions (question du jour, consultation) : même forme que questions, sans core. Facultatif : absent équivaut à un tableau vide.",
+          "type": "array",
+          "items": { "$ref": "#/$defs/bankQuestion" }
+        }
+      }
+    },
+    "questionId": { "type": "string", "pattern": "^q-[a-z0-9][a-z0-9-]{1,61}$" },
+    "stances": {
+      "type": "object",
+      "propertyNames": { "$ref": "#/$defs/id" },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["value", "note", "sourceIds"],
+        "properties": {
+          "value": { "type": "integer", "minimum": -2, "maximum": 2 },
+          "note": { "$ref": "#/$defs/text" },
+          "measureIds": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": { "$ref": "#/$defs/id" }
+          },
+          "sourceIds": { "$ref": "#/$defs/sourceIds" }
         }
       }
     },
@@ -279,31 +304,26 @@
       "additionalProperties": false,
       "required": ["id", "themeKey", "core", "statement", "context", "contextSourceIds", "stances"],
       "properties": {
-        "id": { "type": "string", "pattern": "^q-[a-z0-9][a-z0-9-]{1,61}$" },
+        "id": { "$ref": "#/$defs/questionId" },
         "themeKey": { "$ref": "#/$defs/themeKey" },
         "core": { "type": "boolean" },
         "statement": { "$ref": "#/$defs/text" },
         "context": { "$ref": "#/$defs/text" },
         "contextSourceIds": { "$ref": "#/$defs/sourceIds" },
-        "stances": {
-          "type": "object",
-          "propertyNames": { "$ref": "#/$defs/id" },
-          "additionalProperties": {
-            "type": "object",
-            "additionalProperties": false,
-            "required": ["value", "note", "sourceIds"],
-            "properties": {
-              "value": { "type": "integer", "minimum": -2, "maximum": 2 },
-              "note": { "$ref": "#/$defs/text" },
-              "measureIds": {
-                "type": "array",
-                "uniqueItems": true,
-                "items": { "$ref": "#/$defs/id" }
-              },
-              "sourceIds": { "$ref": "#/$defs/sourceIds" }
-            }
-          }
-        }
+        "stances": { "$ref": "#/$defs/stances" }
+      }
+    },
+    "bankQuestion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "themeKey", "statement", "context", "contextSourceIds", "stances"],
+      "properties": {
+        "id": { "$ref": "#/$defs/questionId" },
+        "themeKey": { "$ref": "#/$defs/themeKey" },
+        "statement": { "$ref": "#/$defs/text" },
+        "context": { "$ref": "#/$defs/text" },
+        "contextSourceIds": { "$ref": "#/$defs/sourceIds" },
+        "stances": { "$ref": "#/$defs/stances" }
       }
     },
     "poll": {

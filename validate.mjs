@@ -192,17 +192,15 @@ function checkIntegrity(data) {
     }
   }
 
-  // Questionnaire.
+  // Questionnaire : les 34 questions du test, puis la banque (facultative). Un identifiant de
+  // question est unique sur les deux tableaux (et sur tout le fichier, via claim).
   const q = data.questionnaire;
   const perTheme = new Map(THEME_ORDER.map((k) => [k, { total: 0, core: 0 }]));
   let pos = 0;
   let neg = 0;
-  for (const qu of q.questions) {
-    const qw = `questionnaire.${qu.id}`;
+  const checkQuestion = (qu, qw) => {
     claim(qu.id, qw);
-    const pt = perTheme.get(qu.themeKey);
-    pt.total += 1;
-    if (qu.core) pt.core += 1;
+    if (!perTheme.has(qu.themeKey)) err(qw, `thème « ${qu.themeKey} » inconnu`);
     refSources(`${qw}.contextSourceIds`, qu.contextSourceIds);
     for (const [cid, st] of Object.entries(qu.stances)) {
       const sw = `${qw}.stances.${cid}`;
@@ -212,9 +210,23 @@ function checkIntegrity(data) {
         else if (measureOwner.get(mid) !== cid) err(sw, `la mesure « ${mid} » appartient à « ${measureOwner.get(mid)} », pas à « ${cid} »`);
       }
       refSources(`${sw}.sourceIds`, st.sourceIds);
+    }
+  };
+  for (const qu of q.questions) {
+    checkQuestion(qu, `questionnaire.${qu.id}`);
+    const pt = perTheme.get(qu.themeKey);
+    pt.total += 1;
+    if (qu.core) pt.core += 1;
+    for (const st of Object.values(qu.stances)) {
       if (st.value > 0) pos += 1;
       if (st.value < 0) neg += 1;
     }
+  }
+  for (const qu of q.bank || []) {
+    const qw = `questionnaire.bank.${qu.id}`;
+    checkQuestion(qu, qw);
+    const prefix = `q-${qu.themeKey}-`;
+    if (!qu.id.startsWith(prefix) || qu.id.length === prefix.length) err(qw, `l'identifiant doit avoir la forme « ${prefix}<slug> »`);
   }
   for (const [k, v] of perTheme) {
     if (v.total !== 2) err(`questionnaire`, `le thème « ${k} » compte ${v.total} question(s) au lieu de 2`);
@@ -361,7 +373,8 @@ function checkStability(data, prev) {
     const nq = qNew.get(pq.id);
     const w = `stabilité ${pq.id}`;
     if (!nq) {
-      warn(w, 'question retirée du questionnaire (l\'identifiant ne doit jamais être réutilisé)');
+      if ((data.questionnaire.bank || []).some((b) => b.id === pq.id)) warn(w, 'question du test déplacée dans la banque');
+      else warn(w, 'question retirée du questionnaire (l\'identifiant ne doit jamais être réutilisé)');
       continue;
     }
     if (pq.themeKey !== nq.themeKey) err(w, `identifiant réutilisé dans un autre thème (« ${pq.themeKey} » → « ${nq.themeKey} »)`);
@@ -374,6 +387,29 @@ function checkStability(data, prev) {
     || data.questionnaire.questions.some((q) => !(prev.questionnaire?.questions || []).some((p) => p.id === q.id));
   if ((statementChanged || qAddedOrRemoved) && data.questionnaire.version === prev.questionnaire?.version) {
     err('stabilité questionnaire', 'questions ajoutées, retirées ou reformulées sans changement de questionnaire.version');
+  }
+
+  // Banque : une question publiée ne disparaît pas et garde son énoncé. Les ajouts à la banque
+  // ne demandent pas de changer questionnaire.version ; un retrait ou une reformulation, si.
+  const bNew = index(data.questionnaire.bank || []);
+  let bankBroken = false;
+  for (const pq of prev.questionnaire?.bank || []) {
+    const nq = bNew.get(pq.id);
+    const w = `stabilité bank.${pq.id}`;
+    if (!nq) {
+      bankBroken = true;
+      if (qNew.has(pq.id)) warn(w, 'question de la banque déplacée dans le test');
+      else warn(w, 'question retirée de la banque (l\'identifiant ne doit jamais être réutilisé)');
+      continue;
+    }
+    if (pq.themeKey !== nq.themeKey) err(w, `identifiant réutilisé dans un autre thème (« ${pq.themeKey} » → « ${nq.themeKey} »)`);
+    if (pq.statement !== nq.statement) {
+      bankBroken = true;
+      warn(w, 'énoncé modifié : un énoncé publié ne change pas ; si le sens change, créer une nouvelle question avec un nouvel identifiant');
+    }
+  }
+  if (bankBroken && data.questionnaire.version === prev.questionnaire?.version) {
+    err('stabilité questionnaire', 'questions de la banque retirées ou reformulées sans changement de questionnaire.version');
   }
 
   // Sources : même identifiant = même document.
@@ -455,7 +491,9 @@ function main() {
   if (stats) {
     const nm = data.candidates.reduce((n, c) => n + c.measures.length, 0);
     const ns = data.questionnaire.questions.reduce((n, q) => n + Object.keys(q.stances).length, 0);
-    console.log(`\nContenu : ${data.candidates.length} candidats, ${nm} mesures, ${Object.keys(data.sources).length} sources, ${data.questionnaire.questions.length} questions (${ns} positions renseignées), ${data.polls.length} sondages, ${data.agenda.length} échéances, ${data.campaignEvents.length} événements de campagne, ${data.candidates.filter((c) => c.sponsorships).length} candidats avec un suivi des parrainages.`);
+    const bank = data.questionnaire.bank || [];
+    const nbs = bank.reduce((n, q) => n + Object.keys(q.stances).length, 0);
+    console.log(`\nContenu : ${data.candidates.length} candidats, ${nm} mesures, ${Object.keys(data.sources).length} sources, ${data.questionnaire.questions.length} questions (${ns} positions renseignées), ${bank.length} questions dans la banque (${nbs} positions renseignées), ${data.polls.length} sondages, ${data.agenda.length} échéances, ${data.campaignEvents.length} événements de campagne, ${data.candidates.filter((c) => c.sponsorships).length} candidats avec un suivi des parrainages.`);
   }
   if (errors.length) {
     console.log(`\nÉCHEC : ${errors.length} erreur(s), ${warnings.length} avertissement(s).`);
