@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T12:00:00Z",
+  "updatedAt": "2026-10-20T05:00:37Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -4158,6 +4158,41 @@
       "url": "https://web.archive.org/web/20260829200304/https://melenchon2027.fr/programme2025/livre/chapitre1/s1/",
       "date": "2026-03-23",
       "kind": "programme"
+    },
+    "generationecologie-2025-12-10-oui-a-la-defense": {
+      "title": "Oui à la défense contre les menaces du nouveau Yalta des prédateurs",
+      "publisher": "Génération écologie",
+      "url": "https://www.generationecologie.fr/2025/12/10/oui-la-defense-contre-les-menaces-du-nouveau-yalta-des-predateurs/",
+      "date": "2025-12-10",
+      "kind": "discours"
+    },
+    "generationecologie-2026-02-24-soutien-ukraine": {
+      "title": "Слава Україні ! Soutien indéfectible à la résistance de l’Ukraine",
+      "publisher": "Génération écologie",
+      "url": "https://www.generationecologie.fr/2026/02/24/soutien-indefectible-a-la-resistance-de-lukraine/",
+      "date": "2026-02-24",
+      "kind": "discours"
+    },
+    "generationecologie-2026-04-10-prix-essence-urgence": {
+      "title": "Prix de l’essence à la pompe : l’urgence d’agir !",
+      "publisher": "Génération écologie",
+      "url": "https://www.generationecologie.fr/2026/04/10/prix-de-lessence-a-la-pompe-lurgence-dagir/",
+      "date": "2026-04-10",
+      "kind": "discours"
+    },
+    "generationecologie-2026-01-09-mercosur-saisir-cjue": {
+      "title": "Accord avec le Mercosur : la France doit saisir la Cour de justice de l’Union européenne",
+      "publisher": "Génération écologie",
+      "url": "https://www.generationecologie.fr/2026/01/09/accord-avec-le-mercosur-la-france-doit-saisir-la-cour-de-justice-de-lunion-europeenne/",
+      "date": "2026-01-09",
+      "kind": "discours"
+    },
+    "diplomatie-gouv-2025-12-11-soutien-ukraine-barrot": {
+      "title": "Soutien apporté à l’Ukraine face à l’agression russe - Réponse de Jean-Noël Barrot, ministre de l’Europe et des affaires étrangères, à une question au Gouvernement, en séance publique, à l’Assemblée nationale",
+      "publisher": "France Diplomatie (ministère de l’Europe et des Affaires étrangères)",
+      "url": "https://www.diplomatie.gouv.fr/fr/presse-et-ressources/decouvrir-et-informer/actualites/soutien-apporte-a-l-ukraine-face-a-l-agression-russe-reponse-de-jean-noel-barrot-ministre-de-l",
+      "date": "2025-12-11",
+      "kind": "discours"
     }
   },
   "candidates": [
@@ -7637,6 +7672,29 @@
           ]
         },
         {
+          "id": "barrot-etr-aide-militaire-ukraine",
+          "themeKey": "etr",
+          "subthemeKey": "etr-ukraine",
+          "title": "Poursuite de l’aide militaire à l’Ukraine, avant et après un cessez-le-feu",
+          "detail": "Jean-Noël Barrot, ministre de l’Europe et des Affaires étrangères, indique que le soutien militaire à l’Ukraine « concerne d’abord toute la période qui nous sépare encore du cessez-le-feu » (avions Mirage et missiles Aster annoncés par le président de la République) et que la France est prête, avec la coalition des volontaires, à donner « les moyens à l’Ukraine de régénérer sa propre armée » après un cessez-le-feu. Réponse à une question au Gouvernement à l’Assemblée nationale le 11 décembre 2025, publiée par le ministère.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2025-12-11",
+          "lastChanged": "2025-12-11",
+          "sourceIds": [
+            "diplomatie-gouv-2025-12-11-soutien-ukraine-barrot"
+          ],
+          "history": [
+            {
+              "date": "2025-12-11",
+              "type": "ajout",
+              "sourceIds": [
+                "diplomatie-gouv-2025-12-11-soutien-ukraine-barrot"
+              ]
+            }
+          ]
+        },
+        {
           "id": "barrot-inst-decentralisation",
           "themeKey": "inst",
           "subthemeKey": "inst-decentralisation",
@@ -7784,6 +7842,75 @@
           ]
         },
         {
+          "id": "batho-agr-saisine-cjue-mercosur",
+          "themeKey": "agr",
+          "subthemeKey": "agr-commerce",
+          "title": "Saisine de la Cour de justice de l’Union européenne contre l’accord avec le Mercosur",
+          "detail": "Génération écologie, dont Delphine Batho est la candidate, appelle la France et le Parlement européen à « saisir la Cour de justice de l’Union européenne » au sujet de l’accord avec le Mercosur, qu’il juge incompatible avec les traités européens et l’Accord de Paris ; il relève que les « mesures miroirs » du gouvernement ne portent que sur 5 des 72 substances actives interdites dans l’Union. Communiqué du 9 janvier 2026.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-01-09",
+          "lastChanged": "2026-01-09",
+          "sourceIds": [
+            "generationecologie-2026-01-09-mercosur-saisir-cjue"
+          ],
+          "history": [
+            {
+              "date": "2026-01-09",
+              "type": "ajout",
+              "sourceIds": [
+                "generationecologie-2026-01-09-mercosur-saisir-cjue"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "batho-def-hausse-budget-defense",
+          "themeKey": "def",
+          "subthemeKey": "def-budget",
+          "title": "Approbation d’une augmentation du budget de la défense",
+          "detail": "Delphine Batho indique que Génération écologie répondra « oui, sans la moindre hésitation » à la question « Approuvez-vous le principe d’une augmentation du budget de la défense », jugeant « vital l’effort de défense pour construire une Europe de la défense autonome sur le plan stratégique ». Communiqué de Delphine Batho, coordinatrice nationale de Génération écologie, du 10 décembre 2025.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2025-12-10",
+          "lastChanged": "2025-12-10",
+          "sourceIds": [
+            "generationecologie-2025-12-10-oui-a-la-defense"
+          ],
+          "history": [
+            {
+              "date": "2025-12-10",
+              "type": "ajout",
+              "sourceIds": [
+                "generationecologie-2025-12-10-oui-a-la-defense"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "batho-eco-aides-carburant-automatiques",
+          "themeKey": "eco",
+          "subthemeKey": "eco-prix",
+          "title": "Aides ciblées versées automatiquement lors des hausses du prix des carburants",
+          "detail": "Génération écologie, dont Delphine Batho est la candidate, demande des aides d’urgence pour les particuliers vulnérables et les professions exposées, tenant compte des distances domicile-travail, avec un « versement automatique dès les premières hausses de prix » puis une « mensualisation de ces aides », financées notamment par « le surplus de TVA engrangé » ; il propose aussi, à titre temporaire, la « gratuité des transports en commun » et le « doublement des fréquences des cars en zones rurales ». Communiqué du 10 avril 2026 signé par Alexandre Fernier et Quentin Guillemain.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-04-10",
+          "lastChanged": "2026-04-10",
+          "sourceIds": [
+            "generationecologie-2026-04-10-prix-essence-urgence"
+          ],
+          "history": [
+            {
+              "date": "2026-04-10",
+              "type": "ajout",
+              "sourceIds": [
+                "generationecologie-2026-04-10-prix-essence-urgence"
+              ]
+            }
+          ]
+        },
+        {
           "id": "batho-eco-modele-decroissance",
           "themeKey": "eco",
           "subthemeKey": "eco-prix",
@@ -7917,6 +8044,52 @@
               "type": "ajout",
               "sourceIds": [
                 "librejournal-2026-06-26-delphine-batho-son-projet-pour-l"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "batho-etr-avoirs-russes-reconstruction",
+          "themeKey": "etr",
+          "subthemeKey": "etr-ukraine",
+          "title": "Avoirs russes gelés mobilisés pour la reconstruction de l’Ukraine",
+          "detail": "Génération écologie, dont Delphine Batho est la candidate, demande que « les avoirs russes gelés » soient « mobilisés pour la reconstruction de l’Ukraine » et « la réparation des dégâts humains et écologiques ». Communiqué du 24 février 2026 signé par Quentin Guillemain, coordinateur adjoint et porte-parole.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-02-24",
+          "lastChanged": "2026-02-24",
+          "sourceIds": [
+            "generationecologie-2026-02-24-soutien-ukraine"
+          ],
+          "history": [
+            {
+              "date": "2026-02-24",
+              "type": "ajout",
+              "sourceIds": [
+                "generationecologie-2026-02-24-soutien-ukraine"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "batho-etr-soutien-ukraine",
+          "themeKey": "etr",
+          "subthemeKey": "etr-ukraine",
+          "title": "Soutien à l’Ukraine maintenu et renforcé, y compris sur le plan militaire",
+          "detail": "Génération écologie, dont Delphine Batho est la candidate, appelle à « maintenir et à renforcer le soutien à l’Ukraine, sur les plans humanitaire, civil, financier et militaire », « dans le cadre du droit international », et à rendre effectives les sanctions économiques, en particulier sur les flux d’énergies fossiles et les engrais. Communiqué du 24 février 2026 signé par Quentin Guillemain, coordinateur adjoint et porte-parole.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-02-24",
+          "lastChanged": "2026-02-24",
+          "sourceIds": [
+            "generationecologie-2026-02-24-soutien-ukraine"
+          ],
+          "history": [
+            {
+              "date": "2026-02-24",
+              "type": "ajout",
+              "sourceIds": [
+                "generationecologie-2026-02-24-soutien-ukraine"
               ]
             }
           ]
@@ -51454,6 +51627,16 @@
             "sourceIds": [
               "anousmaintenant-nd-manifeste-64-alternative-citoyenne"
             ]
+          },
+          "batho": {
+            "value": 1,
+            "note": "Approuve le principe d’une augmentation du budget de la défense, sans en préciser l’ampleur.",
+            "measureIds": [
+              "batho-def-hausse-budget-defense"
+            ],
+            "sourceIds": [
+              "generationecologie-2025-12-10-oui-a-la-defense"
+            ]
           }
         }
       },
@@ -51808,6 +51991,26 @@
             ],
             "sourceIds": [
               "debout-la-france-2026-10-10-projet-economie-et-travail"
+            ]
+          },
+          "batho": {
+            "value": 2,
+            "note": "Son parti appelle à maintenir et renforcer le soutien à l’Ukraine, y compris sur le plan militaire.",
+            "measureIds": [
+              "batho-etr-soutien-ukraine"
+            ],
+            "sourceIds": [
+              "generationecologie-2026-02-24-soutien-ukraine"
+            ]
+          },
+          "barrot": {
+            "value": 2,
+            "note": "Défend la poursuite du soutien militaire à l’Ukraine jusqu’au cessez-le-feu et au-delà.",
+            "measureIds": [
+              "barrot-etr-aide-militaire-ukraine"
+            ],
+            "sourceIds": [
+              "diplomatie-gouv-2025-12-11-soutien-ukraine-barrot"
             ]
           }
         }
@@ -59378,6 +59581,10 @@
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-10-20",
+      "text": "Aucune nouvelle candidature, aucun retrait et aucune nouvelle enquête d’intentions de vote relevés depuis la mise à jour du 19 octobre (dernières enquêtes déjà intégrées : Elabe et Cluster17, publiées les 17 et 18 octobre). Les réactions des candidats aux manifestations du 17 octobre ont été examinées : elles ne contiennent pas de proposition nouvelle et précise attribuable à un candidat recensé, ou reprennent des mesures déjà présentes (blocage du prix des carburants pour Jean-Luc Mélenchon). Rotation hebdomadaire, en commençant par les candidats dont aucune position n’est connue sur le questionnaire : Delphine Batho, 5 mesures ajoutées à partir de communiqués de Génération écologie (augmentation du budget de la défense, soutien à l’Ukraine y compris militaire, mobilisation des avoirs russes gelés, aides automatiques lors des hausses du prix des carburants, saisine de la Cour de justice de l’Union européenne contre l’accord avec le Mercosur) et 2 positions renseignées (budget de la défense, aide militaire à l’Ukraine) ; Jean-Noël Barrot, 1 mesure ajoutée (poursuite de l’aide militaire à l’Ukraine, déclaration faite en qualité de ministre de l’Europe et des Affaires étrangères) et 1 position renseignée. Les mesures issues de communiqués non signés par la candidate sont attribuées au parti dont elle est la candidate, et la date d’ajout est celle du communiqué. Également passés en revue sans changement, faute de source nouvelle vérifiable : Mira Markovic, Lydie Massard, Benoît Mathieu, Antoine Mikolajczak, Manolo Mlekuz, Bruno Le Maire, Dominique de Villepin, Élisabeth Borne et Sandrine Rousseau (son entretien du 30 juin 2026 à Sud Radio ne contient pas de renonciation explicite)."
+    },
     {
       "date": "2026-10-19",
       "text": "Constitution du fichier de départ. Recensement de 71 personnes (37 déclarées, 13 pressenties, 21 retirées) : les 35 candidatures relevées par un observatoire tiers ont été vérifiées une à une, avec statut, date et source, et 36 personnes ont été ajoutées après recherche dans la presse et les sources officielles ; 7 noms ont été écartés faute de source suffisante ou récente. 615 mesures ont été reprises des positions sourcées de cet observatoire, découpées proposition par proposition et réécrites ; les positions qu'il présentait comme hypothèses, les non-propositions et les positions que leur source ne confirmait pas n'ont pas été reprises. Quand la source n'est pas datée (page de programme en ligne), la date d'ajout est celle du jour. Questionnaire de 34 affirmations, avec 164 positions renseignées à partir de mesures sourcées ; les autres positions seront documentées dans les prochains jours. 23 enquêtes d'intentions de vote de premier tour et 11 séries de duels de second tour, publiées entre juin et octobre 2026, reprises depuis les notices de la Commission des sondages ; les résultats publiés sous la forme « moins de 1 % » sont indiqués dans le libellé de l'hypothèse, sans valeur chiffrée. Agenda : dix échéances officielles. Enrichissement le même jour, candidat par candidat, à partir des sources primaires (programmes, sites de campagne, discours, entretiens) : le fichier compte désormais 1 604 mesures et 254 positions sur le questionnaire. Les mesures qui ne reposaient que sur un site agrégateur ont été rattachées à leur source primaire ou retirées quand celle-ci ne les confirmait pas. Six mesures d’Éric Zemmour proviennent du plan budgétaire publié sur budget2027.fr et signé par Sarah Knafo ; elles sont conservées et la provenance est précisée dans chacune. À cette date, aucune proposition vérifiable n’a été trouvée pour Sébastien Bonnal, Élisabeth Borne, Thierry Breton, Pierre Couchon, Sylvain Durif, François Hollande, Sandrine Rousseau et Manuel Valls, et une seule pour Jean Lassalle. Le programme de Jean-Luc Mélenchon (« L’Avenir en commun », édition 2025, consulté via ses pages archivées, et les documents de campagne d’octobre 2026) a ensuite été intégré : 234 mesures ajoutées, positions connues sur 25 des 34 questions ; le SMIC proposé passe de 1 600 à 1 700 € nets dans le document budgétaire du 14 octobre 2026."
