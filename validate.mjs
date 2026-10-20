@@ -242,6 +242,19 @@ function checkIntegrity(data) {
     refSources(`agenda.${a.id}`, a.sourceIds);
   }
 
+  // Vie de la campagne : candidats connus, citation obligatoire pour une déclaration, pas de date future.
+  for (const e of data.campaignEvents) {
+    const ew = `campaignEvents.${e.id}`;
+    claim(e.id, ew);
+    refSources(ew, e.sourceIds);
+    for (const cid of e.candidateIds) if (!candidateIds.has(cid)) err(ew, `candidateId « ${cid} » inconnu`);
+    if (e.date > today) err(ew, `date ${e.date} postérieure à updatedAt`);
+    if (e.type === 'declaration' && !e.quote) err(ew, 'une déclaration doit citer les propos (quote)');
+    if ((e.type === 'ralliement' || e.type === 'alliance') && e.candidateIds.length < 2 && !/parti|formation|mouvement/i.test(e.text)) {
+      warn(ew, `${e.type} sans second candidat : préciser dans le texte la formation concernée`);
+    }
+  }
+
   // Journal éditorial : du plus récent au plus ancien.
   for (let i = 1; i < data.editorialLog.length; i++) {
     if (data.editorialLog[i].date > data.editorialLog[i - 1].date) err(`editorialLog[${i}]`, 'le journal doit être trié du plus récent au plus ancien');
@@ -371,6 +384,14 @@ function checkStability(data, prev) {
     else if (pa.kind !== na.kind) warn(`stabilité agenda.${pa.id}`, `nature modifiée (« ${pa.kind} » → « ${na.kind} »)`);
   }
 
+  // Vie de la campagne : un événement publié n'est ni supprimé ni requalifié.
+  const eNew = index(data.campaignEvents);
+  for (const pe of prev.campaignEvents || []) {
+    const ne = eNew.get(pe.id);
+    if (!ne) warn(`stabilité campaignEvents.${pe.id}`, 'événement supprimé');
+    else if (pe.type !== ne.type || pe.date !== ne.date) warn(`stabilité campaignEvents.${pe.id}`, `type ou date modifiés (${pe.type} ${pe.date} → ${ne.type} ${ne.date})`);
+  }
+
   // Journal : les entrées précédentes sont conservées.
   const prevLog = prev.editorialLog || [];
   const newLog = data.editorialLog;
@@ -410,7 +431,7 @@ function main() {
   if (stats) {
     const nm = data.candidates.reduce((n, c) => n + c.measures.length, 0);
     const ns = data.questionnaire.questions.reduce((n, q) => n + Object.keys(q.stances).length, 0);
-    console.log(`\nContenu : ${data.candidates.length} candidats, ${nm} mesures, ${Object.keys(data.sources).length} sources, ${data.questionnaire.questions.length} questions (${ns} positions renseignées), ${data.polls.length} sondages, ${data.agenda.length} échéances.`);
+    console.log(`\nContenu : ${data.candidates.length} candidats, ${nm} mesures, ${Object.keys(data.sources).length} sources, ${data.questionnaire.questions.length} questions (${ns} positions renseignées), ${data.polls.length} sondages, ${data.agenda.length} échéances, ${data.campaignEvents.length} événements de campagne.`);
   }
   if (errors.length) {
     console.log(`\nÉCHEC : ${errors.length} erreur(s), ${warnings.length} avertissement(s).`);

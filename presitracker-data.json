@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T05:00:37Z",
+  "updatedAt": "2026-10-20T06:17:21Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -42840,7 +42840,7 @@
         {
           "date": "2026-10-11",
           "status": "retire",
-          "note": "Battu à la primaire sociale-démocrate (PS, Place publique, GRS), remportée dès le premier tour par Raphaël Glucksmann avec 66,17 % ; obtient 7,62 %.",
+          "note": "Battue à la primaire sociale-démocrate (PS, Place publique, GRS), remportée dès le premier tour par Raphaël Glucksmann avec 66,17 % ; obtient 7,62 %.",
           "sourceIds": [
             "lcp-2026-10-11-primaire-socialiste-vainqueur-des-le-1er",
             "franceinfo-2026-10-19-portraits-qui-sont-les-candidats-deja"
@@ -59580,7 +59580,772 @@
       ]
     }
   ],
+  "campaignEvents": [
+    {
+      "id": "evt-dubuisson-candidature-2026-10-19",
+      "date": "2026-10-19",
+      "type": "candidature",
+      "candidateIds": [
+        "dubuisson"
+      ],
+      "text": "Son site de campagne le présente comme « candidat sans étiquette » à l'élection présidentielle de 2027 et sollicite les parrainages des élus.",
+      "sourceIds": [
+        "dubuisson2027-2026-10-19-emmanuel-dubuisson-candidat-a-l-ele"
+      ]
+    },
+    {
+      "id": "evt-herlin-candidature-2026-10-19",
+      "date": "2026-10-19",
+      "type": "candidature",
+      "candidateIds": [
+        "herlin"
+      ],
+      "text": "Son site de campagne le présente comme candidat à l'élection présidentielle de 2027 et mentionne une déclaration de candidature « le 1er mai », sans année précisée.",
+      "sourceIds": [
+        "herlin27-2026-10-19-herlin27-fr-le-site-de-philippe"
+      ]
+    },
+    {
+      "id": "evt-polony-candidature-2026-10-14",
+      "date": "2026-10-14",
+      "type": "candidature",
+      "candidateIds": [
+        "polony"
+      ],
+      "text": "Natacha Polony annonce sa candidature sur France Inter.",
+      "sourceIds": [
+        "lcp-2026-10-14-natacha-polony-annonce-sa-candidature-a"
+      ]
+    },
+    {
+      "id": "evt-faure-retrait-2026-10-11",
+      "date": "2026-10-11",
+      "type": "retrait",
+      "candidateIds": [
+        "faure"
+      ],
+      "text": "Battu à la primaire sociale-démocrate (PS, Place publique, GRS), remportée dès le premier tour par Raphaël Glucksmann avec 66,17 % ; obtient 14,46 % et arrive deuxième.",
+      "sourceIds": [
+        "lcp-2026-10-11-primaire-socialiste-vainqueur-des-le-1er",
+        "franceinfo-2026-10-19-portraits-qui-sont-les-candidats-deja"
+      ]
+    },
+    {
+      "id": "evt-guedj-retrait-2026-10-11",
+      "date": "2026-10-11",
+      "type": "retrait",
+      "candidateIds": [
+        "guedj"
+      ],
+      "text": "Battu à la primaire sociale-démocrate (PS, Place publique, GRS), remportée dès le premier tour par Raphaël Glucksmann avec 66,17 % ; obtient 5,83 %.",
+      "sourceIds": [
+        "lcp-2026-10-11-primaire-socialiste-vainqueur-des-le-1er",
+        "franceinfo-2026-10-19-portraits-qui-sont-les-candidats-deja"
+      ]
+    },
+    {
+      "id": "evt-maurel-retrait-2026-10-11",
+      "date": "2026-10-11",
+      "type": "retrait",
+      "candidateIds": [
+        "maurel"
+      ],
+      "text": "Battu à la primaire sociale-démocrate (PS, Place publique, GRS), remportée dès le premier tour par Raphaël Glucksmann avec 66,17 % ; obtient 5,92 %.",
+      "sourceIds": [
+        "lcp-2026-10-11-primaire-socialiste-vainqueur-des-le-1er",
+        "franceinfo-2026-10-19-portraits-qui-sont-les-candidats-deja"
+      ]
+    },
+    {
+      "id": "evt-royal-retrait-2026-10-11",
+      "date": "2026-10-11",
+      "type": "retrait",
+      "candidateIds": [
+        "royal"
+      ],
+      "text": "Battue à la primaire sociale-démocrate (PS, Place publique, GRS), remportée dès le premier tour par Raphaël Glucksmann avec 66,17 % ; obtient 7,62 %.",
+      "sourceIds": [
+        "lcp-2026-10-11-primaire-socialiste-vainqueur-des-le-1er",
+        "franceinfo-2026-10-19-portraits-qui-sont-les-candidats-deja"
+      ]
+    },
+    {
+      "id": "evt-platret-candidature-2026-10-08",
+      "date": "2026-10-08",
+      "type": "candidature",
+      "candidateIds": [
+        "platret"
+      ],
+      "text": "Gilles Platret annonce sa candidature lors d'une réunion publique à Chalon-sur-Saône.",
+      "sourceIds": [
+        "lyoncapitale-2026-10-09-gilles-platret-nouveau-candidat-a-l"
+      ]
+    },
+    {
+      "id": "evt-markovic-candidature-2026-10-02",
+      "date": "2026-10-02",
+      "type": "candidature",
+      "candidateIds": [
+        "markovic"
+      ],
+      "text": "Le Parti animaliste présente Mira Markovic comme sa candidate lors d'une conférence de presse.",
+      "sourceIds": [
+        "parti-animaliste-2026-10-02-mira-markovic-representera-le-pa"
+      ]
+    },
+    {
+      "id": "evt-lagarde-retrait-2026-09-30",
+      "date": "2026-09-30",
+      "type": "retrait",
+      "candidateIds": [
+        "lagarde"
+      ],
+      "text": "Écarte dans un entretien à La Croix l'hypothèse d'une candidature à l'élection présidentielle.",
+      "sourceIds": [
+        "franceinfo-2026-09-30-ca-ne-serait-pas-du-tout"
+      ]
+    },
+    {
+      "id": "evt-becht-candidature-2026-09-24",
+      "date": "2026-09-24",
+      "type": "candidature",
+      "candidateIds": [
+        "becht"
+      ],
+      "text": "Candidature annoncée dans Paris Match, autour d'un projet intitulé « Refonder ou Périr ».",
+      "sourceIds": [
+        "sudradio-2026-10-08-qui-est-olivier-becht-qui-se"
+      ]
+    },
+    {
+      "id": "evt-zemmour-candidature-2026-09-17",
+      "date": "2026-09-17",
+      "type": "candidature",
+      "candidateIds": [
+        "zemmour"
+      ],
+      "text": "Éric Zemmour annonce sur BFMTV qu'il sera candidat à l'élection présidentielle.",
+      "sourceIds": [
+        "lcp-2026-09-17-presidentielle-2027-eric-zemmour-officialise"
+      ]
+    },
+    {
+      "id": "evt-brun-retrait-2026-09-16",
+      "date": "2026-09-16",
+      "type": "retrait",
+      "candidateIds": [
+        "brun"
+      ],
+      "text": "Suspendu du PS à titre conservatoire à la suite d'accusations d'une militante, il est exclu de la primaire sociale-démocrate ; il conteste et saisit la justice en référé pour obtenir sa réintégration.",
+      "sourceIds": [
+        "lcp-2026-08-24-presidentielle-2027-qui-sera-sur-la",
+        "lefigaro-2026-09-22-j-y-crois-encore-philippe-brun"
+      ]
+    },
+    {
+      "id": "evt-bonnal-candidature-2026-09-15",
+      "date": "2026-09-15",
+      "type": "candidature",
+      "candidateIds": [
+        "bonnal"
+      ],
+      "text": "La notice déposée à la Commission des sondages pour une enquête OpinionWay qu'il a commandée (terrain du 2 au 4 septembre 2026) porte sur « la déclaration de candidature de Sébastien Bonnal » et le teste dans une hypothèse de premier tour.",
+      "sourceIds": [
+        "commission-des-sondages-2026-09-15-notice-opinionway-pour-se"
+      ]
+    },
+    {
+      "id": "evt-roussel-candidature-2026-09-06",
+      "date": "2026-09-06",
+      "type": "candidature",
+      "candidateIds": [
+        "roussel"
+      ],
+      "text": "Candidature annoncée au journal de 20 heures de TF1 après un vote des adhérents du PCF (3-6 septembre 2026) l'approuvant à 72 %.",
+      "sourceIds": [
+        "lcp-2026-09-06-fabien-roussel-officiellement-candidat-du-pcf"
+      ]
+    },
+    {
+      "id": "evt-maurel-candidature-2026-09-04",
+      "date": "2026-09-04",
+      "type": "candidature",
+      "candidateIds": [
+        "maurel"
+      ],
+      "text": "Annonce sur franceinfo sa candidature à la primaire sociale-démocrate pour la Gauche républicaine et socialiste.",
+      "sourceIds": [
+        "franceinfo-2026-09-04-le-depute-emmanuel-maurel-annonce-sa"
+      ]
+    },
+    {
+      "id": "evt-faure-candidature-2026-08-30",
+      "date": "2026-08-30",
+      "type": "candidature",
+      "candidateIds": [
+        "faure"
+      ],
+      "text": "Annonce sur TF1 sa candidature à la présidence de la République dans le cadre de la primaire sociale-démocrate.",
+      "sourceIds": [
+        "tf1info-2026-08-30-oui-je-suis-candidat-a-la"
+      ]
+    },
+    {
+      "id": "evt-lecornu-retrait-2026-08-29",
+      "date": "2026-08-29",
+      "type": "retrait",
+      "candidateIds": [
+        "lecornu"
+      ],
+      "text": "Réaffirme dans un entretien au Parisien ne pas être candidat à l'élection présidentielle.",
+      "sourceIds": [
+        "lefigaro-2026-08-29-presidentielle-2027-je-ne-suis-pas"
+      ]
+    },
+    {
+      "id": "evt-rohou-candidature-2026-08-29",
+      "date": "2026-08-29",
+      "type": "candidature",
+      "candidateIds": [
+        "rohou"
+      ],
+      "text": "Désigné candidat à la présidentielle par le conseil national du MEI réuni à Rodez les 28 et 29 août 2026.",
+      "sourceIds": [
+        "infodujour-2026-09-02-le-mouvement-ecologiste-independant-a"
+      ]
+    },
+    {
+      "id": "evt-vallaud-retrait-2026-08-27",
+      "date": "2026-08-27",
+      "type": "retrait",
+      "candidateIds": [
+        "vallaud"
+      ],
+      "text": "Après avoir un temps envisagé de se porter candidat à la primaire sociale-démocrate, annonce y renoncer et soutenir Raphaël Glucksmann.",
+      "sourceIds": [
+        "lcp-2026-08-24-presidentielle-2027-qui-sera-sur-la"
+      ]
+    },
+    {
+      "id": "evt-jadot-retrait-2026-08-24",
+      "date": "2026-08-24",
+      "type": "retrait",
+      "candidateIds": [
+        "jadot"
+      ],
+      "text": "Annonce sur France Inter son ralliement à Raphaël Glucksmann, chargé de préparer le volet écologique de son programme.",
+      "sourceIds": [
+        "20minutes-2026-08-24-l-ecologiste-yannick-jadot-annonce-son"
+      ]
+    },
+    {
+      "id": "evt-durif-candidature-2026-08-23",
+      "date": "2026-08-23",
+      "type": "candidature",
+      "candidateIds": [
+        "durif"
+      ],
+      "text": "Sylvain Durif annonce sa candidature dans une vidéo publiée sur Instagram.",
+      "sourceIds": [
+        "letribunaldunet-2026-08-25-sylvain-durif-le-christ-cosmique",
+        "sudradio-2026-09-09-qui-est-ce-sylvain-durif-le"
+      ]
+    },
+    {
+      "id": "evt-glucksmann-candidature-2026-08-23",
+      "date": "2026-08-23",
+      "type": "candidature",
+      "candidateIds": [
+        "glucksmann"
+      ],
+      "text": "Candidature annoncée au journal de 20 heures de TF1 (« Oui, je suis candidat à l'élection présidentielle »), avec participation à la primaire sociale-démocrate ; désigné à l'issue de cette primaire le 11 octobre 2026 dès le premier tour.",
+      "sourceIds": [
+        "lcp-2026-08-23-presidentielle-2027-raphael-glucksmann-offici",
+        "publicsenat-2026-10-11-primaire-de-la-gauche-raphael-glucksm"
+      ]
+    },
+    {
+      "id": "evt-lalanne-candidature-2026-08-19",
+      "date": "2026-08-19",
+      "type": "candidature",
+      "candidateIds": [
+        "lalanne"
+      ],
+      "text": "Un communiqué relayé par Le Parisien annonce la candidature de Francis Lalanne, soutenue par le mouvement citoyen France Libre.",
+      "sourceIds": [
+        "lalibre-2026-08-19-francis-lalanne-officiellement-candidat-a"
+      ]
+    },
+    {
+      "id": "evt-darmanin-retrait-2026-08-17",
+      "date": "2026-08-17",
+      "type": "retrait",
+      "candidateIds": [
+        "darmanin"
+      ],
+      "text": "Annonce à La Voix du Nord qu'il ne se présentera pas à l'élection présidentielle et qu'il soutient Édouard Philippe.",
+      "sourceIds": [
+        "lcp-2026-08-17-presidentielle-2027-gerald-darmanin-ne-sera"
+      ]
+    },
+    {
+      "id": "evt-bardella-retrait-2026-07-12",
+      "date": "2026-07-12",
+      "type": "retrait",
+      "candidateIds": [
+        "bardella"
+      ],
+      "text": "Après l'annonce de la candidature de Marine Le Pen (7 juillet 2026), présente son rôle dans la campagne de celle-ci, dont il serait le Premier ministre en cas de victoire.",
+      "sourceIds": [
+        "lefigaro-2026-07-12-jordan-bardella-au-figaro-ma-responsabil"
+      ]
+    },
+    {
+      "id": "evt-autain-retrait-2026-07-11",
+      "date": "2026-07-11",
+      "type": "retrait",
+      "candidateIds": [
+        "autain"
+      ],
+      "text": "Candidate à la primaire de la gauche unitaire, elle constate son abandon après le choix du PS d'une primaire fermée et annonce ne pas présenter de candidature à la présidentielle.",
+      "sourceIds": [
+        "franceinfo-2026-07-11-presidentielle-2027-la-deputee-clement"
+      ]
+    },
+    {
+      "id": "evt-royal-candidature-2026-07-10",
+      "date": "2026-07-10",
+      "type": "candidature",
+      "candidateIds": [
+        "royal"
+      ],
+      "text": "Annonce son intention de participer à la primaire socialiste en vue de l'élection présidentielle de 2027.",
+      "sourceIds": [
+        "franceinfo-2026-07-10-segolene-royal-annonce-qu-elle-partici"
+      ]
+    },
+    {
+      "id": "evt-asselineau-candidature-2026-07-07",
+      "date": "2026-07-07",
+      "type": "candidature",
+      "candidateIds": [
+        "asselineau"
+      ],
+      "text": "François Asselineau confirme sur TV Finance qu'il sera candidat à l'élection présidentielle d'avril 2027.",
+      "sourceIds": [
+        "upr-2026-07-07-francois-asselineau-invite-de-l-a"
+      ]
+    },
+    {
+      "id": "evt-lepen-candidature-2026-07-07",
+      "date": "2026-07-07",
+      "type": "candidature",
+      "candidateIds": [
+        "lepen"
+      ],
+      "text": "Après l'arrêt de la cour d'appel de Paris rendu le même jour, Marine Le Pen annonce sa candidature au journal de 20 heures de TF1.",
+      "sourceIds": [
+        "euronews-2026-07-07-je-suis-candidate-a-l-election"
+      ]
+    },
+    {
+      "id": "evt-lucaslundy-retrait-2026-07-07",
+      "date": "2026-07-07",
+      "type": "retrait",
+      "candidateIds": [
+        "lucaslundy"
+      ],
+      "text": "Retire sa candidature à la primaire unitaire de la gauche.",
+      "sourceIds": [
+        "france3-regions-francein-2026-07-07-ma-candidature-a-la-prim"
+      ]
+    },
+    {
+      "id": "evt-castex-retrait-2026-07-01",
+      "date": "2026-07-01",
+      "type": "retrait",
+      "candidateIds": [
+        "castex"
+      ],
+      "text": "Assure qu'il n'est pas candidat à l'élection présidentielle de 2027.",
+      "sourceIds": [
+        "bfmtv-2026-07-01-ni-a-l-ordre-du-jour"
+      ]
+    },
+    {
+      "id": "evt-brun-candidature-2026-06-30",
+      "date": "2026-06-30",
+      "type": "candidature",
+      "candidateIds": [
+        "brun"
+      ],
+      "text": "Annonce sur RMC sa candidature à la primaire interne du PS en vue de la présidentielle 2027.",
+      "sourceIds": [
+        "rmc-bfmtv-2026-06-30-nous-voulons-reveiller-le-ps-philippe"
+      ]
+    },
+    {
+      "id": "evt-saforcada-candidature-2026-06-29",
+      "date": "2026-06-29",
+      "type": "candidature",
+      "candidateIds": [
+        "saforcada"
+      ],
+      "text": "Présenté comme candidat à la présidentielle 2027 dans une émission de Radio Courtoisie.",
+      "sourceIds": [
+        "rc-2026-06-29-le-francais-en-partage-du-29"
+      ]
+    },
+    {
+      "id": "evt-mikolajczak-candidature-2026-06-27",
+      "date": "2026-06-27",
+      "type": "candidature",
+      "candidateIds": [
+        "mikolajczak"
+      ],
+      "text": "Désigné candidat par un vote interne d'Équinoxe en avril 2026, Antoine Mikolajczak annonce sa candidature devant les adhérents et sympathisants à Saint-Père-sur-Loire (Loiret).",
+      "sourceIds": [
+        "sudradio-2026-07-20-presidentielle-2027-qui-sont-les-candida",
+        "video-streaming-orange-nd-presidentielle-2027-le-parti-equin"
+      ]
+    },
+    {
+      "id": "evt-labib-candidature-2026-06-17",
+      "date": "2026-06-17",
+      "type": "candidature",
+      "candidateIds": [
+        "labib"
+      ],
+      "text": "Le NPA-Révolutionnaires présente Selma Labib comme sa candidate à l'élection présidentielle de 2027, en binôme avec Gaël Quirante.",
+      "sourceIds": [
+        "npa-revolutionnaires-2026-06-17-presidentielle-selma-labib-u"
+      ]
+    },
+    {
+      "id": "evt-bayrou-retrait-2026-06-10",
+      "date": "2026-06-10",
+      "type": "retrait",
+      "candidateIds": [
+        "bayrou"
+      ],
+      "text": "Déclare à Paris Match ne pas être candidat à l'élection présidentielle de 2027.",
+      "sourceIds": [
+        "franceinfo-2026-06-10-l-ancien-premier-ministre-francois-bay"
+      ]
+    },
+    {
+      "id": "evt-bouamrane-candidature-2026-06-09",
+      "date": "2026-06-09",
+      "type": "candidature",
+      "candidateIds": [
+        "bouamrane"
+      ],
+      "text": "Candidature annoncée sur France Inter (« Moi, Karim Bouamrane, je suis candidat pour la prochaine élection présidentielle »).",
+      "sourceIds": [
+        "lcp-2026-06-09-presidentielle-2027-qui-est-karim-bouamrane"
+      ]
+    },
+    {
+      "id": "evt-berger-retrait-2026-06-08",
+      "date": "2026-06-08",
+      "type": "retrait",
+      "candidateIds": [
+        "berger"
+      ],
+      "text": "Dément sur France Inter les rumeurs de candidature : « Je ne veux pas être candidat ».",
+      "sourceIds": [
+        "franceinfo-2026-06-08-presidentielle-2027-je-ne-veux-pas"
+      ]
+    },
+    {
+      "id": "evt-couchon-candidature-2026-06-06",
+      "date": "2026-06-06",
+      "type": "candidature",
+      "candidateIds": [
+        "couchon"
+      ],
+      "text": "Communique son intention d'être candidat à l'élection présidentielle de 2027 et appelle les élus à lui adresser leur parrainage.",
+      "sourceIds": [
+        "couchonpierre-2026-10-19-pierre-couchon-appel-aux-500-signat",
+        "lescentristesfrance-2026-10-19-les-centristes-france-appel-a"
+      ]
+    },
+    {
+      "id": "evt-kazib-candidature-2026-06-01",
+      "date": "2026-06-01",
+      "type": "candidature",
+      "candidateIds": [
+        "kazib"
+      ],
+      "text": "Candidature à l'élection présidentielle de 2027 annoncée sous les couleurs de Révolution permanente.",
+      "sourceIds": [
+        "economiematin-2026-06-02-candidat-a-la-presidentielle-anasse"
+      ]
+    },
+    {
+      "id": "evt-attal-candidature-2026-05-22",
+      "date": "2026-05-22",
+      "type": "candidature",
+      "candidateIds": [
+        "attal"
+      ],
+      "text": "Candidature officialisée lors d'un déplacement à Mur-de-Barrez (Aveyron), à l'issue d'un débat citoyen.",
+      "sourceIds": [
+        "lcp-2026-05-22-presidentielle-2027-gabriel-attal-officialise"
+      ]
+    },
+    {
+      "id": "evt-lucaslundy-candidature-2026-05-14",
+      "date": "2026-05-14",
+      "type": "candidature",
+      "candidateIds": [
+        "lucaslundy"
+      ],
+      "text": "Déclare sur TF1 souhaiter être candidat à la primaire de la gauche unitaire.",
+      "sourceIds": [
+        "tf1info-2026-05-14-presidentielle-2027-benjamin-lucas-lundy",
+        "france3-regions-francein-2026-05-15-le-depute-des-yvelines-b"
+      ]
+    },
+    {
+      "id": "evt-wauquiez-retrait-2026-05-12",
+      "date": "2026-05-12",
+      "type": "retrait",
+      "candidateIds": [
+        "wauquiez"
+      ],
+      "text": "Déclare laisser « de côté toute candidature » et reconnaît Bruno Retailleau comme candidat légitime des Républicains.",
+      "sourceIds": [
+        "bfmtv-2026-05-12-presidentielle-2027-laurent-wauquiez-assure"
+      ]
+    },
+    {
+      "id": "evt-philippot-candidature-2026-05-09",
+      "date": "2026-05-09",
+      "type": "candidature",
+      "candidateIds": [
+        "philippot"
+      ],
+      "text": "Florian Philippot annonce sa candidature sur France 2 et indique qu'il se retirerait si Philippe de Villiers se présentait.",
+      "sourceIds": [
+        "sudradio-2026-05-09-je-suis-candidat-florian-philippot-se"
+      ]
+    },
+    {
+      "id": "evt-melenchon-candidature-2026-05-03",
+      "date": "2026-05-03",
+      "type": "candidature",
+      "candidateIds": [
+        "melenchon"
+      ],
+      "text": "Candidature annoncée au journal de 20 heures de TF1 (« Oui, je suis candidat ») ; quatrième candidature présidentielle consécutive.",
+      "sourceIds": [
+        "lcp-2026-05-03-presidentielle-jean-luc-melenchon-officialise"
+      ]
+    },
+    {
+      "id": "evt-knafo-retrait-2026-04-29",
+      "date": "2026-04-29",
+      "type": "retrait",
+      "candidateIds": [
+        "knafo"
+      ],
+      "text": "Assure ne pas être candidate à l'élection présidentielle de 2027 et lance une consultation pour construire un programme.",
+      "sourceIds": [
+        "franceinfo-2026-04-29-pas-candidate-a-l-election-presidentie"
+      ]
+    },
+    {
+      "id": "evt-egger-candidature-2026-04-20",
+      "date": "2026-04-20",
+      "type": "candidature",
+      "candidateIds": [
+        "egger"
+      ],
+      "text": "Clara Egger annonce sa candidature par un communiqué de presse de Solution démocratique.",
+      "sourceIds": [
+        "sudradio-2026-07-20-presidentielle-2027-qui-sont-les-candida",
+        "solutiondemocratique-sub-2026-04-26-premieres-retombees-medi"
+      ]
+    },
+    {
+      "id": "evt-lisnard-candidature-2026-03-31",
+      "date": "2026-03-31",
+      "type": "candidature",
+      "candidateIds": [
+        "lisnard"
+      ],
+      "text": "Au journal de 20 heures de France 2, il annonce quitter Les Républicains et être candidat à l'élection présidentielle (« Je suis candidat »).",
+      "sourceIds": [
+        "lcp-2026-04-01-je-suis-candidat-david-lisnard-quitte"
+      ]
+    },
+    {
+      "id": "evt-mathieu-candidature-2026-03-30",
+      "date": "2026-03-30",
+      "type": "candidature",
+      "candidateIds": [
+        "mathieu"
+      ],
+      "text": "Benoît Mathieu entame un tour de France à vélo pour recueillir les 500 parrainages nécessaires à sa candidature.",
+      "sourceIds": [
+        "sudradio-2026-05-06-presidentielle-2027-un-professeur-sillon"
+      ]
+    },
+    {
+      "id": "evt-retailleau-candidature-2026-02-12",
+      "date": "2026-02-12",
+      "type": "candidature",
+      "candidateIds": [
+        "retailleau"
+      ],
+      "text": "Candidature annoncée par un message aux parlementaires LR et sur les réseaux sociaux, puis au journal de 20 heures de TF1 ; désigné candidat des Républicains le 19 avril 2026 par 73,8 % des adhérents votants.",
+      "sourceIds": [
+        "publicsenat-2026-02-12-je-suis-pret-bruno-retailleau-se",
+        "publicsenat-2026-04-19-presidentielle-bruno-retailleau-desig"
+      ]
+    },
+    {
+      "id": "evt-guedj-candidature-2026-02-05",
+      "date": "2026-02-05",
+      "type": "candidature",
+      "candidateIds": [
+        "guedj"
+      ],
+      "text": "Déclare sur France Inter être candidat à l'élection présidentielle, en dehors de la primaire de la gauche unitaire.",
+      "sourceIds": [
+        "radiofrance-2026-02-05-jerome-guedj-je-suis-aujourd-hui"
+      ]
+    },
+    {
+      "id": "evt-castets-retrait-2026-01-30",
+      "date": "2026-01-30",
+      "type": "retrait",
+      "candidateIds": [
+        "castets"
+      ],
+      "text": "Annonce qu'elle ne sera pas candidate à la primaire de la gauche unitaire ni à la présidentielle, et qu'elle en assurera l'organisation.",
+      "sourceIds": [
+        "bfmtv-2026-01-31-on-ne-peut-pas-etre-joueur"
+      ]
+    },
+    {
+      "id": "evt-ruffin-candidature-2026-01-26",
+      "date": "2026-01-26",
+      "type": "candidature",
+      "candidateIds": [
+        "ruffin"
+      ],
+      "text": "Candidature annoncée au journal de 20 heures de TF1, d'abord dans le cadre d'une primaire unitaire de la gauche ; le 12 mai 2026, il indique qu'il se présentera en l'absence de primaire.",
+      "sourceIds": [
+        "sudradio-2026-01-27-presidentielle-2027-francois-ruffin-un-o",
+        "lcp-2026-05-12-presidentielle-2027-s-il-n-y"
+      ]
+    },
+    {
+      "id": "evt-branco-candidature-2025-12-19",
+      "date": "2025-12-19",
+      "type": "candidature",
+      "candidateIds": [
+        "branco"
+      ],
+      "text": "Juan Branco annonce sa candidature au micro de Sud Radio en présentant son projet politique.",
+      "sourceIds": [
+        "sudradio-2026-07-20-presidentielle-2027-qui-sont-les-candida",
+        "ruches-nd-branco-2027-ruches-francaises"
+      ]
+    },
+    {
+      "id": "evt-arthaud-candidature-2025-12-08",
+      "date": "2025-12-08",
+      "type": "candidature",
+      "candidateIds": [
+        "arthaud"
+      ],
+      "text": "Candidature annoncée en conférence de presse après un vote du congrès de Lutte ouvrière ; quatrième candidature présidentielle après 2012, 2017 et 2022.",
+      "sourceIds": [
+        "franceinfo-2025-12-08-presidentielle-2027-nathalie-arthaud-p"
+      ]
+    },
+    {
+      "id": "evt-mouhali-retrait-2025-12-08",
+      "date": "2025-12-08",
+      "type": "retrait",
+      "candidateIds": [
+        "mouhali"
+      ],
+      "text": "Battu par Marine Tondelier (86 %) lors de la désignation interne des Écologistes pour la primaire de la gauche, avec 14 % des suffrages exprimés ; se dit « loyal et exigeant » envers elle.",
+      "sourceIds": [
+        "brut-2026-09-14-sans-surprise-marine-tondelier-representera"
+      ]
+    },
+    {
+      "id": "evt-batho-candidature-2025-11-25",
+      "date": "2025-11-25",
+      "type": "candidature",
+      "candidateIds": [
+        "batho"
+      ],
+      "text": "Candidature annoncée dans un entretien à L'Obs, en opposition à la participation des Écologistes à une primaire de la gauche.",
+      "sourceIds": [
+        "linfodurable-2025-11-25-l-ex-ministre-delphine-batho-candida"
+      ]
+    },
+    {
+      "id": "evt-tondelier-candidature-2025-10-22",
+      "date": "2025-10-22",
+      "type": "candidature",
+      "candidateIds": [
+        "tondelier"
+      ],
+      "text": "Déclaration de candidature dans un entretien au Nouvel Obs (« Cette interview est ma déclaration officielle de candidature à l'élection présidentielle »).",
+      "sourceIds": [
+        "brut-2025-11-17-marine-tondelier-la-patronne-des-ecologistes"
+      ]
+    },
+    {
+      "id": "evt-dupontaignan-candidature-2025-03-08",
+      "date": "2025-03-08",
+      "type": "candidature",
+      "candidateIds": [
+        "dupontaignan"
+      ],
+      "text": "Nicolas Dupont-Aignan annonce sa candidature lors d'un meeting de Debout la France devant près d'un millier de sympathisants.",
+      "sourceIds": [
+        "debout-la-france-nd-nicolas-dupont-aignan",
+        "orange-2025-03-08-election-presidentielle-2027-nicolas-dupon"
+      ]
+    },
+    {
+      "id": "evt-philippe-candidature-2024-09-03",
+      "date": "2024-09-03",
+      "type": "candidature",
+      "candidateIds": [
+        "philippe"
+      ],
+      "text": "Candidature annoncée dans un entretien au Point (« Je serai candidat à la prochaine élection présidentielle ») ; meeting de lancement de campagne le 5 juillet 2026 à Paris.",
+      "sourceIds": [
+        "lavenir-2024-09-03-france-edouard-philippe-annonce-sa-candid"
+      ]
+    },
+    {
+      "id": "evt-poutou-retrait-2023-01-07",
+      "date": "2023-01-07",
+      "type": "retrait",
+      "candidateIds": [
+        "poutou"
+      ],
+      "text": "Déclare ne pas entendre se représenter à l'élection présidentielle de 2027.",
+      "sourceIds": [
+        "huffingtonpost-2023-01-07-les-voeux-de-philippe-poutou-pour"
+      ]
+    }
+  ],
   "editorialLog": [
+    {
+      "date": "2026-10-20",
+      "text": "Création de la rubrique « Vie de la campagne » : 62 candidatures et retraits repris des changements de statut déjà sourcés. Les ralliements, alliances, investitures, parrainages et déclarations seront ajoutés au fil des mises à jour. Accord corrigé dans la note de statut de Ségolène Royal (« Battue »)."
+    },
     {
       "date": "2026-10-20",
       "text": "Aucune nouvelle candidature, aucun retrait et aucune nouvelle enquête d’intentions de vote relevés depuis la mise à jour du 19 octobre (dernières enquêtes déjà intégrées : Elabe et Cluster17, publiées les 17 et 18 octobre). Les réactions des candidats aux manifestations du 17 octobre ont été examinées : elles ne contiennent pas de proposition nouvelle et précise attribuable à un candidat recensé, ou reprennent des mesures déjà présentes (blocage du prix des carburants pour Jean-Luc Mélenchon). Rotation hebdomadaire, en commençant par les candidats dont aucune position n’est connue sur le questionnaire : Delphine Batho, 5 mesures ajoutées à partir de communiqués de Génération écologie (augmentation du budget de la défense, soutien à l’Ukraine y compris militaire, mobilisation des avoirs russes gelés, aides automatiques lors des hausses du prix des carburants, saisine de la Cour de justice de l’Union européenne contre l’accord avec le Mercosur) et 2 positions renseignées (budget de la défense, aide militaire à l’Ukraine) ; Jean-Noël Barrot, 1 mesure ajoutée (poursuite de l’aide militaire à l’Ukraine, déclaration faite en qualité de ministre de l’Europe et des Affaires étrangères) et 1 position renseignée. Les mesures issues de communiqués non signés par la candidate sont attribuées au parti dont elle est la candidate, et la date d’ajout est celle du communiqué. Également passés en revue sans changement, faute de source nouvelle vérifiable : Mira Markovic, Lydie Massard, Benoît Mathieu, Antoine Mikolajczak, Manolo Mlekuz, Bruno Le Maire, Dominique de Villepin, Élisabeth Borne et Sandrine Rousseau (son entretien du 30 juin 2026 à Sud Radio ne contient pas de renonciation explicite)."

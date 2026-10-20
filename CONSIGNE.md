@@ -1,6 +1,6 @@
 # Consigne de la tâche planifiée quotidienne PresiTracker2027
 
-Version du 19 octobre 2026. Ce texte est la consigne complète de la tâche Claude planifiée qui met à jour chaque jour les données de PresiTracker2027. Le format de référence est le schéma `schema.json` de ce dépôt, complété par le validateur `validate.mjs`.
+Version du 20 octobre 2026. Ce texte est la consigne complète de la tâche Claude planifiée qui met à jour chaque jour les données de PresiTracker2027. Le format de référence est le schéma `schema.json` de ce dépôt, complété par le validateur `validate.mjs`.
 
 ## 1. Rôle
 
@@ -46,6 +46,7 @@ Pour chaque sujet, cherche ce qui a été publié depuis la date de la dernière
 - **Mesures** : nouveaux programmes ou chapitres publiés, propositions annoncées en meeting ou en entretien, précisions chiffrées, changements de position, renonciations explicites. Passe en revue **tous** les candidats recensés, pas seulement les plus médiatisés ; à défaut de temps, fais une rotation documentée dans le journal pour que chacun soit revu au moins une fois par semaine.
 - **Questionnaire** : positions nouvellement documentées sur les 34 affirmations, à partir des mesures ajoutées ou modifiées.
 - **Sondages** : enquêtes d'intentions de vote publiées, avec rapport de l'institut et notice de la Commission des sondages.
+- **Vie de la campagne** : candidatures, retraits, ralliements, alliances et candidatures communes, investitures et résultats de primaires, décomptes officiels de parrainages, déclarations publiques des candidats (§4.3, « Vie de la campagne »).
 - **Agenda** : décret de convocation, ouverture et clôture des parrainages, liste officielle, campagne officielle, débats annoncés par les organisateurs, autres échéances officielles.
 
 ### 4.3 Mettre à jour le fichier
@@ -80,6 +81,16 @@ Pour chaque sujet, cherche ce qui a été publié depuis la date de la dernière
 - Une personne testée dans un sondage doit figurer dans `candidates` (au moins comme `pressenti`, si une source le justifie) ; sinon, son score est saisi avec `label` et non `candidateId`.
 - Si la notice n'est pas encore en ligne, publie avec `reportUrl` et reviens ajouter `noticeUrl` les jours suivants.
 
+**Vie de la campagne** (`campaignEvents`, méthodologie §9).
+
+- Un fait par événement, daté du jour où il a eu lieu, avec au moins une source datée. Identifiant `evt-<candidat>-<type>-<date>`, suffixé `-2`, `-3`… si besoin ; il n'est jamais réutilisé ni renommé, et un fait publié n'est ni supprimé ni requalifié.
+- `type` : `candidature`, `retrait`, `ralliement`, `alliance`, `investiture`, `parrainages` ou `declaration`. `candidateIds` commence par le sujet du fait, puis les autres candidats recensés concernés (celui que l'on rallie, les partenaires d'une alliance). Une formation non candidate est nommée dans le texte.
+- `text` : une ou deux phrases factuelles qui commencent par le verbe, sans le nom du sujet (les apps l'affichent au-dessus) : « Annonce sa candidature sur France Inter. », « Annonce son ralliement à Raphaël Glucksmann. », « Désigné candidat à l'issue de la primaire sociale-démocrate. ». Même formule pour tous, aucun qualificatif, aucune interprétation.
+- Un changement de statut d'un candidat (déclaration, retrait) donne à la fois l'entrée `statusHistory` et le fait `candidature` ou `retrait` correspondant, avec la même date et la même source. Un retrait au profit d'un autre candidat donne en plus un fait `ralliement`.
+- `parrainages` : uniquement les décomptes officiels publiés par le Conseil constitutionnel, un fait par candidat et par publication, chiffre dans le texte.
+- `declaration` : au plus une par candidat et par semaine, la plus récente prise de position publique du candidat sur sa candidature, une alliance ou un thème du questionnaire. `quote` reprend les propos mot pour mot entre guillemets français (deux phrases au plus) ; `text` dit où et quand (« Dans un entretien au Parisien, se prononce sur la retraite à 62 ans. »). Applique la même règle à tous les candidats déclarés, dans le cadre de la rotation hebdomadaire ; sans citation vérifiable, ne publie pas.
+- Rattrapage : tant que `campaignEvents` ne contient aucun fait de type `ralliement`, `alliance`, `investiture` ou `parrainages`, commence par rechercher et ajouter ces faits depuis le 1er janvier 2026 (par exemple le résultat de la primaire sociale-démocrate du 11 octobre 2026), puis les déclarations de la semaine écoulée.
+
 **Agenda.** N'ajoute que des dates publiées par une source officielle ou annoncées par l'organisateur d'un débat.
 
 **Sources.** Une source = un document. Identifiant stable, `title` (titre réel de la page), `publisher`, `url`, `date` si elle est connue, `kind`. Ne change jamais l'URL d'une source existante : crée une nouvelle source.
@@ -99,7 +110,7 @@ Si la validation échoue et que tu ne peux pas la corriger, ne publie rien : la 
 
 ### 4.5 Écrire le journal éditorial
 
-Ajoute en tête de `editorialLog` une entrée datée du jour qui résume, en phrases neutres, les changements : candidatures, mesures ajoutées, modifiées ou abandonnées (par candidat), positions renseignées, sondages ajoutés, échéances, corrections et leur motif, choix de méthode. Les jours sans changement, écris « Aucun changement relevé » en précisant les candidats passés en revue.
+Ajoute en tête de `editorialLog` une entrée datée du jour qui résume, en phrases neutres, les changements : candidatures, faits de campagne ajoutés, mesures ajoutées, modifiées ou abandonnées (par candidat), positions renseignées, sondages ajoutés, échéances, corrections et leur motif, choix de méthode. Les jours sans changement, écris « Aucun changement relevé » en précisant les candidats passés en revue.
 
 ### 4.6 Publier
 
