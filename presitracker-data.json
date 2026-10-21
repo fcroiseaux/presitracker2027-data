@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T16:42:15Z",
+  "updatedAt": "2026-10-21T04:57:50Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -5560,6 +5560,48 @@
       "publisher": "VIDAL",
       "url": "https://www.vidal.fr/actualites/38194-la-loi-sur-l-aide-a-mourir-promulguee-par-le-president-macron.html",
       "date": "2026-08-19",
+      "kind": "presse"
+    },
+    "nicepremium-2026-09-02-presidentielle-2027-david-lisnard": {
+      "title": "Présidentielle 2027 : David Lisnard annonce avoir 500 promesses de parrainage",
+      "publisher": "Nice Premium",
+      "url": "https://www.nicepremium.fr/actualites/presidentielle-2027-david-lisnard-annonce-avoir-500-promesses-de-parrainage/",
+      "date": "2026-09-02",
+      "kind": "presse"
+    },
+    "unenouvelleenergie-2026-09-04-cap-des-500-promesses": {
+      "title": "David Lisnard franchit le cap des 500 promesses de parrainage pour 2027",
+      "publisher": "Nouvelle Énergie",
+      "url": "https://www.unenouvelleenergie.fr/david-lisnard-franchit-le-cap-des-500-promesses-de-parrainage-pour-2027/",
+      "date": "2026-09-04",
+      "kind": "programme"
+    },
+    "publicsenat-2026-09-02-une-multitude-de-candidats": {
+      "title": "Présidentielle 2027 : une multitude de candidats mais combien seront-ils réellement sur la ligne de départ ?",
+      "publisher": "Public Sénat",
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-une-multitude-de-candidats-mais-combien-seront-ils-reellement-sur-la-ligne-de-depart",
+      "date": "2026-09-02",
+      "kind": "presse"
+    },
+    "lcp-2026-10-15-ayons-ensemble-un-debat-public": {
+      "title": "Présidentielle 2027: \"Ayons ensemble un débat public, devant les Français\", répond Bruno Retailleau à Édouard Philippe",
+      "publisher": "LCP",
+      "url": "https://lcp.fr/actualites/presidentielle-2027-ayons-ensemble-un-debat-public-devant-les-francais-repond-bruno",
+      "date": "2026-10-15",
+      "kind": "presse"
+    },
+    "lejdd-2026-10-18-emeutes-du-17-octobre-marine-le-pen": {
+      "title": "Émeutes du 17 octobre : Marine Le Pen fustige la «stratégie incendiaire» de LFI",
+      "publisher": "Le JDD",
+      "url": "https://www.lejdd.fr/politique/emeutes-du-17-octobre-marine-le-pen-fustige-la-strategie-incendiaire-de-lfi-186336",
+      "date": "2026-10-18",
+      "kind": "presse"
+    },
+    "bfmtv-yahoo-2026-10-17-manifestations-du-17-octobre": {
+      "title": "Manifestations du 17 octobre: Marine Le Pen s'en prend à La France insoumise, Jean-Luc Mélenchon juge \"lamentable\" la stratégie du maintien de l'ordre",
+      "publisher": "BFMTV (Yahoo! Actualités)",
+      "url": "https://fr.news.yahoo.com/manifestations-17-octobre-marine-pen-161111971.html",
+      "date": "2026-10-17",
       "kind": "presse"
     }
   },
@@ -26681,6 +26723,18 @@
                 "orange-2026-10-13-revoir-l-excuse-de-minorite-david"
               ]
             }
+          ]
+        }
+      ],
+      "sponsorships": [
+        {
+          "date": "2026-09-02",
+          "count": 500,
+          "kind": "annonce",
+          "sourceIds": [
+            "nicepremium-2026-09-02-presidentielle-2027-david-lisnard",
+            "unenouvelleenergie-2026-09-04-cap-des-500-promesses",
+            "publicsenat-2026-09-02-une-multitude-de-candidats"
           ]
         }
       ]
@@ -53419,6 +53473,16 @@
             "sourceIds": [
               "generationecologie-2025-12-10-oui-a-la-defense"
             ]
+          },
+          "saforcada": {
+            "value": 1,
+            "note": "Propose d'investir dans la défense nationale et la dissuasion, sans chiffrer de hausse.",
+            "measureIds": [
+              "saforcada-def-investir-dissuasion"
+            ],
+            "sourceIds": [
+              "lappelaupeuple-nd-souverainete-nationale"
+            ]
           }
         }
       },
@@ -54402,6 +54466,36 @@
             "sourceIds": [
               "pcf-2026-09-15-fete-de-l-humanite-2026-discours"
             ]
+          },
+          "polony": {
+            "value": 1,
+            "note": "Défend une « politique urgente de défense du nucléaire », sans se prononcer sur un nombre de réacteurs.",
+            "measureIds": [
+              "polony-ecol-soutien-nucleaire"
+            ],
+            "sourceIds": [
+              "sudradio-2026-09-15-natacha-polony-le-rn-ne-dit"
+            ]
+          },
+          "legendre": {
+            "value": 1,
+            "note": "Se déclare « résolument en faveur du nucléaire », sans se prononcer sur de nouveaux réacteurs.",
+            "measureIds": [
+              "legendre-ecol-soutien-nucleaire"
+            ],
+            "sourceIds": [
+              "anousmaintenant-nd-manifeste-64-alternative-citoyenne"
+            ]
+          },
+          "bouamrane": {
+            "value": 1,
+            "note": "Propose de s'appuyer sur le nucléaire et la géothermie, sans se prononcer sur de nouveaux réacteurs.",
+            "measureIds": [
+              "bouamrane-ecol-nucleaire-geothermie"
+            ],
+            "sourceIds": [
+              "oumma-2026-07-02-karim-bouamrane-defie-melenchon-et-vise"
+            ]
           }
         }
       },
@@ -55085,6 +55179,16 @@
             ],
             "sourceIds": [
               "melenchon2027-2026-01-22-laec-ch13-s5-souverainete-alimentaire"
+            ]
+          },
+          "rohou": {
+            "value": -1,
+            "note": "Propose un « permis de sol » et d'autres outils contre l'artificialisation des sols.",
+            "measureIds": [
+              "rohou-log-permis-de-sol"
+            ],
+            "sourceIds": [
+              "mei-2026-10-05-livre-blanc-protection-environnement"
             ]
           }
         }
@@ -63868,6 +63972,16 @@
             "sourceIds": [
               "attalpresident-2026-10-11-mesures-jeunesse-avenir"
             ]
+          },
+          "villepin": {
+            "value": 1,
+            "note": "Propose un consortium européen de l'IA « à la manière d'un CEA » et des capacités de calcul réservées.",
+            "measureIds": [
+              "villepin-num-consortium-calcul-europeen"
+            ],
+            "sourceIds": [
+              "lafrancehumaniste-2026-06-13-ia-dire-non-au-monopole-americain"
+            ]
           }
         }
       },
@@ -64768,6 +64882,26 @@
             "sourceIds": [
               "attalpresident-nd-programme-de-gabriel-attal-dette-ecologiqu",
               "attalpresident-2026-10-05-debat-blois-bourges"
+            ]
+          },
+          "cazeneuve": {
+            "value": 1,
+            "note": "Propose une rénovation massive des logements dans un grand plan de construction et de rénovation.",
+            "measureIds": [
+              "cazeneuve-log-plan-logement"
+            ],
+            "sourceIds": [
+              "la-convention-2026-07-15-lettre-aux-francais"
+            ]
+          },
+          "branco": {
+            "value": -1,
+            "note": "Propose un moratoire sur les aides à l'isolation, dont MaPrimeRénov', et leur réorientation vers l'électrification du chauffage.",
+            "measureIds": [
+              "branco-log-moratoire-renovation"
+            ],
+            "sourceIds": [
+              "ruches-nd-le-projet-2027-programme-en-6"
             ]
           }
         }
@@ -71749,6 +71883,32 @@
       ]
     },
     {
+      "id": "evt-lepen-declaration-2026-10-17",
+      "date": "2026-10-17",
+      "type": "declaration",
+      "candidateIds": [
+        "lepen"
+      ],
+      "text": "Sur X, réagit aux violences survenues en marge des manifestations du 17 octobre.",
+      "quote": "« Piller, saccager, détruire, attaquer les forces de l’ordre : les émeutiers ont de nouveau pourri les manifestations. »",
+      "sourceIds": [
+        "lejdd-2026-10-18-emeutes-du-17-octobre-marine-le-pen"
+      ]
+    },
+    {
+      "id": "evt-melenchon-declaration-2026-10-17",
+      "date": "2026-10-17",
+      "type": "declaration",
+      "candidateIds": [
+        "melenchon"
+      ],
+      "text": "Sur X, critique la stratégie de maintien de l'ordre lors de la manifestation du 17 octobre à Paris.",
+      "quote": "« Le préfet est soit un provocateur aux ordres, soit un incompétent dangereux. »",
+      "sourceIds": [
+        "bfmtv-yahoo-2026-10-17-manifestations-du-17-octobre"
+      ]
+    },
+    {
       "id": "evt-attal-declaration-2026-10-15",
       "date": "2026-10-15",
       "type": "declaration",
@@ -71771,6 +71931,20 @@
       "text": "Natacha Polony annonce sa candidature sur France Inter.",
       "sourceIds": [
         "lcp-2026-10-14-natacha-polony-annonce-sa-candidature-a"
+      ]
+    },
+    {
+      "id": "evt-retailleau-declaration-2026-10-13",
+      "date": "2026-10-13",
+      "type": "declaration",
+      "candidateIds": [
+        "retailleau",
+        "philippe"
+      ],
+      "text": "Dans une lettre à Édouard Philippe datée du 13 octobre, rapportée par LCP, propose un débat public entre eux.",
+      "quote": "« Je vous propose que nous ayons ensemble un débat public, devant les Français, pour confronter nos convictions et nos projets. »",
+      "sourceIds": [
+        "lcp-2026-10-15-ayons-ensemble-un-debat-public"
       ]
     },
     {
@@ -72630,6 +72804,10 @@
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-10-21",
+      "text": "Recherche des nouveautés depuis la mise à jour du 20 octobre : aucune nouvelle candidature, aucun retrait et aucune nouvelle enquête d’intentions de vote relevés (dernières notices de la Commission des sondages déjà intégrées : Elabe du 17 octobre et YouGov du 18 octobre ; dernière enquête intégrée : Cluster17, publiée le 18 octobre). Parrainages, rattrapage des annonces chiffrées depuis le 1er janvier 2026 : 1 relevé ajouté, David Lisnard (500 promesses annoncées le 2 septembre 2026 à l’AFP, en marge de la Foire de Châlons-en-Champagne). Aucun autre nombre de promesses annoncé par un candidat ou son équipe n’a été trouvé : les chiffres cités pour Jean-Luc Mélenchon (environ 200 élus « susceptibles de parrainer », selon Manuel Bompard le 4 septembre) et pour Clara Egger (« la cinquantaine de maires » ayant signé un formulaire d’intérêt, le 27 septembre) ne sont pas des promesses de parrainage et n’ont pas été saisis ; Dominique de Villepin a évoqué « plusieurs centaines » de parrainages, sans nombre. Vie de la campagne : 3 déclarations de la semaine ajoutées (Bruno Retailleau, lettre du 13 octobre à Édouard Philippe proposant un débat public ; Marine Le Pen et Jean-Luc Mélenchon, messages publiés sur X le 17 octobre au sujet des manifestations). Le ralliement de Yannick Jadot à Raphaël Glucksmann n’est toujours pas ajouté : les articles consultés aujourd’hui décrivent un soutien mais aucune annonce datée et vérifiable. Questionnaire, à partir de mesures déjà publiées : 5 positions renseignées dans « Mon test » (budget de la défense : David Saforcada ; nouveaux réacteurs nucléaires : Natacha Polony, Jean-François Legendre et Karim Bouamrane ; « zéro artificialisation nette » : Erwan Rohou) et 3 dans la banque. Rotation de la banque : thèmes défense, numérique et logement passés en revue (rénovation énergétique : Bernard Cazeneuve et Juan Branco ; fonds publics pour l’IA : Dominique de Villepin). Rotation hebdomadaire des candidats : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Gilles Platret, Francis Lalanne, François Asselineau (le programme en ligne repris par un agrégateur date de 2022 et n’a pas été retenu), Clara Egger, Erwan Rohou, David Saforcada, Sébastien Bonnal et Édouard Philippe (son passage au « Grand Oral 2027 » de BFMTV et du Figaro, rapporté le 19 octobre, ne contient pas de proposition nouvelle vérifiable)."
+    },
     {
       "date": "2026-10-20",
       "text": "Création de la banque de la « question du jour » : 261 nouvelles affirmations réparties sur les 17 thèmes, rédigées selon les mêmes règles que le questionnaire (une idée, formulation neutre, contexte daté et sourcé). 722 positions de candidats sont renseignées, chacune rattachée à une mesure déjà publiée ; les autres seront complétées au fil des mises à jour. 189 sources ajoutées, toutes vérifiées le 20 octobre 2026. Les 34 questions de « Mon test » sont inchangées."
