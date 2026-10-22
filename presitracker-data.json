@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T04:57:50Z",
+  "updatedAt": "2026-10-22T05:07:11Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -5602,6 +5602,27 @@
       "publisher": "BFMTV (Yahoo! Actualités)",
       "url": "https://fr.news.yahoo.com/manifestations-17-octobre-marine-pen-161111971.html",
       "date": "2026-10-17",
+      "kind": "presse"
+    },
+    "orange-2026-10-19-violences-glucksmann-appelle-a-une-rep": {
+      "title": "Violences: Glucksmann appelle à une réponse \"extrêmement ferme\" sinon \"Le Pen bénéficiera du chaos\"",
+      "publisher": "AFP (Orange Actualités)",
+      "url": "https://actu.orange.fr/politique/violences-glucksmann-appelle-a-une-reponse-quot-extremement-ferme-quot-sinon-quot-le-pen-beneficiera-du-chaos-quot-CNT000002taaTA.html",
+      "date": "2026-10-19",
+      "kind": "presse"
+    },
+    "lejdd-2026-10-17-mobilisation-du-17-octobre-marine-tondel": {
+      "title": "Mobilisation du 17 octobre : Marine Tondelier en a « ras-le-bol de la doctrine de maintien de l'ordre » en France",
+      "publisher": "Le JDD",
+      "url": "https://www.lejdd.fr/politique/mobilisation-du-17-octobre-marine-tondelier-en-a-ras-le-bol-de-la-doctrine-de-maintien-de-lordre-dans-ce-pays-186234",
+      "date": "2026-10-17",
+      "kind": "presse"
+    },
+    "lcp-2026-10-18-violences-du-17-octobre-marine-le-pen-et": {
+      "title": "Violences du 17 octobre: Marine Le Pen et Édouard Philippe accusent LFI, Jean-Luc Mélenchon charge le gouvernement",
+      "publisher": "LCP",
+      "url": "https://lcp.fr/actualites/violences-du-17-octobre-marine-le-pen-et-edouard-philippe-accusent-lfi-jean-luc",
+      "date": "2026-10-18",
       "kind": "presse"
     }
   },
@@ -52429,6 +52450,16 @@
             "sourceIds": [
               "lcp-2026-08-27-francois-hollande-propose-la-retraite-a-63-ans"
             ]
+          },
+          "roussel": {
+            "value": 1,
+            "note": "Propose d'exonérer de droits de succession les héritages inférieurs à 200 000 €.",
+            "measureIds": [
+              "roussel-fis-exoneration-heritages-200k"
+            ],
+            "sourceIds": [
+              "pcf-2026-09-15-fete-de-l-humanite-2026-discours"
+            ]
           }
         }
       },
@@ -63445,6 +63476,17 @@
               "avecretailleau-nd-projet-de-bruno-retailleau-institutions",
               "avecretailleau-nd-projet-theme-institutions"
             ]
+          },
+          "lalanne": {
+            "value": 2,
+            "note": "Propose d'inscrire dans la Constitution le référendum d'initiative citoyenne en toutes matières.",
+            "measureIds": [
+              "lalanne-inst-ric"
+            ],
+            "sourceIds": [
+              "lalanne2027-2026-08-20-le-programme-2027",
+              "brusselssignal-2026-08-20-francis-lalanne-announces-2027-pre"
+            ]
           }
         }
       },
@@ -65133,6 +65175,16 @@
             "sourceIds": [
               "mei-2026-10-05-livre-blanc-protection-environnement"
             ]
+          },
+          "melenchon": {
+            "value": -2,
+            "note": "Propose un moratoire sur le déploiement des méga-bassines.",
+            "measureIds": [
+              "melenchon-ecol-moratoire-mega-bassines"
+            ],
+            "sourceIds": [
+              "melenchon2027-2026-01-22-laec-ch14-s2-leau-enjeu-central-pour"
+            ]
           }
         }
       },
@@ -65286,6 +65338,26 @@
             ],
             "sourceIds": [
               "pleinchamp-2026-10-14-natacha-polony-candidate-son-projet-po"
+            ]
+          },
+          "lisnard": {
+            "value": -1,
+            "note": "Propose de recentrer la politique agricole commune sur la souveraineté alimentaire et la production.",
+            "measureIds": [
+              "lisnard-agr-pac-souverainete-alimentaire"
+            ],
+            "sourceIds": [
+              "unenouvelleenergie-nd-agriculture-le-projet-de-lisnard"
+            ]
+          },
+          "zemmour": {
+            "value": -1,
+            "note": "Propose de « négocier fermement » à Bruxelles une politique agricole commune favorisant le premier pilier.",
+            "measureIds": [
+              "zemmour-agr-pac-premier-pilier"
+            ],
+            "sourceIds": [
+              "agra-2026-10-07-eric-zemmour-et-la-production"
             ]
           }
         }
@@ -71745,6 +71817,96 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ifop-2026-10-19-t2",
+      "institute": "Ifop-Fiducial",
+      "sponsors": [
+        "LCI",
+        "Le Figaro",
+        "Sud Radio"
+      ],
+      "fieldworkStart": "2026-10-17",
+      "fieldworkEnd": "2026-10-19",
+      "publishedAt": "2026-10-20",
+      "population": "Échantillon de 1 928 personnes inscrites sur les listes électorales, extrait d'un échantillon de 2 081 personnes représentatif de la population française âgée de 18 ans et plus",
+      "sampleSize": 2081,
+      "method": "Questionnaire auto-administré en ligne, méthode des quotas (sexe, âge, profession) après stratification par région et catégorie d'agglomération",
+      "margin": "Entre 1,0 et 2,2 points selon les pourcentages",
+      "reportUrl": "https://www.ifopgroup.com/article/barometre-de-lelection-presidentielle-vague-7-2/",
+      "round": 2,
+      "hypotheses": [
+        {
+          "id": "h1",
+          "label": "2nd tour – Philippe / Le Pen",
+          "results": [
+            {
+              "candidateId": "philippe",
+              "value": 44
+            },
+            {
+              "candidateId": "lepen",
+              "value": 56
+            }
+          ]
+        },
+        {
+          "id": "h2",
+          "label": "2nd tour – Glucksmann / Le Pen",
+          "results": [
+            {
+              "candidateId": "glucksmann",
+              "value": 43
+            },
+            {
+              "candidateId": "lepen",
+              "value": 57
+            }
+          ]
+        },
+        {
+          "id": "h3",
+          "label": "2nd tour – Attal / Le Pen",
+          "results": [
+            {
+              "candidateId": "attal",
+              "value": 42
+            },
+            {
+              "candidateId": "lepen",
+              "value": 58
+            }
+          ]
+        },
+        {
+          "id": "h4",
+          "label": "2nd tour – Hollande / Le Pen",
+          "results": [
+            {
+              "candidateId": "hollande",
+              "value": 41
+            },
+            {
+              "candidateId": "lepen",
+              "value": 59
+            }
+          ]
+        },
+        {
+          "id": "h5",
+          "label": "2nd tour – Mélenchon / Le Pen",
+          "results": [
+            {
+              "candidateId": "melenchon",
+              "value": 32
+            },
+            {
+              "candidateId": "lepen",
+              "value": 68
+            }
+          ]
+        }
+      ]
     }
   ],
   "agenda": [
@@ -72801,9 +72963,52 @@
       "sourceIds": [
         "huffingtonpost-2023-01-07-les-voeux-de-philippe-poutou-pour"
       ]
+    },
+    {
+      "id": "evt-glucksmann-declaration-2026-10-19",
+      "date": "2026-10-19",
+      "type": "declaration",
+      "candidateIds": [
+        "glucksmann"
+      ],
+      "text": "Sur RTL, rapporté par l'AFP, se prononce sur la réponse de l'État aux violences survenues en marge des manifestations du 17 octobre.",
+      "quote": "« Il va falloir agir de manière extrêmement ferme, il ne faut pas avoir la main qui tremble. »",
+      "sourceIds": [
+        "orange-2026-10-19-violences-glucksmann-appelle-a-une-rep"
+      ]
+    },
+    {
+      "id": "evt-philippe-declaration-2026-10-18",
+      "date": "2026-10-18",
+      "type": "declaration",
+      "candidateIds": [
+        "philippe"
+      ],
+      "text": "Sur BFMTV, rapporté par LCP, réagit aux violences survenues en marge des manifestations du 17 octobre.",
+      "quote": "« La responsabilité politique de LFI dans ces violences est considérable. »",
+      "sourceIds": [
+        "lcp-2026-10-18-violences-du-17-octobre-marine-le-pen-et"
+      ]
+    },
+    {
+      "id": "evt-tondelier-declaration-2026-10-17",
+      "date": "2026-10-17",
+      "type": "declaration",
+      "candidateIds": [
+        "tondelier"
+      ],
+      "text": "Dans le cortège parisien de la manifestation du 17 octobre, devant plusieurs médias dont BFMTV, rapporté par Le JDD, se prononce sur la doctrine de maintien de l'ordre.",
+      "quote": "« J'en ai ras-le-bol de la doctrine de maintien de l'ordre dans ce pays. Il faut la revoir et vite car ça finit par être une atteinte aux libertés publiques. »",
+      "sourceIds": [
+        "lejdd-2026-10-17-mobilisation-du-17-octobre-marine-tondel"
+      ]
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-10-22",
+      "text": "Recherche des nouveautés depuis la mise à jour du 21 octobre : aucune nouvelle candidature et aucun retrait relevés. Sondages : 1 enquête ajoutée, le baromètre Ifop-Fiducial pour LCI, Le Figaro et Sud Radio (vague 7, terrain du 17 au 19 octobre 2026, publié le 20 octobre), limité pour l'instant aux cinq duels de second tour, dont les deux scores sont confirmés par la page de l'institut et par Sud Radio ; les hypothèses de premier tour ne sont pas saisies, faute d'avoir pu consulter aujourd'hui le rapport complet de l'institut (seuls des extraits et des fourchettes sont publiés par la presse) ; elles seront ajoutées avec la notice de la Commission des sondages, qui n'était pas encore consultable. Vie de la campagne : 3 déclarations de la semaine ajoutées, au sujet des violences survenues en marge des manifestations du 17 octobre (Marine Tondelier, le 17 octobre dans le cortège parisien ; Édouard Philippe, le 18 octobre sur BFMTV, rapporté par LCP ; Raphaël Glucksmann, le 19 octobre sur RTL, rapporté par l'AFP). L'appel d'Éric Ciotti, le 21 octobre, au retrait des candidatures de Bruno Retailleau et de David Lisnard n'est pas un fait de campagne d'un candidat recensé et n'a pas été saisi. Le ralliement de Yannick Jadot à Raphaël Glucksmann n'est toujours pas ajouté : les articles consultés aujourd'hui décrivent un soutien mais aucune annonce datée et vérifiable. Parrainages : aucun relevé ajouté ; le chiffre de « plus de 400 » promesses attribué à Louis Aliot pour Marine Le Pen (3 septembre) n'a été trouvé que dans un magazine, sans source nationale ou primaire vérifiable, et n'a pas été saisi ; « une petite centaine » de promesses évoquée pour François Ruffin en juin n'est pas un nombre et n'a pas été saisi. Questionnaire, à partir de mesures déjà publiées : 1 position renseignée dans « Mon test » (droits de succession : Fabien Roussel) et 4 dans la banque. Rotation de la banque : thèmes agriculture, institutions et écologie passés en revue (retenues d'eau pour l'irrigation : Jean-Luc Mélenchon ; sortie de la PAC : David Lisnard et Éric Zemmour ; référendum sur tous les sujets : Francis Lalanne). Rotation hebdomadaire des candidats : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Antoine Mikolajczak (Équinoxe annonce la présentation de son programme complet le 2 novembre 2026), Mira Markovic (la page de campagne du Parti animaliste, modifiée le 16 octobre, ne contient pas de nouvelle proposition), Lydie Massard, Manolo Mlekuz (la page programme de Trajectoire n'a pas pu être ouverte aujourd'hui), Natacha Polony (propositions déjà saisies) et Sandrine Rousseau (aucune source nouvelle sur une candidature ou un renoncement)."
+    },
     {
       "date": "2026-10-21",
       "text": "Recherche des nouveautés depuis la mise à jour du 20 octobre : aucune nouvelle candidature, aucun retrait et aucune nouvelle enquête d’intentions de vote relevés (dernières notices de la Commission des sondages déjà intégrées : Elabe du 17 octobre et YouGov du 18 octobre ; dernière enquête intégrée : Cluster17, publiée le 18 octobre). Parrainages, rattrapage des annonces chiffrées depuis le 1er janvier 2026 : 1 relevé ajouté, David Lisnard (500 promesses annoncées le 2 septembre 2026 à l’AFP, en marge de la Foire de Châlons-en-Champagne). Aucun autre nombre de promesses annoncé par un candidat ou son équipe n’a été trouvé : les chiffres cités pour Jean-Luc Mélenchon (environ 200 élus « susceptibles de parrainer », selon Manuel Bompard le 4 septembre) et pour Clara Egger (« la cinquantaine de maires » ayant signé un formulaire d’intérêt, le 27 septembre) ne sont pas des promesses de parrainage et n’ont pas été saisis ; Dominique de Villepin a évoqué « plusieurs centaines » de parrainages, sans nombre. Vie de la campagne : 3 déclarations de la semaine ajoutées (Bruno Retailleau, lettre du 13 octobre à Édouard Philippe proposant un débat public ; Marine Le Pen et Jean-Luc Mélenchon, messages publiés sur X le 17 octobre au sujet des manifestations). Le ralliement de Yannick Jadot à Raphaël Glucksmann n’est toujours pas ajouté : les articles consultés aujourd’hui décrivent un soutien mais aucune annonce datée et vérifiable. Questionnaire, à partir de mesures déjà publiées : 5 positions renseignées dans « Mon test » (budget de la défense : David Saforcada ; nouveaux réacteurs nucléaires : Natacha Polony, Jean-François Legendre et Karim Bouamrane ; « zéro artificialisation nette » : Erwan Rohou) et 3 dans la banque. Rotation de la banque : thèmes défense, numérique et logement passés en revue (rénovation énergétique : Bernard Cazeneuve et Juan Branco ; fonds publics pour l’IA : Dominique de Villepin). Rotation hebdomadaire des candidats : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Gilles Platret, Francis Lalanne, François Asselineau (le programme en ligne repris par un agrégateur date de 2022 et n’a pas été retenu), Clara Egger, Erwan Rohou, David Saforcada, Sébastien Bonnal et Édouard Philippe (son passage au « Grand Oral 2027 » de BFMTV et du Figaro, rapporté le 19 octobre, ne contient pas de proposition nouvelle vérifiable)."
