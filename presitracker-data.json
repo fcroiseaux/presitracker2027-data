@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T05:07:11Z",
+  "updatedAt": "2026-10-23T05:04:53Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -5624,6 +5624,18 @@
       "url": "https://lcp.fr/actualites/violences-du-17-octobre-marine-le-pen-et-edouard-philippe-accusent-lfi-jean-luc",
       "date": "2026-10-18",
       "kind": "presse"
+    },
+    "couchonpierre-nd-pierre-couchon-candidat-aux-legislatives": {
+      "title": "Pierre COUCHON - Candidat aux législatives",
+      "publisher": "Site de Pierre Couchon",
+      "url": "https://www.couchonpierre.fr/",
+      "kind": "officiel"
+    },
+    "lescentristesfrance-nd-engages-pour-la-democratie": {
+      "title": "LES CENTRISTES FRANCE - Engagés pour la Démocratie",
+      "publisher": "Les Centristes France",
+      "url": "https://www.lescentristesfrance.com/",
+      "kind": "officiel"
     }
   },
   "candidates": [
@@ -14266,11 +14278,11 @@
       "sortName": "couchon",
       "party": "Les Centristes France (Les Centristes-UBC)",
       "partyShort": "LCF",
-      "status": "declare",
-      "statusDate": "2026-06-06",
+      "status": "retire",
+      "statusDate": "2026-10-23",
       "statusSourceIds": [
-        "couchonpierre-2026-10-19-pierre-couchon-appel-aux-500-signat",
-        "lescentristesfrance-2026-10-19-les-centristes-france-appel-a"
+        "couchonpierre-nd-pierre-couchon-candidat-aux-legislatives",
+        "lescentristesfrance-nd-engages-pour-la-democratie"
       ],
       "statusHistory": [
         {
@@ -14280,6 +14292,15 @@
           "sourceIds": [
             "couchonpierre-2026-10-19-pierre-couchon-appel-aux-500-signat",
             "lescentristesfrance-2026-10-19-les-centristes-france-appel-a"
+          ]
+        },
+        {
+          "date": "2026-10-23",
+          "status": "retire",
+          "note": "Son site, qui appelait le 19 octobre 2026 aux 500 parrainages, le présente désormais comme candidat aux législatives de 2027 et affiche son « soutien à David LISNARD candidat à la Présidentielle 2027 » ; Les Centristes France indiquent : « notre soutien va à David LISNARD ». Constaté le 23 octobre 2026, la date de l'annonce n'étant pas publiée.",
+          "sourceIds": [
+            "couchonpierre-nd-pierre-couchon-candidat-aux-legislatives",
+            "lescentristesfrance-nd-engages-pour-la-democratie"
           ]
         }
       ],
@@ -58657,6 +58678,27 @@
             "sourceIds": [
               "fabienroussel2027-2026-10-06-plan-jeunesse-2027-2032"
             ]
+          },
+          "attal": {
+            "value": 1,
+            "note": "Propose d'augmenter les enseignants de 200 € nets par mois, jusqu'à 500 € nets en milieu de carrière.",
+            "measureIds": [
+              "attal-edu-revalorisation-200-500"
+            ],
+            "sourceIds": [
+              "lcp-2026-08-25-presidentielle-retour-du-certificat-d-etudes",
+              "attalpresident-2026-10-10-meeting-lyon-pacte-jeunesse"
+            ]
+          },
+          "philippot": {
+            "value": 1,
+            "note": "Propose de revaloriser la carrière des enseignants, notamment sur le plan salarial, sans montant précisé.",
+            "measureIds": [
+              "philippot-edu-autorite-salaires-enseignants"
+            ],
+            "sourceIds": [
+              "les-patriotes-2026-09-15-projet-pour-la-france-2026"
+            ]
           }
         }
       },
@@ -59200,6 +59242,16 @@
             ],
             "sourceIds": [
               "budget2027-nd-140-milliards-d-economies-par-an"
+            ]
+          },
+          "dupontaignan": {
+            "value": 2,
+            "note": "Propose de supprimer progressivement plusieurs agences de l'État, dont les ARS, leurs missions étant reprises par les ministères.",
+            "measureIds": [
+              "dupontaignan-fin-suppression-agences"
+            ],
+            "sourceIds": [
+              "debout-la-france-2026-10-10-projet-economie-et-travail"
             ]
           }
         }
@@ -65824,6 +65876,542 @@
     ]
   },
   "polls": [
+    {
+      "id": "opinionway-2026-10-22-cnews",
+      "institute": "OpinionWay",
+      "sponsors": [
+        "CNews"
+      ],
+      "fieldworkStart": "2026-10-21",
+      "fieldworkEnd": "2026-10-22",
+      "publishedAt": "2026-10-22",
+      "population": "Échantillon de 973 personnes inscrites sur les listes électorales, issu d'un échantillon de 1 033 personnes représentatif de la population française âgée de 18 ans et plus",
+      "sampleSize": 1033,
+      "method": "Questionnaire auto-administré en ligne (CAWI), méthode des quotas (sexe, âge, CSP, catégorie d'agglomération, région de résidence)",
+      "reportUrl": "https://www.opinion-way.com/wp-content/uploads/2026/10/OpinionWay-pour-CNEWS-Les-intentions-de-vote-a-lelection-presidentielle-2027-22-octobre-2026.pdf",
+      "margin": "Entre 0,7 et 3,5 points selon les pourcentages (premier tour), selon le rapport",
+      "round": 1,
+      "hypotheses": [
+        {
+          "id": "h1",
+          "label": "Premier tour – hypothèse unique (avec David Lisnard et Karim Bouamrane) (moins de 1 % : Nathalie Arthaud, Karim Bouamrane)",
+          "results": [
+            {
+              "candidateId": "melenchon",
+              "value": 16
+            },
+            {
+              "candidateId": "roussel",
+              "value": 1
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 1
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 13
+            },
+            {
+              "candidateId": "attal",
+              "value": 4
+            },
+            {
+              "candidateId": "philippe",
+              "value": 12
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 6
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 6
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 1
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 4
+            },
+            {
+              "candidateId": "lepen",
+              "value": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opinionway-2026-10-22-cnews-t2",
+      "institute": "OpinionWay",
+      "sponsors": [
+        "CNews"
+      ],
+      "fieldworkStart": "2026-10-21",
+      "fieldworkEnd": "2026-10-22",
+      "publishedAt": "2026-10-22",
+      "population": "Échantillon de 973 personnes inscrites sur les listes électorales, issu d'un échantillon de 1 033 personnes représentatif de la population française âgée de 18 ans et plus",
+      "sampleSize": 1033,
+      "method": "Questionnaire auto-administré en ligne (CAWI), méthode des quotas (sexe, âge, CSP, catégorie d'agglomération, région de résidence)",
+      "reportUrl": "https://www.opinion-way.com/wp-content/uploads/2026/10/OpinionWay-pour-CNEWS-Les-intentions-de-vote-a-lelection-presidentielle-2027-22-octobre-2026.pdf",
+      "margin": "Entre 4,0 et 4,3 points selon l'hypothèse, selon le rapport",
+      "round": 2,
+      "hypotheses": [
+        {
+          "id": "h1",
+          "label": "Hypothèse 1 : Édouard Philippe contre Marine Le Pen",
+          "results": [
+            {
+              "candidateId": "philippe",
+              "value": 44
+            },
+            {
+              "candidateId": "lepen",
+              "value": 56
+            }
+          ]
+        },
+        {
+          "id": "h2",
+          "label": "Hypothèse 2 : Jean-Luc Mélenchon contre Marine Le Pen",
+          "results": [
+            {
+              "candidateId": "melenchon",
+              "value": 31
+            },
+            {
+              "candidateId": "lepen",
+              "value": 69
+            }
+          ]
+        },
+        {
+          "id": "h3",
+          "label": "Hypothèse 3 : Raphaël Glucksmann contre Marine Le Pen",
+          "results": [
+            {
+              "candidateId": "glucksmann",
+              "value": 44
+            },
+            {
+              "candidateId": "lepen",
+              "value": 56
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ifop-2026-10-19",
+      "institute": "Ifop-Fiducial",
+      "sponsors": [
+        "LCI",
+        "Le Figaro",
+        "Sud Radio"
+      ],
+      "fieldworkStart": "2026-10-17",
+      "fieldworkEnd": "2026-10-19",
+      "publishedAt": "2026-10-20",
+      "population": "Échantillon de 1 928 personnes inscrites sur les listes électorales, extrait d'un échantillon de 2 081 personnes représentatif de la population française âgée de 18 ans et plus ; résultats en pourcentage des suffrages exprimés",
+      "sampleSize": 2081,
+      "method": "Questionnaire auto-administré en ligne, méthode des quotas (sexe, âge, profession) après stratification par région et catégorie d'agglomération",
+      "margin": "Entre 1,0 et 2,2 points selon les pourcentages",
+      "reportUrl": "https://www.ifopgroup.com/wp-content/uploads/2026/10/122853-barometre-de-lelection-presidentielle-vague-7-resultats-densemble.pdf",
+      "round": 1,
+      "hypotheses": [
+        {
+          "id": "h1",
+          "label": "Hypothèse 1 : Édouard Philippe et Gabriel Attal candidats",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 16.5
+            },
+            {
+              "candidateId": "roussel",
+              "value": 3
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 13.5
+            },
+            {
+              "candidateId": "attal",
+              "value": 5
+            },
+            {
+              "candidateId": "philippe",
+              "value": 12
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 5
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2
+            },
+            {
+              "candidateId": "lepen",
+              "value": 36
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3.5
+            }
+          ]
+        },
+        {
+          "id": "h2",
+          "label": "Hypothèse 2 : Édouard Philippe candidat du bloc central",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 16.5
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2.5
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 14
+            },
+            {
+              "candidateId": "philippe",
+              "value": 15
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 7.5
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 1.5
+            },
+            {
+              "candidateId": "lepen",
+              "value": 36
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3.5
+            }
+          ]
+        },
+        {
+          "id": "h3",
+          "label": "Hypothèse 3 : Gabriel Attal candidat du bloc central",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 16
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 16
+            },
+            {
+              "candidateId": "attal",
+              "value": 13
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 7
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 1.5
+            },
+            {
+              "candidateId": "lepen",
+              "value": 38
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": "h4",
+          "label": "Hypothèse 4 : Jean-Luc Mélenchon et Raphaël Glucksmann seuls candidats de gauche",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 18
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 16
+            },
+            {
+              "candidateId": "philippe",
+              "value": 16
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 6.5
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2.5
+            },
+            {
+              "candidateId": "lepen",
+              "value": 37
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3.5
+            }
+          ]
+        },
+        {
+          "id": "h5",
+          "label": "Hypothèse 5 : Jean-Luc Mélenchon et François Hollande seuls candidats de gauche",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 20
+            },
+            {
+              "candidateId": "hollande",
+              "value": 10
+            },
+            {
+              "candidateId": "attal",
+              "value": 6.5
+            },
+            {
+              "candidateId": "philippe",
+              "value": 14
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 6
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2
+            },
+            {
+              "candidateId": "lepen",
+              "value": 38
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": "h6",
+          "label": "Hypothèse 6 : François Ruffin, Dominique de Villepin et David Lisnard candidats (Nathalie Arthaud : « - » dans le rapport)",
+          "results": [
+            {
+              "candidateId": "melenchon",
+              "value": 15
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "ruffin",
+              "value": 1.5
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 2.5
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 12
+            },
+            {
+              "candidateId": "attal",
+              "value": 4
+            },
+            {
+              "candidateId": "philippe",
+              "value": 12
+            },
+            {
+              "candidateId": "villepin",
+              "value": 1.5
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 5.5
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 5.5
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 1.5
+            },
+            {
+              "candidateId": "lepen",
+              "value": 34
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": "h7",
+          "label": "Hypothèse 7 : David Lisnard seul candidat de droite",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 15.5
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 13
+            },
+            {
+              "candidateId": "attal",
+              "value": 5
+            },
+            {
+              "candidateId": "philippe",
+              "value": 13
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 7
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2
+            },
+            {
+              "candidateId": "lepen",
+              "value": 36
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": "h8",
+          "label": "Hypothèse 8 : François Ruffin et Natacha Polony candidats",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 15
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "ruffin",
+              "value": 2
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 12
+            },
+            {
+              "candidateId": "attal",
+              "value": 6
+            },
+            {
+              "candidateId": "philippe",
+              "value": 12
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 6
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2
+            },
+            {
+              "candidateId": "lepen",
+              "value": 35
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3.5
+            },
+            {
+              "candidateId": "polony",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "cluster17-2026-10-15",
       "institute": "Cluster17",
@@ -73002,9 +73590,40 @@
       "sourceIds": [
         "lejdd-2026-10-17-mobilisation-du-17-octobre-marine-tondel"
       ]
+    },
+    {
+      "id": "evt-couchon-retrait-2026-10-23",
+      "date": "2026-10-23",
+      "type": "retrait",
+      "candidateIds": [
+        "couchon"
+      ],
+      "text": "Ne présente plus sa candidature à l'élection présidentielle sur son site, qui le présente désormais comme candidat aux législatives de 2027 (constaté le 23 octobre 2026, date de l'annonce non publiée).",
+      "sourceIds": [
+        "couchonpierre-nd-pierre-couchon-candidat-aux-legislatives",
+        "lescentristesfrance-nd-engages-pour-la-democratie"
+      ]
+    },
+    {
+      "id": "evt-couchon-ralliement-2026-10-23",
+      "date": "2026-10-23",
+      "type": "ralliement",
+      "candidateIds": [
+        "couchon",
+        "lisnard"
+      ],
+      "text": "Affiche sur son site et sur celui des Centristes France, le parti qu'il préside, son soutien à David Lisnard (constaté le 23 octobre 2026, date de l'annonce non publiée).",
+      "sourceIds": [
+        "couchonpierre-nd-pierre-couchon-candidat-aux-legislatives",
+        "lescentristesfrance-nd-engages-pour-la-democratie"
+      ]
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-10-23",
+      "text": "Recherche des nouveautés depuis la mise à jour du 22 octobre. Candidatures : Pierre Couchon passe au statut « retiré » ; son site, qui appelait encore le 19 octobre aux 500 parrainages, le présente désormais comme candidat aux législatives de 2027 et affiche son soutien à David Lisnard, comme le site des Centristes France, le parti qu'il préside ; aucune annonce datée n'ayant été trouvée, le changement est daté du 23 octobre 2026, jour où il a été constaté, et 2 faits de campagne sont ajoutés (retrait et ralliement à David Lisnard). Aucune autre candidature ni aucun autre retrait relevés. Sondages : 2 enquêtes ajoutées, OpinionWay pour CNews (terrain des 21 et 22 octobre, publiée le 22 octobre ; une hypothèse de premier tour et trois duels de second tour, d'après le rapport de l'institut) et le premier tour du baromètre Ifop-Fiducial pour LCI, Le Figaro et Sud Radio (vague 7, terrain du 17 au 19 octobre, publiée le 20 octobre ; huit hypothèses reprises du rapport complet de l'institut, consulté aujourd'hui), dont les duels de second tour avaient été saisis le 22 octobre. Les notices de la Commission des sondages de ces deux enquêtes n'ont pas été trouvées aujourd'hui et seront ajoutées ultérieurement. Les résultats publiés sous la forme « moins de 1 % » ou « - » sont indiqués dans le libellé de l'hypothèse, sans valeur chiffrée. Vie de la campagne : aucune déclaration de la semaine ajoutée, faute de citation vérifiable trouvée aujourd'hui ; l'appel de Michel Barnier à une primaire de la droite et du centre (22 octobre) ne concerne pas un candidat recensé et n'a pas été saisi. Le ralliement de Yannick Jadot à Raphaël Glucksmann n'est toujours pas ajouté : les articles relatifs à sa suspension par Les Écologistes n'ont pas pu être ouverts aujourd'hui. Parrainages : aucun relevé ajouté. Aucune mesure ajoutée, modifiée ou abandonnée. Questionnaire, à partir de mesures déjà publiées : 3 positions renseignées dans la banque. Rotation de la banque : thèmes éducation, santé et sécurité passés en revue (hausse de la rémunération des enseignants : Gabriel Attal et Florian Philippot ; suppression des ARS : Nicolas Dupont-Aignan). Rotation hebdomadaire des candidats : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Pierre Couchon (ses sites ne présentent pas de proposition), Sylvain Durif (le programme de « 50 engagements » mentionné par Sud Radio sur son site n'a pas pu être ouvert aujourd'hui), Benoît Mathieu (aucune source nouvelle), Jean Lassalle (aucune source nouvelle), Olivier Becht (aucune source nouvelle au-delà de ses entretiens à Sud Radio déjà saisis) et Emmanuel Dubuisson (aucune source nouvelle trouvée)."
+    },
     {
       "date": "2026-10-22",
       "text": "Recherche des nouveautés depuis la mise à jour du 21 octobre : aucune nouvelle candidature et aucun retrait relevés. Sondages : 1 enquête ajoutée, le baromètre Ifop-Fiducial pour LCI, Le Figaro et Sud Radio (vague 7, terrain du 17 au 19 octobre 2026, publié le 20 octobre), limité pour l'instant aux cinq duels de second tour, dont les deux scores sont confirmés par la page de l'institut et par Sud Radio ; les hypothèses de premier tour ne sont pas saisies, faute d'avoir pu consulter aujourd'hui le rapport complet de l'institut (seuls des extraits et des fourchettes sont publiés par la presse) ; elles seront ajoutées avec la notice de la Commission des sondages, qui n'était pas encore consultable. Vie de la campagne : 3 déclarations de la semaine ajoutées, au sujet des violences survenues en marge des manifestations du 17 octobre (Marine Tondelier, le 17 octobre dans le cortège parisien ; Édouard Philippe, le 18 octobre sur BFMTV, rapporté par LCP ; Raphaël Glucksmann, le 19 octobre sur RTL, rapporté par l'AFP). L'appel d'Éric Ciotti, le 21 octobre, au retrait des candidatures de Bruno Retailleau et de David Lisnard n'est pas un fait de campagne d'un candidat recensé et n'a pas été saisi. Le ralliement de Yannick Jadot à Raphaël Glucksmann n'est toujours pas ajouté : les articles consultés aujourd'hui décrivent un soutien mais aucune annonce datée et vérifiable. Parrainages : aucun relevé ajouté ; le chiffre de « plus de 400 » promesses attribué à Louis Aliot pour Marine Le Pen (3 septembre) n'a été trouvé que dans un magazine, sans source nationale ou primaire vérifiable, et n'a pas été saisi ; « une petite centaine » de promesses évoquée pour François Ruffin en juin n'est pas un nombre et n'a pas été saisi. Questionnaire, à partir de mesures déjà publiées : 1 position renseignée dans « Mon test » (droits de succession : Fabien Roussel) et 4 dans la banque. Rotation de la banque : thèmes agriculture, institutions et écologie passés en revue (retenues d'eau pour l'irrigation : Jean-Luc Mélenchon ; sortie de la PAC : David Lisnard et Éric Zemmour ; référendum sur tous les sujets : Francis Lalanne). Rotation hebdomadaire des candidats : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Antoine Mikolajczak (Équinoxe annonce la présentation de son programme complet le 2 novembre 2026), Mira Markovic (la page de campagne du Parti animaliste, modifiée le 16 octobre, ne contient pas de nouvelle proposition), Lydie Massard, Manolo Mlekuz (la page programme de Trajectoire n'a pas pu être ouverte aujourd'hui), Natacha Polony (propositions déjà saisies) et Sandrine Rousseau (aucune source nouvelle sur une candidature ou un renoncement)."
