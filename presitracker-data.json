@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T05:04:53Z",
+  "updatedAt": "2026-10-24T05:00:08Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -5635,6 +5635,20 @@
       "title": "LES CENTRISTES FRANCE - Engagés pour la Démocratie",
       "publisher": "Les Centristes France",
       "url": "https://www.lescentristesfrance.com/",
+      "kind": "officiel"
+    },
+    "lutte-ouvriere-2026-10-21-une-revolte-legitime-a-laquelle-les": {
+      "title": "Une révolte légitime à laquelle les travailleurs peuvent donner une direction",
+      "publisher": "Lutte ouvrière",
+      "url": "https://www.lutte-ouvriere.org/journal/article/revolte-legitime-laquelle-travailleurs-peuvent-donner-unedirection-206026.html",
+      "date": "2026-10-21",
+      "kind": "officiel"
+    },
+    "revolutionpermanente-2026-10-20-la-casse-la-greve-generale-et": {
+      "title": "La casse, la grève générale et les défis stratégiques après le 17 octobre : billet d'Anasse Kazib",
+      "publisher": "Révolution permanente",
+      "url": "https://www.revolutionpermanente.fr/La-casse-la-greve-generale-et-les-defis-strategiques-apres-le-17-octobre-billet-d-Anasse-Kazib",
+      "date": "2026-10-20",
       "kind": "officiel"
     }
   },
@@ -65877,6 +65891,336 @@
   },
   "polls": [
     {
+      "id": "toluna-harris-interactive-2026-10-21",
+      "institute": "Toluna Harris Interactive",
+      "sponsors": [
+        "M6",
+        "RTL"
+      ],
+      "fieldworkStart": "2026-10-19",
+      "fieldworkEnd": "2026-10-21",
+      "publishedAt": "2026-10-23",
+      "population": "Échantillon de 2 094 personnes inscrites sur les listes électorales, issu d'un échantillon de 2 500 personnes représentatif de la population française âgée de 18 ans et plus",
+      "sampleSize": 2500,
+      "method": "Méthode des quotas et redressement (sexe, âge, CSP, région, comportement électoral antérieur) ; questionnaire en ligne",
+      "margin": "Entre 1,4 et 2,9 points au 1er tour",
+      "reportUrl": "https://tolunacorporate.com/wp-content/uploads/2026/10/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-8-M6-RTL-23-octobre-2026-1.pdf",
+      "round": 1,
+      "hypotheses": [
+        {
+          "id": "h1",
+          "label": "Hypothèse Édouard Philippe, Dominique de Villepin et David Lisnard",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 1
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 17
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 2
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 12
+            },
+            {
+              "candidateId": "philippe",
+              "value": 15
+            },
+            {
+              "candidateId": "villepin",
+              "value": 1
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 7
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 4
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 1
+            },
+            {
+              "candidateId": "lepen",
+              "value": 33
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "id": "h2",
+          "label": "Hypothèse Gabriel Attal, Dominique de Villepin et David Lisnard",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 1
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 17
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 2
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 14
+            },
+            {
+              "candidateId": "attal",
+              "value": 10
+            },
+            {
+              "candidateId": "villepin",
+              "value": 2
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 8
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 5
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 1
+            },
+            {
+              "candidateId": "lepen",
+              "value": 33
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "id": "h3",
+          "label": "Hypothèse Gabriel Attal et Édouard Philippe",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 1
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 17
+            },
+            {
+              "candidateId": "roussel",
+              "value": 1
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 2
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 12
+            },
+            {
+              "candidateId": "attal",
+              "value": 5
+            },
+            {
+              "candidateId": "philippe",
+              "value": 13
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 6
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2
+            },
+            {
+              "candidateId": "lepen",
+              "value": 35
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "id": "h4",
+          "label": "Hypothèse Édouard Philippe",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 1
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 17
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 2
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 13
+            },
+            {
+              "candidateId": "philippe",
+              "value": 16
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 7
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2
+            },
+            {
+              "candidateId": "lepen",
+              "value": 35
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "id": "h5",
+          "label": "Hypothèse Gabriel Attal",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 1
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 19
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 2
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 13
+            },
+            {
+              "candidateId": "attal",
+              "value": 11
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 9
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2
+            },
+            {
+              "candidateId": "lepen",
+              "value": 35
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toluna-harris-interactive-2026-10-21-t2",
+      "institute": "Toluna Harris Interactive",
+      "sponsors": [
+        "M6",
+        "RTL"
+      ],
+      "fieldworkStart": "2026-10-19",
+      "fieldworkEnd": "2026-10-21",
+      "publishedAt": "2026-10-23",
+      "population": "Échantillon de 2 094 personnes inscrites sur les listes électorales, issu d'un échantillon de 2 500 personnes représentatif de la population française âgée de 18 ans et plus",
+      "sampleSize": 2500,
+      "method": "Méthode des quotas et redressement (sexe, âge, CSP, région, comportement électoral antérieur) ; questionnaire en ligne",
+      "margin": "Entre 2,9 et 3,1 points au 2nd tour",
+      "reportUrl": "https://tolunacorporate.com/wp-content/uploads/2026/10/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-8-M6-RTL-23-octobre-2026-1.pdf",
+      "round": 2,
+      "hypotheses": [
+        {
+          "id": "h1",
+          "label": "Hypothèse Marine Le Pen et Jean-Luc Mélenchon",
+          "results": [
+            {
+              "candidateId": "melenchon",
+              "value": 30
+            },
+            {
+              "candidateId": "lepen",
+              "value": 70
+            }
+          ]
+        },
+        {
+          "id": "h2",
+          "label": "Hypothèse Marine Le Pen et Raphaël Glucksmann",
+          "results": [
+            {
+              "candidateId": "glucksmann",
+              "value": 41
+            },
+            {
+              "candidateId": "lepen",
+              "value": 59
+            }
+          ]
+        },
+        {
+          "id": "h3",
+          "label": "Hypothèse Marine Le Pen et Édouard Philippe",
+          "results": [
+            {
+              "candidateId": "philippe",
+              "value": 43
+            },
+            {
+              "candidateId": "lepen",
+              "value": 57
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "opinionway-2026-10-22-cnews",
       "institute": "OpinionWay",
       "sponsors": [
@@ -66020,6 +66364,7 @@
       "method": "Questionnaire auto-administré en ligne, méthode des quotas (sexe, âge, profession) après stratification par région et catégorie d'agglomération",
       "margin": "Entre 1,0 et 2,2 points selon les pourcentages",
       "reportUrl": "https://www.ifopgroup.com/wp-content/uploads/2026/10/122853-barometre-de-lelection-presidentielle-vague-7-resultats-densemble.pdf",
+      "noticeUrl": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10327-pres-barometre-election-v7-ifop-20-octobre.pdf",
       "round": 1,
       "hypotheses": [
         {
@@ -72422,6 +72767,7 @@
       "method": "Questionnaire auto-administré en ligne, méthode des quotas (sexe, âge, profession) après stratification par région et catégorie d'agglomération",
       "margin": "Entre 1,0 et 2,2 points selon les pourcentages",
       "reportUrl": "https://www.ifopgroup.com/article/barometre-de-lelection-presidentielle-vague-7-2/",
+      "noticeUrl": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10327-pres-barometre-election-v7-ifop-20-octobre.pdf",
       "round": 2,
       "hypotheses": [
         {
@@ -73617,9 +73963,39 @@
         "couchonpierre-nd-pierre-couchon-candidat-aux-legislatives",
         "lescentristesfrance-nd-engages-pour-la-democratie"
       ]
+    },
+    {
+      "id": "evt-kazib-declaration-2026-10-20",
+      "date": "2026-10-20",
+      "type": "declaration",
+      "candidateIds": [
+        "kazib"
+      ],
+      "text": "Dans un billet publié par Révolution permanente, se prononce sur les suites de la manifestation du 17 octobre.",
+      "quote": "« La question maintenant, c’est quelle stratégie pour transformer cette force en une victoire. En tant que marxiste, je connais les limites de la spontanéité. »",
+      "sourceIds": [
+        "revolutionpermanente-2026-10-20-la-casse-la-greve-generale-et"
+      ]
+    },
+    {
+      "id": "evt-arthaud-declaration-2026-10-21",
+      "date": "2026-10-21",
+      "type": "declaration",
+      "candidateIds": [
+        "arthaud"
+      ],
+      "text": "Dans l'éditorial de Lutte ouvrière du 21 octobre, se prononce sur les suites de la manifestation du 17 octobre.",
+      "quote": "« L’entrée du monde du travail dans la contestation peut décider de l’avenir et du succès de la mobilisation qui ébranle le pays. Discutons-en dans les entreprises, organisons-nous pour aller dans ce sens. »",
+      "sourceIds": [
+        "lutte-ouvriere-2026-10-21-une-revolte-legitime-a-laquelle-les"
+      ]
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-10-24",
+      "text": "Recherche des nouveautés depuis la mise à jour du 23 octobre. Candidatures : aucune nouvelle candidature et aucun retrait relevés. Sondages : 1 enquête ajoutée, la vague 8 du baromètre Toluna Harris Interactive pour M6 et RTL (terrain du 19 au 21 octobre 2026, publiée le 23 octobre), en deux objets : cinq hypothèses de premier tour et trois duels de second tour, repris du rapport de l'institut et recoupés avec sa page de présentation ; la notice de la Commission des sondages n'a pas été trouvée aujourd'hui et sera ajoutée ultérieurement. La notice de la Commission des sondages du baromètre Ifop-Fiducial (vague 7, terrain du 17 au 19 octobre) est ajoutée aux deux enquêtes correspondantes ; celle de l'enquête OpinionWay pour CNews du 22 octobre, repérée, n'a pas pu être ouverte aujourd'hui et n'est pas encore saisie. Vie de la campagne : 2 déclarations de la semaine ajoutées, au sujet des suites de la manifestation du 17 octobre (Anasse Kazib, billet publié le 20 octobre par Révolution permanente ; Nathalie Arthaud, éditorial de Lutte ouvrière du 21 octobre). Le ralliement de Yannick Jadot à Raphaël Glucksmann n'est toujours pas ajouté : les articles consultés aujourd'hui situent son annonce « fin août » sans date précise, et les articles de franceinfo sur sa suspension n'ont pas pu être ouverts. Parrainages : aucun relevé ajouté. Aucune mesure ajoutée, modifiée ou abandonnée. Questionnaire : aucune position renseignée. Rotation de la banque : thèmes retraites, emploi et immigration passés en revue, sans position nouvelle justifiée par une mesure publiée. Rotation hebdomadaire des candidats, en commençant par ceux dont la position est connue sur le moins de questions du test : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Matthieu Pigasse (une dépêche AFP du 24 septembre rapporte ses « convergences » avec La France insoumise sur l'annulation partielle de la dette publique, sans proposition précise ni date ; non saisie), Xavier Bertrand (aucune source nouvelle depuis août), Anasse Kazib (son billet du 20 octobre ne contient pas de proposition nouvelle), Selma Labib (sa dernière intervention publiée, sur BFMTV le 17 octobre, n'est disponible qu'en vidéo, sans transcription vérifiable), Nathalie Arthaud (l'éditorial du 21 octobre ne contient pas de proposition nouvelle) et Philippe Herlin (aucune publication nouvelle sur son site de campagne depuis le 7 octobre)."
+    },
     {
       "date": "2026-10-23",
       "text": "Recherche des nouveautés depuis la mise à jour du 22 octobre. Candidatures : Pierre Couchon passe au statut « retiré » ; son site, qui appelait encore le 19 octobre aux 500 parrainages, le présente désormais comme candidat aux législatives de 2027 et affiche son soutien à David Lisnard, comme le site des Centristes France, le parti qu'il préside ; aucune annonce datée n'ayant été trouvée, le changement est daté du 23 octobre 2026, jour où il a été constaté, et 2 faits de campagne sont ajoutés (retrait et ralliement à David Lisnard). Aucune autre candidature ni aucun autre retrait relevés. Sondages : 2 enquêtes ajoutées, OpinionWay pour CNews (terrain des 21 et 22 octobre, publiée le 22 octobre ; une hypothèse de premier tour et trois duels de second tour, d'après le rapport de l'institut) et le premier tour du baromètre Ifop-Fiducial pour LCI, Le Figaro et Sud Radio (vague 7, terrain du 17 au 19 octobre, publiée le 20 octobre ; huit hypothèses reprises du rapport complet de l'institut, consulté aujourd'hui), dont les duels de second tour avaient été saisis le 22 octobre. Les notices de la Commission des sondages de ces deux enquêtes n'ont pas été trouvées aujourd'hui et seront ajoutées ultérieurement. Les résultats publiés sous la forme « moins de 1 % » ou « - » sont indiqués dans le libellé de l'hypothèse, sans valeur chiffrée. Vie de la campagne : aucune déclaration de la semaine ajoutée, faute de citation vérifiable trouvée aujourd'hui ; l'appel de Michel Barnier à une primaire de la droite et du centre (22 octobre) ne concerne pas un candidat recensé et n'a pas été saisi. Le ralliement de Yannick Jadot à Raphaël Glucksmann n'est toujours pas ajouté : les articles relatifs à sa suspension par Les Écologistes n'ont pas pu être ouverts aujourd'hui. Parrainages : aucun relevé ajouté. Aucune mesure ajoutée, modifiée ou abandonnée. Questionnaire, à partir de mesures déjà publiées : 3 positions renseignées dans la banque. Rotation de la banque : thèmes éducation, santé et sécurité passés en revue (hausse de la rémunération des enseignants : Gabriel Attal et Florian Philippot ; suppression des ARS : Nicolas Dupont-Aignan). Rotation hebdomadaire des candidats : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Pierre Couchon (ses sites ne présentent pas de proposition), Sylvain Durif (le programme de « 50 engagements » mentionné par Sud Radio sur son site n'a pas pu être ouvert aujourd'hui), Benoît Mathieu (aucune source nouvelle), Jean Lassalle (aucune source nouvelle), Olivier Becht (aucune source nouvelle au-delà de ses entretiens à Sud Radio déjà saisis) et Emmanuel Dubuisson (aucune source nouvelle trouvée)."
