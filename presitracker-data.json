@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-24T05:00:08Z",
+  "updatedAt": "2026-10-25T06:06:05Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -5650,6 +5650,34 @@
       "url": "https://www.revolutionpermanente.fr/La-casse-la-greve-generale-et-les-defis-strategiques-apres-le-17-octobre-billet-d-Anasse-Kazib",
       "date": "2026-10-20",
       "kind": "officiel"
+    },
+    "euronews-2026-10-24-colere-sociale-en-france-acte-ii": {
+      "title": "Colère sociale en France, acte II : 1 000 interpellations en marge des cortèges",
+      "publisher": "Euronews",
+      "url": "https://fr.euronews.com/2026/10/24/france-acte-ii-de-la-colere-sociale-la-manifestation-contre-le-congres-du-rn-debute-a-orle",
+      "date": "2026-10-24",
+      "kind": "presse"
+    },
+    "titrespresse-2026-10-23-mobilisation-du-24-octobre-attal": {
+      "title": "Mobilisation du 24 octobre : \"Si la situation n'est pas rétablie, évidemment qu'il faudra déclarer [l'état d'urgence]\", estime Gabriel Attal",
+      "publisher": "franceinfo (repris par titrespresse.com)",
+      "url": "https://www.titrespresse.com/26217012603/gabriel-attal-renaissance",
+      "date": "2026-10-23",
+      "kind": "presse"
+    },
+    "lcp-2026-10-23-villepin-depasse-la-barre-des-300-signatures": {
+      "title": "Présidentielle: Dominique de Villepin annonce avoir \"dépassé la barre des 300 signatures\"",
+      "publisher": "LCP",
+      "url": "https://lcp.fr/actualites/presidentielle-dominique-de-villepin-annonce-avoir-depasse-la-barre-des-300-signatures",
+      "date": "2026-10-23",
+      "kind": "presse"
+    },
+    "agra-2026-10-23-tondelier-mon-panier-ecolo": {
+      "title": "Alimentation: Marine Tondelier défend la PPL pour produits à prix coûtant à travers \"Mon panier écolo\"",
+      "publisher": "Agra",
+      "url": "https://www.agra.fr/lives/alimentation-marine-tondelier-defend-la-ppl-pour-produits-prix-coutant-travers-mon-panier",
+      "date": "2026-10-23",
+      "kind": "presse"
     }
   },
   "candidates": [
@@ -49589,6 +49617,29 @@
               ]
             }
           ]
+        },
+        {
+          "id": "tondelier-eco-panier-prix-coutant",
+          "themeKey": "eco",
+          "subthemeKey": "eco-prix",
+          "title": "Création d'un panier d'une centaine de produits sains vendus à prix coûtant",
+          "detail": "Marine Tondelier défend une proposition de loi des parlementaires écologistes, « Mon panier écolo », qui obligerait les magasins d'au moins 400 m² à proposer un « panier » d'une centaine de produits sains « à prix coûtant ». Défendu à Paris le 23 octobre 2026, rapporté par Agra.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-10-23",
+          "lastChanged": "2026-10-23",
+          "sourceIds": [
+            "agra-2026-10-23-tondelier-mon-panier-ecolo"
+          ],
+          "history": [
+            {
+              "date": "2026-10-23",
+              "type": "ajout",
+              "sourceIds": [
+                "agra-2026-10-23-tondelier-mon-panier-ecolo"
+              ]
+            }
+          ]
         }
       ],
       "websiteUrl": "https://lesecologistes.fr/",
@@ -49679,6 +49730,16 @@
         "Président d'honneur de La France humaniste (depuis 2025)"
       ],
       "birthYear": 1953,
+      "sponsorships": [
+        {
+          "date": "2026-10-22",
+          "count": 300,
+          "kind": "annonce",
+          "sourceIds": [
+            "lcp-2026-10-23-villepin-depasse-la-barre-des-300-signatures"
+          ]
+        }
+      ],
       "measures": [
         {
           "id": "villepin-agr-clauses-miroirs-macf",
@@ -73989,9 +74050,39 @@
       "sourceIds": [
         "lutte-ouvriere-2026-10-21-une-revolte-legitime-a-laquelle-les"
       ]
+    },
+    {
+      "id": "evt-attal-declaration-2026-10-23",
+      "date": "2026-10-23",
+      "type": "declaration",
+      "candidateIds": [
+        "attal"
+      ],
+      "text": "Invité de l'émission « Les 4 Vérités », rapporté par titrespresse.com d'après franceinfo, se prononce sur le recours à l'état d'urgence face aux violences en marge des manifestations.",
+      "quote": "« Si la situation n'est pas rétablie, évidemment qu'il faudra déclarer [l'état d'urgence]. »",
+      "sourceIds": [
+        "titrespresse-2026-10-23-mobilisation-du-24-octobre-attal"
+      ]
+    },
+    {
+      "id": "evt-melenchon-declaration-2026-10-24",
+      "date": "2026-10-24",
+      "type": "declaration",
+      "candidateIds": [
+        "melenchon"
+      ],
+      "text": "Dans un message publié sur X, rapporté par Euronews, se prononce sur l'interdiction du parcours initialement autorisé de la manifestation parisienne du 24 octobre.",
+      "quote": "« En interdisant au dernier moment le parcours d'abord autorisé, Lecornu cherche à désorganiser notre droit à manifester. »",
+      "sourceIds": [
+        "euronews-2026-10-24-colere-sociale-en-france-acte-ii"
+      ]
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-10-25",
+      "text": "Recherche des nouveautés depuis la mise à jour du 24 octobre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; le lancement de campagne de Marine Le Pen, annoncé pour le 25 octobre au congrès du Rassemblement national à Orléans, n'avait pas eu lieu au moment de la mise à jour et sera examiné ultérieurement. Sondages : aucune nouvelle enquête d'intentions de vote relevée depuis celle de Toluna Harris Interactive pour M6 et RTL (terrain du 19 au 21 octobre). Les notices de la Commission des sondages de cette enquête (n° 10332) et de l'enquête OpinionWay pour CNews du 22 octobre (n° 10333) sont signalées par des sites de suivi, mais n'ont pas pu être ouvertes aujourd'hui et ne sont pas encore saisies. Parrainages : 1 relevé ajouté, Dominique de Villepin (300 signatures d'élus annoncées sur BFMTV le jeudi 22 octobre, sous la forme « dépassé les 300 signatures », rapporté par LCP le 23 octobre ; saisi au nombre cité). Vie de la campagne : 2 déclarations de la semaine ajoutées, au sujet des manifestations du 24 octobre (Gabriel Attal, le 23 octobre dans l'émission « Les 4 Vérités », rapporté par titrespresse.com d'après franceinfo, l'article original n'ayant pas pu être ouvert ; Jean-Luc Mélenchon, message publié sur X le 24 octobre, rapporté par Euronews). Le soutien du député Benoît Biteau à Jean-Luc Mélenchon (22 octobre) ne concerne pas un candidat recensé et n'a pas été saisi. Le ralliement de Yannick Jadot à Raphaël Glucksmann n'est toujours pas ajouté, faute d'annonce datée vérifiable. Mesures : 1 mesure ajoutée, Marine Tondelier (panier d'une centaine de produits sains vendus à prix coûtant dans les magasins d'au moins 400 m², proposition de loi des parlementaires écologistes qu'elle a défendue le 23 octobre, rapportée par Agra). Aucune mesure modifiée ou abandonnée. Questionnaire : aucune position renseignée ; la nouvelle mesure de Marine Tondelier relève d'une question de la banque (encadrement des marges alimentaires) où sa position est déjà renseignée. Rotation de la banque : thèmes pouvoir d'achat, fiscalité et finances publiques passés en revue, sans position nouvelle justifiée par une mesure publiée. Rotation hebdomadaire des candidats, en commençant par ceux dont la position est connue sur le moins de questions du test parmi ceux qui n'avaient pas été revus depuis le 19 octobre : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Mélody Delmur (aucune source nouvelle depuis le 13 octobre), Jean-Noël Barrot (deux articles le concernant n'ont pas pu être ouverts aujourd'hui), Delphine Batho (aucun communiqué nouveau de Génération écologie depuis juillet ; ses propos du 22 juin aux Entretiens de Terra Nova sur la baisse de la consommation d'énergie ne contiennent pas de proposition chiffrée isolable et n'ont pas été saisis), Karim Bouamrane, Jean-François Legendre et Éric Zemmour (aucune source nouvelle trouvée)."
+    },
     {
       "date": "2026-10-24",
       "text": "Recherche des nouveautés depuis la mise à jour du 23 octobre. Candidatures : aucune nouvelle candidature et aucun retrait relevés. Sondages : 1 enquête ajoutée, la vague 8 du baromètre Toluna Harris Interactive pour M6 et RTL (terrain du 19 au 21 octobre 2026, publiée le 23 octobre), en deux objets : cinq hypothèses de premier tour et trois duels de second tour, repris du rapport de l'institut et recoupés avec sa page de présentation ; la notice de la Commission des sondages n'a pas été trouvée aujourd'hui et sera ajoutée ultérieurement. La notice de la Commission des sondages du baromètre Ifop-Fiducial (vague 7, terrain du 17 au 19 octobre) est ajoutée aux deux enquêtes correspondantes ; celle de l'enquête OpinionWay pour CNews du 22 octobre, repérée, n'a pas pu être ouverte aujourd'hui et n'est pas encore saisie. Vie de la campagne : 2 déclarations de la semaine ajoutées, au sujet des suites de la manifestation du 17 octobre (Anasse Kazib, billet publié le 20 octobre par Révolution permanente ; Nathalie Arthaud, éditorial de Lutte ouvrière du 21 octobre). Le ralliement de Yannick Jadot à Raphaël Glucksmann n'est toujours pas ajouté : les articles consultés aujourd'hui situent son annonce « fin août » sans date précise, et les articles de franceinfo sur sa suspension n'ont pas pu être ouverts. Parrainages : aucun relevé ajouté. Aucune mesure ajoutée, modifiée ou abandonnée. Questionnaire : aucune position renseignée. Rotation de la banque : thèmes retraites, emploi et immigration passés en revue, sans position nouvelle justifiée par une mesure publiée. Rotation hebdomadaire des candidats, en commençant par ceux dont la position est connue sur le moins de questions du test : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Matthieu Pigasse (une dépêche AFP du 24 septembre rapporte ses « convergences » avec La France insoumise sur l'annulation partielle de la dette publique, sans proposition précise ni date ; non saisie), Xavier Bertrand (aucune source nouvelle depuis août), Anasse Kazib (son billet du 20 octobre ne contient pas de proposition nouvelle), Selma Labib (sa dernière intervention publiée, sur BFMTV le 17 octobre, n'est disponible qu'en vidéo, sans transcription vérifiable), Nathalie Arthaud (l'éditorial du 21 octobre ne contient pas de proposition nouvelle) et Philippe Herlin (aucune publication nouvelle sur son site de campagne depuis le 7 octobre)."
