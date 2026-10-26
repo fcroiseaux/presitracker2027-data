@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T06:06:05Z",
+  "updatedAt": "2026-10-26T05:49:01Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -5677,6 +5677,20 @@
       "publisher": "Agra",
       "url": "https://www.agra.fr/lives/alimentation-marine-tondelier-defend-la-ppl-pour-produits-prix-coutant-travers-mon-panier",
       "date": "2026-10-23",
+      "kind": "presse"
+    },
+    "europe1-2026-10-25-congres-du-rn-a-orleans-ce-qu-il-faut-retenir": {
+      "title": "Congrès du RN à Orléans : ce qu'il faut retenir du premier discours de campagne de Marine Le Pen",
+      "publisher": "Europe 1 (avec AFP)",
+      "url": "https://www.europe1.fr/politique/congres-du-rn-a-orleans-ce-quil-faut-retenir-du-premier-discours-de-campagne-de-marine-le-pen-1181118",
+      "date": "2026-10-25",
+      "kind": "presse"
+    },
+    "21news-2026-10-25-a-orleans-marine-le-pen-dessine-les-contours": {
+      "title": "À Orléans, Marine Le Pen dessine les contours de sa présidence dans son discours et confirme Jordan Bardella comme Premier ministre",
+      "publisher": "21 News",
+      "url": "https://www.21news.be/a-orleans-marine-le-pen-dessine-les-contours-de-sa-presidence-et-confirme-jordan-bardella-comme-premier-ministre/",
+      "date": "2026-10-25",
       "kind": "presse"
     }
   },
@@ -22058,7 +22072,8 @@
           "firstSeen": "2025-10-23",
           "lastChanged": "2025-10-23",
           "sourceIds": [
-            "rassemblementnational-2025-10-23-contre-budget-2026"
+            "rassemblementnational-2025-10-23-contre-budget-2026",
+            "europe1-2026-10-25-congres-du-rn-a-orleans-ce-qu-il-faut-retenir"
           ],
           "history": [
             {
@@ -22929,6 +22944,54 @@
               "type": "ajout",
               "sourceIds": [
                 "sudradio-2026-09-13-programme-et-communication-que-vaut-la"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lepen-inst-communaute-nationale-constitution",
+          "themeKey": "inst",
+          "subthemeKey": "inst-constitution",
+          "title": "Inscription de la « communauté nationale » dans la Constitution",
+          "detail": "Marine Le Pen propose d'inscrire dans la Constitution le « principe fondateur, inclusif et fraternel » de « communauté nationale ». Annoncé dans son discours au congrès du Rassemblement national à Orléans le 25 octobre 2026, rapporté par Europe 1 et 21 News.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-10-25",
+          "lastChanged": "2026-10-25",
+          "sourceIds": [
+            "europe1-2026-10-25-congres-du-rn-a-orleans-ce-qu-il-faut-retenir",
+            "21news-2026-10-25-a-orleans-marine-le-pen-dessine-les-contours"
+          ],
+          "history": [
+            {
+              "date": "2026-10-25",
+              "type": "ajout",
+              "sourceIds": [
+                "europe1-2026-10-25-congres-du-rn-a-orleans-ce-qu-il-faut-retenir",
+                "21news-2026-10-25-a-orleans-marine-le-pen-dessine-les-contours"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lepen-inst-proportionnelle-prime-majoritaire",
+          "themeKey": "inst",
+          "subthemeKey": "inst-scrutin",
+          "title": "Scrutin proportionnel avec prime majoritaire",
+          "detail": "Marine Le Pen propose un mode de scrutin proportionnel assorti d'une prime majoritaire, pour « dégager des majorités » et assurer « la juste représentation de tous les courants ». Annoncé dans son discours au congrès du Rassemblement national à Orléans le 25 octobre 2026, rapporté par Europe 1.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-10-25",
+          "lastChanged": "2026-10-25",
+          "sourceIds": [
+            "europe1-2026-10-25-congres-du-rn-a-orleans-ce-qu-il-faut-retenir"
+          ],
+          "history": [
+            {
+              "date": "2026-10-25",
+              "type": "ajout",
+              "sourceIds": [
+                "europe1-2026-10-25-congres-du-rn-a-orleans-ce-qu-il-faut-retenir"
               ]
             }
           ]
@@ -55007,6 +55070,16 @@
             "sourceIds": [
               "dijon-actualites-2026-10-10-presidentielle-2027-le-maire-de"
             ]
+          },
+          "lepen": {
+            "value": 1,
+            "note": "Propose un scrutin proportionnel assorti d'une prime majoritaire.",
+            "measureIds": [
+              "lepen-inst-proportionnelle-prime-majoritaire"
+            ],
+            "sourceIds": [
+              "europe1-2026-10-25-congres-du-rn-a-orleans-ce-qu-il-faut-retenir"
+            ]
           }
         }
       },
@@ -65952,6 +66025,217 @@
   },
   "polls": [
     {
+      "id": "ipsos-bva-2026-10-22",
+      "institute": "Ipsos bva",
+      "sponsors": [
+        "Le Parisien",
+        "CESI École d’ingénieurs"
+      ],
+      "fieldworkStart": "2026-10-21",
+      "fieldworkEnd": "2026-10-22",
+      "publishedAt": "2026-10-24",
+      "population": "1 500 personnes inscrites sur les listes électorales, constituant un échantillon national représentatif de la population française âgée de 18 ans et plus ; résultats sur les exprimés certains d'aller voter (bases de 1 048 à 1 069 personnes selon l'hypothèse)",
+      "sampleSize": 1500,
+      "method": "En ligne, Access panel Ipsos ; méthode des quotas (sexe, âge, profession, région, catégorie d'agglomération)",
+      "margin": "± 2,5 points pour un score de 50 % sur 1 500 personnes (intervalle de confiance à 95 %)",
+      "reportUrl": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/presidentielle-2027-intention-vote-octobre26-rapport-complet-web.pdf",
+      "round": 1,
+      "hypotheses": [
+        {
+          "id": "h1",
+          "label": "Hypothèse : G. Attal et E. Philippe",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 17
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3.5
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 13
+            },
+            {
+              "candidateId": "attal",
+              "value": 4
+            },
+            {
+              "candidateId": "philippe",
+              "value": 13
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 7.5
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 1.5
+            },
+            {
+              "candidateId": "lepen",
+              "value": 33.5
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 4.5
+            }
+          ]
+        },
+        {
+          "id": "h2",
+          "label": "Hypothèse : E. Philippe",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 17
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3.5
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 14
+            },
+            {
+              "candidateId": "philippe",
+              "value": 15
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 8
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2
+            },
+            {
+              "candidateId": "lepen",
+              "value": 33.5
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 4.5
+            }
+          ]
+        },
+        {
+          "id": "h3",
+          "label": "Hypothèse : G. Attal",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 17
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2.5
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3.5
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 15.5
+            },
+            {
+              "candidateId": "attal",
+              "value": 9.5
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 11.5
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2
+            },
+            {
+              "candidateId": "lepen",
+              "value": 33.5
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 4.5
+            }
+          ]
+        },
+        {
+          "id": "h4",
+          "label": "Hypothèse : E. Philippe et D. Lisnard",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 17
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2.5
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3.5
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 13
+            },
+            {
+              "candidateId": "philippe",
+              "value": 14
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 5.5
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 6.5
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 1.5
+            },
+            {
+              "candidateId": "lepen",
+              "value": 32
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "toluna-harris-interactive-2026-10-21",
       "institute": "Toluna Harris Interactive",
       "sponsors": [
@@ -74076,9 +74360,27 @@
       "sourceIds": [
         "euronews-2026-10-24-colere-sociale-en-france-acte-ii"
       ]
+    },
+    {
+      "id": "evt-lepen-declaration-2026-10-25",
+      "date": "2026-10-25",
+      "type": "declaration",
+      "candidateIds": [
+        "lepen"
+      ],
+      "text": "Dans son discours de lancement de campagne au congrès du Rassemblement national à Orléans, rapporté par Europe 1, se prononce sur l'inscription de la « communauté nationale » dans la Constitution.",
+      "quote": "« Il n'y a pour nous qu'une seule communauté, c'est la communauté nationale. »",
+      "sourceIds": [
+        "europe1-2026-10-25-congres-du-rn-a-orleans-ce-qu-il-faut-retenir",
+        "21news-2026-10-25-a-orleans-marine-le-pen-dessine-les-contours"
+      ]
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-10-26",
+      "text": "Recherche des nouveautés depuis la mise à jour du 25 octobre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; Marine Le Pen, déjà déclarée, a prononcé son premier discours de campagne le 25 octobre au congrès du Rassemblement national à Orléans, sans changement de statut. Sondages : 1 enquête ajoutée, Ipsos bva pour Le Parisien et CESI École d'ingénieurs (terrain des 21 et 22 octobre 2026, publiée le 24 octobre ; quatre hypothèses de premier tour reprises du rapport complet de l'institut, qui ne comporte pas de duel de second tour) ; la notice de la Commission des sondages n'a pas été trouvée aujourd'hui et sera ajoutée ultérieurement. Les notices des enquêtes Toluna Harris Interactive (19 au 21 octobre) et OpinionWay pour CNews (22 octobre) n'ont toujours pas pu être ouvertes et ne sont pas saisies. Mesures : 2 mesures ajoutées, Marine Le Pen (inscription de la « communauté nationale » dans la Constitution ; scrutin proportionnel avec prime majoritaire), annoncées dans son discours d'Orléans et rapportées par Europe 1 avec l'AFP et par 21 News ; l'article d'Europe 1 confirme en outre sa mesure existante sur la part fiscale pleine dès le deuxième enfant, dont il devient une source. Une dépêche de France 24 reprise par un site tiers indique qu'elle s'engagerait désormais à ne pas reporter l'âge de départ au-delà de 64 ans au lieu de proposer la retraite à 62 ans ; cette information n'ayant pas été confirmée par une autre source ouverte aujourd'hui, la mesure existante n'est pas modifiée et sera réexaminée. L'évocation par d'autres articles d'une « prime d'expulsion » et des hydrocarbures n'a pas pu être vérifiée et n'est pas saisie. Aucune mesure modifiée ou abandonnée. Questionnaire : 1 position renseignée dans le test (scrutin proportionnel : Marine Le Pen, à partir de la nouvelle mesure). Rotation de la banque : thèmes institutions, Europe et défense passés en revue, sans position nouvelle justifiée par une mesure publiée. Vie de la campagne : 1 déclaration de la semaine ajoutée (Marine Le Pen, discours d'Orléans du 25 octobre, rapporté par Europe 1 et 21 News). Le ralliement de Yannick Jadot à Raphaël Glucksmann n'est toujours pas ajouté : l'article de Public Sénat du 17 juin 2026 consulté aujourd'hui rapporte un soutien de principe, sans annonce de ralliement datée. Parrainages : aucun relevé ajouté. Rotation hebdomadaire des candidats, en commençant par ceux dont la position est connue sur le moins de questions du test parmi ceux qui n'avaient pas été revus depuis le 21 octobre : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Élisabeth Borne (dernière prise de parole trouvée le 10 juin, sans proposition), Thierry Breton, Manuel Valls et Sébastien Bonnal (aucune source nouvelle trouvée), Clara Egger (la lettre de Solution démocratique « Président arbitre : ce qu'il nous faut », non datée, ne contient pas de proposition précise nouvelle), François Hollande (aucune source postérieure à la présentation de son livre fin août, dont les mesures sont déjà saisies), François Asselineau, Gilles Platret, Erwan Rohou et David Saforcada (aucune source nouvelle trouvée)."
+    },
     {
       "date": "2026-10-25",
       "text": "Recherche des nouveautés depuis la mise à jour du 24 octobre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; le lancement de campagne de Marine Le Pen, annoncé pour le 25 octobre au congrès du Rassemblement national à Orléans, n'avait pas eu lieu au moment de la mise à jour et sera examiné ultérieurement. Sondages : aucune nouvelle enquête d'intentions de vote relevée depuis celle de Toluna Harris Interactive pour M6 et RTL (terrain du 19 au 21 octobre). Les notices de la Commission des sondages de cette enquête (n° 10332) et de l'enquête OpinionWay pour CNews du 22 octobre (n° 10333) sont signalées par des sites de suivi, mais n'ont pas pu être ouvertes aujourd'hui et ne sont pas encore saisies. Parrainages : 1 relevé ajouté, Dominique de Villepin (300 signatures d'élus annoncées sur BFMTV le jeudi 22 octobre, sous la forme « dépassé les 300 signatures », rapporté par LCP le 23 octobre ; saisi au nombre cité). Vie de la campagne : 2 déclarations de la semaine ajoutées, au sujet des manifestations du 24 octobre (Gabriel Attal, le 23 octobre dans l'émission « Les 4 Vérités », rapporté par titrespresse.com d'après franceinfo, l'article original n'ayant pas pu être ouvert ; Jean-Luc Mélenchon, message publié sur X le 24 octobre, rapporté par Euronews). Le soutien du député Benoît Biteau à Jean-Luc Mélenchon (22 octobre) ne concerne pas un candidat recensé et n'a pas été saisi. Le ralliement de Yannick Jadot à Raphaël Glucksmann n'est toujours pas ajouté, faute d'annonce datée vérifiable. Mesures : 1 mesure ajoutée, Marine Tondelier (panier d'une centaine de produits sains vendus à prix coûtant dans les magasins d'au moins 400 m², proposition de loi des parlementaires écologistes qu'elle a défendue le 23 octobre, rapportée par Agra). Aucune mesure modifiée ou abandonnée. Questionnaire : aucune position renseignée ; la nouvelle mesure de Marine Tondelier relève d'une question de la banque (encadrement des marges alimentaires) où sa position est déjà renseignée. Rotation de la banque : thèmes pouvoir d'achat, fiscalité et finances publiques passés en revue, sans position nouvelle justifiée par une mesure publiée. Rotation hebdomadaire des candidats, en commençant par ceux dont la position est connue sur le moins de questions du test parmi ceux qui n'avaient pas été revus depuis le 19 octobre : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Mélody Delmur (aucune source nouvelle depuis le 13 octobre), Jean-Noël Barrot (deux articles le concernant n'ont pas pu être ouverts aujourd'hui), Delphine Batho (aucun communiqué nouveau de Génération écologie depuis juillet ; ses propos du 22 juin aux Entretiens de Terra Nova sur la baisse de la consommation d'énergie ne contiennent pas de proposition chiffrée isolable et n'ont pas été saisis), Karim Bouamrane, Jean-François Legendre et Éric Zemmour (aucune source nouvelle trouvée)."
