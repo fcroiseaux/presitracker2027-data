@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T05:49:01Z",
+  "updatedAt": "2026-10-27T05:47:14Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -5691,6 +5691,27 @@
       "publisher": "21 News",
       "url": "https://www.21news.be/a-orleans-marine-le-pen-dessine-les-contours-de-sa-presidence-et-confirme-jordan-bardella-comme-premier-ministre/",
       "date": "2026-10-25",
+      "kind": "presse"
+    },
+    "orange-2026-10-26-tondelier-evoque-retrait": {
+      "title": "Présidentielle 2027 : Marine Tondelier évoque la possibilité de retirer sa candidature",
+      "publisher": "Orange Actualités (6Médias, avec L'Express)",
+      "url": "https://actu.orange.fr/politique/presidentielle-2027-marine-tondelier-evoque-la-possibilite-de-retirer-sa-candidature-l-express-via-6medias-CNT000002tosYK.html",
+      "date": "2026-10-26",
+      "kind": "presse"
+    },
+    "senioractu-2026-10-25-le-pen-lance-campagne-orleans": {
+      "title": "Marine Le Pen a lancé sa campagne à Orléans : ce que la candidate du RN prévoit pour votre retraite, vos parents âgés et les aidants",
+      "publisher": "SeniorActu",
+      "url": "https://www.senioractu.com/Marine-Le-Pen-a-lance-sa-campagne-a-Orleans-ce-que-la-candidate-du-RN-prevoit-pour-votre-retraite-vos-parents-ages-et_a28212.html",
+      "date": "2026-10-25",
+      "kind": "presse"
+    },
+    "linfodurable-2026-10-21-villepin-plateforme-commune-anticrise": {
+      "title": "Villepin appelle les candidats à la présidentielle à se réunir via \"une plateforme commune anticrise\"",
+      "publisher": "L'Info Durable (AFP)",
+      "url": "https://www.linfodurable.fr/villepin-appelle-les-candidats-la-presidentielle-se-reunir-une-plateforme-commune-anticrise-59501",
+      "date": "2026-10-21",
       "kind": "presse"
     }
   },
@@ -22820,7 +22841,8 @@
           "lastChanged": "2026-10-06",
           "sourceIds": [
             "publicsenat-2026-10-06-140-milliards-d-euros-d-economies",
-            "sudradio-2026-10-06-le-pen-promet-un-effort-radical"
+            "sudradio-2026-10-06-le-pen-promet-un-effort-radical",
+            "senioractu-2026-10-25-le-pen-lance-campagne-orleans"
           ],
           "history": [
             {
@@ -22843,7 +22865,8 @@
           "firstSeen": "2026-08-27",
           "lastChanged": "2026-08-27",
           "sourceIds": [
-            "sudradio-2026-08-27-marine-le-pen-defend-ses-reformes"
+            "sudradio-2026-08-27-marine-le-pen-defend-ses-reformes",
+            "senioractu-2026-10-25-le-pen-lance-campagne-orleans"
           ],
           "history": [
             {
@@ -50674,7 +50697,8 @@
           "sourceIds": [
             "lafrancehumaniste-2026-08-28-big-bang-la-regle-republicaine",
             "lcp-2026-08-28-villepin-nouvelle-abolition-des-privileges",
-            "lafrancehumaniste-nd-programme-economique-20-propositions"
+            "lafrancehumaniste-nd-programme-economique-20-propositions",
+            "linfodurable-2026-10-21-villepin-plateforme-commune-anticrise"
           ],
           "history": [
             {
@@ -51295,6 +51319,29 @@
               "type": "ajout",
               "sourceIds": [
                 "lafrancehumaniste-2026-03-27-le-moment-francais-sorbonne"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "villepin-inst-etats-generaux-republique",
+          "themeKey": "inst",
+          "subthemeKey": "inst-referendum",
+          "title": "Organisation d'« États généraux de la République » et de consultations locales dans les communes",
+          "detail": "Dominique de Villepin propose d'organiser des « États généraux de la République » et des consultations locales dans les communes, et appelle les candidats et les partis à une « plateforme commune anticrise ». Annoncé dans une vidéo publiée sur les réseaux sociaux le 21 octobre 2026, selon une dépêche reprise par L'Info Durable.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-10-21",
+          "lastChanged": "2026-10-21",
+          "sourceIds": [
+            "linfodurable-2026-10-21-villepin-plateforme-commune-anticrise"
+          ],
+          "history": [
+            {
+              "date": "2026-10-21",
+              "type": "ajout",
+              "sourceIds": [
+                "linfodurable-2026-10-21-villepin-plateforme-commune-anticrise"
               ]
             }
           ]
@@ -73186,6 +73233,166 @@
           ]
         }
       ]
+    },
+    {
+      "id": "cluster17-2026-10-22",
+      "institute": "Cluster17",
+      "sponsors": [
+        "Politico"
+      ],
+      "fieldworkStart": "2026-10-19",
+      "fieldworkEnd": "2026-10-22",
+      "publishedAt": "2026-10-26",
+      "population": "Échantillon de 3 000 personnes représentatives de la population française âgée de 18 ans et plus",
+      "sampleSize": 3000,
+      "method": "Questionnaire auto-administré en ligne, méthode des quotas (sexe, âge, taille de commune, région, catégorie socioprofessionnelle) ; redressement sociodémographique (INSEE) et politique (présidentielle 2022 T1, européennes 2024)",
+      "margin": "Entre 0,8 et 1,8 point pour 3 000 personnes selon les pourcentages",
+      "reportUrl": "https://cluster17.com/wp-content/uploads/2026/10/ITV-Politico-Octobre-C17.pdf",
+      "round": 1,
+      "hypotheses": [
+        {
+          "id": "h1",
+          "label": "Hypothèse 1 (Édouard Philippe)",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 18.5
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 2
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 13
+            },
+            {
+              "candidateId": "philippe",
+              "value": 16
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 8
+            },
+            {
+              "candidateId": "lepen",
+              "value": 33
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 4
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": "h2",
+          "label": "Hypothèse 2 (Gabriel Attal)",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 19.5
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 2
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 14
+            },
+            {
+              "candidateId": "attal",
+              "value": 12
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 10
+            },
+            {
+              "candidateId": "lepen",
+              "value": 32.5
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 4
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 3.5
+            }
+          ]
+        },
+        {
+          "id": "h3",
+          "label": "Hypothèse 3 (François Hollande et David Lisnard)",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 19.5
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 2.5
+            },
+            {
+              "candidateId": "hollande",
+              "value": 6.5
+            },
+            {
+              "candidateId": "philippe",
+              "value": 17
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 7
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 8
+            },
+            {
+              "candidateId": "lepen",
+              "value": 30.5
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3.5
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 3
+            }
+          ]
+        }
+      ]
     }
   ],
   "agenda": [
@@ -74374,9 +74581,26 @@
         "europe1-2026-10-25-congres-du-rn-a-orleans-ce-qu-il-faut-retenir",
         "21news-2026-10-25-a-orleans-marine-le-pen-dessine-les-contours"
       ]
+    },
+    {
+      "id": "evt-tondelier-declaration-2026-10-26",
+      "date": "2026-10-26",
+      "type": "declaration",
+      "candidateIds": [
+        "tondelier"
+      ],
+      "text": "Dans l'émission « Les 4 Vérités » sur France 2, se prononce sur un possible retrait de sa candidature en cas d'accord à gauche.",
+      "quote": "« Je regrette qu’il n’y ait pas eu de primaire, je regrette qu’il n’y ait pas eu d’union, une union de toute la gauche. Sans union de toute la gauche, c’est mal parti et je vois qu’ils n’ont pas envie. »",
+      "sourceIds": [
+        "orange-2026-10-26-tondelier-evoque-retrait"
+      ]
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-10-27",
+      "text": "Recherche des nouveautés depuis la mise à jour du 26 octobre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; Marine Tondelier, déclarée, a évoqué le 26 octobre sur France 2 un possible retrait de sa candidature sous conditions d'un accord à gauche, sans changement de statut. Sondages : 1 enquête ajoutée, Cluster17 pour Politico (terrain du 19 au 22 octobre 2026, publiée le 26 octobre ; trois hypothèses de premier tour reprises du rapport de l'institut, qui ne comporte pas de duel de second tour) ; sa notice de la Commission des sondages n'a pas été trouvée aujourd'hui et sera ajoutée ultérieurement, comme celles des enquêtes OpinionWay pour CNews (22 octobre), Toluna Harris Interactive pour M6 et RTL (19 au 21 octobre) et Ipsos bva pour Le Parisien (21 et 22 octobre), toujours introuvables. Mesures : 1 mesure ajoutée, Dominique de Villepin (« États généraux de la République » et consultations locales dans les communes), annoncée dans une vidéo du 21 octobre et rapportée par une dépêche reprise par L'Info Durable, qui confirme en outre sa mesure existante sur le déficit sous 3 % du PIB, dont elle devient une source. Marine Le Pen : l'article de SeniorActu du 25 octobre sur son discours d'Orléans indique qu'elle ne propose pas de reporter l'âge de départ et reprend un départ à 60 ans après 40 ans de cotisation pour les carrières commencées avant 20 ans, l'âge augmentant ensuite progressivement jusqu'à 62 ans ; il confirme ses mesures existantes sur la retraite à 62 ans et sur la capitalisation, dont il devient une source ; l'information rapportée le 26 octobre sur un engagement à ne pas dépasser 64 ans n'est donc pas retenue et la mesure n'est pas modifiée. Aucune mesure modifiée ou abandonnée. Questionnaire : aucune position renseignée. Rotation de la banque : thème logement passé en revue, sans position nouvelle justifiée par une mesure publiée. Vie de la campagne : 1 déclaration de la semaine ajoutée (Marine Tondelier, émission « Les 4 Vérités » sur France 2 le 26 octobre, rapportée par Orange Actualités avec 6Médias et L'Express). Parrainages : aucun relevé ajouté. Rotation hebdomadaire des candidats, en commençant par ceux dont la position est connue sur le moins de questions du test parmi ceux qui n'avaient pas été revus depuis le 20 octobre : Dominique de Villepin (voir ci-dessus) ; passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Bruno Le Maire (aucune annonce de candidature ni proposition nouvelle trouvée depuis août), Bernard Cazeneuve, Raphaël Glucksmann, Florian Philippot et Juan Branco (aucune source nouvelle trouvée)."
+    },
     {
       "date": "2026-10-26",
       "text": "Recherche des nouveautés depuis la mise à jour du 25 octobre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; Marine Le Pen, déjà déclarée, a prononcé son premier discours de campagne le 25 octobre au congrès du Rassemblement national à Orléans, sans changement de statut. Sondages : 1 enquête ajoutée, Ipsos bva pour Le Parisien et CESI École d'ingénieurs (terrain des 21 et 22 octobre 2026, publiée le 24 octobre ; quatre hypothèses de premier tour reprises du rapport complet de l'institut, qui ne comporte pas de duel de second tour) ; la notice de la Commission des sondages n'a pas été trouvée aujourd'hui et sera ajoutée ultérieurement. Les notices des enquêtes Toluna Harris Interactive (19 au 21 octobre) et OpinionWay pour CNews (22 octobre) n'ont toujours pas pu être ouvertes et ne sont pas saisies. Mesures : 2 mesures ajoutées, Marine Le Pen (inscription de la « communauté nationale » dans la Constitution ; scrutin proportionnel avec prime majoritaire), annoncées dans son discours d'Orléans et rapportées par Europe 1 avec l'AFP et par 21 News ; l'article d'Europe 1 confirme en outre sa mesure existante sur la part fiscale pleine dès le deuxième enfant, dont il devient une source. Une dépêche de France 24 reprise par un site tiers indique qu'elle s'engagerait désormais à ne pas reporter l'âge de départ au-delà de 64 ans au lieu de proposer la retraite à 62 ans ; cette information n'ayant pas été confirmée par une autre source ouverte aujourd'hui, la mesure existante n'est pas modifiée et sera réexaminée. L'évocation par d'autres articles d'une « prime d'expulsion » et des hydrocarbures n'a pas pu être vérifiée et n'est pas saisie. Aucune mesure modifiée ou abandonnée. Questionnaire : 1 position renseignée dans le test (scrutin proportionnel : Marine Le Pen, à partir de la nouvelle mesure). Rotation de la banque : thèmes institutions, Europe et défense passés en revue, sans position nouvelle justifiée par une mesure publiée. Vie de la campagne : 1 déclaration de la semaine ajoutée (Marine Le Pen, discours d'Orléans du 25 octobre, rapporté par Europe 1 et 21 News). Le ralliement de Yannick Jadot à Raphaël Glucksmann n'est toujours pas ajouté : l'article de Public Sénat du 17 juin 2026 consulté aujourd'hui rapporte un soutien de principe, sans annonce de ralliement datée. Parrainages : aucun relevé ajouté. Rotation hebdomadaire des candidats, en commençant par ceux dont la position est connue sur le moins de questions du test parmi ceux qui n'avaient pas été revus depuis le 21 octobre : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Élisabeth Borne (dernière prise de parole trouvée le 10 juin, sans proposition), Thierry Breton, Manuel Valls et Sébastien Bonnal (aucune source nouvelle trouvée), Clara Egger (la lettre de Solution démocratique « Président arbitre : ce qu'il nous faut », non datée, ne contient pas de proposition précise nouvelle), François Hollande (aucune source postérieure à la présentation de son livre fin août, dont les mesures sont déjà saisies), François Asselineau, Gilles Platret, Erwan Rohou et David Saforcada (aucune source nouvelle trouvée)."
