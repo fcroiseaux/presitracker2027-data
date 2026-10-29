@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28T05:59:45Z",
+  "updatedAt": "2026-10-29T05:47:39Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -5727,6 +5727,13 @@
       "url": "https://www.connaissancedesenergies.org/afp/prix-de-lenergie-roussel-pcf-appelle-a-se-mobiliser-sur-les-ronds-points-260911",
       "date": "2026-09-11",
       "kind": "presse"
+    },
+    "europe1-2026-10-27-lisnard-objectif-elysee-2027": {
+      "title": "En direct - Émeutes, Parcoursup, primaire à droite... Ce qu’il faut retenir de l’interview de David Lisnard dans «Objectif Élysée 2027»",
+      "publisher": "Europe 1",
+      "url": "https://europe1.fr/politique/en-direct-emeutes-parcoursup-primaire-a-droite-ce-quil-faut-retenir-de-linterview-de-david-lisnard-dans-objectif-elysee-2027-1186743",
+      "date": "2026-10-27",
+      "kind": "entretien"
     }
   },
   "candidates": [
@@ -24466,7 +24473,8 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "unenouvelleenergie-nd-ecole-le-projet-de-david-lisnard"
+            "unenouvelleenergie-nd-ecole-le-projet-de-david-lisnard",
+            "europe1-2026-10-27-lisnard-objectif-elysee-2027"
           ],
           "history": [
             {
@@ -25245,7 +25253,8 @@
           "lastChanged": "2026-08-31",
           "sourceIds": [
             "nouvelleenergie-2026-08-31-discours-de-la-gagne",
-            "unenouvelleenergie-2026-10-03-travail-paie-plus"
+            "unenouvelleenergie-2026-10-03-travail-paie-plus",
+            "europe1-2026-10-27-lisnard-objectif-elysee-2027"
           ],
           "history": [
             {
@@ -26093,7 +26102,8 @@
           "firstSeen": "2026-10-03",
           "lastChanged": "2026-10-03",
           "sourceIds": [
-            "unenouvelleenergie-2026-10-03-intelligence-artificielle"
+            "unenouvelleenergie-2026-10-03-intelligence-artificielle",
+            "europe1-2026-10-27-lisnard-objectif-elysee-2027"
           ],
           "history": [
             {
@@ -26181,15 +26191,16 @@
           "id": "lisnard-ret-desindexation-pensions-2000",
           "themeKey": "ret",
           "subthemeKey": "ret-pensions",
-          "title": "Désindexation des pensions supérieures à 2 000 € par mois",
-          "detail": "David Lisnard propose de ne plus indexer les pensions de retraite à partir d'environ 2 000 € par mois et d'affecter le différentiel à l'amorçage d'un étage obligatoire de retraite par capitalisation. Déclaré dans un entretien au Crayon publié le 11 octobre 2026.",
+          "title": "Gel des pensions supérieures à 2 200 € par mois",
+          "detail": "David Lisnard propose de geler les pensions de retraite supérieures à 2 200 € par mois, et non l'ensemble des pensions, précisé dans l'émission « Objectif Élysée 2027 » (CNews et Europe 1) du 27 octobre 2026. Dans un entretien au Crayon publié le 11 octobre 2026, il proposait de ne plus indexer les pensions à partir d'environ 2 000 € par mois et d'affecter le différentiel à l'amorçage d'un étage obligatoire de retraite par capitalisation.",
           "kind": "declaration",
           "status": "active",
           "firstSeen": "2026-08-03",
-          "lastChanged": "2026-08-03",
+          "lastChanged": "2026-10-29",
           "sourceIds": [
             "lecrayon-2026-10-11-lisnard-plan-200-milliards",
-            "unenouvelleenergie-2026-08-03-retraite-capitalisation"
+            "unenouvelleenergie-2026-08-03-retraite-capitalisation",
+            "europe1-2026-10-27-lisnard-objectif-elysee-2027"
           ],
           "history": [
             {
@@ -26197,6 +26208,16 @@
               "type": "ajout",
               "sourceIds": [
                 "lecrayon-2026-10-11-lisnard-plan-200-milliards"
+              ]
+            },
+            {
+              "date": "2026-10-29",
+              "type": "modification",
+              "before": "Désindexation des pensions supérieures à 2 000 € par mois",
+              "after": "Gel des pensions supérieures à 2 200 € par mois",
+              "note": "Seuil porté d'environ 2 000 € à 2 200 € par mois, dans l'émission « Objectif Élysée 2027 » du 27 octobre 2026, selon Europe 1.",
+              "sourceIds": [
+                "europe1-2026-10-27-lisnard-objectif-elysee-2027"
               ]
             }
           ]
@@ -26683,7 +26704,8 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "unenouvelleenergie-nd-securite-le-projet-de-david-lisnard"
+            "unenouvelleenergie-nd-securite-le-projet-de-david-lisnard",
+            "europe1-2026-10-27-lisnard-objectif-elysee-2027"
           ],
           "history": [
             {
@@ -26865,15 +26887,16 @@
           "id": "lisnard-sec-revoir-excuse-minorite",
           "themeKey": "sec",
           "subthemeKey": "sec-mineurs",
-          "title": "Révision de l'excuse de minorité",
-          "detail": "David Lisnard propose de revoir l'excuse de minorité (déclaré sur BFMTV-RMC le 13 octobre 2026). Le programme publié sur le site de Nouvelle Énergie prévoit d'« inverser le principe de l'excuse de minorité dès 13 ans ».",
+          "title": "Excuse de minorité ramenée de 50 % à 20 %",
+          "detail": "David Lisnard propose de réduire l'excuse de minorité de 50 % à 20 %, précisé dans l'émission « Objectif Élysée 2027 » (CNews et Europe 1) du 27 octobre 2026. Il proposait de revoir l'excuse de minorité sur BFMTV-RMC le 13 octobre 2026 ; le programme publié sur le site de Nouvelle Énergie prévoit d'« inverser le principe de l'excuse de minorité dès 13 ans ».",
           "kind": "declaration",
           "status": "active",
           "firstSeen": "2026-10-13",
-          "lastChanged": "2026-10-13",
+          "lastChanged": "2026-10-29",
           "sourceIds": [
             "orange-2026-10-13-revoir-l-excuse-de-minorite-david",
-            "unenouvelleenergie-nd-securite-le-projet-de-david-lisnard"
+            "unenouvelleenergie-nd-securite-le-projet-de-david-lisnard",
+            "europe1-2026-10-27-lisnard-objectif-elysee-2027"
           ],
           "history": [
             {
@@ -26881,6 +26904,16 @@
               "type": "ajout",
               "sourceIds": [
                 "orange-2026-10-13-revoir-l-excuse-de-minorite-david"
+              ]
+            },
+            {
+              "date": "2026-10-29",
+              "type": "modification",
+              "before": "Révision de l'excuse de minorité",
+              "after": "Excuse de minorité ramenée de 50 % à 20 %",
+              "note": "Proposition chiffrée dans l'émission « Objectif Élysée 2027 » du 27 octobre 2026, selon Europe 1.",
+              "sourceIds": [
+                "europe1-2026-10-27-lisnard-objectif-elysee-2027"
               ]
             }
           ]
@@ -26905,6 +26938,52 @@
               "type": "ajout",
               "sourceIds": [
                 "orange-2026-10-13-revoir-l-excuse-de-minorite-david"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lisnard-sec-etablissements-fermes-mineurs",
+          "themeKey": "sec",
+          "subthemeKey": "sec-mineurs",
+          "title": "Création d'un réseau d'établissements disciplinaires fermés pour les mineurs",
+          "detail": "David Lisnard propose de créer un réseau d'établissements disciplinaires fermés, dans le cadre d'une révision de la justice pénale des mineurs. Proposé dans l'émission « Objectif Élysée 2027 » (CNews et Europe 1) du 27 octobre 2026, selon Europe 1.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-10-27",
+          "lastChanged": "2026-10-27",
+          "sourceIds": [
+            "europe1-2026-10-27-lisnard-objectif-elysee-2027"
+          ],
+          "history": [
+            {
+              "date": "2026-10-27",
+              "type": "ajout",
+              "sourceIds": [
+                "europe1-2026-10-27-lisnard-objectif-elysee-2027"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lisnard-sec-loi-casseurs-payeurs",
+          "themeKey": "sec",
+          "subthemeKey": "sec-peines",
+          "title": "Loi « casseurs-payeurs »",
+          "detail": "David Lisnard propose une loi « casseurs-payeurs » : l'auteur de dégradations paie les dégâts ; s'il n'est pas solvable, leur montant est déduit des sommes que la collectivité lui verse. Proposé dans l'émission « Objectif Élysée 2027 » (CNews et Europe 1) du 27 octobre 2026, selon Europe 1.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-10-27",
+          "lastChanged": "2026-10-27",
+          "sourceIds": [
+            "europe1-2026-10-27-lisnard-objectif-elysee-2027"
+          ],
+          "history": [
+            {
+              "date": "2026-10-27",
+              "type": "ajout",
+              "sourceIds": [
+                "europe1-2026-10-27-lisnard-objectif-elysee-2027"
               ]
             }
           ]
@@ -58353,13 +58432,14 @@
           },
           "lisnard": {
             "value": -1,
-            "note": "Propose de ne plus indexer les pensions à partir d'environ 2 000 euros par mois.",
+            "note": "Propose de geler les pensions supérieures à 2 200 € par mois.",
             "measureIds": [
               "lisnard-ret-desindexation-pensions-2000"
             ],
             "sourceIds": [
               "lecrayon-2026-10-11-lisnard-plan-200-milliards",
-              "unenouvelleenergie-2026-08-03-retraite-capitalisation"
+              "unenouvelleenergie-2026-08-03-retraite-capitalisation",
+              "europe1-2026-10-27-lisnard-objectif-elysee-2027"
             ]
           },
           "hollande": {
@@ -74690,9 +74770,26 @@
       "sourceIds": [
         "publicsenat-2026-10-27-retailleau-moment-historique-jeunesse"
       ]
+    },
+    {
+      "id": "evt-lisnard-declaration-2026-10-27",
+      "date": "2026-10-27",
+      "type": "declaration",
+      "candidateIds": [
+        "lisnard"
+      ],
+      "text": "Dans l'émission « Objectif Élysée 2027 » sur CNews et Europe 1, se prononce sur une alliance avec Éric Ciotti.",
+      "quote": "« J’appelle donc Éric Ciotti à me rejoindre et à se séparer du RN. »",
+      "sourceIds": [
+        "europe1-2026-10-27-lisnard-objectif-elysee-2027"
+      ]
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-10-29",
+      "text": "Recherche des nouveautés depuis la mise à jour du 28 octobre. Candidatures : aucune nouvelle candidature et aucun retrait relevés. Sondages : aucune nouvelle enquête d'intentions de vote relevée depuis celle de Cluster17 pour Politico (terrain du 19 au 22 octobre). Les notices de la Commission des sondages des enquêtes OpinionWay pour CNews (n° 10333), Toluna Harris Interactive pour M6 et RTL (n° 10332) et Ipsos bva pour Le Parisien (n° 10338), dont les adresses sont signalées par un site de suivi, n'ont toujours pas pu être ouvertes aujourd'hui et ne sont pas saisies ; celle de l'enquête Cluster17 pour Politico n'a pas été trouvée. Mesures : David Lisnard, à partir de l'émission « Objectif Élysée 2027 » (CNews et Europe 1) du 27 octobre, rapportée par Europe 1 : 2 mesures ajoutées (réseau d'établissements disciplinaires fermés pour les mineurs ; loi « casseurs-payeurs ») et 2 mesures modifiées (gel des pensions supérieures à 2 200 € par mois, au lieu d'une désindexation à partir d'environ 2 000 € ; excuse de minorité ramenée de 50 % à 20 %, précision chiffrée de la révision annoncée le 13 octobre) ; la même source confirme ses mesures existantes sur l'alignement de la CSG des actifs sur celle des inactifs, la majorité pénale à 16 ans, le recrutement des enseignants sous contrat et la production d'intelligence artificielle, dont elle devient une source ; son appel à une « grande primaire ouverte » à droite ne constitue pas une mesure de programme et n'est pas saisi. Gabriel Attal a proposé sur TF1, le 28 octobre, une « grande primaire des démocrates », selon LCP ; ce n'est pas une mesure de programme, et une déclaration de la semaine ayant déjà été publiée pour lui le 23 octobre, aucun fait n'est ajouté. Aucune mesure abandonnée. Questionnaire : aucune position nouvelle dans le test ; dans la banque, la note de la position de David Lisnard sur l'indexation des pensions est mise à jour (seuil de 2 200 €), sans changement de valeur. Rotation de la banque : thèmes affaires étrangères, sécurité et retraites passés en revue, sans autre position nouvelle justifiée par une mesure publiée. Vie de la campagne : 1 déclaration de la semaine ajoutée (David Lisnard, « Objectif Élysée 2027 » du 27 octobre, sur une alliance avec Éric Ciotti, rapportée par Europe 1). Parrainages : aucun relevé ajouté ; aucune nouvelle annonce chiffrée trouvée. Rotation hebdomadaire des candidats, en commençant par ceux dont la position est connue sur le moins de questions du test parmi ceux qui n'avaient pas été revus depuis le 23 octobre : David Lisnard (voir ci-dessus) ; passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Sylvain Durif, Benoît Mathieu et Jean Lassalle (aucune source nouvelle trouvée ; aucune décision de Jean Lassalle sur sa candidature n'a été trouvée), Olivier Becht et Emmanuel Dubuisson (aucune source nouvelle trouvée), Nicolas Dupont-Aignan (aucune proposition nouvelle trouvée depuis sa déclaration de candidature du 19 septembre)."
+    },
     {
       "date": "2026-10-28",
       "text": "Recherche des nouveautés depuis la mise à jour du 27 octobre. Candidatures : aucune nouvelle candidature et aucun retrait relevés. Sondages : aucune nouvelle enquête d'intentions de vote relevée depuis celle de Cluster17 pour Politico (terrain du 19 au 22 octobre) ; le baromètre Odoxa pour Public Sénat et la presse régionale publié le 27 octobre (terrain des 21 et 22 octobre) porte sur des cotes d'adhésion et non sur des intentions de vote, et n'est pas saisi. Les notices de la Commission des sondages des enquêtes OpinionWay pour CNews (22 octobre, n° 10333) et Toluna Harris Interactive pour M6 et RTL (19 au 21 octobre, n° 10332), signalées par un site de suivi, n'ont toujours pas pu être ouvertes aujourd'hui, pas plus que celles des enquêtes Ipsos bva pour Le Parisien et Cluster17 pour Politico ; elles ne sont pas saisies. Mesures : 2 mesures ajoutées, Fabien Roussel (TVA sur les carburants ramenée de 20 % à 5,5 % ; suppression des certificats d'économie d'énergie sur les carburants), demandées le 11 septembre 2026 selon une dépêche AFP reprise par Connaissance des Énergies, retrouvée lors de la rotation. Bruno Retailleau : l'article de Public Sénat du 27 octobre sur la rencontre HEC Débats confirme ses mesures existantes sur la fin du collège unique, les groupes de niveau et la voie professionnelle confiée aux régions, dont il devient une source ; ses propos sur Parcoursup (« une boîte noire », appel à plus de transparence) et sur l'objectif de « 85 % d'une classe d'âge au bac » ne contiennent pas de proposition précise et ne sont pas saisis. Aucune mesure modifiée ou abandonnée. Questionnaire : aucune position renseignée dans le test ; 2 positions renseignées dans la banque (baisse des taxes sur les carburants et suppression des certificats d'économie d'énergie : Fabien Roussel, à partir des nouvelles mesures). Rotation de la banque : thèmes numérique, éducation et pouvoir d'achat passés en revue, sans autre position nouvelle justifiée par une mesure publiée. Vie de la campagne : 1 déclaration de la semaine ajoutée (Bruno Retailleau, rencontre HEC Débats du 27 octobre, rapportée par Public Sénat). Parrainages : aucun relevé ajouté ; aucune nouvelle annonce chiffrée trouvée. Rotation hebdomadaire des candidats, en commençant par ceux dont la position est connue sur le moins de questions du test parmi ceux qui n'avaient pas été revus depuis le 22 octobre : Fabien Roussel et Bruno Retailleau (voir ci-dessus) ; passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Mira Markovic, Lydie Massard, Manolo Mlekuz et Sandrine Rousseau (aucune source nouvelle trouvée), Antoine Mikolajczak (présentation de son programme toujours annoncée pour le 2 novembre), Natacha Polony (propositions déjà saisies), Francis Lalanne (aucune proposition nouvelle trouvée) et François Ruffin (un article du Moniteur sur la construction hors site n'a pas pu être ouvert aujourd'hui et n'est pas saisi)."
