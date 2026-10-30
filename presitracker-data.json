@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T05:47:39Z",
+  "updatedAt": "2026-10-30T05:47:54Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -5734,6 +5734,20 @@
       "url": "https://europe1.fr/politique/en-direct-emeutes-parcoursup-primaire-a-droite-ce-quil-faut-retenir-de-linterview-de-david-lisnard-dans-objectif-elysee-2027-1186743",
       "date": "2026-10-27",
       "kind": "entretien"
+    },
+    "orange-2026-10-27-philippe-immigration-legale-par-deux": {
+      "title": "Présidentielle 2027 : Édouard Philippe veut \"diviser l’immigration légale par deux\" face à \"l’échec de l’intégration\"",
+      "publisher": "Orange Actualités (6Médias, avec L'Express)",
+      "url": "https://actu.orange.fr/politique/presidentielle-2027-edouard-philippe-veut-diviser-l-immigration-legale-par-deux-face-a-l-echec-de-l-integration-l-express-via-6medias-CNT000002tpDKM.html",
+      "date": "2026-10-27",
+      "kind": "presse"
+    },
+    "21news-2026-10-28-philippe-echec-integration": {
+      "title": "« L'échec de l'intégration est incontestable » : Édouard Philippe veut diviser l'immigration légale par deux",
+      "publisher": "21 News",
+      "url": "https://www.21news.be/lechec-de-lintegration-est-incontestable-edouard-philippe-veut-diviser-limmigration-legale-par-deux/",
+      "date": "2026-10-28",
+      "kind": "presse"
     }
   },
   "candidates": [
@@ -34307,6 +34321,31 @@
           ]
         },
         {
+          "id": "philippe-def-service-national-obligatoire",
+          "themeKey": "def",
+          "subthemeKey": "def-service",
+          "title": "Rétablissement d'un service national obligatoire",
+          "detail": "Édouard Philippe propose de rétablir un service national obligatoire, présenté comme un levier d'intégration. Annoncé dans un entretien au Point publié le 27 octobre 2026, rapporté par Orange Actualités (6Médias, avec L'Express) et par 21 News.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-10-27",
+          "lastChanged": "2026-10-27",
+          "sourceIds": [
+            "orange-2026-10-27-philippe-immigration-legale-par-deux",
+            "21news-2026-10-28-philippe-echec-integration"
+          ],
+          "history": [
+            {
+              "date": "2026-10-27",
+              "type": "ajout",
+              "sourceIds": [
+                "orange-2026-10-27-philippe-immigration-legale-par-deux",
+                "21news-2026-10-28-philippe-echec-integration"
+              ]
+            }
+          ]
+        },
+        {
           "id": "philippe-eco-financement-social-salaire-net",
           "themeKey": "eco",
           "subthemeKey": "eco-salaires",
@@ -35013,7 +35052,9 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus-2"
+            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus-2",
+            "orange-2026-10-27-philippe-immigration-legale-par-deux",
+            "21news-2026-10-28-philippe-echec-integration"
           ],
           "history": [
             {
@@ -35491,7 +35532,9 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus-2"
+            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus-2",
+            "orange-2026-10-27-philippe-immigration-legale-par-deux",
+            "21news-2026-10-28-philippe-echec-integration"
           ],
           "history": [
             {
@@ -35573,6 +35616,31 @@
                 "edouardphilippe-nd-edouard-philippe-pour-une-france-plus-2"
               ],
               "note": "Source non datée : date d'entrée dans le fichier."
+            }
+          ]
+        },
+        {
+          "id": "philippe-imm-titres-sejour-travail-etudes",
+          "themeKey": "imm",
+          "subthemeKey": "imm-frontieres",
+          "title": "Titres de séjour réservés aux motifs professionnels et aux études",
+          "detail": "Édouard Philippe propose de réserver les titres de séjour aux seuls motifs professionnels et aux étudiants, dans le cadre de son objectif de « diviser l'immigration légale par deux » au cours du prochain quinquennat. Annoncé dans un entretien au Point publié le 27 octobre 2026, rapporté par Orange Actualités (6Médias, avec L'Express) et par 21 News.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-10-27",
+          "lastChanged": "2026-10-27",
+          "sourceIds": [
+            "orange-2026-10-27-philippe-immigration-legale-par-deux",
+            "21news-2026-10-28-philippe-echec-integration"
+          ],
+          "history": [
+            {
+              "date": "2026-10-27",
+              "type": "ajout",
+              "sourceIds": [
+                "orange-2026-10-27-philippe-immigration-legale-par-deux",
+                "21news-2026-10-28-philippe-echec-integration"
+              ]
             }
           ]
         },
@@ -36116,7 +36184,9 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus-2"
+            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus-2",
+            "orange-2026-10-27-philippe-immigration-legale-par-deux",
+            "21news-2026-10-28-philippe-echec-integration"
           ],
           "history": [
             {
@@ -36274,6 +36344,31 @@
           ]
         },
         {
+          "id": "philippe-sec-interdictions-paraitre-pointage",
+          "themeKey": "sec",
+          "subthemeKey": "sec-police",
+          "title": "Interdictions administratives de paraître et obligations de pointage avant certaines manifestations",
+          "detail": "Édouard Philippe propose des interdictions administratives de paraître et des obligations de pointage au commissariat avant certaines manifestations, après les violences des 17 et 18 octobre 2026. Annoncé dans un entretien au Point publié le 27 octobre 2026, rapporté par Orange Actualités (6Médias, avec L'Express) et par 21 News.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-10-27",
+          "lastChanged": "2026-10-27",
+          "sourceIds": [
+            "orange-2026-10-27-philippe-immigration-legale-par-deux",
+            "21news-2026-10-28-philippe-echec-integration"
+          ],
+          "history": [
+            {
+              "date": "2026-10-27",
+              "type": "ajout",
+              "sourceIds": [
+                "orange-2026-10-27-philippe-immigration-legale-par-deux",
+                "21news-2026-10-28-philippe-echec-integration"
+              ]
+            }
+          ]
+        },
+        {
           "id": "philippe-sec-peines-planchers",
           "themeKey": "sec",
           "subthemeKey": "sec-peines",
@@ -36284,7 +36379,8 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus-2"
+            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus-2",
+            "21news-2026-10-28-philippe-echec-integration"
           ],
           "history": [
             {
@@ -60165,6 +60261,17 @@
               "anasse2027-nd-programme-d-anasse-kazib-2027-en",
               "anasse2027-nd-depliant-anasse-2027"
             ]
+          },
+          "philippe": {
+            "value": 2,
+            "note": "Propose de rétablir un service national obligatoire.",
+            "measureIds": [
+              "philippe-def-service-national-obligatoire"
+            ],
+            "sourceIds": [
+              "orange-2026-10-27-philippe-immigration-legale-par-deux",
+              "21news-2026-10-28-philippe-echec-integration"
+            ]
           }
         }
       },
@@ -74783,9 +74890,27 @@
       "sourceIds": [
         "europe1-2026-10-27-lisnard-objectif-elysee-2027"
       ]
+    },
+    {
+      "id": "evt-philippe-declaration-2026-10-27",
+      "date": "2026-10-27",
+      "type": "declaration",
+      "candidateIds": [
+        "philippe"
+      ],
+      "text": "Dans un entretien au Point, se prononce sur l'immigration et l'intégration.",
+      "quote": "« l'échec de l'intégration dans notre pays depuis plusieurs décennies est incontestable »",
+      "sourceIds": [
+        "orange-2026-10-27-philippe-immigration-legale-par-deux",
+        "21news-2026-10-28-philippe-echec-integration"
+      ]
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-10-30",
+      "text": "Recherche des nouveautés depuis la mise à jour du 29 octobre. Candidatures : aucune nouvelle candidature et aucun retrait relevés. Sondages : aucune nouvelle enquête d'intentions de vote relevée depuis celle de Cluster17 pour Politico (terrain du 19 au 22 octobre). Les notices de la Commission des sondages des enquêtes Ipsos bva pour Le Parisien (n° 10338), OpinionWay pour CNews (n° 10333), Toluna Harris Interactive pour M6 et RTL (n° 10332) et Cluster17 pour Politico (n° 10339), dont les adresses sont signalées par un site de suivi, n'ont pas pu être ouvertes aujourd'hui et ne sont pas saisies. Mesures : Édouard Philippe, à partir de son entretien au Point publié le 27 octobre, rapporté par Orange Actualités (6Médias, avec L'Express) et par 21 News : 3 mesures ajoutées (rétablissement d'un service national obligatoire ; titres de séjour réservés aux motifs professionnels et aux études ; interdictions administratives de paraître et obligations de pointage avant certaines manifestations) ; les mêmes articles confirment ses mesures existantes sur la division de l'immigration par deux, la dénonciation de l'accord franco-algérien de 1968 et les courtes peines dès la première infraction, et l'article de 21 News sa mesure sur les peines planchers, dont ils deviennent des sources ; la restriction du regroupement familial évoquée par ces articles n'étant pas précisée, sa mesure existante de suspension du regroupement familial n'est pas modifiée. Aucune mesure modifiée ou abandonnée. Questionnaire : aucune position nouvelle dans le test ; 1 position renseignée dans la banque (service national obligatoire : Édouard Philippe, à partir de la nouvelle mesure). Rotation de la banque : thèmes défense et immigration passés en revue, sans autre position nouvelle justifiée par une mesure publiée. Vie de la campagne : 1 déclaration de la semaine ajoutée (Édouard Philippe, entretien au Point du 27 octobre, sur l'intégration, rapporté par Orange Actualités et 21 News). Le rejet par les équipes d'Édouard Philippe et de Bruno Retailleau de la primaire proposée par Gabriel Attal, rapporté par Public Sénat le 29 octobre, ne comporte pas de propos des candidats eux-mêmes et n'est pas saisi. Parrainages : aucun relevé ajouté ; la dépêche AFP du 9 octobre indiquant que le NPA Révolutionnaires faisait état d'« une centaine de promesses » à la fin de l'été ne donne ni chiffre précis ni date d'annonce, et n'est pas saisie ; Révolution permanente fait état de « plusieurs dizaines de promesses » pour Anasse Kazib, sans nombre, non saisi. Rotation hebdomadaire des candidats, en commençant par ceux dont la position est connue sur le moins de questions du test parmi ceux qui n'avaient pas été revus depuis le 24 octobre : Édouard Philippe (voir ci-dessus) ; passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Matthieu Pigasse (un article de franceinfo sur une éventuelle candidature n'a pas pu être ouvert aujourd'hui), Xavier Bertrand (aucune source nouvelle depuis août), Anasse Kazib (aucune publication nouvelle comportant une proposition trouvée), Selma Labib (sa déclaration du 24 octobre sur BFMTV n'est disponible que par un agrégateur, sans source primaire vérifiable ; non saisie), Nathalie Arthaud (un entretien à franceinfo sur la mobilisation lycéenne n'a pas pu être ouvert aujourd'hui) et Philippe Herlin (aucune publication nouvelle sur son site de campagne depuis le 7 octobre)."
+    },
     {
       "date": "2026-10-29",
       "text": "Recherche des nouveautés depuis la mise à jour du 28 octobre. Candidatures : aucune nouvelle candidature et aucun retrait relevés. Sondages : aucune nouvelle enquête d'intentions de vote relevée depuis celle de Cluster17 pour Politico (terrain du 19 au 22 octobre). Les notices de la Commission des sondages des enquêtes OpinionWay pour CNews (n° 10333), Toluna Harris Interactive pour M6 et RTL (n° 10332) et Ipsos bva pour Le Parisien (n° 10338), dont les adresses sont signalées par un site de suivi, n'ont toujours pas pu être ouvertes aujourd'hui et ne sont pas saisies ; celle de l'enquête Cluster17 pour Politico n'a pas été trouvée. Mesures : David Lisnard, à partir de l'émission « Objectif Élysée 2027 » (CNews et Europe 1) du 27 octobre, rapportée par Europe 1 : 2 mesures ajoutées (réseau d'établissements disciplinaires fermés pour les mineurs ; loi « casseurs-payeurs ») et 2 mesures modifiées (gel des pensions supérieures à 2 200 € par mois, au lieu d'une désindexation à partir d'environ 2 000 € ; excuse de minorité ramenée de 50 % à 20 %, précision chiffrée de la révision annoncée le 13 octobre) ; la même source confirme ses mesures existantes sur l'alignement de la CSG des actifs sur celle des inactifs, la majorité pénale à 16 ans, le recrutement des enseignants sous contrat et la production d'intelligence artificielle, dont elle devient une source ; son appel à une « grande primaire ouverte » à droite ne constitue pas une mesure de programme et n'est pas saisi. Gabriel Attal a proposé sur TF1, le 28 octobre, une « grande primaire des démocrates », selon LCP ; ce n'est pas une mesure de programme, et une déclaration de la semaine ayant déjà été publiée pour lui le 23 octobre, aucun fait n'est ajouté. Aucune mesure abandonnée. Questionnaire : aucune position nouvelle dans le test ; dans la banque, la note de la position de David Lisnard sur l'indexation des pensions est mise à jour (seuil de 2 200 €), sans changement de valeur. Rotation de la banque : thèmes affaires étrangères, sécurité et retraites passés en revue, sans autre position nouvelle justifiée par une mesure publiée. Vie de la campagne : 1 déclaration de la semaine ajoutée (David Lisnard, « Objectif Élysée 2027 » du 27 octobre, sur une alliance avec Éric Ciotti, rapportée par Europe 1). Parrainages : aucun relevé ajouté ; aucune nouvelle annonce chiffrée trouvée. Rotation hebdomadaire des candidats, en commençant par ceux dont la position est connue sur le moins de questions du test parmi ceux qui n'avaient pas été revus depuis le 23 octobre : David Lisnard (voir ci-dessus) ; passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Sylvain Durif, Benoît Mathieu et Jean Lassalle (aucune source nouvelle trouvée ; aucune décision de Jean Lassalle sur sa candidature n'a été trouvée), Olivier Becht et Emmanuel Dubuisson (aucune source nouvelle trouvée), Nicolas Dupont-Aignan (aucune proposition nouvelle trouvée depuis sa déclaration de candidature du 19 septembre)."
