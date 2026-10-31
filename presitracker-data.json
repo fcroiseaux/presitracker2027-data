@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T05:47:54Z",
+  "updatedAt": "2026-10-31T05:56:19Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -5748,6 +5748,27 @@
       "url": "https://www.21news.be/lechec-de-lintegration-est-incontestable-edouard-philippe-veut-diviser-limmigration-legale-par-deux/",
       "date": "2026-10-28",
       "kind": "presse"
+    },
+    "melenchon-fr-2026-10-28-conference-presse-pole-public-bancaire": {
+      "title": "Conférence de presse de Jean-Luc Mélenchon et Aurélie Trouvé",
+      "publisher": "Blog de Jean-Luc Mélenchon",
+      "url": "https://melenchon.fr/2026/10/28/conference-de-presse-de-jean-luc-melenchon-et-aurelie-trouve/",
+      "kind": "discours",
+      "date": "2026-10-28"
+    },
+    "boursorama-2026-10-28-melenchon-remplacer-directeur-bpifrance": {
+      "title": "Présidentielle: Mélenchon veut remplacer le directeur de Bpifrance",
+      "publisher": "Boursorama (AFP)",
+      "url": "https://www.boursorama.com/actualite-economique/actualites/presidentielle-melenchon-veut-remplacer-le-directeur-de-bpifrance-226b967ca333f6bfbe97424382d55f88",
+      "kind": "presse",
+      "date": "2026-10-28"
+    },
+    "maddyness-2026-10-28-melenchon-remplacer-dufourcq-bpifrance": {
+      "title": "Jean-Luc Mélenchon veut remplacer Nicolas Dufourcq à la tête de Bpifrance",
+      "publisher": "Maddyness (avec AFP)",
+      "url": "https://www.maddyness.com/2026/10/28/jean-luc-melenchon-veut-remplacer-nicolas-dufourcq-a-la-tete-de-bpifrance/",
+      "kind": "presse",
+      "date": "2026-10-28"
     }
   },
   "candidates": [
@@ -28154,7 +28175,10 @@
           "sourceIds": [
             "melenchon2027-2026-01-22-laec-ch6-s2-pour-des-banques-au-service",
             "melenchon2027-2026-10-14-comment-remettre-ordre-comptes-publics",
-            "publicsenat-2026-08-27-dette-retraites-fiscalite-que-retenir"
+            "publicsenat-2026-08-27-dette-retraites-fiscalite-que-retenir",
+            "boursorama-2026-10-28-melenchon-remplacer-directeur-bpifrance",
+            "maddyness-2026-10-28-melenchon-remplacer-dufourcq-bpifrance",
+            "melenchon-fr-2026-10-28-conference-presse-pole-public-bancaire"
           ],
           "history": [
             {
@@ -33814,6 +33838,87 @@
               "type": "ajout",
               "sourceIds": [
                 "melenchon2027-2026-01-22-laec-ch15-s3-addictions-et-drogues-il"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "melenchon-eco-plafond-livret-a-30000",
+          "themeKey": "eco",
+          "subthemeKey": "eco-epargne",
+          "title": "Plafond du Livret A porté de 23 000 à 30 000 €",
+          "detail": "Jean-Luc Mélenchon propose de relever le plafond du Livret A de 23 000 à 30 000 €, ce qui dégagerait selon La France insoumise 40 milliards d'euros supplémentaires. Présenté lors de la conférence de presse de Jean-Luc Mélenchon et de la députée Aurélie Trouvé « Pour un pôle public bancaire au service des besoins » le 28 octobre 2026, rapportée par une dépêche AFP reprise par Boursorama et par Maddyness.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-10-28",
+          "lastChanged": "2026-10-28",
+          "sourceIds": [
+            "boursorama-2026-10-28-melenchon-remplacer-directeur-bpifrance",
+            "maddyness-2026-10-28-melenchon-remplacer-dufourcq-bpifrance",
+            "melenchon-fr-2026-10-28-conference-presse-pole-public-bancaire"
+          ],
+          "history": [
+            {
+              "date": "2026-10-28",
+              "type": "ajout",
+              "sourceIds": [
+                "boursorama-2026-10-28-melenchon-remplacer-directeur-bpifrance",
+                "maddyness-2026-10-28-melenchon-remplacer-dufourcq-bpifrance",
+                "melenchon-fr-2026-10-28-conference-presse-pole-public-bancaire"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "melenchon-eco-taux-livret-a-inflation",
+          "themeKey": "eco",
+          "subthemeKey": "eco-epargne",
+          "title": "Taux du Livret A aligné sur l'inflation",
+          "detail": "Jean-Luc Mélenchon propose de relever le taux d'intérêt du Livret A au niveau de l'inflation. Présenté lors de la conférence de presse de Jean-Luc Mélenchon et de la députée Aurélie Trouvé « Pour un pôle public bancaire au service des besoins » le 28 octobre 2026, rapportée par une dépêche AFP reprise par Boursorama et par Maddyness.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-10-28",
+          "lastChanged": "2026-10-28",
+          "sourceIds": [
+            "boursorama-2026-10-28-melenchon-remplacer-directeur-bpifrance",
+            "maddyness-2026-10-28-melenchon-remplacer-dufourcq-bpifrance",
+            "melenchon-fr-2026-10-28-conference-presse-pole-public-bancaire"
+          ],
+          "history": [
+            {
+              "date": "2026-10-28",
+              "type": "ajout",
+              "sourceIds": [
+                "boursorama-2026-10-28-melenchon-remplacer-directeur-bpifrance",
+                "maddyness-2026-10-28-melenchon-remplacer-dufourcq-bpifrance",
+                "melenchon-fr-2026-10-28-conference-presse-pole-public-bancaire"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "melenchon-eco-livret-b",
+          "themeKey": "eco",
+          "subthemeKey": "eco-epargne",
+          "title": "Création d'un « livret B » d'épargne longue",
+          "detail": "Jean-Luc Mélenchon propose de créer un « livret B », plan d'épargne de long terme bloqué de trois à dix ans, à taux d'intérêt plus élevé, « adossé à un fonds de production, de reconversion productive ». Présenté lors de la conférence de presse de Jean-Luc Mélenchon et de la députée Aurélie Trouvé « Pour un pôle public bancaire au service des besoins » le 28 octobre 2026, rapportée par une dépêche AFP reprise par Boursorama et par Maddyness.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-10-28",
+          "lastChanged": "2026-10-28",
+          "sourceIds": [
+            "boursorama-2026-10-28-melenchon-remplacer-directeur-bpifrance",
+            "maddyness-2026-10-28-melenchon-remplacer-dufourcq-bpifrance",
+            "melenchon-fr-2026-10-28-conference-presse-pole-public-bancaire"
+          ],
+          "history": [
+            {
+              "date": "2026-10-28",
+              "type": "ajout",
+              "sourceIds": [
+                "boursorama-2026-10-28-melenchon-remplacer-directeur-bpifrance",
+                "maddyness-2026-10-28-melenchon-remplacer-dufourcq-bpifrance",
+                "melenchon-fr-2026-10-28-conference-presse-pole-public-bancaire"
               ]
             }
           ]
@@ -56470,6 +56575,17 @@
             "sourceIds": [
               "debout-la-france-2026-10-10-projet-economie-et-travail"
             ]
+          },
+          "melenchon": {
+            "value": 1,
+            "note": "Propose d'aligner le taux du Livret A sur l'inflation.",
+            "measureIds": [
+              "melenchon-eco-taux-livret-a-inflation"
+            ],
+            "sourceIds": [
+              "boursorama-2026-10-28-melenchon-remplacer-directeur-bpifrance",
+              "maddyness-2026-10-28-melenchon-remplacer-dufourcq-bpifrance"
+            ]
           }
         }
       },
@@ -74907,6 +75023,10 @@
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-10-31",
+      "text": "Recherche des nouveautés depuis la mise à jour du 30 octobre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; aucune décision de Bruno Le Maire sur sa candidature, annoncée pour octobre, n'a été trouvée. Sondages : aucune nouvelle enquête d'intentions de vote relevée depuis celle de Cluster17 pour Politico (terrain du 19 au 22 octobre). Les notices de la Commission des sondages des enquêtes Cluster17 pour Politico (n° 10339), Ipsos bva pour Le Parisien (n° 10338), OpinionWay pour CNews (n° 10333) et Toluna Harris Interactive pour M6 et RTL (n° 10332), dont les adresses sont signalées par un site de suivi, n'ont toujours pas pu être ouvertes aujourd'hui et ne sont pas saisies. Mesures : Jean-Luc Mélenchon, à partir de la conférence de presse « Pour un pôle public bancaire au service des besoins » tenue avec la députée Aurélie Trouvé le 28 octobre, publiée sur son blog et rapportée par une dépêche AFP reprise par Boursorama et par Maddyness : 3 mesures ajoutées (plafond du Livret A porté de 23 000 à 30 000 € ; taux du Livret A aligné sur l'inflation ; création d'un « livret B » d'épargne longue bloquée de trois à dix ans) ; les mêmes sources confirment sa mesure existante sur le pôle public bancaire (investissement porté « de 100 milliards d'euros par an à 200 milliards par an »), dont elles deviennent des sources. Son intention de remplacer le directeur général de Bpifrance ne constitue pas une mesure de programme et n'est pas saisie ; son propos selon lequel une nationalisation des banques comme celle de 1982 n'est pas « à l'ordre du jour » ne constitue pas une renonciation explicite à sa mesure sur la socialisation de certaines banques de détail, qui n'est pas modifiée. Aucune mesure modifiée ou abandonnée. Questionnaire : aucune position nouvelle dans le test ; 1 position renseignée dans la banque (taux du Livret A au-dessus de l'inflation : Jean-Luc Mélenchon, valeur +1, la mesure prévoyant un alignement sur l'inflation et non un taux supérieur). Rotation de la banque : thème économie (épargne, banque et crédit) passé en revue, sans autre position nouvelle justifiée par une mesure publiée. Vie de la campagne : aucun fait ajouté ; une déclaration de la semaine ayant déjà été publiée pour Jean-Luc Mélenchon le 24 octobre, aucune n'est ajoutée ; l'investiture de Delphine Batho par Génération écologie, signalée par un article d'ICI qui n'a pas pu être ouvert aujourd'hui, n'est pas saisie faute de date et de source vérifiées. Parrainages : aucun relevé ajouté ; aucune nouvelle annonce chiffrée trouvée. Rotation hebdomadaire des candidats, en commençant par ceux dont la position est connue sur le moins de questions du test parmi ceux qui n'avaient pas été revus depuis le 25 octobre : Jean-Luc Mélenchon (voir ci-dessus ; ses autres publications depuis le 24 octobre ne contiennent pas de proposition nouvelle isolable) ; passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Mélody Delmur (aucune source nouvelle depuis le 13 octobre), Jean-Noël Barrot (aucune source postérieure à celles déjà saisies), Delphine Batho (aucune source nouvelle comportant une proposition), Karim Bouamrane (son site de campagne n'a pas pu être ouvert aujourd'hui ; aucune autre source nouvelle trouvée), Éric Zemmour (aucune proposition nouvelle trouvée depuis le 19 octobre) et Jean-François Legendre (son site de campagne n'a pas pu être ouvert aujourd'hui ; aucune autre source nouvelle trouvée)."
+    },
     {
       "date": "2026-10-30",
       "text": "Recherche des nouveautés depuis la mise à jour du 29 octobre. Candidatures : aucune nouvelle candidature et aucun retrait relevés. Sondages : aucune nouvelle enquête d'intentions de vote relevée depuis celle de Cluster17 pour Politico (terrain du 19 au 22 octobre). Les notices de la Commission des sondages des enquêtes Ipsos bva pour Le Parisien (n° 10338), OpinionWay pour CNews (n° 10333), Toluna Harris Interactive pour M6 et RTL (n° 10332) et Cluster17 pour Politico (n° 10339), dont les adresses sont signalées par un site de suivi, n'ont pas pu être ouvertes aujourd'hui et ne sont pas saisies. Mesures : Édouard Philippe, à partir de son entretien au Point publié le 27 octobre, rapporté par Orange Actualités (6Médias, avec L'Express) et par 21 News : 3 mesures ajoutées (rétablissement d'un service national obligatoire ; titres de séjour réservés aux motifs professionnels et aux études ; interdictions administratives de paraître et obligations de pointage avant certaines manifestations) ; les mêmes articles confirment ses mesures existantes sur la division de l'immigration par deux, la dénonciation de l'accord franco-algérien de 1968 et les courtes peines dès la première infraction, et l'article de 21 News sa mesure sur les peines planchers, dont ils deviennent des sources ; la restriction du regroupement familial évoquée par ces articles n'étant pas précisée, sa mesure existante de suspension du regroupement familial n'est pas modifiée. Aucune mesure modifiée ou abandonnée. Questionnaire : aucune position nouvelle dans le test ; 1 position renseignée dans la banque (service national obligatoire : Édouard Philippe, à partir de la nouvelle mesure). Rotation de la banque : thèmes défense et immigration passés en revue, sans autre position nouvelle justifiée par une mesure publiée. Vie de la campagne : 1 déclaration de la semaine ajoutée (Édouard Philippe, entretien au Point du 27 octobre, sur l'intégration, rapporté par Orange Actualités et 21 News). Le rejet par les équipes d'Édouard Philippe et de Bruno Retailleau de la primaire proposée par Gabriel Attal, rapporté par Public Sénat le 29 octobre, ne comporte pas de propos des candidats eux-mêmes et n'est pas saisi. Parrainages : aucun relevé ajouté ; la dépêche AFP du 9 octobre indiquant que le NPA Révolutionnaires faisait état d'« une centaine de promesses » à la fin de l'été ne donne ni chiffre précis ni date d'annonce, et n'est pas saisie ; Révolution permanente fait état de « plusieurs dizaines de promesses » pour Anasse Kazib, sans nombre, non saisi. Rotation hebdomadaire des candidats, en commençant par ceux dont la position est connue sur le moins de questions du test parmi ceux qui n'avaient pas été revus depuis le 24 octobre : Édouard Philippe (voir ci-dessus) ; passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Matthieu Pigasse (un article de franceinfo sur une éventuelle candidature n'a pas pu être ouvert aujourd'hui), Xavier Bertrand (aucune source nouvelle depuis août), Anasse Kazib (aucune publication nouvelle comportant une proposition trouvée), Selma Labib (sa déclaration du 24 octobre sur BFMTV n'est disponible que par un agrégateur, sans source primaire vérifiable ; non saisie), Nathalie Arthaud (un entretien à franceinfo sur la mobilisation lycéenne n'a pas pu être ouvert aujourd'hui) et Philippe Herlin (aucune publication nouvelle sur son site de campagne depuis le 7 octobre)."
