@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T05:51:45Z",
+  "updatedAt": "2026-11-02T05:53:43Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -5769,6 +5769,20 @@
       "url": "https://www.maddyness.com/2026/10/28/jean-luc-melenchon-veut-remplacer-nicolas-dufourcq-a-la-tete-de-bpifrance/",
       "kind": "presse",
       "date": "2026-10-28"
+    },
+    "orange-2026-11-01-philippe-primaire-de-la-division": {
+      "title": "Présidentielle 2027 : \"une primaire de la division\", Édouard Philippe écarte la proposition de Gabriel Attal",
+      "publisher": "Orange Actualités (6Médias, avec L'Express)",
+      "url": "https://actu.orange.fr/france/presidentielle-2027-une-primaire-de-la-division-edouard-philippe-ecarte-la-proposition-de-gabriel-attal-l-express-via-6medias-CNT000002tuZdH.html",
+      "date": "2026-11-01",
+      "kind": "presse"
+    },
+    "lcp-2026-10-28-attal-grande-primaire-des-democrates": {
+      "title": "Présidentielle 2027: Gabriel Attal veut une \"grande primaire des démocrates\" pour éviter un second tour RN-LFI",
+      "publisher": "LCP",
+      "url": "https://lcp.fr/actualites/presidentielle-2027-gabriel-attal-veut-une-grande-primaire-des-democrates-444417",
+      "date": "2026-10-28",
+      "kind": "presse"
     }
   },
   "candidates": [
@@ -36545,6 +36559,29 @@
               "note": "Source non datée : date d'entrée dans le fichier."
             }
           ]
+        },
+        {
+          "id": "philippe-eco-opposition-hausse-smic",
+          "themeKey": "eco",
+          "subthemeKey": "eco-salaires",
+          "title": "Opposition à une hausse du SMIC",
+          "detail": "Édouard Philippe s'oppose à une hausse du SMIC, qu'il qualifie de « solution illusoire » alors que « l'économie française a un énorme problème de compétitivité », et défend le retour à l'équilibre des comptes publics. Déclaré dans le journal de 20 heures de TF1 le 1er novembre 2026, rapporté par Orange Actualités (6Médias, avec L'Express).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-01",
+          "lastChanged": "2026-11-01",
+          "sourceIds": [
+            "orange-2026-11-01-philippe-primaire-de-la-division"
+          ],
+          "history": [
+            {
+              "date": "2026-11-01",
+              "type": "ajout",
+              "sourceIds": [
+                "orange-2026-11-01-philippe-primaire-de-la-division"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -52455,6 +52492,16 @@
             "sourceIds": [
               "franceinfo-2026-06-11-matthieu-pigasse-se-dit-pret"
             ]
+          },
+          "philippe": {
+            "value": -2,
+            "note": "Qualifie une hausse du SMIC de « solution illusoire ».",
+            "measureIds": [
+              "philippe-eco-opposition-hausse-smic"
+            ],
+            "sourceIds": [
+              "orange-2026-11-01-philippe-primaire-de-la-division"
+            ]
           }
         }
       },
@@ -66471,6 +66518,7 @@
       "sampleSize": 1500,
       "method": "En ligne, Access panel Ipsos ; méthode des quotas (sexe, âge, profession, région, catégorie d'agglomération)",
       "margin": "± 2,5 points pour un score de 50 % sur 1 500 personnes (intervalle de confiance à 95 %)",
+      "noticeUrl": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10338-pres-iv-ipsos-bva-le-parisien-24-octobre.pdf",
       "reportUrl": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/presidentielle-2027-intention-vote-octobre26-rapport-complet-web.pdf",
       "round": 1,
       "hypotheses": [
@@ -66682,6 +66730,7 @@
       "sampleSize": 2500,
       "method": "Méthode des quotas et redressement (sexe, âge, CSP, région, comportement électoral antérieur) ; questionnaire en ligne",
       "margin": "Entre 1,4 et 2,9 points au 1er tour",
+      "noticeUrl": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10332-pres-iv-toluna-harris-interactive-23-octobre.pdf",
       "reportUrl": "https://tolunacorporate.com/wp-content/uploads/2026/10/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-8-M6-RTL-23-octobre-2026-1.pdf",
       "round": 1,
       "hypotheses": [
@@ -66951,6 +67000,7 @@
       "sampleSize": 2500,
       "method": "Méthode des quotas et redressement (sexe, âge, CSP, région, comportement électoral antérieur) ; questionnaire en ligne",
       "margin": "Entre 2,9 et 3,1 points au 2nd tour",
+      "noticeUrl": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10332-pres-iv-toluna-harris-interactive-23-octobre.pdf",
       "reportUrl": "https://tolunacorporate.com/wp-content/uploads/2026/10/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-8-M6-RTL-23-octobre-2026-1.pdf",
       "round": 2,
       "hypotheses": [
@@ -67010,6 +67060,7 @@
       "population": "Échantillon de 973 personnes inscrites sur les listes électorales, issu d'un échantillon de 1 033 personnes représentatif de la population française âgée de 18 ans et plus",
       "sampleSize": 1033,
       "method": "Questionnaire auto-administré en ligne (CAWI), méthode des quotas (sexe, âge, CSP, catégorie d'agglomération, région de résidence)",
+      "noticeUrl": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10333-pres-iv-opinionway-cnews-22-octobre.pdf",
       "reportUrl": "https://www.opinion-way.com/wp-content/uploads/2026/10/OpinionWay-pour-CNEWS-Les-intentions-de-vote-a-lelection-presidentielle-2027-22-octobre-2026.pdf",
       "margin": "Entre 0,7 et 3,5 points selon les pourcentages (premier tour), selon le rapport",
       "round": 1,
@@ -67078,6 +67129,7 @@
       "population": "Échantillon de 973 personnes inscrites sur les listes électorales, issu d'un échantillon de 1 033 personnes représentatif de la population française âgée de 18 ans et plus",
       "sampleSize": 1033,
       "method": "Questionnaire auto-administré en ligne (CAWI), méthode des quotas (sexe, âge, CSP, catégorie d'agglomération, région de résidence)",
+      "noticeUrl": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10333-pres-iv-opinionway-cnews-22-octobre.pdf",
       "reportUrl": "https://www.opinion-way.com/wp-content/uploads/2026/10/OpinionWay-pour-CNEWS-Les-intentions-de-vote-a-lelection-presidentielle-2027-22-octobre-2026.pdf",
       "margin": "Entre 4,0 et 4,3 points selon l'hypothèse, selon le rapport",
       "round": 2,
@@ -73633,6 +73685,7 @@
       "sampleSize": 3000,
       "method": "Questionnaire auto-administré en ligne, méthode des quotas (sexe, âge, taille de commune, région, catégorie socioprofessionnelle) ; redressement sociodémographique (INSEE) et politique (présidentielle 2022 T1, européennes 2024)",
       "margin": "Entre 0,8 et 1,8 point pour 3 000 personnes selon les pourcentages",
+      "noticeUrl": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10339-pres-iv-cluster17-politico-26-octobre.pdf",
       "reportUrl": "https://cluster17.com/wp-content/uploads/2026/10/ITV-Politico-Octobre-C17.pdf",
       "round": 1,
       "hypotheses": [
@@ -75020,9 +75073,26 @@
         "orange-2026-10-27-philippe-immigration-legale-par-deux",
         "21news-2026-10-28-philippe-echec-integration"
       ]
+    },
+    {
+      "id": "evt-attal-declaration-2026-10-28",
+      "date": "2026-10-28",
+      "type": "declaration",
+      "candidateIds": [
+        "attal"
+      ],
+      "text": "Sur TF1, se prononce pour l'organisation d'une « grande primaire des démocrates » avant l'élection présidentielle.",
+      "quote": "« Je crois qu'il faut mettre de côté nos egos »",
+      "sourceIds": [
+        "lcp-2026-10-28-attal-grande-primaire-des-democrates"
+      ]
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-02",
+      "text": "Recherche des nouveautés depuis la mise à jour du 1er novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; aucune décision de Bruno Le Maire sur sa candidature n'a été trouvée. Sondages : aucune nouvelle enquête d'intentions de vote relevée depuis celle de Cluster17 pour Politico (terrain du 19 au 22 octobre) ; les notices publiées depuis par la Commission des sondages (Elabe n° 10342, Odoxa n° 10344, Toluna Harris Interactive pour LCI n° 10345) portent sur d'autres sujets que les intentions de vote. Notices ajoutées à 4 enquêtes déjà saisies : Cluster17 pour Politico (n° 10339), Ipsos bva pour Le Parisien (n° 10338), OpinionWay pour CNews (n° 10333, premier et second tours) et Toluna Harris Interactive pour M6 et RTL (n° 10332, premier et second tours) ; choix de méthode : les adresses ont été relevées aujourd'hui sur la liste des notices « Présidentielle 2027 » de la Commission des sondages, dont chaque lien renvoie au fichier de la notice portant le numéro, l'institut, le commanditaire et la date de l'enquête, le contenu des fichiers n'ayant pas pu être affiché. Mesures : 1 mesure ajoutée, Édouard Philippe (opposition à une hausse du SMIC, qualifiée de « solution illusoire »), déclarée dans le journal de 20 heures de TF1 le 1er novembre et rapportée par Orange Actualités (6Médias, avec L'Express). Questionnaire : 1 position renseignée dans le test, Édouard Philippe sur la hausse du SMIC, à partir de cette mesure. Rotation de la banque : thème santé passé en revue, sans position nouvelle justifiée par une mesure publiée. Vie de la campagne : 1 déclaration ajoutée (Gabriel Attal, sur TF1 le 28 octobre, sur une « grande primaire des démocrates », rapportée par LCP). Les propos d'Édouard Philippe du 1er novembre sur cette primaire ne sont pas saisis comme déclaration, une déclaration ayant déjà été publiée pour lui dans la même semaine (27 octobre). Parrainages : aucun relevé ajouté ; aucune nouvelle annonce chiffrée trouvée. Rotation hebdomadaire des candidats, en commençant par ceux dont la position est connue sur le moins de questions du test parmi ceux qui n'avaient pas été revus depuis le 27 octobre : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Bruno Le Maire (aucune annonce ni proposition nouvelle trouvée), Bernard Cazeneuve (aucune source nouvelle trouvée), Florian Philippot (aucune source nouvelle trouvée), Juan Branco (publications des Ruches du 20 et du 30 octobre sans proposition), Raphaël Glucksmann (aucune proposition nouvelle trouvée depuis ses mesures saisies) et Dominique de Villepin (aucune publication de La France humaniste postérieure au 21 octobre). Antoine Mikolajczak : la présentation de son programme, annoncée pour le 2 novembre, n'a pas pu être vérifiée, le site d'Équinoxe n'ayant pas pu être ouvert aujourd'hui."
+    },
     {
       "date": "2026-11-01",
       "text": "Aucun changement relevé. Recherche des nouveautés depuis la mise à jour du 31 octobre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; aucune décision de Bruno Le Maire sur sa candidature n'a été trouvée. Sondages : aucune nouvelle enquête d'intentions de vote relevée depuis celle de Cluster17 pour Politico (terrain du 19 au 22 octobre). Les notices de la Commission des sondages des enquêtes Cluster17 pour Politico (n° 10339), Ipsos bva pour Le Parisien (n° 10338), OpinionWay pour CNews (n° 10333) et Toluna Harris Interactive pour M6 et RTL (n° 10332), dont les adresses sont signalées par un site de suivi, n'ont toujours pas pu être ouvertes aujourd'hui et ne sont pas saisies. Mesures : aucune mesure ajoutée, modifiée ou abandonnée ; la présentation détaillée de la réforme des retraites de Marine Le Pen est annoncée pour le 17 novembre selon franceinfo (article non consultable aujourd'hui), ses mesures existantes sur les retraites ne sont pas modifiées. Questionnaire : aucune position renseignée. Rotation de la banque : thème agriculture passé en revue, sans position nouvelle justifiée par une mesure publiée (le refus des OGM figurant dans le programme de Jean-Luc Mélenchon ne mentionne pas les nouvelles techniques génomiques et n'est pas reporté sur la question correspondante). Vie de la campagne : aucun fait ajouté ; les propos de Bruno Le Maire sur la primaire proposée par Gabriel Attal, rapportés par des articles qui n'ont pas été ouverts aujourd'hui, ne sont pas saisis, Bruno Le Maire n'étant pas candidat déclaré. Parrainages : aucun relevé ajouté ; aucune nouvelle annonce chiffrée trouvée. Rotation hebdomadaire des candidats, en commençant par ceux dont la position est connue sur le moins de questions du test parmi ceux qui n'avaient pas été revus depuis le 26 octobre : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Élisabeth Borne (dernière prise de parole trouvée le 10 juin, sans proposition), Thierry Breton, Manuel Valls et Sébastien Bonnal (aucune source nouvelle trouvée), Clara Egger (aucune publication nouvelle de Solution démocratique comportant une proposition), François Hollande (décision sur sa candidature toujours annoncée pour décembre ; aucune proposition nouvelle), François Asselineau, Gilles Platret, Erwan Rohou (un article de RCF n'a pas pu être ouvert aujourd'hui) et David Saforcada (aucune source nouvelle trouvée) ; Gabriel Attal, Marine Le Pen et Marine Tondelier (aucune proposition nouvelle isolable trouvée depuis leurs dernières mesures saisies)."
