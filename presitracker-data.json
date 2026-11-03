@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T05:53:43Z",
+  "updatedAt": "2026-11-03T05:50:29Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -5782,6 +5782,27 @@
       "publisher": "LCP",
       "url": "https://lcp.fr/actualites/presidentielle-2027-gabriel-attal-veut-une-grande-primaire-des-democrates-444417",
       "date": "2026-10-28",
+      "kind": "presse"
+    },
+    "orange-2026-11-02-attal-primaire-ineluctable": {
+      "title": "Présidentielle 2027 : la primaire de la droite et du centre \"aura lieu\" et est \"inéluctable\" selon Gabriel Attal qui répond à Édouard Philippe",
+      "publisher": "Orange Actualités (6Médias, avec L'Express)",
+      "url": "https://actu.orange.fr/politique/presidentielle-2027-la-primaire-de-la-droite-et-du-centre-aura-lieu-et-est-ineluctable-selon-gabriel-attal-qui-repond-a-edouard-philippe-l-express-via-6medias-CNT000002tvBak.html",
+      "date": "2026-11-02",
+      "kind": "presse"
+    },
+    "orange-2026-11-02-ruffin-panne-du-travail-integration": {
+      "title": "\"Aujourd'hui on a une panne du travail (...) qui produit des difficultés supplémentaires d'intégration\", souligne François Ruffin, candidat Debout ! à l'élection présidentielle",
+      "publisher": "Orange Actualités (BFMTV)",
+      "url": "https://actu.orange.fr/videos/france/aujourd-hui-on-a-une-panne-du-travail-qui-produit-des-difficultes-supplementaires-d-integration-souligne-francois-ruffin-candidat-debout-a-l-election-presidentielle-CNT000002tvTVl.html",
+      "date": "2026-11-02",
+      "kind": "presse"
+    },
+    "infosyvelines-2026-10-13-roussel-poissy-stellantis": {
+      "title": "Poissy : Fabien Roussel à l’usine Stellantis pour défendre une voiture à 10 000 euros",
+      "publisher": "Infos Yvelines",
+      "url": "https://www.infosyvelines.fr/articles/poissy-fabien-roussel-a-lusine-stellantis-pour-defendre-une-voiture-a-10-000-euros",
+      "date": "2026-10-13",
       "kind": "presse"
     }
   },
@@ -44079,7 +44100,8 @@
           "firstSeen": "2026-08-26",
           "lastChanged": "2026-08-26",
           "sourceIds": [
-            "pcf-2026-08-26-universite-d-ete-2026-discours-de"
+            "pcf-2026-08-26-universite-d-ete-2026-discours-de",
+            "infosyvelines-2026-10-13-roussel-poissy-stellantis"
           ],
           "history": [
             {
@@ -75086,9 +75108,39 @@
       "sourceIds": [
         "lcp-2026-10-28-attal-grande-primaire-des-democrates"
       ]
+    },
+    {
+      "id": "evt-attal-declaration-2026-11-02",
+      "date": "2026-11-02",
+      "type": "declaration",
+      "candidateIds": [
+        "attal"
+      ],
+      "text": "Dans « Bonjour ! La Matinale TF1 », se prononce sur l'organisation d'une primaire de la droite et du centre.",
+      "quote": "« Je crois que cette primaire aura lieu et je crois que c'est inéluctable »",
+      "sourceIds": [
+        "orange-2026-11-02-attal-primaire-ineluctable"
+      ]
+    },
+    {
+      "id": "evt-ruffin-declaration-2026-11-02",
+      "date": "2026-11-02",
+      "type": "declaration",
+      "candidateIds": [
+        "ruffin"
+      ],
+      "text": "Sur BFMTV, se prononce sur le travail et l'intégration.",
+      "quote": "« Aujourd'hui on a une panne du travail (...) qui produit des difficultés supplémentaires d'intégration »",
+      "sourceIds": [
+        "orange-2026-11-02-ruffin-panne-du-travail-integration"
+      ]
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-03",
+      "text": "Recherche des nouveautés depuis la mise à jour du 2 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; aucune décision de Bruno Le Maire sur sa candidature n'a été trouvée. Sondages : aucune nouvelle enquête d'intentions de vote relevée depuis celle de Cluster17 pour Politico (terrain du 19 au 22 octobre) ; la liste des notices de la Commission des sondages n'a pas pu être ouverte aujourd'hui. Mesures : aucune mesure ajoutée, modifiée ou abandonnée. Un article d'Infos Yvelines du 13 octobre (visite de Fabien Roussel à l'usine Stellantis de Poissy, proposition de « produire à Poissy une voiture vendue 10 000 euros ») devient une source de sa mesure existante sur les véhicules électriques à moins de 10 000 €. Questionnaire : aucune position renseignée. Vie de la campagne : 2 déclarations ajoutées, Gabriel Attal (dans « Bonjour ! La Matinale TF1 » le 2 novembre, sur une primaire de la droite et du centre, rapporté par Orange Actualités avec L'Express) et François Ruffin (sur BFMTV, vidéo publiée le 2 novembre, sur le travail et l'intégration). Les prises de position de Bruno Retailleau, Raphaël Glucksmann et d'autres responsables sur un éventuel changement des dates du scrutin (18 avril et 2 mai 2027), rapportées par BFMTV le 2 novembre, ne sont pas saisies, faute de citation suffisamment complète ; un entretien de David Lisnard publié par CNews le 2 novembre n'a pas pu être ouvert et n'est pas saisi. Parrainages : aucun relevé ajouté ; aucune nouvelle annonce chiffrée trouvée. Agenda : aucune échéance nouvelle ; le gouvernement a exclu à ce stade un changement des dates selon BFMTV. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 28 octobre, en commençant par ceux dont la position est connue sur le moins de questions du test : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Sandrine Rousseau, Mira Markovic, Lydie Massard et Manolo Mlekuz (aucune source nouvelle trouvée ; les sites du Parti animaliste et de Trajectoire n'ont pas pu être ouverts aujourd'hui), Natacha Polony et Francis Lalanne (aucune proposition nouvelle trouvée depuis leurs mesures saisies), Fabien Roussel et François Ruffin (aucune proposition nouvelle isolable vérifiée). Rotation de la banque : aucun thème passé en revue aujourd'hui."
+    },
     {
       "date": "2026-11-02",
       "text": "Recherche des nouveautés depuis la mise à jour du 1er novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; aucune décision de Bruno Le Maire sur sa candidature n'a été trouvée. Sondages : aucune nouvelle enquête d'intentions de vote relevée depuis celle de Cluster17 pour Politico (terrain du 19 au 22 octobre) ; les notices publiées depuis par la Commission des sondages (Elabe n° 10342, Odoxa n° 10344, Toluna Harris Interactive pour LCI n° 10345) portent sur d'autres sujets que les intentions de vote. Notices ajoutées à 4 enquêtes déjà saisies : Cluster17 pour Politico (n° 10339), Ipsos bva pour Le Parisien (n° 10338), OpinionWay pour CNews (n° 10333, premier et second tours) et Toluna Harris Interactive pour M6 et RTL (n° 10332, premier et second tours) ; choix de méthode : les adresses ont été relevées aujourd'hui sur la liste des notices « Présidentielle 2027 » de la Commission des sondages, dont chaque lien renvoie au fichier de la notice portant le numéro, l'institut, le commanditaire et la date de l'enquête, le contenu des fichiers n'ayant pas pu être affiché. Mesures : 1 mesure ajoutée, Édouard Philippe (opposition à une hausse du SMIC, qualifiée de « solution illusoire »), déclarée dans le journal de 20 heures de TF1 le 1er novembre et rapportée par Orange Actualités (6Médias, avec L'Express). Questionnaire : 1 position renseignée dans le test, Édouard Philippe sur la hausse du SMIC, à partir de cette mesure. Rotation de la banque : thème santé passé en revue, sans position nouvelle justifiée par une mesure publiée. Vie de la campagne : 1 déclaration ajoutée (Gabriel Attal, sur TF1 le 28 octobre, sur une « grande primaire des démocrates », rapportée par LCP). Les propos d'Édouard Philippe du 1er novembre sur cette primaire ne sont pas saisis comme déclaration, une déclaration ayant déjà été publiée pour lui dans la même semaine (27 octobre). Parrainages : aucun relevé ajouté ; aucune nouvelle annonce chiffrée trouvée. Rotation hebdomadaire des candidats, en commençant par ceux dont la position est connue sur le moins de questions du test parmi ceux qui n'avaient pas été revus depuis le 27 octobre : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Bruno Le Maire (aucune annonce ni proposition nouvelle trouvée), Bernard Cazeneuve (aucune source nouvelle trouvée), Florian Philippot (aucune source nouvelle trouvée), Juan Branco (publications des Ruches du 20 et du 30 octobre sans proposition), Raphaël Glucksmann (aucune proposition nouvelle trouvée depuis ses mesures saisies) et Dominique de Villepin (aucune publication de La France humaniste postérieure au 21 octobre). Antoine Mikolajczak : la présentation de son programme, annoncée pour le 2 novembre, n'a pas pu être vérifiée, le site d'Équinoxe n'ayant pas pu être ouvert aujourd'hui."
