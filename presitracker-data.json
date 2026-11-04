@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T05:50:29Z",
+  "updatedAt": "2026-11-04T05:57:16Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -63862,6 +63862,16 @@
               "laprovence-2026-07-04-republique-des-territoires-mandat-unique",
               "ouestfrance-2026-08-03-xavier-bertrand-presque-candidat"
             ]
+          },
+          "herlin": {
+            "value": 2,
+            "note": "Propose le retour au septennat.",
+            "measureIds": [
+              "herlin-inst-ric"
+            ],
+            "sourceIds": [
+              "herlin27-nd-mon-deprogramme"
+            ]
           }
         }
       },
@@ -64188,6 +64198,17 @@
             "sourceIds": [
               "lalanne2027-2026-08-20-le-programme-2027",
               "brusselssignal-2026-08-20-francis-lalanne-announces-2027-pre"
+            ]
+          },
+          "philippot": {
+            "value": 2,
+            "note": "Propose de créer le référendum d'initiative citoyenne sur tout sujet et de l'inscrire dans la Constitution.",
+            "measureIds": [
+              "philippot-inst-ric-constitutionnel"
+            ],
+            "sourceIds": [
+              "les-patriotes-2026-09-15-projet-pour-la-france-2026",
+              "les-patriotes-nd-projet-pour-la-france-2026-2027"
             ]
           }
         }
@@ -75137,6 +75158,10 @@
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-04",
+      "text": "Recherche des nouveautés depuis la mise à jour du 3 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; aucune décision de Bruno Le Maire sur sa candidature n'a été trouvée. Dominique de Villepin a déclaré sur France Inter le 3 novembre qu'il serait candidat sans fixer de date d'annonce (rapporté par Orange Actualités, 6Médias avec L'Express) ; son statut reste « pressenti » faute de déclaration de candidature, et aucune déclaration n'est saisie pour lui, la règle des déclarations s'appliquant aux candidats déclarés. Sondages : aucune nouvelle enquête d'intentions de vote relevée depuis celle de Cluster17 pour Politico (terrain du 19 au 22 octobre) ; la liste des notices de la Commission des sondages n'a pas pu être ouverte aujourd'hui. Mesures : aucune mesure ajoutée, modifiée ou abandonnée. La nouvelle version du programme « L'Avenir en commun » de Jean-Luc Mélenchon est annoncée pour le 6 novembre selon LCP ; elle sera examinée après sa publication. Questionnaire : aucune position nouvelle dans le test ; 2 positions renseignées dans la banque à partir de mesures déjà publiées et de leurs sources : référendum ouvert à tous les sujets (Florian Philippot, valeur +2, d'après sa mesure sur le référendum d'initiative citoyenne « sur tout sujet ») et septennat (Philippe Herlin, valeur +2, d'après sa mesure dont le détail mentionne le retour au septennat). Rotation de la banque : thèmes institutions et Europe passés en revue, sans autre position nouvelle justifiée par une mesure publiée. Vie de la campagne : aucun fait ajouté ; des propos de David Lisnard rapportés par l'AFP le 29 octobre et un échange entre Jean-Luc Mélenchon et Édouard Philippe sur X le 1er novembre ne portent pas sur sa candidature, une alliance ou un thème du questionnaire et ne sont pas saisis. Parrainages : aucun relevé ajouté ; une dépêche AFP sur la recherche de parrainages du NPA-Révolutionnaires n'a pas pu être ouverte aujourd'hui. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 29 octobre, en commençant par ceux dont la position est connue sur le moins de questions du test : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Sylvain Durif (un article de Sud Radio du 21 octobre mentionne un programme de 50 engagements sans le détailler ; son site de campagne n'a pas pu être ouvert aujourd'hui), Jean Lassalle (aucune décision sur sa candidature trouvée), Benoît Mathieu, Olivier Becht et Emmanuel Dubuisson (aucune source nouvelle trouvée), Matthieu Pigasse et Xavier Bertrand (aucune source postérieure à celles déjà examinées), Anasse Kazib, Selma Labib, Nathalie Arthaud, Philippe Herlin et Nicolas Dupont-Aignan (aucune proposition nouvelle isolable trouvée)."
+    },
     {
       "date": "2026-11-03",
       "text": "Recherche des nouveautés depuis la mise à jour du 2 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; aucune décision de Bruno Le Maire sur sa candidature n'a été trouvée. Sondages : aucune nouvelle enquête d'intentions de vote relevée depuis celle de Cluster17 pour Politico (terrain du 19 au 22 octobre) ; la liste des notices de la Commission des sondages n'a pas pu être ouverte aujourd'hui. Mesures : aucune mesure ajoutée, modifiée ou abandonnée. Un article d'Infos Yvelines du 13 octobre (visite de Fabien Roussel à l'usine Stellantis de Poissy, proposition de « produire à Poissy une voiture vendue 10 000 euros ») devient une source de sa mesure existante sur les véhicules électriques à moins de 10 000 €. Questionnaire : aucune position renseignée. Vie de la campagne : 2 déclarations ajoutées, Gabriel Attal (dans « Bonjour ! La Matinale TF1 » le 2 novembre, sur une primaire de la droite et du centre, rapporté par Orange Actualités avec L'Express) et François Ruffin (sur BFMTV, vidéo publiée le 2 novembre, sur le travail et l'intégration). Les prises de position de Bruno Retailleau, Raphaël Glucksmann et d'autres responsables sur un éventuel changement des dates du scrutin (18 avril et 2 mai 2027), rapportées par BFMTV le 2 novembre, ne sont pas saisies, faute de citation suffisamment complète ; un entretien de David Lisnard publié par CNews le 2 novembre n'a pas pu être ouvert et n'est pas saisi. Parrainages : aucun relevé ajouté ; aucune nouvelle annonce chiffrée trouvée. Agenda : aucune échéance nouvelle ; le gouvernement a exclu à ce stade un changement des dates selon BFMTV. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 28 octobre, en commençant par ceux dont la position est connue sur le moins de questions du test : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Sandrine Rousseau, Mira Markovic, Lydie Massard et Manolo Mlekuz (aucune source nouvelle trouvée ; les sites du Parti animaliste et de Trajectoire n'ont pas pu être ouverts aujourd'hui), Natacha Polony et Francis Lalanne (aucune proposition nouvelle trouvée depuis leurs mesures saisies), Fabien Roussel et François Ruffin (aucune proposition nouvelle isolable vérifiée). Rotation de la banque : aucun thème passé en revue aujourd'hui."
