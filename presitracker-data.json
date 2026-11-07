@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T05:46:48Z",
+  "updatedAt": "2026-11-07T05:41:42Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -5810,6 +5810,20 @@
       "publisher": "Sud Radio (AFP)",
       "url": "https://www.sudradio.fr/societe/primaire-a-droite-et-au-centre-retailleau-remet-la-pression-sur-philippe",
       "date": "2026-11-04",
+      "kind": "presse"
+    },
+    "lcp-2026-11-06-ce-qui-change-programme-melenchon": {
+      "title": "Présidentielle 2027: ce qui change dans le nouveau programme de Jean-Luc Mélenchon",
+      "publisher": "LCP",
+      "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841",
+      "date": "2026-11-06",
+      "kind": "presse"
+    },
+    "publicsenat-2026-11-06-melenchon-nouvelle-france-ecologie": {
+      "title": "Présidentielle 2027 : avec la « Nouvelle France », Jean-Luc Mélenchon fait de l'écologie la clé de voûte de son programme",
+      "publisher": "Public Sénat",
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-avec-la-nouvelle-france-jean-luc-melenchon-fait-de-lecologie-la-cle-de-voute-de-son-programme",
+      "date": "2026-11-06",
       "kind": "presse"
     }
   },
@@ -28595,14 +28609,16 @@
           "id": "melenchon-ecol-mix-100-renouvelable",
           "themeKey": "ecol",
           "subthemeKey": "ecol-renouvelables",
-          "title": "100 % d'énergies renouvelables en 2050",
-          "detail": "Jean-Luc Mélenchon propose de planifier le passage à 100 % d'énergies renouvelables en 2050, avec un double mot d'ordre de sobriété et d'efficacité énergétique, et de sortir des énergies carbonées. Figure dans le programme « L'Avenir en commun » (édition 2025), section « Organiser le 100 % d'énergies renouvelables en 2050 et la rénovation énergétique ».",
+          "title": "100 % d'énergies renouvelables au plus tard en 2060",
+          "detail": "Jean-Luc Mélenchon propose le passage à 100 % d'énergies renouvelables « au plus tard en 2060 », contre 2050 dans ses programmes précédents, et maintient la sortie progressive du nucléaire. Figure dans la 5e édition du programme « L'Avenir en commun », parue le 6 novembre 2026, selon LCP et Public Sénat.",
           "kind": "programme",
           "status": "active",
           "firstSeen": "2026-01-22",
-          "lastChanged": "2026-01-22",
+          "lastChanged": "2026-11-07",
           "sourceIds": [
-            "melenchon2027-2026-01-22-laec-ch13-s3-organiser-le-100-denergies"
+            "melenchon2027-2026-01-22-laec-ch13-s3-organiser-le-100-denergies",
+            "lcp-2026-11-06-ce-qui-change-programme-melenchon",
+            "publicsenat-2026-11-06-melenchon-nouvelle-france-ecologie"
           ],
           "history": [
             {
@@ -28611,6 +28627,17 @@
               "sourceIds": [
                 "melenchon2027-2026-01-22-laec-ch13-s3-organiser-le-100-denergies"
               ]
+            },
+            {
+              "date": "2026-11-07",
+              "type": "modification",
+              "before": "100 % d'énergies renouvelables en 2050",
+              "after": "100 % d'énergies renouvelables au plus tard en 2060",
+              "note": "Échéance repoussée de 2050 à « 2060 au plus tard » dans la 5e édition du programme, selon LCP et Public Sénat.",
+              "sourceIds": [
+                "lcp-2026-11-06-ce-qui-change-programme-melenchon",
+                "publicsenat-2026-11-06-melenchon-nouvelle-france-ecologie"
+              ]
             }
           ]
         },
@@ -28618,14 +28645,16 @@
           "id": "melenchon-ecol-moins-65-emissions-2030",
           "themeKey": "ecol",
           "subthemeKey": "ecol-climat",
-          "title": "Baisse de 65 % des émissions de gaz à effet de serre en 2030",
-          "detail": "Jean-Luc Mélenchon propose de relever l'objectif climatique de la France à une baisse de 65 % des émissions en 2030 (au lieu de 50 %) avec un bilan annuel public. Figure dans le programme « L'Avenir en commun » (édition 2025), section « La bifurcation écologique pour une société de l’harmonie ».",
+          "title": "Baisse de 65 % des émissions de gaz à effet de serre d'ici 2033",
+          "detail": "Jean-Luc Mélenchon propose une baisse de 65 % des émissions de gaz à effet de serre d'ici 2033, contre 2030 dans ses programmes précédents. Figure dans la 5e édition du programme « L'Avenir en commun », parue le 6 novembre 2026, selon LCP et Public Sénat.",
           "kind": "programme",
           "status": "active",
           "firstSeen": "2026-02-23",
-          "lastChanged": "2026-02-23",
+          "lastChanged": "2026-11-07",
           "sourceIds": [
-            "melenchon2027-2026-02-23-laec-ch12-s1-la-bifurcation-ecologique"
+            "melenchon2027-2026-02-23-laec-ch12-s1-la-bifurcation-ecologique",
+            "lcp-2026-11-06-ce-qui-change-programme-melenchon",
+            "publicsenat-2026-11-06-melenchon-nouvelle-france-ecologie"
           ],
           "history": [
             {
@@ -28633,6 +28662,17 @@
               "type": "ajout",
               "sourceIds": [
                 "melenchon2027-2026-02-23-laec-ch12-s1-la-bifurcation-ecologique"
+              ]
+            },
+            {
+              "date": "2026-11-07",
+              "type": "modification",
+              "before": "Baisse de 65 % des émissions de gaz à effet de serre en 2030",
+              "after": "Baisse de 65 % des émissions de gaz à effet de serre d'ici 2033",
+              "note": "Échéance repoussée de 2030 à 2033 dans la 5e édition du programme, selon LCP et Public Sénat.",
+              "sourceIds": [
+                "lcp-2026-11-06-ce-qui-change-programme-melenchon",
+                "publicsenat-2026-11-06-melenchon-nouvelle-france-ecologie"
               ]
             }
           ]
@@ -33961,6 +34001,380 @@
                 "boursorama-2026-10-28-melenchon-remplacer-directeur-bpifrance",
                 "maddyness-2026-10-28-melenchon-remplacer-dufourcq-bpifrance",
                 "melenchon-fr-2026-10-28-conference-presse-pole-public-bancaire"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "melenchon-ecol-interdiction-vols-de-nuit",
+          "themeKey": "ecol",
+          "subthemeKey": "ecol-transports",
+          "title": "Interdiction des vols de nuit entre 23 h et 6 h",
+          "detail": "Jean-Luc Mélenchon propose d'interdire les « vols de nuit dans tous les aéroports français entre 23 heures et 6 heures ». Figure dans la 5e édition du programme « L'Avenir en commun », parue le 6 novembre 2026, selon LCP.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-06",
+          "lastChanged": "2026-11-06",
+          "sourceIds": [
+            "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+          ],
+          "history": [
+            {
+              "date": "2026-11-06",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "melenchon-ecol-filiere-bombardiers-eau-drones",
+          "themeKey": "ecol",
+          "subthemeKey": "ecol-climat",
+          "title": "Création d'une filière française de bombardiers d'eau et de drones",
+          "detail": "Jean-Luc Mélenchon propose le « développement d'une filière française de bombardiers d'eau et de drones pour lutter contre les feux de forêts ». Figure dans la 5e édition du programme « L'Avenir en commun », parue le 6 novembre 2026, selon LCP.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-06",
+          "lastChanged": "2026-11-06",
+          "sourceIds": [
+            "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+          ],
+          "history": [
+            {
+              "date": "2026-11-06",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "melenchon-ent-seuils-thermiques-travail",
+          "themeKey": "ent",
+          "subthemeKey": "ent-droit-travail",
+          "title": "Seuils thermiques minimaux et maximaux sur les lieux de travail",
+          "detail": "Jean-Luc Mélenchon propose de fixer des « seuils thermiques minimaux et maximaux dans les locaux intérieurs de travail ». Figure dans la 5e édition du programme « L'Avenir en commun », parue le 6 novembre 2026, selon LCP.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-06",
+          "lastChanged": "2026-11-06",
+          "sourceIds": [
+            "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+          ],
+          "history": [
+            {
+              "date": "2026-11-06",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "melenchon-fin-bce-achat-direct-dette",
+          "themeKey": "fin",
+          "subthemeKey": "fin-dette",
+          "title": "Modification des traités pour permettre à la BCE d'acheter directement de la dette publique",
+          "detail": "Jean-Luc Mélenchon propose de modifier le traité sur le fonctionnement de l'Union européenne et les statuts de la Banque centrale européenne « pour lui permettre d'acheter de la dette publique sans passer par les banques privées », et d'« interdire à la BCE de revendre sur les marchés financiers la part de dette des Etats qu'elle détient ». Figure dans la 5e édition du programme « L'Avenir en commun », parue le 6 novembre 2026, selon LCP.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-06",
+          "lastChanged": "2026-11-06",
+          "sourceIds": [
+            "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+          ],
+          "history": [
+            {
+              "date": "2026-11-06",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "melenchon-ret-cotisation-sociale-elargie-capital",
+          "themeKey": "ret",
+          "subthemeKey": "ret-financement",
+          "title": "Création d'une cotisation sociale élargie aux revenus du capital",
+          "detail": "Jean-Luc Mélenchon propose, dans l'introduction du programme, une « cotisation sociale élargie mettant à contribution les revenus du capital ». Figure dans la 5e édition du programme « L'Avenir en commun », parue le 6 novembre 2026, selon LCP.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-06",
+          "lastChanged": "2026-11-06",
+          "sourceIds": [
+            "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+          ],
+          "history": [
+            {
+              "date": "2026-11-06",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "melenchon-sec-brevet-obligatoire-discriminations-policiers",
+          "themeKey": "sec",
+          "subthemeKey": "sec-police",
+          "title": "Brevet obligatoire de formation à la lutte contre les discriminations pour les policiers",
+          "detail": "Jean-Luc Mélenchon propose d'« homologuer la formation à la lutte contre les discriminations par un brevet obligatoire pour les policiers ». Figure dans la 5e édition du programme « L'Avenir en commun », parue le 6 novembre 2026, selon LCP.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-06",
+          "lastChanged": "2026-11-06",
+          "sourceIds": [
+            "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+          ],
+          "history": [
+            {
+              "date": "2026-11-06",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "melenchon-san-psychotherapie-moins-26-ans",
+          "themeKey": "san",
+          "subthemeKey": "san-acces",
+          "title": "Remboursement des séances de psychothérapie pour les moins de 26 ans",
+          "detail": "Jean-Luc Mélenchon propose « le remboursement des séances de psychothérapie pour les moins de 26 ans ». Figure dans la 5e édition du programme « L'Avenir en commun », parue le 6 novembre 2026, selon LCP.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-06",
+          "lastChanged": "2026-11-06",
+          "sourceIds": [
+            "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+          ],
+          "history": [
+            {
+              "date": "2026-11-06",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "melenchon-ret-statut-famille-monoparentale",
+          "themeKey": "ret",
+          "subthemeKey": "ret-famille",
+          "title": "Création d'un statut de famille monoparentale",
+          "detail": "Jean-Luc Mélenchon propose de « créer un statut de famille monoparentale, ouvrant notamment droit à des réductions dans les transports » et, selon LCP, dans les services publics. Figure dans la 5e édition du programme « L'Avenir en commun », parue le 6 novembre 2026, selon LCP et Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-06",
+          "lastChanged": "2026-11-06",
+          "sourceIds": [
+            "lcp-2026-11-06-ce-qui-change-programme-melenchon",
+            "publicsenat-2026-11-06-melenchon-nouvelle-france-ecologie"
+          ],
+          "history": [
+            {
+              "date": "2026-11-06",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-06-ce-qui-change-programme-melenchon",
+                "publicsenat-2026-11-06-melenchon-nouvelle-france-ecologie"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "melenchon-ent-conge-deces-proche-ami",
+          "themeKey": "ent",
+          "subthemeKey": "ent-droit-travail",
+          "title": "Création d'un congé de sept jours en cas de décès d'un proche, familial ou amical",
+          "detail": "Jean-Luc Mélenchon propose « un congé de sept jours en cas de décès d'un proche, familial ou amical ». Figure dans la 5e édition du programme « L'Avenir en commun », parue le 6 novembre 2026, selon LCP et Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-06",
+          "lastChanged": "2026-11-06",
+          "sourceIds": [
+            "publicsenat-2026-11-06-melenchon-nouvelle-france-ecologie",
+            "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+          ],
+          "history": [
+            {
+              "date": "2026-11-06",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-06-melenchon-nouvelle-france-ecologie",
+                "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "melenchon-ret-conge-proche-aidant",
+          "themeKey": "ret",
+          "subthemeKey": "ret-dependance",
+          "title": "Création d'un congé de proche aidant",
+          "detail": "Jean-Luc Mélenchon propose un congé de proche aidant. Figure dans la 5e édition du programme « L'Avenir en commun », parue le 6 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-06",
+          "lastChanged": "2026-11-06",
+          "sourceIds": [
+            "publicsenat-2026-11-06-melenchon-nouvelle-france-ecologie"
+          ],
+          "history": [
+            {
+              "date": "2026-11-06",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-06-melenchon-nouvelle-france-ecologie"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "melenchon-inst-petitions-500000-debat-assemblee",
+          "themeKey": "inst",
+          "subthemeKey": "inst-parlement",
+          "title": "Débat obligatoire à l'Assemblée nationale sur les pétitions de plus de 500 000 signatures",
+          "detail": "Jean-Luc Mélenchon propose d'« obliger l'Assemblée nationale à débattre des pétitions qui ont recueilli plus de 500 000 signatures ». Figure dans la 5e édition du programme « L'Avenir en commun », parue le 6 novembre 2026, selon LCP.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-06",
+          "lastChanged": "2026-11-06",
+          "sourceIds": [
+            "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+          ],
+          "history": [
+            {
+              "date": "2026-11-06",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "melenchon-log-independance-kanaky-nouvelle-caledonie",
+          "themeKey": "log",
+          "subthemeKey": "log-outre-mer",
+          "title": "Indépendance de la Kanaky-Nouvelle-Calédonie au 1er janvier 2028 par référendum national",
+          "detail": "Jean-Luc Mélenchon propose « l'accession de la Kanaky-Nouvelle-Calédonie à l'indépendance au 1er janvier 2028 par la convocation d'un référendum national ». Figure dans la 5e édition du programme « L'Avenir en commun », parue le 6 novembre 2026, selon LCP.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-06",
+          "lastChanged": "2026-11-06",
+          "sourceIds": [
+            "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+          ],
+          "history": [
+            {
+              "date": "2026-11-06",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "melenchon-eur-moratoire-libre-circulation-libre-echange",
+          "themeKey": "eur",
+          "subthemeKey": "eur-commerce",
+          "title": "Moratoire voté par le Parlement sur la libre circulation des marchandises et des capitaux et sur les accords de libre-échange",
+          "detail": "Jean-Luc Mélenchon propose un moratoire « voté par le Parlement français » sur la « libre circulation sans limite des marchandises et des capitaux », les règles de concurrence appliquées aux services publics et les accords de libre-échange. Figure dans la 5e édition du programme « L'Avenir en commun », parue le 6 novembre 2026, selon LCP.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-06",
+          "lastChanged": "2026-11-06",
+          "sourceIds": [
+            "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+          ],
+          "history": [
+            {
+              "date": "2026-11-06",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "melenchon-def-refus-5-pib-defense",
+          "themeKey": "def",
+          "subthemeKey": "def-budget",
+          "title": "Opposition à l'objectif de 5 % du PIB consacré à la défense",
+          "detail": "Jean-Luc Mélenchon propose de « rejeter le tribut, exigé par les Etats-Unis, de 5 % du PIB consacré aux dépenses de défense ». Figure dans la 5e édition du programme « L'Avenir en commun », parue le 6 novembre 2026, selon LCP.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-06",
+          "lastChanged": "2026-11-06",
+          "sourceIds": [
+            "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+          ],
+          "history": [
+            {
+              "date": "2026-11-06",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "melenchon-num-interdiction-ia-relation-affective",
+          "themeKey": "num",
+          "subthemeKey": "num-ia",
+          "title": "Interdiction des IA simulant une relation affective",
+          "detail": "Jean-Luc Mélenchon propose d'interdire les intelligences artificielles « ayant pour objectif de simuler une relation affective avec l'utilisateur ». Figure dans la 5e édition du programme « L'Avenir en commun », parue le 6 novembre 2026, selon LCP.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-06",
+          "lastChanged": "2026-11-06",
+          "sourceIds": [
+            "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+          ],
+          "history": [
+            {
+              "date": "2026-11-06",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "melenchon-num-autorite-autorisation-ia-haut-risque",
+          "themeKey": "num",
+          "subthemeKey": "num-ia",
+          "title": "Création d'une autorité nationale d'autorisation des IA à haut risque",
+          "detail": "Jean-Luc Mélenchon propose « une autorité nationale chargée de délivrer des autorisations de mise sur le marché pour les systèmes présentant des risques élevés » d'intelligence artificielle. Figure dans la 5e édition du programme « L'Avenir en commun », parue le 6 novembre 2026, selon LCP et Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-06",
+          "lastChanged": "2026-11-06",
+          "sourceIds": [
+            "publicsenat-2026-11-06-melenchon-nouvelle-france-ecologie",
+            "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+          ],
+          "history": [
+            {
+              "date": "2026-11-06",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-06-melenchon-nouvelle-france-ecologie",
+                "lcp-2026-11-06-ce-qui-change-programme-melenchon"
               ]
             }
           ]
@@ -55191,14 +55605,15 @@
           },
           "melenchon": {
             "value": -2,
-            "note": "Propose un plan d'urgence pour l'éolien en mer et 100 % d'énergies renouvelables en 2050.",
+            "note": "Propose un plan d'urgence pour l'éolien en mer et 100 % d'énergies renouvelables au plus tard en 2060.",
             "measureIds": [
               "melenchon-ecol-plan-urgence-eolien-maritime",
               "melenchon-ecol-mix-100-renouvelable"
             ],
             "sourceIds": [
               "melenchon2027-2026-01-22-laec-ch18-s2-etre-a-la-hauteur-de-la",
-              "melenchon2027-2026-01-22-laec-ch13-s3-organiser-le-100-denergies"
+              "melenchon2027-2026-01-22-laec-ch13-s3-organiser-le-100-denergies",
+              "lcp-2026-11-06-ce-qui-change-programme-melenchon"
             ]
           },
           "tondelier": {
@@ -63394,12 +63809,13 @@
           },
           "melenchon": {
             "value": -2,
-            "note": "Propose 100 % d'énergies renouvelables en 2050.",
+            "note": "Propose 100 % d'énergies renouvelables au plus tard en 2060.",
             "measureIds": [
               "melenchon-ecol-mix-100-renouvelable"
             ],
             "sourceIds": [
-              "melenchon2027-2026-01-22-laec-ch13-s3-organiser-le-100-denergies"
+              "melenchon2027-2026-01-22-laec-ch13-s3-organiser-le-100-denergies",
+              "lcp-2026-11-06-ce-qui-change-programme-melenchon"
             ]
           }
         }
@@ -75178,6 +75594,10 @@
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-07",
+      "text": "Recherche des nouveautés depuis la mise à jour du 6 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés. Sondages : aucun sondage ajouté. L’enquête Ifop pour LCI (terrain du 27 au 29 octobre) n’est toujours pas saisie : le rapport de l’institut et la notice de la Commission des sondages n’ont pas pu être ouverts aujourd’hui, et l’article de Public Sénat du 4 novembre ne donne que des fourchettes, sans le détail des hypothèses. Mesures : Jean-Luc Mélenchon, 16 mesures ajoutées et 2 modifiées, d’après la 5e édition du programme « L’Avenir en commun » parue le 6 novembre, telle que présentée par LCP et Public Sénat le 6 novembre (le texte intégral n’est pas en ligne sur le site de campagne ; ces mesures sont donc sourcées par la presse). Modifiées : 100 % d’énergies renouvelables, échéance portée de 2050 à « 2060 au plus tard » ; baisse de 65 % des émissions de gaz à effet de serre, échéance portée de 2030 à 2033. Ajoutées : interdiction des vols de nuit entre 23 h et 6 h ; filière française de bombardiers d’eau et de drones ; seuils thermiques sur les lieux de travail ; modification des traités pour permettre à la BCE d’acheter directement de la dette publique ; cotisation sociale élargie aux revenus du capital ; brevet obligatoire de formation à la lutte contre les discriminations pour les policiers ; remboursement de la psychothérapie pour les moins de 26 ans ; statut de famille monoparentale ; congé de sept jours en cas de décès d’un proche ; congé de proche aidant ; débat à l’Assemblée sur les pétitions de plus de 500 000 signatures ; indépendance de la Kanaky-Nouvelle-Calédonie au 1er janvier 2028 par référendum national ; moratoire sur la libre circulation des marchandises et des capitaux et sur les accords de libre-échange ; opposition à l’objectif de 5 % du PIB pour la défense ; interdiction des IA simulant une relation affective ; autorité nationale d’autorisation des IA à haut risque. Les autres mesures annoncées comme nouvelles (dont la reconnaissance du 17 octobre 1961 comme « crime d’Etat », le plan contre le racisme et le statut du baptême civil) seront examinées à partir du texte du programme. Questionnaire : aucune position nouvelle ; les notes des positions de Jean-Luc Mélenchon sur les questions q-ecol-eolien-frein et q-ecol-fin-aides-solaire sont mises à jour avec la nouvelle échéance de 2060, sans changement de valeur. Rotation de la banque : aucun thème passé en revue aujourd’hui. Vie de la campagne : aucun fait ajouté ; l’article de France 24 sur le programme n’a pas pu être ouvert. Parrainages : aucun relevé ajouté ; aucune nouvelle annonce chiffrée trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n’avaient pas été revus depuis le 1er novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : Jean-Luc Mélenchon (voir ci-dessus) ; passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Gilles Platret, Erwan Rohou et David Saforcada (seuls des sites agrégateurs ont été trouvés ; rien n’est saisi), Gabriel Attal, Marine Le Pen et Marine Tondelier (aucune proposition nouvelle isolable trouvée depuis leurs dernières mesures saisies)."
+    },
     {
       "date": "2026-11-06",
       "text": "Aucun changement relevé. Recherche des nouveautés depuis la mise à jour du 5 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés. Sondages : aucun sondage ajouté. L’enquête Ifop pour LCI (terrain du 27 au 29 octobre) n’est toujours pas saisie : le rapport de l’institut, la notice de la Commission des sondages et l’article de TF1info qui la présente n’ont pas pu être ouverts aujourd’hui, et les chiffres disponibles proviennent seulement de sites de suivi des sondages, qui ne servent pas de source. Mesures : aucune mesure ajoutée, modifiée ou abandonnée. Selon La France insoumise (article du 2 novembre), la 5e édition du programme « L’Avenir en commun » de Jean-Luc Mélenchon sort en librairie ce 6 novembre, avec 1 069 mesures dont 238 nouvelles et 118 modifiées ou précisées, et sera présentée lors d’un meeting au Bourget le 7 novembre ; le texte du programme n’était pas consultable aujourd’hui, ses mesures seront examinées une fois publiées. Questionnaire : aucune position renseignée. Rotation de la banque : aucun thème passé en revue aujourd’hui. Vie de la campagne : aucun fait ajouté. Parrainages : aucun relevé ajouté ; aucune nouvelle annonce chiffrée trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n’avaient pas été revus depuis le 31 octobre, puis en avance parmi ceux revus le 1er novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : Jean-Luc Mélenchon (voir ci-dessus) ; passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Élisabeth Borne (aucune prise de parole postérieure à celle du 10 juin trouvée), Thierry Breton, Manuel Valls et Sébastien Bonnal (aucune source nouvelle trouvée), Clara Egger (aucune publication nouvelle de Solution démocratique comportant une proposition), François Hollande (aucune proposition nouvelle ; décision sur sa candidature toujours annoncée pour décembre) et François Asselineau (seul un site agrégateur, sans source citée, a été trouvé ; rien n’est saisi)."
