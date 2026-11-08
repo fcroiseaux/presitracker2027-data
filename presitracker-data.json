@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T05:41:42Z",
+  "updatedAt": "2026-11-08T05:43:08Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -5825,6 +5825,20 @@
       "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-avec-la-nouvelle-france-jean-luc-melenchon-fait-de-lecologie-la-cle-de-voute-de-son-programme",
       "date": "2026-11-06",
       "kind": "presse"
+    },
+    "boursorama-2026-11-07-melenchon-meeting-bourget-ligne": {
+      "title": "Sûr de sa force, Mélenchon prévient en meeting qu'il ne déviera pas de sa ligne",
+      "publisher": "Boursorama (AFP)",
+      "url": "https://www.boursorama.com/actualite-economique/actualites/sur-de-sa-force-melenchon-previent-en-meeting-qu-il-ne-deviera-pas-de-sa-ligne-132cad1c2c97609065388aa54215be59",
+      "kind": "presse",
+      "date": "2026-11-07"
+    },
+    "boursorama-2026-11-07-philippe-contre-programmation-primaire": {
+      "title": "Présidentielle : hors la primaire, la contre-programmation d'Édouard Philippe",
+      "publisher": "Boursorama (AFP)",
+      "url": "https://www.boursorama.com/actualite-economique/actualites-amp/presidentielle-hors-la-primaire-la-contre-programmation-d-edouard-philippe-e98a0a05c57ba41d5d82c42ef645aec4",
+      "kind": "presse",
+      "date": "2026-11-07"
     }
   },
   "candidates": [
@@ -29263,14 +29277,15 @@
           "id": "melenchon-edu-conscription-citoyenne-neuf-mois",
           "themeKey": "edu",
           "subthemeKey": "edu-jeunesse",
-          "title": "Conscription citoyenne obligatoire de neuf mois rémunérée au SMIC",
-          "detail": "Jean-Luc Mélenchon propose une conscription citoyenne de neuf mois pour les femmes et les hommes de moins de 25 ans, rémunérée au SMIC revalorisé, comprenant une formation militaire initiale (avec droit d'objection de conscience), des tâches d'utilité publique, un bilan de santé et le passage gratuit du permis de conduire, ainsi qu'une garde nationale sous commandement civil. Figure dans le programme « L'Avenir en commun » (édition 2025), section « Créer une conscription pour le secours collectif ».",
+          "title": "Conscription citoyenne écologique obligatoire rémunérée au SMIC",
+          "detail": "Jean-Luc Mélenchon propose une « conscription citoyenne écologique » obligatoire, rémunérée au SMIC, dont la « tâche principale sera d'aider à l'adaptation de notre société aux crises liées au bouleversement climatique ». Elle remplace la « conscription citoyenne de neuf mois pour les femmes et les hommes de moins de 25 ans » du programme précédent ; la durée n'est pas précisée par la source. Figure dans la 5e édition du programme « L'Avenir en commun », parue le 6 novembre 2026, selon LCP.",
           "kind": "programme",
           "status": "active",
           "firstSeen": "2026-01-22",
-          "lastChanged": "2026-01-22",
+          "lastChanged": "2026-11-08",
           "sourceIds": [
-            "melenchon2027-2026-01-22-laec-ch5-s7-creer-une-conscription-pour"
+            "melenchon2027-2026-01-22-laec-ch5-s7-creer-une-conscription-pour",
+            "lcp-2026-11-06-ce-qui-change-programme-melenchon"
           ],
           "history": [
             {
@@ -29278,6 +29293,16 @@
               "type": "ajout",
               "sourceIds": [
                 "melenchon2027-2026-01-22-laec-ch5-s7-creer-une-conscription-pour"
+              ]
+            },
+            {
+              "date": "2026-11-08",
+              "type": "modification",
+              "before": "Conscription citoyenne obligatoire de neuf mois rémunérée au SMIC",
+              "after": "Conscription citoyenne écologique obligatoire rémunérée au SMIC",
+              "note": "La conscription citoyenne de neuf mois devient une « conscription citoyenne écologique » obligatoire rémunérée au SMIC dans la 5e édition du programme, selon LCP ; la durée n'est plus précisée.",
+              "sourceIds": [
+                "lcp-2026-11-06-ce-qui-change-programme-melenchon"
               ]
             }
           ]
@@ -34374,6 +34399,52 @@
               "type": "ajout",
               "sourceIds": [
                 "publicsenat-2026-11-06-melenchon-nouvelle-france-ecologie",
+                "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "melenchon-etr-17-octobre-1961-crime-etat",
+          "themeKey": "etr",
+          "subthemeKey": "etr-afrique",
+          "title": "Reconnaissance du massacre du 17 octobre 1961 comme crime d'État",
+          "detail": "Jean-Luc Mélenchon propose de reconnaître « le massacre des Algériens du 17 octobre 1961 comme un crime d'Etat au cours d'une journée nationale de commémoration ». Figure dans la 5e édition du programme « L'Avenir en commun », parue le 6 novembre 2026, selon LCP.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-06",
+          "lastChanged": "2026-11-06",
+          "sourceIds": [
+            "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+          ],
+          "history": [
+            {
+              "date": "2026-11-06",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "melenchon-ret-reconnaissance-bapteme-civil",
+          "themeKey": "ret",
+          "subthemeKey": "ret-famille",
+          "title": "Reconnaissance du baptême civil",
+          "detail": "Jean-Luc Mélenchon propose la « reconnaissance du baptême civil », parmi des dispositions en faveur de l'amitié intégrées au programme. Figure dans la 5e édition du programme « L'Avenir en commun », parue le 6 novembre 2026, selon LCP.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-06",
+          "lastChanged": "2026-11-06",
+          "sourceIds": [
+            "lcp-2026-11-06-ce-qui-change-programme-melenchon"
+          ],
+          "history": [
+            {
+              "date": "2026-11-06",
+              "type": "ajout",
+              "sourceIds": [
                 "lcp-2026-11-06-ce-qui-change-programme-melenchon"
               ]
             }
@@ -75591,9 +75662,39 @@
       "sourceIds": [
         "sudradio-2026-11-04-retailleau-relance-primaire"
       ]
+    },
+    {
+      "id": "evt-philippe-declaration-2026-11-07",
+      "date": "2026-11-07",
+      "type": "declaration",
+      "candidateIds": [
+        "philippe"
+      ],
+      "text": "Lors d'une réunion publique à La Ciotat, se prononce sur l'organisation d'une primaire de la droite et du centre.",
+      "quote": "« Je pense que les responsables politiques prendront leurs responsabilités parce que personne ne voudra prendre la responsabilité d'interdire à la droite et au centre d'être au deuxième tour. »",
+      "sourceIds": [
+        "boursorama-2026-11-07-philippe-contre-programmation-primaire"
+      ]
+    },
+    {
+      "id": "evt-melenchon-declaration-2026-11-07",
+      "date": "2026-11-07",
+      "type": "declaration",
+      "candidateIds": [
+        "melenchon"
+      ],
+      "text": "Lors d'un meeting au Bourget, se prononce sur la ligne de sa campagne.",
+      "quote": "« D'autres commentateurs me recommandent de mettre de l'eau dans mon vin pour séduire et être moins clivant. […] Je ne le ferai pas »",
+      "sourceIds": [
+        "boursorama-2026-11-07-melenchon-meeting-bourget-ligne"
+      ]
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-08",
+      "text": "Recherche des nouveautés depuis la mise à jour du 7 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; aucune décision de Bruno Le Maire sur sa candidature n'a été trouvée. Sondages : aucun sondage ajouté. L'enquête Ifop pour LCI (terrain du 27 au 29 octobre) n'est toujours pas saisie : la liste des notices de la Commission des sondages n'a pas pu être ouverte aujourd'hui et le rapport de l'institut n'a pas été trouvé. Mesures : Jean-Luc Mélenchon, 2 mesures ajoutées et 1 modifiée, d'après l'article de LCP du 6 novembre sur la 5e édition du programme « L'Avenir en commun » (sourcées par la presse). Ajoutées : reconnaissance du massacre des Algériens du 17 octobre 1961 comme « crime d'Etat » avec une journée nationale de commémoration ; reconnaissance du baptême civil. Modifiée : la conscription citoyenne de neuf mois devient une « conscription citoyenne écologique » obligatoire rémunérée au SMIC, sans durée précisée par la source. L'interdiction faite à la BCE de revendre la dette des États qu'elle détient figurait déjà dans la mesure saisie le 7 novembre ; la mention « protéger le Groenland » n'est pas saisie, faute de contenu isolable ; le plan contre le racisme n'est pas détaillé par LCP et reste à examiner. Questionnaire : aucune position renseignée. Rotation de la banque : aucun thème passé en revue aujourd'hui. Vie de la campagne : 2 déclarations ajoutées, Édouard Philippe (réunion publique à La Ciotat le 7 novembre, sur une primaire de la droite et du centre) et Jean-Luc Mélenchon (meeting au Bourget le 7 novembre, sur la ligne de sa campagne), d'après deux dépêches AFP publiées par Boursorama le 7 novembre. Parrainages : aucun relevé ajouté ; aucune nouvelle annonce chiffrée trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 2 et le 3 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Antoine Mikolajczak, Mira Markovic, Lydie Massard, Manolo Mlekuz et Sandrine Rousseau (seuls des sites agrégateurs ou anciens ont été trouvés ; rien n'est saisi), Natacha Polony, Francis Lalanne, Juan Branco et Bernard Cazeneuve (aucune source nouvelle trouvée), Raphaël Glucksmann (lancement le 6 novembre d'un rendez-vous de campagne numérique, sans proposition nouvelle isolable), Fabien Roussel et François Ruffin (aucune proposition nouvelle isolable trouvée depuis leurs dernières mesures saisies)."
+    },
     {
       "date": "2026-11-07",
       "text": "Recherche des nouveautés depuis la mise à jour du 6 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés. Sondages : aucun sondage ajouté. L’enquête Ifop pour LCI (terrain du 27 au 29 octobre) n’est toujours pas saisie : le rapport de l’institut et la notice de la Commission des sondages n’ont pas pu être ouverts aujourd’hui, et l’article de Public Sénat du 4 novembre ne donne que des fourchettes, sans le détail des hypothèses. Mesures : Jean-Luc Mélenchon, 16 mesures ajoutées et 2 modifiées, d’après la 5e édition du programme « L’Avenir en commun » parue le 6 novembre, telle que présentée par LCP et Public Sénat le 6 novembre (le texte intégral n’est pas en ligne sur le site de campagne ; ces mesures sont donc sourcées par la presse). Modifiées : 100 % d’énergies renouvelables, échéance portée de 2050 à « 2060 au plus tard » ; baisse de 65 % des émissions de gaz à effet de serre, échéance portée de 2030 à 2033. Ajoutées : interdiction des vols de nuit entre 23 h et 6 h ; filière française de bombardiers d’eau et de drones ; seuils thermiques sur les lieux de travail ; modification des traités pour permettre à la BCE d’acheter directement de la dette publique ; cotisation sociale élargie aux revenus du capital ; brevet obligatoire de formation à la lutte contre les discriminations pour les policiers ; remboursement de la psychothérapie pour les moins de 26 ans ; statut de famille monoparentale ; congé de sept jours en cas de décès d’un proche ; congé de proche aidant ; débat à l’Assemblée sur les pétitions de plus de 500 000 signatures ; indépendance de la Kanaky-Nouvelle-Calédonie au 1er janvier 2028 par référendum national ; moratoire sur la libre circulation des marchandises et des capitaux et sur les accords de libre-échange ; opposition à l’objectif de 5 % du PIB pour la défense ; interdiction des IA simulant une relation affective ; autorité nationale d’autorisation des IA à haut risque. Les autres mesures annoncées comme nouvelles (dont la reconnaissance du 17 octobre 1961 comme « crime d’Etat », le plan contre le racisme et le statut du baptême civil) seront examinées à partir du texte du programme. Questionnaire : aucune position nouvelle ; les notes des positions de Jean-Luc Mélenchon sur les questions q-ecol-eolien-frein et q-ecol-fin-aides-solaire sont mises à jour avec la nouvelle échéance de 2060, sans changement de valeur. Rotation de la banque : aucun thème passé en revue aujourd’hui. Vie de la campagne : aucun fait ajouté ; l’article de France 24 sur le programme n’a pas pu être ouvert. Parrainages : aucun relevé ajouté ; aucune nouvelle annonce chiffrée trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n’avaient pas été revus depuis le 1er novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : Jean-Luc Mélenchon (voir ci-dessus) ; passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Gilles Platret, Erwan Rohou et David Saforcada (seuls des sites agrégateurs ont été trouvés ; rien n’est saisi), Gabriel Attal, Marine Le Pen et Marine Tondelier (aucune proposition nouvelle isolable trouvée depuis leurs dernières mesures saisies)."
