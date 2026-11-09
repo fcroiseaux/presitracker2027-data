@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T05:43:08Z",
+  "updatedAt": "2026-11-09T05:46:05Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -5839,6 +5839,20 @@
       "url": "https://www.boursorama.com/actualite-economique/actualites-amp/presidentielle-hors-la-primaire-la-contre-programmation-d-edouard-philippe-e98a0a05c57ba41d5d82c42ef645aec4",
       "kind": "presse",
       "date": "2026-11-07"
+    },
+    "boursorama-2026-11-03-lisnard-gouvernement-commando": {
+      "title": "Présidentielle : s'il est élu, David Lisnard promet un \"gouvernement commando\"",
+      "publisher": "Boursorama (AFP)",
+      "url": "https://www.boursorama.com/actualite-economique/actualites/presidentielle-s-il-est-elu-david-lisnard-promet-un-gouvernement-commando-1cb64e97d1d7a1cd0b8fbe7d59d6eb90",
+      "date": "2026-11-03",
+      "kind": "presse"
+    },
+    "boursorama-2026-11-08-roussel-jusqu-au-bout": {
+      "title": "Présidentielle: malgré les défections, Roussel ira \"jusqu'au bout\"",
+      "publisher": "Boursorama (AFP)",
+      "url": "https://www.boursorama.com/actualite-economique/actualites/presidentielle-malgre-les-defections-roussel-ira-jusqu-au-bout-456d01ab84c92c53b885d8918d8decc7",
+      "date": "2026-11-08",
+      "kind": "presse"
     }
   },
   "candidates": [
@@ -25190,7 +25204,8 @@
             "europe1-2026-05-27-aujourd-hui-en-france-on-depouille",
             "davidlisnard-2026-07-04-grand-meeting-saint-raphael",
             "nouvelleenergie-2026-08-31-discours-de-la-gagne",
-            "unenouvelleenergie-2026-10-03-programme-chiffre"
+            "unenouvelleenergie-2026-10-03-programme-chiffre",
+            "boursorama-2026-11-03-lisnard-gouvernement-commando"
           ],
           "history": [
             {
@@ -27089,6 +27104,75 @@
               "type": "ajout",
               "sourceIds": [
                 "europe1-2026-10-27-lisnard-objectif-elysee-2027"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lisnard-inst-gouvernement-commando",
+          "themeKey": "inst",
+          "subthemeKey": "inst-parlement",
+          "title": "Gouvernement resserré chargé de missions sur les 200 premiers jours",
+          "detail": "David Lisnard propose de nommer dès son élection un gouvernement « commando », resserré, chargé de missions sur les 200 premiers jours « pour lancer les grandes réformes économiques » ; les ministres seraient changés si ces réformes n'ont pas été engagées au bout de 200 jours. Le nombre de ministres n'est pas précisé par la source. Annoncé sur BFMTV le 3 novembre 2026, selon une dépêche AFP publiée par Boursorama.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-03",
+          "lastChanged": "2026-11-03",
+          "sourceIds": [
+            "boursorama-2026-11-03-lisnard-gouvernement-commando"
+          ],
+          "history": [
+            {
+              "date": "2026-11-03",
+              "type": "ajout",
+              "sourceIds": [
+                "boursorama-2026-11-03-lisnard-gouvernement-commando"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lisnard-inst-session-extraordinaire-ete-2027",
+          "themeKey": "inst",
+          "subthemeKey": "inst-parlement",
+          "title": "Session extraordinaire du Parlement à l'été 2027",
+          "detail": "David Lisnard propose de réunir le Parlement en session extraordinaire à l'été 2027. Annoncé sur BFMTV le 3 novembre 2026, selon une dépêche AFP publiée par Boursorama.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-03",
+          "lastChanged": "2026-11-03",
+          "sourceIds": [
+            "boursorama-2026-11-03-lisnard-gouvernement-commando"
+          ],
+          "history": [
+            {
+              "date": "2026-11-03",
+              "type": "ajout",
+              "sourceIds": [
+                "boursorama-2026-11-03-lisnard-gouvernement-commando"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lisnard-ent-moratoire-normes",
+          "themeKey": "ent",
+          "subthemeKey": "ent-pme",
+          "title": "Moratoire sur les normes",
+          "detail": "David Lisnard propose « un moratoire sur les normes stupides », sans durée précisée par la source. Annoncé sur BFMTV le 3 novembre 2026, selon une dépêche AFP publiée par Boursorama.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-03",
+          "lastChanged": "2026-11-03",
+          "sourceIds": [
+            "boursorama-2026-11-03-lisnard-gouvernement-commando"
+          ],
+          "history": [
+            {
+              "date": "2026-11-03",
+              "type": "ajout",
+              "sourceIds": [
+                "boursorama-2026-11-03-lisnard-gouvernement-commando"
               ]
             }
           ]
@@ -74369,6 +74453,220 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ifop-2026-10-29-lci",
+      "institute": "Ifop",
+      "sponsors": [
+        "LCI"
+      ],
+      "fieldworkStart": "2026-10-27",
+      "fieldworkEnd": "2026-10-29",
+      "publishedAt": "2026-11-03",
+      "population": "Échantillon de 1 501 personnes inscrites sur les listes électorales, extrait d'un échantillon de 1 650 personnes représentatif de la population française âgée de 18 ans et plus ; résultats en pourcentage des suffrages exprimés",
+      "sampleSize": 1650,
+      "method": "Questionnaire auto-administré en ligne, méthode des quotas (sexe, âge, profession) après stratification par région et catégorie d'agglomération ; redressement sociodémographique (INSEE 2020) et politique (présidentielle 2022 T1, européennes 2024, législatives 2024 T1)",
+      "margin": "Entre 1,1 et 2,5 points selon les pourcentages, pour 1 500 personnes",
+      "noticeUrl": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10352-pres-iv-ifop-lci-3-novembre.pdf",
+      "round": 1,
+      "hypotheses": [
+        {
+          "id": "h1",
+          "label": "Hypothèse 1 : Gabriel Attal, Édouard Philippe, Bruno Retailleau et David Lisnard candidats",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 18
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 10
+            },
+            {
+              "candidateId": "attal",
+              "value": 5
+            },
+            {
+              "candidateId": "philippe",
+              "value": 9.5
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 4
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 7
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 1.5
+            },
+            {
+              "candidateId": "lepen",
+              "value": 35
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 4.5
+            }
+          ]
+        },
+        {
+          "id": "h2",
+          "label": "Hypothèse 2 : Gabriel Attal candidat du bloc central, Bruno Retailleau candidat des Républicains et David Lisnard candidat",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 17.5
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 13
+            },
+            {
+              "candidateId": "attal",
+              "value": 9
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 5
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 7.5
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2
+            },
+            {
+              "candidateId": "lepen",
+              "value": 36
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 4.5
+            }
+          ]
+        },
+        {
+          "id": "h3",
+          "label": "Hypothèse 3 : Édouard Philippe candidat du bloc central et Bruno Retailleau seul candidat à droite",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 1
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 17.5
+            },
+            {
+              "candidateId": "roussel",
+              "value": 1.5
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3.5
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 11.5
+            },
+            {
+              "candidateId": "philippe",
+              "value": 15
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 7
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2
+            },
+            {
+              "candidateId": "lepen",
+              "value": 37
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "id": "h4",
+          "label": "Hypothèse 4 : Édouard Philippe candidat du bloc central et David Lisnard seul candidat de droite",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 17.5
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 11
+            },
+            {
+              "candidateId": "philippe",
+              "value": 15
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 9
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2
+            },
+            {
+              "candidateId": "lepen",
+              "value": 36
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 4
+            }
+          ]
+        }
+      ]
     }
   ],
   "agenda": [
@@ -75688,9 +75986,39 @@
       "sourceIds": [
         "boursorama-2026-11-07-melenchon-meeting-bourget-ligne"
       ]
+    },
+    {
+      "id": "evt-lisnard-declaration-2026-11-03",
+      "date": "2026-11-03",
+      "type": "declaration",
+      "candidateIds": [
+        "lisnard"
+      ],
+      "text": "Sur BFMTV, se prononce sur le gouvernement qu'il nommerait s'il était élu.",
+      "quote": "« Je nommerai immédiatement un gouvernement commando, resserré, qui aura des missions sur les 200 premiers jours »",
+      "sourceIds": [
+        "boursorama-2026-11-03-lisnard-gouvernement-commando"
+      ]
+    },
+    {
+      "id": "evt-roussel-declaration-2026-11-08",
+      "date": "2026-11-08",
+      "type": "declaration",
+      "candidateIds": [
+        "roussel"
+      ],
+      "text": "Sur ICI et franceinfo, se prononce sur le maintien de sa candidature.",
+      "quote": "« Oui, nous irons jusqu'au bout »",
+      "sourceIds": [
+        "boursorama-2026-11-08-roussel-jusqu-au-bout"
+      ]
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-09",
+      "text": "Recherche des nouveautés depuis la mise à jour du 8 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés. Le 8 novembre sur France Inter et France 2, Laurent Wauquiez (retiré) a demandé que les candidats de la droite et du centre s'accordent sur un candidat unique avant Noël, selon Europe 1 (avec AFP) ; aucun changement de statut n'en découle. Sondages : 1 enquête ajoutée, Ifop pour LCI (terrain du 27 au 29 octobre 2026, quatre hypothèses de premier tour, sans duel de second tour), reprise de la notice de la Commission des sondages, ouverte aujourd'hui ; la date de publication retenue, le 3 novembre, est celle qui figure dans l'adresse de la notice, le rapport de l'institut n'ayant pas été trouvé. Mesures : David Lisnard, 3 mesures ajoutées d'après une dépêche AFP publiée par Boursorama le 3 novembre (entretien sur BFMTV le même jour) : gouvernement resserré chargé de missions sur les 200 premiers jours ; session extraordinaire du Parlement à l'été 2027 ; moratoire sur les normes ; la même dépêche confirme l'objectif de 80 Md€ d'économies la première année, ajoutée comme source à la mesure existante. Questionnaire : aucune position renseignée. Rotation de la banque : aucun thème passé en revue aujourd'hui. Vie de la campagne : 2 déclarations ajoutées, David Lisnard (BFMTV, 3 novembre, sur le gouvernement qu'il nommerait) et Fabien Roussel (ICI et franceinfo, 8 novembre, sur le maintien de sa candidature), d'après deux dépêches AFP publiées par Boursorama ; l'article de Libération du 8 novembre et celui de franceinfo du 3 novembre sur Dominique de Villepin n'ont pas pu être ouverts. Parrainages : aucun relevé ajouté ; aucune nouvelle annonce chiffrée trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 28 octobre, le 29 octobre, le 2 et le 4 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : David Lisnard (voir ci-dessus) ; passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Sylvain Durif, Benoît Mathieu, Olivier Becht et Emmanuel Dubuisson (seuls des sites agrégateurs ont été trouvés ; rien n'est saisi), Jean Lassalle et Bruno Le Maire (aucune décision sur leur candidature trouvée), Matthieu Pigasse et Florian Philippot (aucune source nouvelle trouvée), Dominique de Villepin (déclare le 3 novembre sur France Inter ne pas être encore candidat, selon un site agrégateur ; la source d'origine n'a pas pu être ouverte, rien n'est saisi), Bruno Retailleau (aucune proposition nouvelle isolable trouvée depuis ses dernières mesures saisies)."
+    },
     {
       "date": "2026-11-08",
       "text": "Recherche des nouveautés depuis la mise à jour du 7 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; aucune décision de Bruno Le Maire sur sa candidature n'a été trouvée. Sondages : aucun sondage ajouté. L'enquête Ifop pour LCI (terrain du 27 au 29 octobre) n'est toujours pas saisie : la liste des notices de la Commission des sondages n'a pas pu être ouverte aujourd'hui et le rapport de l'institut n'a pas été trouvé. Mesures : Jean-Luc Mélenchon, 2 mesures ajoutées et 1 modifiée, d'après l'article de LCP du 6 novembre sur la 5e édition du programme « L'Avenir en commun » (sourcées par la presse). Ajoutées : reconnaissance du massacre des Algériens du 17 octobre 1961 comme « crime d'Etat » avec une journée nationale de commémoration ; reconnaissance du baptême civil. Modifiée : la conscription citoyenne de neuf mois devient une « conscription citoyenne écologique » obligatoire rémunérée au SMIC, sans durée précisée par la source. L'interdiction faite à la BCE de revendre la dette des États qu'elle détient figurait déjà dans la mesure saisie le 7 novembre ; la mention « protéger le Groenland » n'est pas saisie, faute de contenu isolable ; le plan contre le racisme n'est pas détaillé par LCP et reste à examiner. Questionnaire : aucune position renseignée. Rotation de la banque : aucun thème passé en revue aujourd'hui. Vie de la campagne : 2 déclarations ajoutées, Édouard Philippe (réunion publique à La Ciotat le 7 novembre, sur une primaire de la droite et du centre) et Jean-Luc Mélenchon (meeting au Bourget le 7 novembre, sur la ligne de sa campagne), d'après deux dépêches AFP publiées par Boursorama le 7 novembre. Parrainages : aucun relevé ajouté ; aucune nouvelle annonce chiffrée trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 2 et le 3 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Antoine Mikolajczak, Mira Markovic, Lydie Massard, Manolo Mlekuz et Sandrine Rousseau (seuls des sites agrégateurs ou anciens ont été trouvés ; rien n'est saisi), Natacha Polony, Francis Lalanne, Juan Branco et Bernard Cazeneuve (aucune source nouvelle trouvée), Raphaël Glucksmann (lancement le 6 novembre d'un rendez-vous de campagne numérique, sans proposition nouvelle isolable), Fabien Roussel et François Ruffin (aucune proposition nouvelle isolable trouvée depuis leurs dernières mesures saisies)."
