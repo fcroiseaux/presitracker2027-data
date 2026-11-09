@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T05:46:05Z",
+  "updatedAt": "2026-11-09T14:40:55Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -5852,6 +5852,40 @@
       "publisher": "Boursorama (AFP)",
       "url": "https://www.boursorama.com/actualite-economique/actualites/presidentielle-malgre-les-defections-roussel-ira-jusqu-au-bout-456d01ab84c92c53b885d8918d8decc7",
       "date": "2026-11-08",
+      "kind": "presse"
+    },
+    "odanie2027-2026-11-08-declaration-de-candidature": {
+      "title": "Rémi Revillon d’Apreval · Présidentielle 2027",
+      "publisher": "Site de campagne de Rémi Revillon d’Apreval",
+      "url": "https://2027.odanie.org/#declaration",
+      "date": "2026-11-08",
+      "kind": "officiel"
+    },
+    "odanie2027-nd-le-manifeste-illustre": {
+      "title": "Le manifeste illustré — Le système qui rend tous les possibles possibles",
+      "publisher": "Site de campagne de Rémi Revillon d’Apreval",
+      "url": "https://2027.odanie.org/#programme",
+      "kind": "programme"
+    },
+    "x-2026-11-09-teddy-riner-je-suis-candidat": {
+      "title": "« La résignation n'est pas une option. Face aux difficultés de notre pays, l'heure est venue de prendre ses responsabilités. Je suis candidat à l'élection présidentielle de 2027. »",
+      "publisher": "X (compte de Teddy Riner)",
+      "url": "https://x.com/teddyriner/status/2119740524064322005",
+      "date": "2026-11-09",
+      "kind": "reseau-social"
+    },
+    "franceinfo-2026-11-09-teddy-riner-annonce-sa-candidature": {
+      "title": "« La résignation n'est pas une option » : Teddy Riner annonce sa candidature à l'élection présidentielle 2027",
+      "publisher": "franceinfo",
+      "url": "https://www.franceinfo.fr/elections/presidentielle/la-resignation-n-est-pas-une-option-teddy-riner-annonce-sa-candidature-a-l-election-presidentielle-2027_8274359.html",
+      "date": "2026-11-09",
+      "kind": "presse"
+    },
+    "dhnet-2026-11-09-des-tatamis-a-l-elysee-teddy-riner": {
+      "title": "Des tatamis à l'Elysée ? Teddy Riner annonce sa candidature à la présidentielle",
+      "publisher": "La DH (AFP)",
+      "url": "https://www.dhnet.be/dernieres-depeches/2026/11/09/des-tatamis-a-lelysee-teddy-riner-annonce-sa-candidature-a-la-presidentielle-TN24TXUYZBDHLNYIUW4YHZJEI4/",
+      "date": "2026-11-09",
       "kind": "presse"
     }
   },
@@ -43683,6 +43717,1033 @@
       ]
     },
     {
+      "id": "revillondapreval",
+      "firstName": "Rémi",
+      "lastName": "Revillon d’Apreval",
+      "sortName": "revillon d'apreval",
+      "party": "Sans étiquette (initiative soutenue par le collectif citoyen REVODEMO)",
+      "partyShort": "SE",
+      "status": "declare",
+      "statusDate": "2026-11-08",
+      "statusSourceIds": [
+        "odanie2027-2026-11-08-declaration-de-candidature"
+      ],
+      "statusHistory": [
+        {
+          "date": "2026-11-08",
+          "status": "declare",
+          "note": "Déclaration de candidature publiée sur son site de campagne, datée du 8 novembre 2026 : « Je m’appelle Rémi Revillon d’Apreval, et je suis candidat à l’élection présidentielle de 2027. »",
+          "sourceIds": [
+            "odanie2027-2026-11-08-declaration-de-candidature"
+          ]
+        }
+      ],
+      "bio": "Rémi Revillon d’Apreval se présente comme candidat à l’élection présidentielle de 2027 ; son site de campagne, dont il est l’éditeur, qualifie sa candidature d’« initiative soutenue par le collectif citoyen REVODEMO ». Il se décrit comme « entrepreneur » et concepteur d’ODANIE, une application de vote direct et de délégation de voix qu’il propose comme outil de gouvernance. Son programme est un « manifeste illustré » dont chaque mesure serait soumise au vote des citoyens via ODANIE.",
+      "currentRoles": [],
+      "websiteUrl": "https://2027.odanie.org/",
+      "programmeUrl": "https://2027.odanie.org/manifeste-illustre.pdf",
+      "measures": [
+        {
+          "id": "revillondapreval-inst-odanie-vote-direct-delegation",
+          "themeKey": "inst",
+          "subthemeKey": "inst-referendum",
+          "title": "Décision par vote direct des citoyens sur chaque mesure, avec délégation de voix révocable à tout moment (ODANIE)",
+          "detail": "Rémi Revillon d’Apreval propose de faire d’ODANIE, application qu’il a conçue, « l’outil officiel de décision » dès la première année : chaque citoyen vote lui-même sur chaque sujet ou confie sa voix à une personne de son choix et la reprend « en un clic » ; le vote direct prime toujours sur la délégation. Tout citoyen peut déposer une proposition de loi ou de projet (« une bonne idée passe, d’où qu’elle vienne ») et le programme peut être voté mesure par mesure ou en bloc. Le manifeste indique que l’application est « testée en simulation jusqu’à 160 000 comptes » et ouverte à l’essai sur demo.odanie.org. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-inst-election-permanente",
+          "themeKey": "inst",
+          "subthemeKey": "inst-scrutin",
+          "title": "Fin du mandat fixe : responsables soutenus en continu et révocables à tout moment",
+          "detail": "Rémi Revillon d’Apreval propose une « élection permanente » : les responsables montent selon les soutiens qu’ils reçoivent et redescendent dès qu’ils les perdent, sans mandat à durée fixe. Trois rôles sont portés chacun par sa propre chaîne de soutiens : un Conseiller Général qui propose et anime le débat sans pouvoir de décision, un Juge Général et un Coordinateur Exécutif ; deux des trois peuvent suspendre le troisième (article 7.1 de la Constitution proposée). Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-inst-conseiller-general-prime-efficacite",
+          "themeKey": "inst",
+          "subthemeKey": "inst-ethique",
+          "title": "Conseiller Général sans salaire, rémunéré par une prime d’efficacité votée par les citoyens",
+          "detail": "Rémi Revillon d’Apreval propose que le Conseiller Général, premier rôle de son système, ne perçoive aucun salaire (« Salaire du Conseiller Général : 0 € ») et ne soit rémunéré que par une « prime d’efficacité » votée par les citoyens si le pays va mieux. Pour sa propre candidature, il indique sur son site ne toucher « aucun salaire » pendant dix ou vingt ans et ne demander une contribution de « dix balles » qu’en cas d’amélioration du quotidien. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-inst-suppression-intermediaires-politiques",
+          "themeKey": "inst",
+          "subthemeKey": "inst-parlement",
+          "title": "Suppression des intermédiaires politiques actuels, remplacés par la décision directe des citoyens",
+          "detail": "Rémi Revillon d’Apreval qualifie les parlementaires, cabinets, élus locaux et partis d’« intermédiaires, devenus obsolètes avec un peuple qui décide lui-même » et propose de les supprimer ; il chiffre leur coût à environ 3,5 milliards d’euros par an (2 milliards pour les élus des communes et intercommunalités, environ 180 millions pour départements et régions, 1,1 milliard pour le Parlement et l’Élysée, environ 70 millions d’aide publique aux partis). Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-inst-constitution-claire",
+          "themeKey": "inst",
+          "subthemeKey": "inst-constitution",
+          "title": "Constitution et lois réécrites de façon « claire, courte, sans renvois obscurs »",
+          "detail": "Rémi Revillon d’Apreval propose une nouvelle Constitution et des lois « écrites de façon claire, courte, sans renvois obscurs, assez concises pour être retenues dans leurs grandes lignes », la liberté étant la règle par défaut avec une seule limite, « ne pas nuire à autrui, ni directement, ni indirectement » (article 10.1 du texte proposé) ; le droit de dire ce que l’on pense sincèrement est inconditionnel et la légitime défense est « sanctuarisée ». Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-inst-bon-sens-prime-sur-la-loi",
+          "themeKey": "inst",
+          "subthemeKey": "inst-constitution",
+          "title": "Primauté du « bon sens commun » sur la loi en cas de contradiction manifeste, sous le contrôle du Juge Général",
+          "detail": "Rémi Revillon d’Apreval propose qu’« en cas de contradiction manifeste entre la loi et le bon sens commun, c’est le bon sens qui prévaut ». Le Juge Général, élu sans mandat fixe et révocable, en est le garant : il peut suspendre une loi « qui mènerait à une situation humaine absurde » ou devenue obsolète, et nomme les juges qui appliquent ce principe. Le manifeste présente cette préconisation comme optionnelle par rapport au système ODANIE. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-inst-vote-citoyen-action-militaire",
+          "themeKey": "inst",
+          "subthemeKey": "inst-referendum",
+          "title": "Vote citoyen obligatoire pour toute action militaire exceptionnelle",
+          "detail": "Rémi Revillon d’Apreval propose que « toute action militaire exceptionnelle, engagement des forces ou déploiement d’envergure, soit soumise au vote citoyen » (article 6.4 de la Constitution proposée) ; les forces de l’ordre et les soldats prêteraient allégeance au peuple et non à une personne (article 6 bis). Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-fis-suppression-ir-is-cotisations",
+          "themeKey": "fis",
+          "subthemeKey": "fis-revenu",
+          "title": "Suppression de l’impôt sur le revenu, de l’impôt sur les sociétés et des cotisations sociales (« brut = net »)",
+          "detail": "Rémi Revillon d’Apreval propose de supprimer l’impôt sur le revenu, l’impôt sur les sociétés et l’ensemble des cotisations sociales, salariales et patronales, de sorte que le salaire brut soit intégralement versé (« 2 500 euros brut, 2 500 euros versés »). Seule exception : les groupes de plus de 750 millions d’euros de chiffre d’affaires resteraient soumis à l’impôt minimum de 15 % prévu par l’accord international appliqué par l’Union européenne. La bascule se ferait par paliers entre la deuxième et la cinquième année. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-fis-tvp-50",
+          "themeKey": "fis",
+          "subthemeKey": "fis-consommation",
+          "title": "Remplacement de la TVA par une « taxe sur la vente au particulier » (TVP) à 50 %, ressource unique de l’État",
+          "detail": "Rémi Revillon d’Apreval propose de remplacer la TVA et tous les autres impôts par une TVP perçue uniquement lors de la vente à un particulier, au taux normal de 50 % du prix hors taxe (soit un tiers du prix payé), avec des taux réduits de 25 % et 10 % ; les ventes entre professionnels ne seraient pas taxées mais enregistrées par facture électronique, et les exportations seraient de fait détaxées. Il indique que cette taxe est compatible avec la directive européenne sur la TVA, qui fixe un minimum mais pas de maximum. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-fis-fin-progressive-du-liquide",
+          "themeKey": "fis",
+          "subthemeKey": "fis-fraude",
+          "title": "Fin progressive de l’argent liquide, remplacé par une monnaie numérique publique",
+          "detail": "Rémi Revillon d’Apreval propose la « fin progressive du liquide » pour limiter la fraude à la TVP, avec une monnaie numérique publique fonctionnant même sans réseau, l’anonymat garanti pour les petites dépenses du quotidien et une traçabilité seulement au-delà d’un seuil ; les données ne serviraient qu’à la fiscalité et chaque consultation serait encadrée et rendue publique. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-fis-taxe-de-residence",
+          "themeKey": "fis",
+          "subthemeKey": "fis-revenu",
+          "title": "Création d’une « Taxe de Résidence » payée par chaque résident majeur pour financer les pensions déjà acquises",
+          "detail": "Rémi Revillon d’Apreval propose une Taxe de Résidence due par chaque résident majeur, français ou étranger, pour couvrir « l’héritage du système actuel », principalement les retraites déjà acquises. Son rapport de simulation l’estime à environ 1 160 euros par mois et par résident au départ, autour de 1 300 euros en 2032, puis 850 euros en 2040 et 570 euros en 2046 ; son montant et sa forme, fixe ou proportionnelle aux revenus, seraient votés chaque année par les citoyens, et les profits des machines publiques (« Dividende National ») viendraient en déduction. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-fin-investissement-civique",
+          "themeKey": "fin",
+          "subthemeKey": "fin-dette",
+          "title": "« Investissement Civique » : contribution citoyenne votée pour financer un grand projet, au lieu de l’emprunt",
+          "detail": "Rémi Revillon d’Apreval propose que, pour un grand projet, le Conseiller Général puisse soumettre au vote un Investissement Civique : chaque citoyen verse une somme ponctuelle ou mensuelle affectée à un projet précis, « plutôt que d’augmenter la TVP ou de faire de la dette ». Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-fin-fonds-national-automatisation",
+          "themeKey": "fin",
+          "subthemeKey": "fin-etat",
+          "title": "Fonds National d’Automatisation investissant environ 6 % de la richesse nationale par an, hors budget de l’État",
+          "detail": "Rémi Revillon d’Apreval propose un Fonds National d’Automatisation investissant chaque année environ 6 % de la richesse nationale (4 % dans l’intelligence artificielle, la robotique et l’énergie, 2 % dans les infrastructures et réseaux), logé hors du budget de l’État, qui emprunte pour investir et se rembourse sur les profits de ses actifs ; ces profits (« Dividende National ») viendraient en déduction de la Taxe de Résidence. Les projets, coûts et résultats seraient publics et les orientations votées par les citoyens. Sa simulation évalue la dette du Fonds à environ 80 % du PIB en 2046. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-san-securite-sociale-recentree-vital",
+          "themeKey": "san",
+          "subthemeKey": "san-organisation",
+          "title": "Sécurité sociale recentrée sur les soins vitaux, le reste à la charge de chacun",
+          "detail": "Rémi Revillon d’Apreval propose de recentrer la prise en charge collective sur « l’essentiel » : interventions chirurgicales lourdes, maladies graves, soins intensifs, handicaps lourds, maladies invalidantes chroniques et urgences vitales. Les consultations de confort, les médicaments non essentiels et les arrêts maladie de courte durée reviendraient à la charge de chacun ; l’État pourrait proposer des formules de couverture complémentaire en option. Le calendrier du manifeste situe cette refonte entre la troisième et la septième année. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-ret-retraite-socle-70-ans",
+          "themeKey": "ret",
+          "subthemeKey": "ret-age",
+          "title": "Retraite publique minimale d’environ 1 000 € par mois à 70 ans, âge reculé d’un an tous les deux ans",
+          "detail": "Rémi Revillon d’Apreval propose de remplacer le système par répartition par une « retraite-socle » publique minimale, « volontairement symbolique, par exemple 1 000 euros par mois », versée à partir de 70 ans, âge qui reculerait ensuite d’un an tous les deux ans (75 ans dans dix ans, 80 ans dans vingt ans, 85 ans dans trente ans). La cotisation retraite deviendrait un choix, l’État pouvant proposer des formules de cotisation à la carte, le capital non cotisé étant laissé à l’épargne et à l’investissement personnels. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-ret-pensions-acquises-deux-options",
+          "themeKey": "ret",
+          "subthemeKey": "ret-pensions",
+          "title": "Pensions déjà acquises : deux options soumises au vote (maintien intégral ou versement à partir de 70 ans)",
+          "detail": "Rémi Revillon d’Apreval ne tranche pas le sort des pensions des retraités actuels et propose de soumettre deux options au vote des citoyens : maintenir chaque pension quel que soit l’âge, ou ne verser les pensions acquises qu’à partir de 70 ans, les retraités plus jeunes en capacité de travailler reprenant « un poste adapté ». Le calendrier prévoit « la garantie écrite des pensions déjà liquidées » dans les trois premières années ; chaque option serait chiffrée et publiée avant le vote. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-eco-emploi-garanti-fin-aides-inactivite",
+          "themeKey": "eco",
+          "subthemeKey": "eco-prestations",
+          "title": "Suppression des aides à l’inactivité (RSA, allocations chômage, APL, prime d’activité…) remplacées par une garantie d’emploi",
+          "detail": "Rémi Revillon d’Apreval propose de remplacer « le labyrinthe des aides » (RSA, allocations chômage, APL, prime d’activité « et des centaines d’autres ») par une garantie d’emploi : toute personne capable de travailler et sans emploi pourrait se tourner vers l’État, qui aurait l’obligation de lui proposer une activité « payée de quoi vivre dignement », à condition qu’elle s’y investisse. Ces emplois proviendraient de l’activité de l’État dans l’économie. Le calendrier situe la mesure dans les trois premières années. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-ent-etat-operateur-economique",
+          "themeKey": "ent",
+          "subthemeKey": "ent-industrie",
+          "title": "Entrée de l’État comme opérateur dans la distribution, la logistique, l’énergie, la production automatisée et l’IA",
+          "detail": "Rémi Revillon d’Apreval propose que l’État entre dans l’économie comme un opérateur parmi d’autres, « mêmes règles que les autres, aucune subvention, aucun privilège », en commençant par la distribution et la logistique puis en s’étendant à l’énergie, à la production automatisée et à l’intelligence artificielle, afin que les machines « restent un bien commun » et que leurs profits financent l’État. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-ent-automatisation-partage-du-travail",
+          "themeKey": "ent",
+          "subthemeKey": "ent-temps-travail",
+          "title": "Réduction du temps de travail à mesure de l’automatisation, avec un objectif de 15 heures par semaine pour tous",
+          "detail": "Rémi Revillon d’Apreval propose de remplacer « chaque tâche pénible ou répétitive » par une machine ou une intelligence artificielle, puis de répartir le travail restant entre tous : il vise « dix personnes à 15 heures » là où huit travaillent aujourd’hui 35 heures et deux sont au chômage, avec pour horizon un « service civique universel d’une journée par semaine ». Il fixe des cibles d’automatisation par secteur (95 % pour les mines et l’agriculture, 98 % pour les usines et l’énergie, 99 % pour la logistique et l’administration, 80 % pour les services physiques), « une direction, pas une date ». Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-edu-tuteur-ia-centres-activites",
+          "themeKey": "edu",
+          "subthemeKey": "edu-ecole",
+          "title": "Remplacement de l’école par un tuteur IA personnel pour l’instruction et des centres d’activités pour la socialisation",
+          "detail": "Rémi Revillon d’Apreval propose que l’école soit « démantelée, et remplacée par deux piliers » : un tuteur d’intelligence artificielle personnel pour l’instruction (deux à trois heures par jour, avec zététique, logique, code et modélisation 3D parmi les matières) et des « centres d’activités » ouverts, tous âges mêlés, encadrés par des mentors et des coachs, pour la socialisation ; socle garanti dans l’enfance, puis cursus à la carte à l’adolescence. Le calendrier prévoit un test du tuteur IA dans quelques régions avant extension. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-imm-citoyennete-stock-fixe",
+          "themeKey": "imm",
+          "subthemeKey": "imm-nationalite",
+          "title": "Citoyenneté « à stock fixe » : nombre de citoyens plafonné et marché régulé d’achat et de vente de la citoyenneté",
+          "detail": "Rémi Revillon d’Apreval propose, « à débattre puis à soumettre au vote des Français », de plafonner le nombre de citoyens de 20 ans et plus (par exemple à 60 millions) : un étranger n’obtiendrait la nationalité qu’en reprenant une place libérée par un départ volontaire ou un décès, via une plateforme d’État où un citoyen pourrait vendre sa citoyenneté « au plus offrant » ; l’État garderait un droit de veto après des tests « de compatibilité culturelle et de sécurité ». Les ressortissants de l’Union européenne conserveraient la libre circulation. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-imm-decheance-citoyennete-crimes-graves",
+          "themeKey": "imm",
+          "subthemeKey": "imm-nationalite",
+          "title": "Déchéance de citoyenneté pour délinquance, crime, terrorisme ou haute trahison, la place étant revendue",
+          "detail": "Rémi Revillon d’Apreval propose qu’un citoyen qui « trahit le contrat social, par la délinquance, le crime, le terrorisme ou la haute trahison » puisse être déchu de sa citoyenneté, l’État revendant sa place sur le marché de la citoyenneté ; après sa peine, la personne deviendrait résident soumis à la taxe, expulsé ou apatride. Le manifeste prévoit aussi ce « dernier recours » pour « un communautarisme agressif et sécessionniste ». Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-imm-citoyennete-excellence-icg",
+          "themeKey": "imm",
+          "subthemeKey": "imm-nationalite",
+          "title": "Citoyenneté d’excellence gratuite et immédiate pour le top 100 mondial d’un « Indice Créatif Global »",
+          "detail": "Rémi Revillon d’Apreval propose qu’une intelligence artificielle publique, EALIONE, attribue à qui le souhaite un Indice Créatif Global évaluant ses productions ; toute personne, où qu’elle soit dans le monde, atteignant le top 100 mondial de cet indice recevrait une citoyenneté française « gratuite », « immédiate » et « inaliénable ». Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-num-ealione-ia-publique",
+          "themeKey": "num",
+          "subthemeKey": "num-ia",
+          "title": "EALIONE : intelligence artificielle publique d’aide au débat et à l’évaluation, « qui écoute et ne décide jamais »",
+          "detail": "Rémi Revillon d’Apreval propose une intelligence artificielle publique, EALIONE, présentée comme un outil « qui écoute, et ne décide jamais » : elle évaluerait les projets du Fonds National d’Automatisation (coût, rendement attendu, résultat réel) et les idées soumises par les citoyens, les décisions restant au vote. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-ecol-vac-vehicule-autonome-commun",
+          "themeKey": "ecol",
+          "subthemeKey": "ecol-transports",
+          "title": "Flotte publique de « Véhicules Autonomes Communs » à la demande, fabriqués dans des usines publiques, en remplacement de la voiture individuelle",
+          "detail": "Rémi Revillon d’Apreval propose le VAC, véhicule électrique autonome commandé à la demande pour le prix d’un abonnement (environ 50 à 65 euros par mois selon ses estimations), avec un véhicule adapté à chaque trajet ; 4 à 6 millions de VAC remplaceraient 40 millions de voitures. La flotte serait produite dans des usines publiques en France par une entreprise du Fonds National d’Automatisation, le réseau restant ouvert aux constructeurs et aux véhicules privés. Un « mode urgence » donnerait la priorité absolue au VAC transportant une personne en danger. Déploiement par étapes votées : villes pilotes la première année, maillage complet entre la cinquième et la huitième année ; coût d’équipement estimé à 150 à 200 milliards d’euros, financé par le Fonds. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-ecol-alimentation-vac-catenaire",
+          "themeKey": "ecol",
+          "subthemeKey": "ecol-transports",
+          "title": "Alimentation électrique des VAC en roulant : trois options soumises au vote, caténaire recommandée",
+          "detail": "Rémi Revillon d’Apreval propose de soumettre au vote trois façons d’alimenter les VAC en roulant, pour réduire la taille des batteries : caténaire et pantographe portés par un bandeau lumineux (option qu’il recommande, estimée à environ 40 milliards d’euros plus 25 milliards d’entretien sur trente ans), induction sous la chaussée, ou rail inversé en fosse. Avec la caténaire, chaque VAC ne garderait qu’une batterie tampon d’environ 1 kWh. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-ecol-module-foyer-actif",
+          "themeKey": "ecol",
+          "subthemeKey": "ecol-renouvelables",
+          "title": "« Module Foyer Actif » : insert à bois standardisé dans les cheminées existantes pour effacer 20 GW de pointe électrique hivernale",
+          "detail": "Rémi Revillon d’Apreval propose un insert à bois standardisé, à double combustion, filtre à particules et échangeur à eau relié au chauffage central, à encastrer dans les cheminées existantes ; sur notification lors des pics de froid, 5 millions de foyers à environ 4 kW effaceraient 20 gigawatts de demande électrique, « l’équivalent d’une douzaine de réacteurs nucléaires qu’on n’a pas besoin de construire juste pour l’hiver ». Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-ecol-caves-numeriques-chauffage",
+          "themeKey": "ecol",
+          "subthemeKey": "ecol-climat",
+          "title": "Installation de serveurs informatiques dans les parkings d’immeubles pour chauffer les logements",
+          "detail": "Rémi Revillon d’Apreval propose d’installer des centres de données dans les parkings et garages d’immeubles libérés par les VAC, la chaleur des processeurs étant récupérée par le réseau d’eau de l’immeuble pour le chauffage et l’eau chaude. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-agr-maelis-poste-alimentaire",
+          "themeKey": "agr",
+          "subthemeKey": "agr-alimentation",
+          "title": "« MAELIS » : livraison automatisée des courses du quotidien en modules standardisés, avec consigne généralisée",
+          "detail": "Rémi Revillon d’Apreval propose un service de « Poste Alimentaire », MAELIS (Modules Alimentaires Écologiques, Livrés, Intelligents et Standardisés) : des centrales automatisées livrent par véhicule autonome des modules réfrigérés échangés sur un « Dock » fixé à chaque logement, le module vide repartant avec les emballages et déchets triés ; les produits seraient conditionnés dans un « Pot Universel » consigné (par exemple 50 centimes), et des « VAC-étals » formeraient un marché mobile pour les produits frais. Le service démarrerait avec l’entrée de l’État dans la distribution. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-sec-drones-et-vac-temoins",
+          "themeKey": "sec",
+          "subthemeKey": "sec-police",
+          "title": "Drones ballons et caméras des véhicules autonomes comme témoins dans la rue, en remplacement des caméras fixes",
+          "detail": "Rémi Revillon d’Apreval propose de remplacer les caméras fixes par des drones ballons gonflés à l’hélium (DS-MC) perchés sur les lampadaires et par les caméras des VAC, dont l’intelligence artificielle signalerait agressions, chutes ou incendies aux secours et à la police avec vidéo et position ; ces témoins « ne tirent pas, n’arrêtent personne ». Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-sec-service-public-securite-domiciliaire",
+          "themeKey": "sec",
+          "subthemeKey": "sec-police",
+          "title": "Service public de sécurité domiciliaire : alarme reliée directement au réseau public pour 9 à 12 € par mois",
+          "detail": "Rémi Revillon d’Apreval propose un service public de sécurité domiciliaire (SPSD) : chaque foyer volontaire serait relié directement au réseau public pour un abonnement de 9 à 12 euros par mois ; en cas d’alarme, un drone ballon arriverait en cinq minutes pour lever le doute et suivre les fuyards, la police intervenant ensuite. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-sec-monopole-etat-drogues",
+          "themeKey": "sec",
+          "subthemeKey": "sec-criminalite",
+          "title": "Monopole d’État sur la production et la vente de toutes les drogues",
+          "detail": "Rémi Revillon d’Apreval propose « un monopole d’État sur la production et la vente de toutes les drogues, du cannabis aux plus dangereuses », par des vendeurs salariés sans intéressement, avec contrôle de la qualité et du dosage ; les recettes financeraient la prévention, les cures et les soins. Il évalue le marché actuel à 3,5 à 6 milliards d’euros par an d’après un rapport du Sénat de 2024. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-sec-juger-l-acte-conduite-ivresse",
+          "themeKey": "sec",
+          "subthemeKey": "sec-peines",
+          "title": "Sanction de l’acte et non de sa conséquence : détention dès la première conduite en état d’ivresse",
+          "detail": "Rémi Revillon d’Apreval propose que la justice sanctionne « l’acte, pas la conséquence » : pour une conduite en état d’ivresse avancée, « un passage en détention, dès la première fois », que l’acte ait ou non causé un drame, la durée de détention suivant la dangerosité ; un retrait de permis définitif est « envisagé » en cas de récidive. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-sec-gardiens-de-la-route-signalement-remunere",
+          "themeKey": "sec",
+          "subthemeKey": "sec-police",
+          "title": "Signalement rémunéré des comportements routiers dangereux filmés par caméra de bord",
+          "detail": "Rémi Revillon d’Apreval propose, « en attendant le VAC », que chaque conducteur puisse transmettre à l’autorité judiciaire, par une application, la séquence datée et localisée d’une caméra de bord montrant un comportement manifestement dangereux ; si le danger est avéré, le témoin serait rémunéré « à la prime d’efficacité », seul un signalement fondé rapportant. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-sec-feux-rouges-stops-vitesse-adaptee",
+          "themeKey": "sec",
+          "subthemeKey": "sec-police",
+          "title": "Feux rouges transformés en stops, vitesse adaptée au contexte par le conducteur et « carton jaune » sans amende",
+          "detail": "Rémi Revillon d’Apreval propose que les feux rouges deviennent des stops (arrêt puis passage si aucun danger), que la vitesse soit « un paramètre que chaque conducteur adapte au contexte » avec pour seule limite fixe la contrôlabilité technique du véhicule, et qu’un « carton jaune », avertissement sans amende inscrit dans un dossier, repère les conducteurs structurellement imprudents. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-sec-legitime-action-autorite-camera-temoin",
+          "themeKey": "sec",
+          "subthemeKey": "sec-police",
+          "title": "« Légitime action d’autorité » remplaçant la légitime défense pour la police, avec caméra-témoin permanente",
+          "detail": "Rémi Revillon d’Apreval propose de remplacer la légitime défense des policiers par une « légitime action d’autorité » (« tant que l’action vise à rétablir l’ordre ou à protéger la société, elle est légitime »), en contrepartie d’une caméra-témoin portée en permanence et reliée au cloud de la justice ; en cas de plainte, un jugement « binaire » sur la vidéo, avec sanction immédiate si l’action relève de l’intérêt personnel, du sadisme, de la vengeance, du racisme ou de la perte de contrôle. Les gardes à vue seraient filmées de la même façon. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-log-cube-abri-individuel-sans-abri",
+          "themeKey": "log",
+          "subthemeKey": "log-social",
+          "title": "« CUBE » : capsules individuelles de 3 m³ fermant à clé pour les personnes sans abri, à accès inconditionnel",
+          "detail": "Rémi Revillon d’Apreval propose le CUBE (Compartiment Urbain Basique Essentiel), capsule individuelle de 3 mètres cubes chauffée et ventilée, fermée par un code personnel et acceptant les chiens, installée par grappes dans des hangars, gymnases ou anciennes casernes autour d’espaces communs ; accès « inconditionnel : pas d’horaires, pas de morale ». Les premiers CUBE sont prévus dans les trois premières années. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-sec-fin-de-la-peine-de-temps",
+          "themeKey": "sec",
+          "subthemeKey": "sec-prisons",
+          "title": "Suppression de la peine de durée fixe : détention tant que la dangerosité persiste, en quatre niveaux avec travail rémunéré",
+          "detail": "Rémi Revillon d’Apreval propose de supprimer « la peine de temps » : la personne condamnée reste détenue tant qu’elle « représente un danger », « que cela prenne cinq mois ou cinquante ans », la dangerosité étant évaluée en continu par un suivi psychologique obligatoire. Quatre niveaux : assignation à résidence avec suivi, « résidence de responsabilisation » où le détenu travaille et paie son hébergement, « unité de production » avec huit heures de travail rémunéré par jour, et isolement de sécurité ; les coûts de détention constitueraient une dette à rembourser par le travail. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-sec-juges-de-sortie-prime-reinsertion",
+          "themeKey": "sec",
+          "subthemeKey": "sec-justice",
+          "title": "Juges de sortie payés uniquement à la prime de réinsertion, remboursée avec amende en cas de récidive grave",
+          "detail": "Rémi Revillon d’Apreval propose une « rémunération duale » de la magistrature : un parquet salarié, nommé par le Coordinateur Exécutif, fixant le niveau de dangerosité et d’incarcération, et des juges de sortie, nommés par le Juge Général, sans salaire et payés d’une prime pour chaque libération décidée ; si la personne libérée récidive gravement dans les dix ans, le juge rendrait la prime et paierait une amende sur ses fonds propres. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revillondapreval-eur-trois-chemins-union-europeenne",
+          "themeKey": "eur",
+          "subthemeKey": "eur-appartenance",
+          "title": "Trois chemins face à l’Union européenne soumis au vote : s’adapter, transformer, quitter en dernier recours",
+          "detail": "Rémi Revillon d’Apreval reconnaît que plusieurs de ses mesures « frottent avec les règles européennes » et propose que le peuple choisisse entre trois chemins : appliquer le programme en restant dans l’Union (« le chemin le plus sûr », détaillé point par point), convaincre l’Union de changer via une « alliance de pays pionniers » (TVP harmonisée, préférence européenne pour les VAC, démocratie directe européenne), ou, « en dernier recours », quitter l’Union par l’article 50 pour fonder « une nouvelle union, plus légère » ; les trois chemins seraient suivis dans cet ordre. Figure dans le manifeste illustré publié sur son site de campagne (diapositives et leurs explications, consultées le 8 novembre 2026, sans date de publication indiquée) ; le manifeste précise que chaque mesure serait soumise au vote des citoyens via ODANIE.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-11-08",
+          "lastChanged": "2026-11-08",
+          "sourceIds": [
+            "odanie2027-nd-le-manifeste-illustre"
+          ],
+          "history": [
+            {
+              "date": "2026-11-08",
+              "type": "ajout",
+              "sourceIds": [
+                "odanie2027-nd-le-manifeste-illustre"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "riner",
+      "firstName": "Teddy",
+      "lastName": "Riner",
+      "sortName": "riner",
+      "party": "Sans étiquette (campagne « La France qu'on veut »)",
+      "partyShort": "SE",
+      "status": "declare",
+      "statusDate": "2026-11-09",
+      "statusSourceIds": [
+        "x-2026-11-09-teddy-riner-je-suis-candidat",
+        "franceinfo-2026-11-09-teddy-riner-annonce-sa-candidature",
+        "dhnet-2026-11-09-des-tatamis-a-l-elysee-teddy-riner"
+      ],
+      "statusHistory": [
+        {
+          "date": "2026-11-09",
+          "status": "declare",
+          "note": "Candidature annoncée le 9 novembre 2026 dans une vidéo publiée sur son compte X (« Je suis candidat à l'élection présidentielle de 2027 ») et dans un entretien au Parisien.",
+          "sourceIds": [
+            "x-2026-11-09-teddy-riner-je-suis-candidat",
+            "franceinfo-2026-11-09-teddy-riner-annonce-sa-candidature",
+            "dhnet-2026-11-09-des-tatamis-a-l-elysee-teddy-riner"
+          ]
+        }
+      ],
+      "bio": "Teddy Riner, judoka, quintuple champion olympique et onze fois champion du monde, a annoncé le 9 novembre 2026 sa candidature à l'élection présidentielle dans une vidéo publiée sur X, sous le slogan « La France qu'on veut ». Il se présente, selon l'AFP, comme n'étant ni de droite ni de gauche, et dit travailler à son programme « depuis plusieurs mois déjà » avec « un noyau dur d'une vingtaine de personnalités issues de la société civile ». Il indique vouloir poursuivre sa carrière sportive et disputer les Jeux olympiques de Los Angeles en 2028 « si la fonction me le permet et si les Français m'y autorisent ».",
+      "currentRoles": [],
+      "birthYear": 1989,
+      "measures": [
+        {
+          "id": "riner-eco-salaire-net-allegements-charges",
+          "themeKey": "eco",
+          "subthemeKey": "eco-salaires",
+          "title": "Hausse du salaire net par des allégements de charges",
+          "detail": "Teddy Riner propose d'« augmenter le salaire net », ce qui « doit passer par des allégements de charges », sans montant, périmètre ni calendrier précisés par la source. Déclaré dans un entretien au Parisien du 9 novembre 2026, selon une dépêche AFP publiée par La DH.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-09",
+          "lastChanged": "2026-11-09",
+          "sourceIds": [
+            "dhnet-2026-11-09-des-tatamis-a-l-elysee-teddy-riner"
+          ],
+          "history": [
+            {
+              "date": "2026-11-09",
+              "type": "ajout",
+              "sourceIds": [
+                "dhnet-2026-11-09-des-tatamis-a-l-elysee-teddy-riner"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "riner-ent-travailler-plus-volontaires",
+          "themeKey": "ent",
+          "subthemeKey": "ent-temps-travail",
+          "title": "Possibilité, pour les salariés qui le souhaitent, de travailler plus pour augmenter leurs revenus",
+          "detail": "Teddy Riner propose de permettre « aux Français qui le veulent, d'augmenter leurs revenus en travaillant plus », sans modalité précisée par la source (durée légale, heures supplémentaires ou régime fiscal). Déclaré dans un entretien au Parisien du 9 novembre 2026, selon une dépêche AFP publiée par La DH.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-09",
+          "lastChanged": "2026-11-09",
+          "sourceIds": [
+            "dhnet-2026-11-09-des-tatamis-a-l-elysee-teddy-riner"
+          ],
+          "history": [
+            {
+              "date": "2026-11-09",
+              "type": "ajout",
+              "sourceIds": [
+                "dhnet-2026-11-09-des-tatamis-a-l-elysee-teddy-riner"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "rohou",
       "firstName": "Erwan",
       "lastName": "Rohou",
@@ -53314,6 +54375,16 @@
             "sourceIds": [
               "melenchon2027-2026-01-22-laec-ch8-s2-reduire-le-temps-de-travail"
             ]
+          },
+          "revillondapreval": {
+            "value": -2,
+            "note": "Vise une réduction du temps de travail à 15 heures par semaine à mesure de l’automatisation.",
+            "measureIds": [
+              "revillondapreval-ent-automatisation-partage-du-travail"
+            ],
+            "sourceIds": [
+              "odanie2027-nd-le-manifeste-illustre"
+            ]
           }
         }
       },
@@ -53525,6 +54596,16 @@
             ],
             "sourceIds": [
               "herlin27-nd-mon-deprogramme"
+            ]
+          },
+          "revillondapreval": {
+            "value": -2,
+            "note": "Propose de supprimer l’impôt sur le revenu et l’impôt sur les sociétés et s’oppose à toute imposition de la fortune.",
+            "measureIds": [
+              "revillondapreval-fis-suppression-ir-is-cotisations"
+            ],
+            "sourceIds": [
+              "odanie2027-nd-le-manifeste-illustre"
             ]
           }
         }
@@ -53858,6 +54939,17 @@
               "melenchon2027-2026-10-14-comment-remettre-ordre-comptes-publics",
               "melenchon2027-2026-01-22-laec-ch8-s7-en-finir-avec-la-souffrance"
             ]
+          },
+          "revillondapreval": {
+            "value": 2,
+            "note": "Fixe une cible d’automatisation de 99 % des heures de travail de l’administration et propose de supprimer les intermédiaires politiques actuels.",
+            "measureIds": [
+              "revillondapreval-ent-automatisation-partage-du-travail",
+              "revillondapreval-inst-suppression-intermediaires-politiques"
+            ],
+            "sourceIds": [
+              "odanie2027-nd-le-manifeste-illustre"
+            ]
           }
         }
       },
@@ -54006,6 +55098,16 @@
               "lcp-2026-08-27-francois-hollande-propose-la-retraite-a-63-ans",
               "sudradio-2026-08-27-francois-hollande-un-pas-de-plus"
             ]
+          },
+          "revillondapreval": {
+            "value": -2,
+            "note": "Propose une retraite publique minimale à 70 ans, âge reculé ensuite d’un an tous les deux ans.",
+            "measureIds": [
+              "revillondapreval-ret-retraite-socle-70-ans"
+            ],
+            "sourceIds": [
+              "odanie2027-nd-le-manifeste-illustre"
+            ]
           }
         }
       },
@@ -54151,6 +55253,16 @@
             "sourceIds": [
               "lcp-2026-08-27-francois-hollande-propose-la-retraite-a-63-ans",
               "sudradio-2026-08-27-francois-hollande-un-pas-de-plus"
+            ]
+          },
+          "revillondapreval": {
+            "value": 2,
+            "note": "Propose de rendre la cotisation retraite facultative et de fonder la retraite sur l’épargne et l’investissement personnels, au-delà d’une retraite-socle.",
+            "measureIds": [
+              "revillondapreval-ret-retraite-socle-70-ans"
+            ],
+            "sourceIds": [
+              "odanie2027-nd-le-manifeste-illustre"
             ]
           }
         }
@@ -54957,6 +56069,16 @@
             "sourceIds": [
               "sudradio-2026-10-13-a-20-ans-cette-fille-d-agriculteurs"
             ]
+          },
+          "revillondapreval": {
+            "value": -1,
+            "note": "Privilégie le maintien dans l’Union (« s’adapter ») et ne garde la sortie par l’article 50 qu’en dernier recours, le choix revenant au vote des citoyens.",
+            "measureIds": [
+              "revillondapreval-eur-trois-chemins-union-europeenne"
+            ],
+            "sourceIds": [
+              "odanie2027-nd-le-manifeste-illustre"
+            ]
           }
         }
       },
@@ -55514,6 +56636,16 @@
             "sourceIds": [
               "melenchon2027-2026-01-22-laec-ch15-s3-addictions-et-drogues-il"
             ]
+          },
+          "revillondapreval": {
+            "value": 2,
+            "note": "Propose un monopole d’État sur la production et la vente de toutes les drogues, cannabis compris.",
+            "measureIds": [
+              "revillondapreval-sec-monopole-etat-drogues"
+            ],
+            "sourceIds": [
+              "odanie2027-nd-le-manifeste-illustre"
+            ]
           }
         }
       },
@@ -56051,6 +57183,16 @@
             ],
             "sourceIds": [
               "avecretailleau-nd-projet-theme-institutions"
+            ]
+          },
+          "revillondapreval": {
+            "value": 2,
+            "note": "Propose que les citoyens votent directement chaque mesure et puissent déposer toute proposition de loi via ODANIE.",
+            "measureIds": [
+              "revillondapreval-inst-odanie-vote-direct-delegation"
+            ],
+            "sourceIds": [
+              "odanie2027-nd-le-manifeste-illustre"
             ]
           }
         }
@@ -76012,9 +77154,44 @@
       "sourceIds": [
         "boursorama-2026-11-08-roussel-jusqu-au-bout"
       ]
+    },
+    {
+      "id": "evt-revillondapreval-candidature-2026-11-08",
+      "date": "2026-11-08",
+      "type": "candidature",
+      "candidateIds": [
+        "revillondapreval"
+      ],
+      "text": "Publie sur son site de campagne une déclaration de candidature datée du 8 novembre 2026, présentée comme une « initiative soutenue par le collectif citoyen REVODEMO ».",
+      "quote": "« Je m’appelle Rémi Revillon d’Apreval, et je suis candidat à l’élection présidentielle de 2027. »",
+      "sourceIds": [
+        "odanie2027-2026-11-08-declaration-de-candidature"
+      ]
+    },
+    {
+      "id": "evt-riner-candidature-2026-11-09",
+      "date": "2026-11-09",
+      "type": "candidature",
+      "candidateIds": [
+        "riner"
+      ],
+      "text": "Annonce sa candidature dans une vidéo publiée sur son compte X, sous le slogan « La France qu'on veut », et dans un entretien au Parisien.",
+      "quote": "« La résignation n'est pas une option. Face aux difficultés de notre pays, l'heure est venue de prendre ses responsabilités. Je suis candidat à l'élection présidentielle de 2027. »",
+      "sourceIds": [
+        "x-2026-11-09-teddy-riner-je-suis-candidat",
+        "franceinfo-2026-11-09-teddy-riner-annonce-sa-candidature"
+      ]
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-09",
+      "text": "Seconde mise à jour complémentaire du 9 novembre. Candidatures : ajout de Teddy Riner (statut « déclaré »), qui a annoncé sa candidature le 9 novembre 2026 dans une vidéo publiée sur son compte X et dans un entretien au Parisien, selon franceinfo et une dépêche AFP publiée par La DH ; l'article du Monde signalé à la rédaction et l'entretien du Parisien n'ont pas pu être ouverts, et le site de campagne « La France qu'on veut » n'a pas été retrouvé à une adresse vérifiable, aucune URL n'est donc renseignée. Fait de campagne « candidature » ajouté. Mesures : 2 mesures ajoutées d'après la dépêche AFP (hausse du salaire net par des allégements de charges ; possibilité de travailler plus pour ceux qui le souhaitent) ; l'appel à une réforme des retraites « car le système actuel ne tient pas » n'a pas été transcrit, aucun contenu n'étant précisé. Questionnaire : aucune position renseignée, les propositions rapportées ne tranchant aucune question du test. Aucun sondage, aucune échéance."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Mise à jour complémentaire du 9 novembre. Candidatures : ajout de Rémi Revillon d’Apreval (statut « déclaré »), dont la déclaration de candidature datée du 8 novembre 2026 est publiée sur son site de campagne 2027.odanie.org ; la candidature avait été signalée à la rédaction par le collectif REVODEMO, et seule la publication publique datée a été retenue comme source. Fait de campagne « candidature » ajouté. Mesures : 40 mesures ajoutées à partir des diapositives et explications du « manifeste illustré » publié sur le même site (document non daté : premières dates au 8 novembre 2026) ; les parties I et II (diagnostic et description du système ODANIE) n’ont donné lieu à des mesures que pour les propositions institutionnelles précises, et la partie VIII (« la question civilisationnelle » : zone dénationalisée, langue commune) n’a pas été transcrite faute de thème correspondant. Positions : 8 positions renseignées sur le test (fiscalité, retraites, travail, finances publiques, sécurité, institutions, Europe). Aucun sondage, aucune échéance."
+    },
     {
       "date": "2026-11-09",
       "text": "Recherche des nouveautés depuis la mise à jour du 8 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés. Le 8 novembre sur France Inter et France 2, Laurent Wauquiez (retiré) a demandé que les candidats de la droite et du centre s'accordent sur un candidat unique avant Noël, selon Europe 1 (avec AFP) ; aucun changement de statut n'en découle. Sondages : 1 enquête ajoutée, Ifop pour LCI (terrain du 27 au 29 octobre 2026, quatre hypothèses de premier tour, sans duel de second tour), reprise de la notice de la Commission des sondages, ouverte aujourd'hui ; la date de publication retenue, le 3 novembre, est celle qui figure dans l'adresse de la notice, le rapport de l'institut n'ayant pas été trouvé. Mesures : David Lisnard, 3 mesures ajoutées d'après une dépêche AFP publiée par Boursorama le 3 novembre (entretien sur BFMTV le même jour) : gouvernement resserré chargé de missions sur les 200 premiers jours ; session extraordinaire du Parlement à l'été 2027 ; moratoire sur les normes ; la même dépêche confirme l'objectif de 80 Md€ d'économies la première année, ajoutée comme source à la mesure existante. Questionnaire : aucune position renseignée. Rotation de la banque : aucun thème passé en revue aujourd'hui. Vie de la campagne : 2 déclarations ajoutées, David Lisnard (BFMTV, 3 novembre, sur le gouvernement qu'il nommerait) et Fabien Roussel (ICI et franceinfo, 8 novembre, sur le maintien de sa candidature), d'après deux dépêches AFP publiées par Boursorama ; l'article de Libération du 8 novembre et celui de franceinfo du 3 novembre sur Dominique de Villepin n'ont pas pu être ouverts. Parrainages : aucun relevé ajouté ; aucune nouvelle annonce chiffrée trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 28 octobre, le 29 octobre, le 2 et le 4 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : David Lisnard (voir ci-dessus) ; passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Sylvain Durif, Benoît Mathieu, Olivier Becht et Emmanuel Dubuisson (seuls des sites agrégateurs ont été trouvés ; rien n'est saisi), Jean Lassalle et Bruno Le Maire (aucune décision sur leur candidature trouvée), Matthieu Pigasse et Florian Philippot (aucune source nouvelle trouvée), Dominique de Villepin (déclare le 3 novembre sur France Inter ne pas être encore candidat, selon un site agrégateur ; la source d'origine n'a pas pu être ouverte, rien n'est saisi), Bruno Retailleau (aucune proposition nouvelle isolable trouvée depuis ses dernières mesures saisies)."
