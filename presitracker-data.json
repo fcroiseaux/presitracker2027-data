@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T14:40:55Z",
+  "updatedAt": "2026-11-10T05:41:54Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -5885,6 +5885,20 @@
       "title": "Des tatamis à l'Elysée ? Teddy Riner annonce sa candidature à la présidentielle",
       "publisher": "La DH (AFP)",
       "url": "https://www.dhnet.be/dernieres-depeches/2026/11/09/des-tatamis-a-lelysee-teddy-riner-annonce-sa-candidature-a-la-presidentielle-TN24TXUYZBDHLNYIUW4YHZJEI4/",
+      "date": "2026-11-09",
+      "kind": "presse"
+    },
+    "blick-2026-11-09-glucksmann-200-milliards-ecologie": {
+      "title": "Glucksmann veut investir 200 milliards dans la transition écologique",
+      "publisher": "Blick (AFP)",
+      "url": "https://www.blick.ch/fr/monde/france/raphael-glucksmann-200-milliards-pour-lecologie/ss80z96",
+      "date": "2026-11-09",
+      "kind": "presse"
+    },
+    "batiweb-2026-11-09-glucksmann-revolution-ecologique": {
+      "title": "PAC, EnR... La « révolution écologique » selon Raphaël Glucksmann",
+      "publisher": "Batiweb",
+      "url": "https://www.batiweb.com/actualites/energie/glucksmann-plan-ecologique-200-milliards-49588",
       "date": "2026-11-09",
       "kind": "presse"
     }
@@ -17446,14 +17460,16 @@
           "id": "glucksmann-ecol-developpement-renouvelables",
           "themeKey": "ecol",
           "subthemeKey": "ecol-renouvelables",
-          "title": "Développement des énergies renouvelables",
-          "detail": "Raphaël Glucksmann propose de développer les énergies renouvelables. Position exprimée en juin 2025.",
+          "title": "Production d'énergie renouvelable plus que doublée d'ici 2035",
+          "detail": "Raphaël Glucksmann proposait de développer les énergies renouvelables (juin 2025). Il propose désormais de « plus que doubler la production d'énergie renouvelable d'ici 2035 » (point presse à Paris, 9 novembre 2026, dépêche AFP).",
           "kind": "declaration",
           "status": "active",
           "firstSeen": "2025-06-23",
-          "lastChanged": "2025-06-23",
+          "lastChanged": "2026-11-10",
           "sourceIds": [
-            "publicsenat-2025-06-23-presidentielle-pas-candidat-pour-le-m"
+            "publicsenat-2025-06-23-presidentielle-pas-candidat-pour-le-m",
+            "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
           ],
           "history": [
             {
@@ -17461,6 +17477,17 @@
               "type": "ajout",
               "sourceIds": [
                 "publicsenat-2025-06-23-presidentielle-pas-candidat-pour-le-m"
+              ]
+            },
+            {
+              "date": "2026-11-10",
+              "type": "modification",
+              "before": "Développement des énergies renouvelables",
+              "after": "Production d'énergie renouvelable plus que doublée d'ici 2035",
+              "note": "Objectif chiffré et daté présenté lors du point presse du 9 novembre 2026.",
+              "sourceIds": [
+                "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+                "batiweb-2026-11-09-glucksmann-revolution-ecologique"
               ]
             }
           ]
@@ -17476,7 +17503,9 @@
           "firstSeen": "2025-06-23",
           "lastChanged": "2025-06-23",
           "sourceIds": [
-            "publicsenat-2025-06-23-presidentielle-pas-candidat-pour-le-m"
+            "publicsenat-2025-06-23-presidentielle-pas-candidat-pour-le-m",
+            "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
           ],
           "history": [
             {
@@ -17806,7 +17835,9 @@
           "firstSeen": "2026-05-26",
           "lastChanged": "2026-05-26",
           "sourceIds": [
-            "lcp-2026-05-26-presidentielle-raphael-glucksmann-devoile-les"
+            "lcp-2026-05-26-presidentielle-raphael-glucksmann-devoile-les",
+            "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
           ],
           "history": [
             {
@@ -18025,6 +18056,398 @@
               "type": "ajout",
               "sourceIds": [
                 "lcp-2026-10-09-glucksmann-faure-royal-maurel-guedj-quelles"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glucksmann-ecol-investissements-200-md",
+          "themeKey": "ecol",
+          "subthemeKey": "ecol-climat",
+          "title": "200 Md€ d'investissements publics pour la transition écologique",
+          "detail": "Raphaël Glucksmann propose 200 Md€ d'investissements publics sur le quinquennat pour sa « révolution écologique », avec un objectif de neutralité carbone en 2050. Annoncé lors d'un point presse à Paris le 9 novembre 2026 (dépêche AFP).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-09",
+          "lastChanged": "2026-11-09",
+          "sourceIds": [
+            "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+          ],
+          "history": [
+            {
+              "date": "2026-11-09",
+              "type": "ajout",
+              "sourceIds": [
+                "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+                "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glucksmann-ecol-sortie-energies-fossiles",
+          "themeKey": "ecol",
+          "subthemeKey": "ecol-climat",
+          "title": "Sortie des énergies fossiles",
+          "detail": "Raphaël Glucksmann propose d'« engager la sortie des énergies fossiles ». Annoncé lors d'un point presse à Paris le 9 novembre 2026 (dépêche AFP).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-09",
+          "lastChanged": "2026-11-09",
+          "sourceIds": [
+            "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+          ],
+          "history": [
+            {
+              "date": "2026-11-09",
+              "type": "ajout",
+              "sourceIds": [
+                "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+                "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glucksmann-ecol-loi-programmation-ecologique",
+          "themeKey": "ecol",
+          "subthemeKey": "ecol-climat",
+          "title": "Loi de programmation écologique",
+          "detail": "Raphaël Glucksmann propose l'adoption d'une loi de programmation écologique. Annoncé lors d'un point presse à Paris le 9 novembre 2026 (dépêche AFP).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-09",
+          "lastChanged": "2026-11-09",
+          "sourceIds": [
+            "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+          ],
+          "history": [
+            {
+              "date": "2026-11-09",
+              "type": "ajout",
+              "sourceIds": [
+                "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+                "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glucksmann-inst-republique-ecologique",
+          "themeKey": "inst",
+          "subthemeKey": "inst-constitution",
+          "title": "Inscription de la « République écologique » dans la Constitution",
+          "detail": "Raphaël Glucksmann propose d'inscrire le principe d'une « République écologique » dans la Constitution. Annoncé lors d'un point presse à Paris le 9 novembre 2026 (dépêche AFP).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-09",
+          "lastChanged": "2026-11-09",
+          "sourceIds": [
+            "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+          ],
+          "history": [
+            {
+              "date": "2026-11-09",
+              "type": "ajout",
+              "sourceIds": [
+                "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+                "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glucksmann-inst-etat-urgence-ecologique",
+          "themeKey": "inst",
+          "subthemeKey": "inst-constitution",
+          "title": "Proclamation constitutionnelle d'un « état d'urgence écologique »",
+          "detail": "Raphaël Glucksmann propose la proclamation constitutionnelle d'un « état d'urgence écologique ». Annoncé lors d'un point presse à Paris le 9 novembre 2026 (dépêche AFP).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-09",
+          "lastChanged": "2026-11-09",
+          "sourceIds": [
+            "blick-2026-11-09-glucksmann-200-milliards-ecologie"
+          ],
+          "history": [
+            {
+              "date": "2026-11-09",
+              "type": "ajout",
+              "sourceIds": [
+                "blick-2026-11-09-glucksmann-200-milliards-ecologie"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glucksmann-fis-contribution-5-patrimoines-100-m",
+          "themeKey": "fis",
+          "subthemeKey": "fis-patrimoine",
+          "title": "Contribution exceptionnelle de 5 % sur les patrimoines de plus de 100 M€",
+          "detail": "Raphaël Glucksmann propose une contribution exceptionnelle de 5 % sur les patrimoines supérieurs à 100 M€, affectée à un fonds pour la transition écologique ; Yannick Jadot en chiffre le rendement à 50 Md€. Annoncé lors d'un point presse à Paris le 9 novembre 2026 (dépêche AFP).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-09",
+          "lastChanged": "2026-11-09",
+          "sourceIds": [
+            "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+          ],
+          "history": [
+            {
+              "date": "2026-11-09",
+              "type": "ajout",
+              "sourceIds": [
+                "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+                "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glucksmann-fis-taxe-europeenne-superprofits-petroliers",
+          "themeKey": "fis",
+          "subthemeKey": "fis-entreprises",
+          "title": "Taxe européenne sur les superprofits pétroliers et gaziers",
+          "detail": "Raphaël Glucksmann propose une taxe européenne sur les superprofits pétroliers et gaziers pour financer la transition écologique. Annoncé lors d'un point presse à Paris le 9 novembre 2026 (dépêche AFP).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-09",
+          "lastChanged": "2026-11-09",
+          "sourceIds": [
+            "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+          ],
+          "history": [
+            {
+              "date": "2026-11-09",
+              "type": "ajout",
+              "sourceIds": [
+                "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+                "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glucksmann-fis-kerosene-vols-interieurs",
+          "themeKey": "fis",
+          "subthemeKey": "fis-consommation",
+          "title": "Suppression des exonérations fiscales sur le kérosène des vols intérieurs",
+          "detail": "Raphaël Glucksmann propose la fin des exonérations fiscales sur le kérosène des vols intérieurs. Annoncé lors d'un point presse à Paris le 9 novembre 2026 (dépêche AFP).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-09",
+          "lastChanged": "2026-11-09",
+          "sourceIds": [
+            "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+          ],
+          "history": [
+            {
+              "date": "2026-11-09",
+              "type": "ajout",
+              "sourceIds": [
+                "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+                "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glucksmann-fis-taxe-billets-avion",
+          "themeKey": "fis",
+          "subthemeKey": "fis-consommation",
+          "title": "Hausse de la taxe de solidarité sur les billets d'avion",
+          "detail": "Raphaël Glucksmann propose une hausse de la taxe de solidarité sur les billets d'avion. Annoncé lors d'un point presse à Paris le 9 novembre 2026 (dépêche AFP).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-09",
+          "lastChanged": "2026-11-09",
+          "sourceIds": [
+            "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+          ],
+          "history": [
+            {
+              "date": "2026-11-09",
+              "type": "ajout",
+              "sourceIds": [
+                "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+                "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glucksmann-fis-jets-prives-yachts",
+          "themeKey": "fis",
+          "subthemeKey": "fis-consommation",
+          "title": "Taxation ciblée des jets privés et des yachts",
+          "detail": "Raphaël Glucksmann propose un ciblage fiscal des jets privés et des yachts. Annoncé lors d'un point presse à Paris le 9 novembre 2026 (dépêche AFP).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-09",
+          "lastChanged": "2026-11-09",
+          "sourceIds": [
+            "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+          ],
+          "history": [
+            {
+              "date": "2026-11-09",
+              "type": "ajout",
+              "sourceIds": [
+                "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+                "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glucksmann-fin-stabilisation-dette-2032",
+          "themeKey": "fin",
+          "subthemeKey": "fin-dette",
+          "title": "Stabilisation de la dette en 2032",
+          "detail": "Raphaël Glucksmann fixe un objectif de stabilisation de la dette publique à l'horizon 2032. Annoncé lors d'un point presse à Paris le 9 novembre 2026 (dépêche AFP).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-09",
+          "lastChanged": "2026-11-09",
+          "sourceIds": [
+            "blick-2026-11-09-glucksmann-200-milliards-ecologie"
+          ],
+          "history": [
+            {
+              "date": "2026-11-09",
+              "type": "ajout",
+              "sourceIds": [
+                "blick-2026-11-09-glucksmann-200-milliards-ecologie"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glucksmann-ecol-leasing-social-1-million",
+          "themeKey": "ecol",
+          "subthemeKey": "ecol-transports",
+          "title": "Leasing social pour un million de voitures électriques",
+          "detail": "Raphaël Glucksmann propose un leasing social pour un million de voitures électriques compactes sur cinq ans, à 100 € par mois sans apport. Annoncé lors d'un point presse à Paris le 9 novembre 2026 (dépêche AFP).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-09",
+          "lastChanged": "2026-11-09",
+          "sourceIds": [
+            "blick-2026-11-09-glucksmann-200-milliards-ecologie"
+          ],
+          "history": [
+            {
+              "date": "2026-11-09",
+              "type": "ajout",
+              "sourceIds": [
+                "blick-2026-11-09-glucksmann-200-milliards-ecologie"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glucksmann-ecol-pass-mobilite-moins-25-ans",
+          "themeKey": "ecol",
+          "subthemeKey": "ecol-transports",
+          "title": "« Pass Mobilité Durable » à 1 € par jour pour les moins de 25 ans",
+          "detail": "Raphaël Glucksmann propose un « Pass Mobilité Durable » à 1 € par jour pour les moins de 25 ans. Annoncé lors d'un point presse à Paris le 9 novembre 2026 (dépêche AFP).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-09",
+          "lastChanged": "2026-11-09",
+          "sourceIds": [
+            "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+          ],
+          "history": [
+            {
+              "date": "2026-11-09",
+              "type": "ajout",
+              "sourceIds": [
+                "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+                "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glucksmann-ecol-pompes-a-chaleur-tarif-social",
+          "themeKey": "ecol",
+          "subthemeKey": "ecol-climat",
+          "title": "Vente à tarif social d'un million de pompes à chaleur",
+          "detail": "Raphaël Glucksmann propose la vente à tarif social d'un million de pompes à chaleur, pour 1 € par jour. Annoncé lors d'un point presse à Paris le 9 novembre 2026 (dépêche AFP).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-09",
+          "lastChanged": "2026-11-09",
+          "sourceIds": [
+            "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+          ],
+          "history": [
+            {
+              "date": "2026-11-09",
+              "type": "ajout",
+              "sourceIds": [
+                "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+                "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glucksmann-eco-cheque-energie-500",
+          "themeKey": "eco",
+          "subthemeKey": "eco-prix",
+          "title": "Chèque énergie exceptionnel de 500 €",
+          "detail": "Raphaël Glucksmann propose un chèque énergie exceptionnel de 500 € pour 6 millions de familles, élargi à 200 € pour 10 millions de familles supplémentaires. Annoncé lors d'un point presse à Paris le 9 novembre 2026 (dépêche AFP).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-09",
+          "lastChanged": "2026-11-09",
+          "sourceIds": [
+            "blick-2026-11-09-glucksmann-200-milliards-ecologie"
+          ],
+          "history": [
+            {
+              "date": "2026-11-09",
+              "type": "ajout",
+              "sourceIds": [
+                "blick-2026-11-09-glucksmann-200-milliards-ecologie"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glucksmann-eco-moratoire-taxes-electricite",
+          "themeKey": "eco",
+          "subthemeKey": "eco-prix",
+          "title": "Moratoire sur les hausses de taxes sur l'électricité",
+          "detail": "Raphaël Glucksmann propose un moratoire sur les hausses de taxes sur l'électricité. Annoncé lors d'un point presse à Paris le 9 novembre 2026 (dépêche AFP).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-09",
+          "lastChanged": "2026-11-09",
+          "sourceIds": [
+            "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+          ],
+          "history": [
+            {
+              "date": "2026-11-09",
+              "type": "ajout",
+              "sourceIds": [
+                "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+                "batiweb-2026-11-09-glucksmann-revolution-ecologique"
               ]
             }
           ]
@@ -65343,6 +65766,16 @@
             "sourceIds": [
               "herlin27-nd-mon-deprogramme"
             ]
+          },
+          "glucksmann": {
+            "value": 2,
+            "note": "Propose un leasing social pour un million de voitures électriques compactes à 100 € par mois sans apport.",
+            "measureIds": [
+              "glucksmann-ecol-leasing-social-1-million"
+            ],
+            "sourceIds": [
+              "blick-2026-11-09-glucksmann-200-milliards-ecologie"
+            ]
           }
         }
       },
@@ -77184,6 +77617,10 @@
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-10",
+      "text": "Recherche des nouveautés depuis la mise à jour du 9 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés. Sondages : aucune enquête d'intentions de vote ajoutée ; les notices publiées depuis le 4 novembre par la Commission des sondages (CSA pour CNews, Europe 1 et le JDD du 4 novembre, Odoxa pour Backbone et Le Figaro sur une primaire de la droite et du centre, Elabe) ne comportent pas d'intentions de vote à l'élection présidentielle. Mesures : Raphaël Glucksmann, 16 mesures ajoutées et 1 modifiée d'après une dépêche AFP publiée par Blick et un article de Batiweb (avec AFP) sur son point presse du 9 novembre à Paris consacré à la « révolution écologique » : 200 Md€ d'investissements publics sur le quinquennat ; sortie des énergies fossiles ; loi de programmation écologique ; « République écologique » dans la Constitution ; « état d'urgence écologique » ; contribution exceptionnelle de 5 % sur les patrimoines de plus de 100 M€ ; taxe européenne sur les superprofits pétroliers et gaziers ; kérosène des vols intérieurs ; taxe sur les billets d'avion ; jets privés et yachts ; stabilisation de la dette en 2032 ; leasing social électrique ; « Pass Mobilité Durable » ; pompes à chaleur à tarif social ; chèque énergie ; moratoire sur les taxes sur l'électricité. La mesure sur les énergies renouvelables est modifiée (objectif de plus que doubler la production d'ici 2035) ; les mesures sur le nucléaire et le grand emprunt européen reçoivent ces sources en confirmation. L'article de France 24 sur le même point presse n'a pas pu être ouvert. Questionnaire : aucune position du test renseignée ; banque : 1 position renseignée (Raphaël Glucksmann, leasing social de voitures électriques). Rotation de la banque : thèmes écologie, fiscalité et institutions passés en revue pour Raphaël Glucksmann uniquement. Vie de la campagne : aucun fait ajouté, aucune citation vérifiable n'ayant été retrouvée. Parrainages : aucun relevé ajouté ; aucune nouvelle annonce chiffrée trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 4 et le 5 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Jean-Noël Barrot, Delphine Batho, Karim Bouamrane, Selma Labib, Xavier Bertrand, Anasse Kazib, Nathalie Arthaud, Jean-François Legendre et Philippe Herlin (seuls des sites agrégateurs ou des articles antérieurs ont été trouvés ; rien n'est saisi), Éric Zemmour et Nicolas Dupont-Aignan (aucune proposition nouvelle isolable trouvée depuis leurs dernières mesures saisies)."
+    },
     {
       "date": "2026-11-09",
       "text": "Seconde mise à jour complémentaire du 9 novembre. Candidatures : ajout de Teddy Riner (statut « déclaré »), qui a annoncé sa candidature le 9 novembre 2026 dans une vidéo publiée sur son compte X et dans un entretien au Parisien, selon franceinfo et une dépêche AFP publiée par La DH ; l'article du Monde signalé à la rédaction et l'entretien du Parisien n'ont pas pu être ouverts, et le site de campagne « La France qu'on veut » n'a pas été retrouvé à une adresse vérifiable, aucune URL n'est donc renseignée. Fait de campagne « candidature » ajouté. Mesures : 2 mesures ajoutées d'après la dépêche AFP (hausse du salaire net par des allégements de charges ; possibilité de travailler plus pour ceux qui le souhaitent) ; l'appel à une réforme des retraites « car le système actuel ne tient pas » n'a pas été transcrit, aucun contenu n'étant précisé. Questionnaire : aucune position renseignée, les propositions rapportées ne tranchant aucune question du test. Aucun sondage, aucune échéance."
