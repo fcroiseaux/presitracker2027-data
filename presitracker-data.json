@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T05:48:59Z",
+  "updatedAt": "2026-11-12T05:47:14Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -5928,6 +5928,20 @@
       "publisher": "LCP",
       "url": "https://lcp.fr/actualites/retraites-salaires-securite-que-propose-teddy-riner-pour-la-presidentielle-444935",
       "date": "2026-11-10",
+      "kind": "presse"
+    },
+    "lcp-2026-09-04-tondelier-interdire-le-mensonge-en-politique": {
+      "title": "Marine Tondelier veut \"interdire le mensonge en politique\" et sanctionner les élus pris en faute",
+      "publisher": "LCP",
+      "url": "https://lcp.fr/actualites/marine-tondelier-veut-interdire-le-mensonge-en-politique-et-sanctionner-les-elus-pris-en",
+      "date": "2026-09-04",
+      "kind": "presse"
+    },
+    "euronews-2026-11-07-melenchon-meeting-du-bourget": {
+      "title": "\"Il faut tout changer\" : Mélenchon mise sur le meeting du Bourget pour imposer son programme",
+      "publisher": "Euronews",
+      "url": "https://fr.euronews.com/2026/11/07/jean-luc-melenchon-mise-sur-le-meeting-du-bourget-pour-imposer-son-programme-presidentiel",
+      "date": "2026-11-07",
       "kind": "presse"
     }
   },
@@ -29594,7 +29608,8 @@
           "firstSeen": "2026-01-22",
           "lastChanged": "2026-01-22",
           "sourceIds": [
-            "melenchon2027-2026-01-22-laec-ch13-s3-organiser-le-100-denergies"
+            "melenchon2027-2026-01-22-laec-ch13-s3-organiser-le-100-denergies",
+            "euronews-2026-11-07-melenchon-meeting-du-bourget"
           ],
           "history": [
             {
@@ -32394,7 +32409,8 @@
           "firstSeen": "2026-01-22",
           "lastChanged": "2026-01-22",
           "sourceIds": [
-            "melenchon2027-2026-01-22-laec-frc-s4-une-republique-permettant"
+            "melenchon2027-2026-01-22-laec-frc-s4-une-republique-permettant",
+            "euronews-2026-11-07-melenchon-meeting-du-bourget"
           ],
           "history": [
             {
@@ -52238,6 +52254,29 @@
               "type": "ajout",
               "sourceIds": [
                 "agra-2026-10-23-tondelier-mon-panier-ecolo"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tondelier-inst-loi-contre-mensonge-politique",
+          "themeKey": "inst",
+          "subthemeKey": "inst-ethique",
+          "title": "Création d'une loi sanctionnant le mensonge en politique",
+          "detail": "Marine Tondelier propose une loi pour « interdire le mensonge en politique », visant les « mensonges factuels et délibérés » d'un responsable qui en connaît la fausseté, avec des sanctions graduées allant de la rectification publique à l'inéligibilité et, pour les élus, à la révocation ; les erreurs et imprécisions ne seraient pas sanctionnées. Elle cite en exemple une loi adoptée par le Parlement gallois. Annoncé dans une note de blog du 4 septembre 2026, rapportée par LCP.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-09-04",
+          "lastChanged": "2026-09-04",
+          "sourceIds": [
+            "lcp-2026-09-04-tondelier-interdire-le-mensonge-en-politique"
+          ],
+          "history": [
+            {
+              "date": "2026-09-04",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-09-04-tondelier-interdire-le-mensonge-en-politique"
               ]
             }
           ]
@@ -78076,6 +78115,10 @@
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-12",
+      "text": "Recherche des nouveautés depuis la mise à jour du 11 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés. Sondages : aucune enquête d'intentions de vote nouvelle trouvée depuis l'enquête Toluna Harris Interactive publiée le 9 novembre ; la liste des notices de la Commission des sondages n'a pas pu être consultée ce jour. Mesures : Marine Tondelier, 1 mesure ajoutée (loi sanctionnant le mensonge en politique, de la rectification publique à l'inéligibilité), d'après LCP rapportant sa note de blog du 4 septembre 2026, la note elle-même n'ayant pas pu être ouverte. Jean-Luc Mélenchon : l'article d'Euronews sur le meeting du Bourget du 7 novembre est ajouté en confirmation aux mesures déjà saisies sur le droit de vote à 16 ans et la sortie du nucléaire ; aucune autre mesure nouvelle. Marine Le Pen : la sanction du port du voile par une amende et un référendum sur « l'idéologie islamiste », rapportés par Public Sénat et Euronews le 31 août 2026 d'après des propos de Jean-Philippe Tanguy et de Jordan Bardella, ne sont pas saisis, aucune déclaration de la candidate n'ayant pu être vérifiée. Questionnaire : aucune position renseignée, la mesure ajoutée ne correspondant à aucune question du test ni de la banque. Rotation de la banque : thème institutions passé en revue pour Marine Tondelier uniquement, sans position nouvelle. Vie de la campagne : aucun fait ajouté, aucune citation nouvelle vérifiable n'ayant été trouvée pour les candidats passés en revue. Parrainages : aucun relevé ajouté ; aucune nouvelle annonce chiffrée trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 7 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : David Saforcada, Gilles Platret et Erwan Rohou (seuls des sites agrégateurs ou des pages inaccessibles ont été trouvés ; rien n'est saisi), Gabriel Attal (aucune proposition nouvelle isolable depuis ses dernières mesures ; sa déclaration du 2 novembre sur une primaire de la droite et du centre est déjà saisie), Marine Le Pen (voir ci-dessus), Jean-Luc Mélenchon et Marine Tondelier (voir ci-dessus)."
+    },
     {
       "date": "2026-11-11",
       "text": "Recherche des nouveautés depuis la mise à jour du 10 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; Éric Zemmour, déjà recensé comme déclaré depuis le 17 septembre, a confirmé sa candidature au journal de 20 heures de TF1 le 10 novembre (statut inchangé). Sondages : 2 enquêtes ajoutées, Toluna Harris Interactive pour M6 et RTL (vague 9, terrain du 3 au 5 novembre, publiée le 9 novembre), premier tour (5 hypothèses) et second tour (3 duels), d'après le rapport de l'institut et la notice de la Commission des sondages. Mesures : Éric Zemmour, 2 mesures ajoutées (deux millions d'immigrés en moins sur le quinquennat ; plan de redressement des finances publiques de 280 Md€), d'après Quartz (édition française, citant TF1 Info) et Politique Matin, l'article de franceinfo n'ayant pas pu être ouvert ; le référendum sur la politique migratoire mentionné par Politique Matin seul, sans citation, n'est pas saisi, et l'écart sur la durée de chômage avant expulsion (six mois selon Politique Matin, un an dans la mesure déjà saisie) n'a pas donné lieu à modification faute de source primaire. Teddy Riner, 1 mesure ajoutée (réforme des retraites avec maintien de la répartition, sans exclure une part de capitalisation) d'après LCP citant son entretien au Parisien ; l'article de LCP est ajouté en confirmation aux deux mesures déjà saisies (salaire net, travailler plus) ; l'article d'Ouest-France n'a pas pu être ouvert. Questionnaire : 1 position du test renseignée (Teddy Riner, retraite par capitalisation) ; aucune position de la banque. Rotation de la banque : thèmes retraites, immigration et finances publiques passés en revue pour Éric Zemmour et Teddy Riner uniquement. Vie de la campagne : 1 déclaration ajoutée (Éric Zemmour, TF1, 10 novembre, sur sa candidature). Parrainages : aucun relevé ajouté ; aucune nouvelle annonce chiffrée trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 5 et le 6 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : Teddy Riner (voir ci-dessus) ; passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Sébastien Bonnal, Mélody Delmur, Clara Egger et François Asselineau (seuls des sites agrégateurs ou des publications antérieures ont été trouvés ; rien n'est saisi), Élisabeth Borne, Thierry Breton et Manuel Valls (aucune décision sur leur candidature ni proposition nouvelle trouvée ; LCP rapporte le 10 novembre des propos de Thierry Breton du début du mois, « On verra, je ne ferme pas la porte », statut inchangé), François Hollande (décision sur sa candidature annoncée pour janvier selon LCP du 10 novembre ; aucune proposition nouvelle) et Édouard Philippe (aucune proposition nouvelle isolable trouvée depuis ses dernières mesures saisies)."
