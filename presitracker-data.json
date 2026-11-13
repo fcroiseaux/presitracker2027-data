@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T05:47:14Z",
+  "updatedAt": "2026-11-13T05:48:13Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -5943,6 +5943,27 @@
       "url": "https://fr.euronews.com/2026/11/07/jean-luc-melenchon-mise-sur-le-meeting-du-bourget-pour-imposer-son-programme-presidentiel",
       "date": "2026-11-07",
       "kind": "presse"
+    },
+    "publicsenat-2026-11-12-grand-oral-services-publics": {
+      "title": "Présidentielle 2027 : santé, justice, éducation, culture…Que retenir du grand oral des candidats sur les services publics",
+      "publisher": "Public Sénat",
+      "url": "https://publicsenat.fr/actualites/politique/presidentielle-2027-sante-justice-education-cultureque-retenir-du-grand-oral-des-candidats-sur-les-services-publics",
+      "date": "2026-11-12",
+      "kind": "presse"
+    },
+    "publicsenat-2026-11-09-glucksmann-200-milliards": {
+      "title": "Présidentielle 2027 : Raphaël Glucksmann met 200 milliards sur la table et invite le Sénat à voter en faveur d'une future « République écologique »",
+      "publisher": "Public Sénat",
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique",
+      "date": "2026-11-09",
+      "kind": "presse"
+    },
+    "publicsenat-2026-11-10-teddy-riner-capital-sympathie": {
+      "title": "Présidentielle 2027 : Teddy Riner au défi de transformer « son capital sympathie en capital électoral »",
+      "publisher": "Public Sénat",
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-teddy-riner-au-defi-de-transformer-son-capital-sympathie-en-capital-electoral",
+      "date": "2026-11-10",
+      "kind": "presse"
     }
   },
   "candidates": [
@@ -7519,15 +7540,16 @@
           "themeKey": "edu",
           "subthemeKey": "edu-enseignants",
           "title": "Hausse de 200 à 500 € nets par mois du salaire des enseignants",
-          "detail": "Gabriel Attal propose d'augmenter les enseignants de 200 € nets par mois, jusqu'à 500 € nets pour ceux en milieu de carrière (entretien au Monde rapporté par LCP, 25 août 2026 ; meeting de Lyon, 10 octobre 2026). Son site indique que les moyens dégagés par la baisse démographique serviraient à mieux rémunérer professeurs et AESH.",
+          "detail": "Gabriel Attal propose d'augmenter les enseignants de 200 € nets par mois, jusqu'à 500 € nets pour ceux en milieu de carrière (entretien au Monde rapporté par LCP, 25 août 2026 ; meeting de Lyon, 10 octobre 2026). Son site indique que les moyens dégagés par la baisse démographique serviraient à mieux rémunérer professeurs et AESH. Lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, il précise une hausse de 200 à 500 € par mois dès 2028, selon l'ancienneté, selon Public Sénat.",
           "kind": "declaration",
           "status": "active",
           "firstSeen": "2026-08-25",
-          "lastChanged": "2026-08-25",
+          "lastChanged": "2026-11-13",
           "sourceIds": [
             "lcp-2026-08-25-presidentielle-retour-du-certificat-d-etudes",
             "attalpresident-2026-10-10-meeting-lyon-pacte-jeunesse",
-            "attalpresident-nd-programme-de-gabriel-attal-education"
+            "attalpresident-nd-programme-de-gabriel-attal-education",
+            "publicsenat-2026-11-12-grand-oral-services-publics"
           ],
           "history": [
             {
@@ -7537,6 +7559,16 @@
                 "lcp-2026-08-25-presidentielle-retour-du-certificat-d-etudes",
                 "attalpresident-2026-10-10-meeting-lyon-pacte-jeunesse",
                 "attalpresident-nd-programme-de-gabriel-attal-education"
+              ]
+            },
+            {
+              "date": "2026-11-13",
+              "type": "modification",
+              "before": "Hausse de 200 à 500 € nets par mois du salaire des enseignants — Gabriel Attal propose d'augmenter les enseignants de 200 € nets par mois, jusqu'à 500 € nets pour ceux en milieu de carrière (entretien au Monde rapporté par LCP, 25 août 2026 ; meeting de Lyon, 10 octobre 2026). Son site indique que les moyens dégagés par la baisse démographique serviraient à mieux rémunérer professeurs et AESH.",
+              "after": "Hausse de 200 à 500 € nets par mois du salaire des enseignants — Gabriel Attal propose d'augmenter les enseignants de 200 € nets par mois, jusqu'à 500 € nets pour ceux en milieu de carrière (entretien au Monde rapporté par LCP, 25 août 2026 ; meeting de Lyon, 10 octobre 2026). Son site indique que les moyens dégagés par la baisse démographique serviraient à mieux rémunérer professeurs et AESH. Lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, il précise une hausse de 200 à 500 € par mois dès 2028, selon l'ancienneté, selon Public Sénat.",
+              "note": "Calendrier précisé : dès 2028, selon l'ancienneté.",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
               ]
             }
           ]
@@ -7889,7 +7921,8 @@
           "lastChanged": "2026-07-03",
           "sourceIds": [
             "acteurspublics-2026-07-03-gabriel-attal-propose-100-000-fonc",
-            "attalpresident-2026-10-15-lettre-finances-publiques"
+            "attalpresident-2026-10-15-lettre-finances-publiques",
+            "publicsenat-2026-11-12-grand-oral-services-publics"
           ],
           "history": [
             {
@@ -9304,6 +9337,52 @@
               "type": "ajout",
               "sourceIds": [
                 "franceinfo-2025-05-21-attal-voile-delit-communautarisme"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "attal-sec-plainte-violences-enfants-48-heures",
+          "themeKey": "sec",
+          "subthemeKey": "sec-justice",
+          "title": "Premier acte de procédure dans les 48 heures après une plainte pour violences sur enfant",
+          "detail": "Gabriel Attal propose d'accélérer le traitement des violences faites aux enfants : chaque plainte devrait, selon lui, donner lieu à un premier acte de procédure dans les 48 heures. Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "attal-sec-suppression-reductions-automatiques-peine",
+          "themeKey": "sec",
+          "subthemeKey": "sec-peines",
+          "title": "Suppression des réductions automatiques de peine",
+          "detail": "Gabriel Attal propose de supprimer les réductions automatiques de peine. Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
               ]
             }
           ]
@@ -17609,15 +17688,16 @@
           "id": "glucksmann-edu-hausse-salaires-enseignants",
           "themeKey": "edu",
           "subthemeKey": "edu-enseignants",
-          "title": "Hausse des salaires des enseignants",
-          "detail": "Raphaël Glucksmann propose une revalorisation substantielle du salaire des enseignants, sans montant précisé. Figure dans son livre présenté par LCP le 26 mai 2026 et dans son plan pour l'école rapporté par Public Sénat le 24 août 2026.",
+          "title": "Hausse de 10 % des salaires des enseignants, jusqu'à 25 % en milieu de carrière",
+          "detail": "Raphaël Glucksmann propose une revalorisation du salaire des enseignants : hausse de 10 %, jusqu'à 25 % en milieu de carrière. Revalorisation annoncée sans montant dans son livre présenté par LCP le 26 mai 2026 et dans son plan pour l'école rapporté par Public Sénat le 24 août 2026 ; chiffres donnés lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
           "kind": "declaration",
           "status": "active",
           "firstSeen": "2026-05-26",
-          "lastChanged": "2026-05-26",
+          "lastChanged": "2026-11-13",
           "sourceIds": [
             "lcp-2026-05-26-presidentielle-raphael-glucksmann-devoile-les",
-            "publicsenat-2026-08-24-fiscalite-ecole-immigration-ce-que-pr"
+            "publicsenat-2026-08-24-fiscalite-ecole-immigration-ce-que-pr",
+            "publicsenat-2026-11-12-grand-oral-services-publics"
           ],
           "history": [
             {
@@ -17626,6 +17706,16 @@
               "sourceIds": [
                 "lcp-2026-05-26-presidentielle-raphael-glucksmann-devoile-les",
                 "publicsenat-2026-08-24-fiscalite-ecole-immigration-ce-que-pr"
+              ]
+            },
+            {
+              "date": "2026-11-13",
+              "type": "modification",
+              "before": "Hausse des salaires des enseignants — Raphaël Glucksmann propose une revalorisation substantielle du salaire des enseignants, sans montant précisé. Figure dans son livre présenté par LCP le 26 mai 2026 et dans son plan pour l'école rapporté par Public Sénat le 24 août 2026.",
+              "after": "Hausse de 10 % des salaires des enseignants, jusqu'à 25 % en milieu de carrière — Raphaël Glucksmann propose une revalorisation du salaire des enseignants : hausse de 10 %, jusqu'à 25 % en milieu de carrière. Revalorisation annoncée sans montant dans son livre présenté par LCP le 26 mai 2026 et dans son plan pour l'école rapporté par Public Sénat le 24 août 2026 ; chiffres donnés lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+              "note": "Montant précisé : 10 %, jusqu'à 25 % en milieu de carrière.",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
               ]
             }
           ]
@@ -17666,7 +17756,8 @@
           "firstSeen": "2026-05-26",
           "lastChanged": "2026-05-26",
           "sourceIds": [
-            "lcp-2026-05-26-presidentielle-raphael-glucksmann-devoile-les"
+            "lcp-2026-05-26-presidentielle-raphael-glucksmann-devoile-les",
+            "publicsenat-2026-11-12-grand-oral-services-publics"
           ],
           "history": [
             {
@@ -17879,7 +17970,8 @@
           "sourceIds": [
             "lcp-2026-05-26-presidentielle-raphael-glucksmann-devoile-les",
             "blick-2026-11-09-glucksmann-200-milliards-ecologie",
-            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique",
+            "publicsenat-2026-11-09-glucksmann-200-milliards"
           ],
           "history": [
             {
@@ -17902,7 +17994,8 @@
           "firstSeen": "2026-10-09",
           "lastChanged": "2026-10-09",
           "sourceIds": [
-            "lcp-2026-10-09-glucksmann-faure-royal-maurel-guedj-quelles"
+            "lcp-2026-10-09-glucksmann-faure-royal-maurel-guedj-quelles",
+            "publicsenat-2026-11-09-glucksmann-200-milliards"
           ],
           "history": [
             {
@@ -18114,7 +18207,8 @@
           "lastChanged": "2026-11-09",
           "sourceIds": [
             "blick-2026-11-09-glucksmann-200-milliards-ecologie",
-            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique",
+            "publicsenat-2026-11-09-glucksmann-200-milliards"
           ],
           "history": [
             {
@@ -18139,7 +18233,8 @@
           "lastChanged": "2026-11-09",
           "sourceIds": [
             "blick-2026-11-09-glucksmann-200-milliards-ecologie",
-            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique",
+            "publicsenat-2026-11-09-glucksmann-200-milliards"
           ],
           "history": [
             {
@@ -18164,7 +18259,8 @@
           "lastChanged": "2026-11-09",
           "sourceIds": [
             "blick-2026-11-09-glucksmann-200-milliards-ecologie",
-            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique",
+            "publicsenat-2026-11-09-glucksmann-200-milliards"
           ],
           "history": [
             {
@@ -18189,7 +18285,8 @@
           "lastChanged": "2026-11-09",
           "sourceIds": [
             "blick-2026-11-09-glucksmann-200-milliards-ecologie",
-            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique",
+            "publicsenat-2026-11-09-glucksmann-200-milliards"
           ],
           "history": [
             {
@@ -18237,7 +18334,8 @@
           "lastChanged": "2026-11-09",
           "sourceIds": [
             "blick-2026-11-09-glucksmann-200-milliards-ecologie",
-            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique",
+            "publicsenat-2026-11-09-glucksmann-200-milliards"
           ],
           "history": [
             {
@@ -18262,7 +18360,8 @@
           "lastChanged": "2026-11-09",
           "sourceIds": [
             "blick-2026-11-09-glucksmann-200-milliards-ecologie",
-            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique",
+            "publicsenat-2026-11-09-glucksmann-200-milliards"
           ],
           "history": [
             {
@@ -18287,7 +18386,8 @@
           "lastChanged": "2026-11-09",
           "sourceIds": [
             "blick-2026-11-09-glucksmann-200-milliards-ecologie",
-            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique",
+            "publicsenat-2026-11-09-glucksmann-200-milliards"
           ],
           "history": [
             {
@@ -18384,7 +18484,8 @@
           "firstSeen": "2026-11-09",
           "lastChanged": "2026-11-09",
           "sourceIds": [
-            "blick-2026-11-09-glucksmann-200-milliards-ecologie"
+            "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+            "publicsenat-2026-11-09-glucksmann-200-milliards"
           ],
           "history": [
             {
@@ -18408,7 +18509,8 @@
           "lastChanged": "2026-11-09",
           "sourceIds": [
             "blick-2026-11-09-glucksmann-200-milliards-ecologie",
-            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique",
+            "publicsenat-2026-11-09-glucksmann-200-milliards"
           ],
           "history": [
             {
@@ -18433,7 +18535,8 @@
           "lastChanged": "2026-11-09",
           "sourceIds": [
             "blick-2026-11-09-glucksmann-200-milliards-ecologie",
-            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique",
+            "publicsenat-2026-11-09-glucksmann-200-milliards"
           ],
           "history": [
             {
@@ -18457,7 +18560,8 @@
           "firstSeen": "2026-11-09",
           "lastChanged": "2026-11-09",
           "sourceIds": [
-            "blick-2026-11-09-glucksmann-200-milliards-ecologie"
+            "blick-2026-11-09-glucksmann-200-milliards-ecologie",
+            "publicsenat-2026-11-09-glucksmann-200-milliards"
           ],
           "history": [
             {
@@ -18481,7 +18585,8 @@
           "lastChanged": "2026-11-09",
           "sourceIds": [
             "blick-2026-11-09-glucksmann-200-milliards-ecologie",
-            "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+            "batiweb-2026-11-09-glucksmann-revolution-ecologique",
+            "publicsenat-2026-11-09-glucksmann-200-milliards"
           ],
           "history": [
             {
@@ -18490,6 +18595,75 @@
               "sourceIds": [
                 "blick-2026-11-09-glucksmann-200-milliards-ecologie",
                 "batiweb-2026-11-09-glucksmann-revolution-ecologique"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glucksmann-edu-remplacement-parcoursup",
+          "themeKey": "edu",
+          "subthemeKey": "edu-sup",
+          "title": "Remplacement de Parcoursup",
+          "detail": "Raphaël Glucksmann propose de remplacer Parcoursup par un logiciel « beaucoup plus égalitaire et beaucoup moins angoissant ». Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glucksmann-sec-presence-policiere-quartiers-populaires",
+          "themeKey": "sec",
+          "subthemeKey": "sec-police",
+          "title": "Présence policière continue sur le terrain, notamment dans les quartiers populaires",
+          "detail": "Raphaël Glucksmann propose une présence policière continue sur le terrain, en particulier dans les quartiers populaires. Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glucksmann-eco-livret-fusion-livret-a-ldds",
+          "themeKey": "eco",
+          "subthemeKey": "eco-epargne",
+          "title": "Nouveau livret d'épargne fusionnant le Livret A et le LDDS, au taux de 2,5 %",
+          "detail": "Raphaël Glucksmann propose un nouveau livret d'épargne issu de la fusion du Livret A et du LDDS, au plafond doublé par rapport au Livret A et au taux porté à 2,5 %, destiné à financer la souveraineté écologique, le logement social et des prêts à taux bas aux collectivités. Présenté lors de son point presse du 9 novembre 2026 à Paris, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-09",
+          "lastChanged": "2026-11-09",
+          "sourceIds": [
+            "publicsenat-2026-11-09-glucksmann-200-milliards"
+          ],
+          "history": [
+            {
+              "date": "2026-11-09",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-09-glucksmann-200-milliards"
               ]
             }
           ]
@@ -29822,7 +29996,8 @@
           "firstSeen": "2026-01-22",
           "lastChanged": "2026-01-22",
           "sourceIds": [
-            "melenchon2027-2026-01-22-laec-ch5-s4-qualifier-tout-le-monde"
+            "melenchon2027-2026-01-22-laec-ch5-s4-qualifier-tout-le-monde",
+            "publicsenat-2026-11-12-grand-oral-services-publics"
           ],
           "history": [
             {
@@ -35034,6 +35209,29 @@
               ]
             }
           ]
+        },
+        {
+          "id": "melenchon-fin-22-md-services-publics",
+          "themeKey": "fin",
+          "subthemeKey": "fin-etat",
+          "title": "22 Md€ investis dans les services publics",
+          "detail": "Jean-Luc Mélenchon propose d'investir 22 milliards d'euros dans les services publics dès les premiers mois du quinquennat. Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -35837,7 +36035,8 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "edouardphilippe-nd-pour-une-france-plus-attentive-a"
+            "edouardphilippe-nd-pour-une-france-plus-attentive-a",
+            "publicsenat-2026-11-12-grand-oral-services-publics"
           ],
           "history": [
             {
@@ -36437,7 +36636,8 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus"
+            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus",
+            "publicsenat-2026-11-12-grand-oral-services-publics"
           ],
           "history": [
             {
@@ -37597,7 +37797,8 @@
           "lastChanged": "2026-10-19",
           "sourceIds": [
             "edouardphilippe-nd-edouard-philippe-pour-une-france-plus-2",
-            "21news-2026-10-28-philippe-echec-integration"
+            "21news-2026-10-28-philippe-echec-integration",
+            "publicsenat-2026-11-12-grand-oral-services-publics"
           ],
           "history": [
             {
@@ -37677,6 +37878,75 @@
               "type": "ajout",
               "sourceIds": [
                 "orange-2026-11-01-philippe-primaire-de-la-division"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "philippe-sec-interdiction-syndicats-magistrats",
+          "themeKey": "sec",
+          "subthemeKey": "sec-justice",
+          "title": "Interdiction du syndicalisme dans la magistrature",
+          "detail": "Édouard Philippe propose d'interdire aux magistrats de se syndiquer : « La possibilité de se syndiquer doit être interdite. » Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "philippe-sec-nouvelles-places-prison",
+          "themeKey": "sec",
+          "subthemeKey": "sec-prisons",
+          "title": "Construction de nouvelles places de prison",
+          "detail": "Édouard Philippe propose de construire de nouvelles places de prison, sans nombre précisé par la source. Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "philippe-edu-bac-epreuves-sur-table",
+          "themeKey": "edu",
+          "subthemeKey": "edu-examens",
+          "title": "Maintien du contrôle continu au baccalauréat et davantage d'épreuves sur table",
+          "detail": "Édouard Philippe propose de conserver le contrôle continu au baccalauréat tout en multipliant les examens sur table. Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
               ]
             }
           ]
@@ -42038,7 +42308,8 @@
           "lastChanged": "2026-08-31",
           "sourceIds": [
             "avecretailleau-nd-projet-de-bruno-retailleau-education",
-            "publicsenat-2026-08-31-presidentielle-2027-bruno-retailleau"
+            "publicsenat-2026-08-31-presidentielle-2027-bruno-retailleau",
+            "publicsenat-2026-11-12-grand-oral-services-publics"
           ],
           "history": [
             {
@@ -42089,7 +42360,8 @@
           "lastChanged": "2026-08-31",
           "sourceIds": [
             "publicsenat-2026-08-31-presidentielle-2027-bruno-retailleau",
-            "publicsenat-2026-10-27-retailleau-moment-historique-jeunesse"
+            "publicsenat-2026-10-27-retailleau-moment-historique-jeunesse",
+            "publicsenat-2026-11-12-grand-oral-services-publics"
           ],
           "history": [
             {
@@ -42797,7 +43069,8 @@
           "lastChanged": "2026-10-12",
           "sourceIds": [
             "avecretailleau-nd-projet-de-bruno-retailleau-comptes-publics",
-            "publicsenat-2026-10-12-presidentielle-2027-bruno-retailleau"
+            "publicsenat-2026-10-12-presidentielle-2027-bruno-retailleau",
+            "publicsenat-2026-11-12-grand-oral-services-publics"
           ],
           "history": [
             {
@@ -44168,7 +44441,8 @@
           "lastChanged": "2026-02-13",
           "sourceIds": [
             "publicsenat-2026-02-13-referendum-sur-l-immigration-primaute",
-            "avecretailleau-nd-projet-de-bruno-retailleau-institutions"
+            "avecretailleau-nd-projet-de-bruno-retailleau-institutions",
+            "publicsenat-2026-11-12-grand-oral-services-publics"
           ],
           "history": [
             {
@@ -44177,6 +44451,121 @@
               "sourceIds": [
                 "publicsenat-2026-02-13-referendum-sur-l-immigration-primaute",
                 "avecretailleau-nd-projet-de-bruno-retailleau-institutions"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "retailleau-fin-reduction-agences-ademe",
+          "themeKey": "fin",
+          "subthemeKey": "fin-etat",
+          "title": "Réduction du nombre d'agences de l'État, à commencer par l'Ademe",
+          "detail": "Bruno Retailleau propose de réduire le nombre d'agences de l'État, à commencer par l'Agence de la transition écologique (Ademe). Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "retailleau-sec-suppression-jap",
+          "themeKey": "sec",
+          "subthemeKey": "sec-justice",
+          "title": "Suppression du juge de l'application des peines",
+          "detail": "Bruno Retailleau propose de supprimer les juges de l'application des peines. Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "retailleau-san-medecins-retraites-zones-sous-dotees",
+          "themeKey": "san",
+          "subthemeKey": "san-acces",
+          "title": "Prise en charge des frais de déplacement des médecins retraités exerçant dans les zones sous-dotées",
+          "detail": "Bruno Retailleau propose de mobiliser les médecins retraités en prenant en charge leurs frais de déplacement lorsqu'ils exercent dans des zones sous-dotées. Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "retailleau-san-remuneration-internes-medecine-generale",
+          "themeKey": "san",
+          "subthemeKey": "san-acces",
+          "title": "Meilleure rémunération des étudiants de dernière année de médecine générale",
+          "detail": "Bruno Retailleau propose de mieux rémunérer les étudiants en dernière année de médecine générale, sans montant précisé par la source. Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "retailleau-san-ia-6000-postes-medecins",
+          "themeKey": "san",
+          "subthemeKey": "san-hopital",
+          "title": "Équivalent de 6 000 postes de médecins dégagés par l'IA à l'hôpital",
+          "detail": "Bruno Retailleau propose d'alléger les tâches administratives à l'hôpital grâce à l'intelligence artificielle ; selon lui, « les gains de temps administratif permettraient » de « dégager l'équivalent de 6 000 postes de médecins ». Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
               ]
             }
           ]
@@ -45174,7 +45563,8 @@
           "lastChanged": "2026-11-09",
           "sourceIds": [
             "dhnet-2026-11-09-des-tatamis-a-l-elysee-teddy-riner",
-            "lcp-2026-11-10-que-propose-teddy-riner"
+            "lcp-2026-11-10-que-propose-teddy-riner",
+            "publicsenat-2026-11-10-teddy-riner-capital-sympathie"
           ],
           "history": [
             {
@@ -45987,14 +46377,15 @@
           "themeKey": "eco",
           "subthemeKey": "eco-salaires",
           "title": "Revalorisation du point d'indice des fonctionnaires",
-          "detail": "Fabien Roussel propose une revalorisation immédiate de 30 % du point d'indice des fonctionnaires lors de l'université d'été du 26 août 2026 ; les propositions du PCF sur le budget 2027 du 18 septembre 2026 évoquent une revalorisation immédiate de 10 %.",
+          "detail": "Fabien Roussel propose une revalorisation immédiate de 30 % du point d'indice des fonctionnaires lors de l'université d'été du 26 août 2026 ; les propositions du PCF sur le budget 2027 du 18 septembre 2026 évoquent une revalorisation immédiate de 10 %. Lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, il propose d'augmenter immédiatement de 10 % le point d'indice, puis de 20 à 30 % sur le quinquennat, selon Public Sénat.",
           "kind": "declaration",
           "status": "active",
           "firstSeen": "2026-08-26",
-          "lastChanged": "2026-08-26",
+          "lastChanged": "2026-11-13",
           "sourceIds": [
             "pcf-2026-08-26-universite-d-ete-2026-discours-de",
-            "pcf-2026-09-18-budget-2027-lecornu-annonce-une-saignee"
+            "pcf-2026-09-18-budget-2027-lecornu-annonce-une-saignee",
+            "publicsenat-2026-11-12-grand-oral-services-publics"
           ],
           "history": [
             {
@@ -46003,6 +46394,16 @@
               "sourceIds": [
                 "pcf-2026-08-26-universite-d-ete-2026-discours-de",
                 "pcf-2026-09-18-budget-2027-lecornu-annonce-une-saignee"
+              ]
+            },
+            {
+              "date": "2026-11-13",
+              "type": "modification",
+              "before": "Revalorisation du point d'indice des fonctionnaires — Fabien Roussel propose une revalorisation immédiate de 30 % du point d'indice des fonctionnaires lors de l'université d'été du 26 août 2026 ; les propositions du PCF sur le budget 2027 du 18 septembre 2026 évoquent une revalorisation immédiate de 10 %.",
+              "after": "Revalorisation du point d'indice des fonctionnaires — Fabien Roussel propose une revalorisation immédiate de 30 % du point d'indice des fonctionnaires lors de l'université d'été du 26 août 2026 ; les propositions du PCF sur le budget 2027 du 18 septembre 2026 évoquent une revalorisation immédiate de 10 %. Lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, il propose d'augmenter immédiatement de 10 % le point d'indice, puis de 20 à 30 % sur le quinquennat, selon Public Sénat.",
+              "note": "Calendrier précisé : 10 % immédiatement, puis 20 à 30 % sur le quinquennat.",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
               ]
             }
           ]
@@ -46369,7 +46770,8 @@
           "lastChanged": "2026-10-06",
           "sourceIds": [
             "fabienroussel2027-2026-10-06-plan-jeunesse-2027-2032",
-            "fabienroussel2027-2026-10-05-6-octobre-aux-cotes-de-la-jeunesse"
+            "fabienroussel2027-2026-10-05-6-octobre-aux-cotes-de-la-jeunesse",
+            "publicsenat-2026-11-12-grand-oral-services-publics"
           ],
           "history": [
             {
@@ -47314,6 +47716,121 @@
               "type": "ajout",
               "sourceIds": [
                 "connaissancedesenergies-2026-09-11-roussel-se-mobiliser"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "roussel-fin-recrutement-500000-fonctionnaires",
+          "themeKey": "fin",
+          "subthemeKey": "fin-etat",
+          "title": "Recrutement de près de 500 000 fonctionnaires en cinq ans",
+          "detail": "Fabien Roussel propose de recruter près de 500 000 fonctionnaires en cinq ans. Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "roussel-edu-abrogation-reforme-blanquer",
+          "themeKey": "edu",
+          "subthemeKey": "edu-ecole",
+          "title": "Abrogation de la réforme Blanquer",
+          "detail": "Fabien Roussel propose d'« abroger la réforme Blanquer ». Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "roussel-sec-recrutement-60000-police-gendarmerie-douanes",
+          "themeKey": "sec",
+          "subthemeKey": "sec-police",
+          "title": "60 000 recrutements supplémentaires dans la police, la gendarmerie et les douanes",
+          "detail": "Fabien Roussel propose 60 000 recrutements supplémentaires dans la police, la gendarmerie et les douanes. Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "roussel-sec-interdiction-lbd",
+          "themeKey": "sec",
+          "subthemeKey": "sec-police",
+          "title": "Interdiction des LBD",
+          "detail": "Fabien Roussel propose d'interdire les lanceurs de balles de défense (LBD). Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "roussel-sec-opposition-substitution-police-municipale",
+          "themeKey": "sec",
+          "subthemeKey": "sec-police",
+          "title": "Opposition à la substitution de la police municipale à la police nationale",
+          "detail": "Fabien Roussel refuse que la police municipale se substitue à la police nationale. Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
               ]
             }
           ]
@@ -52154,7 +52671,8 @@
           "firstSeen": "2026-07-13",
           "lastChanged": "2026-07-13",
           "sourceIds": [
-            "lesecologistes-2026-07-13-programme-pour-une-prosperite-ecol"
+            "lesecologistes-2026-07-13-programme-pour-une-prosperite-ecol",
+            "publicsenat-2026-11-12-grand-oral-services-publics"
           ],
           "history": [
             {
@@ -52277,6 +52795,75 @@
               "type": "ajout",
               "sourceIds": [
                 "lcp-2026-09-04-tondelier-interdire-le-mensonge-en-politique"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tondelier-fin-creation-250000-350000-postes",
+          "themeKey": "fin",
+          "subthemeKey": "fin-etat",
+          "title": "Création de 250 000 à 350 000 postes dans la fonction publique",
+          "detail": "Marine Tondelier propose entre 250 000 et 350 000 créations de postes dans les services publics. Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tondelier-log-guichet-15-minutes",
+          "themeKey": "log",
+          "subthemeKey": "log-territoires",
+          "title": "Guichet physique de service public à quinze minutes de chaque Français",
+          "detail": "Marine Tondelier propose un « guichet physique accessible à quinze minutes de chaque Français ». Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tondelier-san-regulation-installation-medecins",
+          "themeKey": "san",
+          "subthemeKey": "san-acces",
+          "title": "Régulation de l'installation des médecins",
+          "detail": "Marine Tondelier propose de réguler la liberté d'installation des médecins : dans les zones bien dotées, une nouvelle installation serait conditionnée au départ à la retraite d'un autre praticien. Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
               ]
             }
           ]
@@ -54089,7 +54676,8 @@
           "firstSeen": "2026-09-13",
           "lastChanged": "2026-09-13",
           "sourceIds": [
-            "bvoltaire-2026-09-13-nous-sommes-en-train-de-manquer"
+            "bvoltaire-2026-09-13-nous-sommes-en-train-de-manquer",
+            "publicsenat-2026-11-12-grand-oral-services-publics"
           ],
           "history": [
             {
@@ -54177,13 +54765,14 @@
           "themeKey": "fin",
           "subthemeKey": "fin-etat",
           "title": "Non-remplacement de 800 000 départs dans l'administration",
-          "detail": "Plan publié par Sarah Knafo sur budget2027.fr : ne pas remplacer 800 000 départs administratifs sur le quinquennat, pour environ 40 milliards d'euros d'économies. Source : plan budgétaire « 140 milliards d’économies par an » publié sur budget2027.fr, signé par Sarah Knafo ; le document ne mentionne ni Éric Zemmour ni Reconquête, qui doit publier son propre plan.",
+          "detail": "Plan publié par Sarah Knafo sur budget2027.fr : ne pas remplacer 800 000 départs administratifs sur le quinquennat, pour environ 40 milliards d'euros d'économies. Source : plan budgétaire « 140 milliards d’économies par an » publié sur budget2027.fr, signé par Sarah Knafo ; le document ne mentionne ni Éric Zemmour ni Reconquête, qui doit publier son propre plan. Éric Zemmour reprend l'objectif de 800 000 suppressions de postes en cinq ans lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, en épargnant les enseignants, les policiers, les militaires et les soignants, selon Public Sénat.",
           "kind": "programme",
           "status": "active",
           "firstSeen": "2026-10-19",
-          "lastChanged": "2026-10-19",
+          "lastChanged": "2026-11-13",
           "sourceIds": [
-            "budget2027-nd-140-milliards-d-economies-par-an"
+            "budget2027-nd-140-milliards-d-economies-par-an",
+            "publicsenat-2026-11-12-grand-oral-services-publics"
           ],
           "history": [
             {
@@ -54193,6 +54782,16 @@
                 "budget2027-nd-140-milliards-d-economies-par-an"
               ],
               "note": "Source non datée : date d'entrée dans le fichier."
+            },
+            {
+              "date": "2026-11-13",
+              "type": "modification",
+              "before": "Non-remplacement de 800 000 départs dans l'administration — Plan publié par Sarah Knafo sur budget2027.fr : ne pas remplacer 800 000 départs administratifs sur le quinquennat, pour environ 40 milliards d'euros d'économies. Source : plan budgétaire « 140 milliards d’économies par an » publié sur budget2027.fr, signé par Sarah Knafo ; le document ne mentionne ni Éric Zemmour ni Reconquête, qui doit publier son propre plan.",
+              "after": "Non-remplacement de 800 000 départs dans l'administration — Plan publié par Sarah Knafo sur budget2027.fr : ne pas remplacer 800 000 départs administratifs sur le quinquennat, pour environ 40 milliards d'euros d'économies. Source : plan budgétaire « 140 milliards d’économies par an » publié sur budget2027.fr, signé par Sarah Knafo ; le document ne mentionne ni Éric Zemmour ni Reconquête, qui doit publier son propre plan. Éric Zemmour reprend l'objectif de 800 000 suppressions de postes en cinq ans lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, en épargnant les enseignants, les policiers, les militaires et les soignants, selon Public Sénat.",
+              "note": "Objectif repris par le candidat lui-même, avec la liste des métiers épargnés.",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
             }
           ]
         },
@@ -54571,6 +55170,167 @@
               "sourceIds": [
                 "quartz-2026-11-10-zemmour-confirme-candidature",
                 "politiquematin-2026-11-10-zemmour-confirme-candidature-tf1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zemmour-edu-fin-college-unique",
+          "themeKey": "edu",
+          "subthemeKey": "edu-ecole",
+          "title": "Fin du collège unique et orientation vers la voie professionnelle dès la quatrième",
+          "detail": "Éric Zemmour propose de mettre fin au collège unique et d'orienter des élèves vers l'enseignement professionnel dès la quatrième. Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zemmour-san-exoneration-medecins-retraites",
+          "themeKey": "san",
+          "subthemeKey": "san-acces",
+          "title": "Exonération d'impôt des revenus d'activité des médecins retraités",
+          "detail": "Éric Zemmour propose d'exonérer d'impôt les revenus que les médecins retraités tirent de la poursuite de leur activité. Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zemmour-san-suppression-numerus-clausus",
+          "themeKey": "san",
+          "subthemeKey": "san-acces",
+          "title": "Suppression du numerus clausus",
+          "detail": "Éric Zemmour propose de supprimer le numerus clausus des études de médecine. Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zemmour-san-missions-infirmiers-pharmaciens",
+          "themeKey": "san",
+          "subthemeKey": "san-organisation",
+          "title": "Élargissement des missions des infirmiers et des pharmaciens",
+          "detail": "Éric Zemmour propose d'élargir les missions des infirmiers et des pharmaciens. Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zemmour-sec-recrutement-40000-surveillants",
+          "themeKey": "sec",
+          "subthemeKey": "sec-prisons",
+          "title": "Recrutement de 40 000 surveillants pénitentiaires",
+          "detail": "Éric Zemmour propose de recruter 40 000 surveillants pénitentiaires. Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zemmour-sec-peines-planchers",
+          "themeKey": "sec",
+          "subthemeKey": "sec-peines",
+          "title": "Peines planchers",
+          "detail": "Éric Zemmour propose le retour des peines planchers. Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zemmour-sec-suppression-amenagements-peine",
+          "themeKey": "sec",
+          "subthemeKey": "sec-peines",
+          "title": "Suppression des aménagements de peine",
+          "detail": "Éric Zemmour propose de supprimer les aménagements de peine. Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-grand-oral-services-publics"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-grand-oral-services-publics"
               ]
             }
           ]
@@ -55514,6 +56274,16 @@
             ],
             "sourceIds": [
               "odanie2027-nd-le-manifeste-illustre"
+            ]
+          },
+          "tondelier": {
+            "value": -2,
+            "note": "Propose entre 250 000 et 350 000 créations de postes dans les services publics.",
+            "measureIds": [
+              "tondelier-fin-creation-250000-350000-postes"
+            ],
+            "sourceIds": [
+              "publicsenat-2026-11-12-grand-oral-services-publics"
             ]
           }
         }
@@ -57176,6 +57946,16 @@
             ],
             "sourceIds": [
               "herlin27-nd-mon-deprogramme"
+            ]
+          },
+          "zemmour": {
+            "value": 2,
+            "note": "Propose le retour des peines planchers.",
+            "measureIds": [
+              "zemmour-sec-peines-planchers"
+            ],
+            "sourceIds": [
+              "publicsenat-2026-11-12-grand-oral-services-publics"
             ]
           }
         }
@@ -60393,6 +61173,16 @@
               "anasse2027-nd-programme-d-anasse-kazib-2027-en",
               "anasse2027-nd-depliant-anasse-2027"
             ]
+          },
+          "melenchon": {
+            "value": 2,
+            "note": "Propose d'investir 22 Md€ dans les services publics dès les premiers mois du quinquennat.",
+            "measureIds": [
+              "melenchon-fin-22-md-services-publics"
+            ],
+            "sourceIds": [
+              "publicsenat-2026-11-12-grand-oral-services-publics"
+            ]
           }
         }
       },
@@ -61707,6 +62497,16 @@
               "attalpresident-2026-10-11-mesures-jeunesse-avenir",
               "attalpresident-2026-10-15-france-info-jeunesse"
             ]
+          },
+          "glucksmann": {
+            "value": 1,
+            "note": "Propose de remplacer Parcoursup par un autre logiciel d'affectation.",
+            "measureIds": [
+              "glucksmann-edu-remplacement-parcoursup"
+            ],
+            "sourceIds": [
+              "publicsenat-2026-11-12-grand-oral-services-publics"
+            ]
           }
         }
       },
@@ -61980,6 +62780,16 @@
               "avecretailleau-nd-projet-de-bruno-retailleau-education",
               "publicsenat-2026-08-31-presidentielle-2027-bruno-retailleau"
             ]
+          },
+          "zemmour": {
+            "value": 2,
+            "note": "Propose de mettre fin au collège unique et d'orienter vers la voie professionnelle dès la quatrième.",
+            "measureIds": [
+              "zemmour-edu-fin-college-unique"
+            ],
+            "sourceIds": [
+              "publicsenat-2026-11-12-grand-oral-services-publics"
+            ]
           }
         }
       },
@@ -62228,6 +63038,16 @@
               "bfmtv-2025-05-07-interview-lisnard-president-amf",
               "unenouvelleenergie-2026-08-03-deserts-medicaux",
               "unenouvelleenergie-nd-sante-le-projet-de-david-lisnard"
+            ]
+          },
+          "tondelier": {
+            "value": 2,
+            "note": "Propose de conditionner une nouvelle installation en zone bien dotée au départ à la retraite d'un autre praticien.",
+            "measureIds": [
+              "tondelier-san-regulation-installation-medecins"
+            ],
+            "sourceIds": [
+              "publicsenat-2026-11-12-grand-oral-services-publics"
             ]
           }
         }
@@ -65097,6 +65917,16 @@
             "sourceIds": [
               "edouardphilippe-nd-edouard-philippe-pour-une-france-plus-2"
             ]
+          },
+          "retailleau": {
+            "value": 2,
+            "note": "Propose de supprimer les juges de l'application des peines.",
+            "measureIds": [
+              "retailleau-sec-suppression-jap"
+            ],
+            "sourceIds": [
+              "publicsenat-2026-11-12-grand-oral-services-publics"
+            ]
           }
         }
       },
@@ -65127,6 +65957,16 @@
             ],
             "sourceIds": [
               "lesecologistes-2026-07-13-programme-pour-une-prosperite-ecol"
+            ]
+          },
+          "roussel": {
+            "value": 2,
+            "note": "Propose d'interdire les lanceurs de balles de défense.",
+            "measureIds": [
+              "roussel-sec-interdiction-lbd"
+            ],
+            "sourceIds": [
+              "publicsenat-2026-11-12-grand-oral-services-publics"
             ]
           }
         }
@@ -78115,6 +78955,10 @@
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-13",
+      "text": "Recherche des nouveautés depuis la mise à jour du 12 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; la liste publiée par LCP le 10 novembre cite trois candidats déclarés non recensés dans le fichier (Augustin Billetdoux, Joël Chevé, Christian Collovati), sans autre information : faute d'une seconde source permettant de rédiger une notice vérifiée, ils ne sont pas ajoutés à ce stade. Sondages : aucune enquête d'intentions de vote nouvelle trouvée depuis l'enquête Toluna Harris Interactive publiée le 9 novembre. Mesures, d'après le compte rendu par Public Sénat du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, auquel ont participé huit candidats (Marine Le Pen et David Lisnard ayant décliné, selon Public Sénat) ; les pages de franceinfo consacrées à ce grand oral n'ont pas pu être ouvertes. Bruno Retailleau : 5 mesures ajoutées (réduction du nombre d'agences de l'État, à commencer par l'Ademe ; suppression du juge de l'application des peines ; frais de déplacement des médecins retraités dans les zones sous-dotées ; rémunération des étudiants de dernière année de médecine générale ; équivalent de 6 000 postes de médecins dégagés par l'IA à l'hôpital) ; confirmations sur les 400 000 départs non remplacés, l'examen d'entrée en sixième, les groupes de niveau et le référendum sur la politique pénale ; Public Sénat évoque « une centaine » d'écoles publiques autonomes, contre mille dans la mesure déjà saisie d'après son projet : la mesure n'est pas modifiée faute de source primaire. Éric Zemmour : 7 mesures ajoutées (fin du collège unique et orientation professionnelle dès la quatrième ; exonération d'impôt des revenus d'activité des médecins retraités ; suppression du numerus clausus ; missions élargies des infirmiers et pharmaciens ; 40 000 surveillants pénitentiaires ; peines planchers ; suppression des aménagements de peine) et 1 modifiée (les 800 000 suppressions de postes en cinq ans, jusque-là sourcées par le seul plan de Sarah Knafo, sont reprises par le candidat avec la liste des métiers épargnés). Gabriel Attal : 2 mesures ajoutées (premier acte de procédure dans les 48 heures après une plainte pour violences sur enfant ; suppression des réductions automatiques de peine) et 1 modifiée (hausse de 200 à 500 € par mois des enseignants précisée « dès 2028, selon l'ancienneté ») ; confirmation sur les 100 000 postes en moins. Édouard Philippe : 3 mesures ajoutées (interdiction du syndicalisme dans la magistrature ; nouvelles places de prison ; contrôle continu au baccalauréat avec davantage d'épreuves sur table) ; confirmations sur les peines planchers, l'autonomie des établissements et la fusion d'agences. Fabien Roussel : 5 mesures ajoutées (près de 500 000 fonctionnaires recrutés en cinq ans ; abrogation de la réforme Blanquer ; 60 000 recrutements dans la police, la gendarmerie et les douanes ; interdiction des LBD ; opposition à la substitution de la police municipale à la police nationale) et 1 modifiée (point d'indice : 10 % immédiatement puis 20 à 30 % sur le quinquennat) ; confirmation sur le recrutement d'enseignants. Marine Tondelier : 3 mesures ajoutées (250 000 à 350 000 créations de postes ; guichet physique à quinze minutes de chaque Français ; régulation de l'installation des médecins) ; confirmation sur les postes de magistrats et de greffiers. Raphaël Glucksmann : 2 mesures ajoutées (remplacement de Parcoursup ; présence policière continue, notamment dans les quartiers populaires) et 1 modifiée (hausse des salaires des enseignants chiffrée à 10 %, jusqu'à 25 % en milieu de carrière) ; confirmation sur la mixité sociale dans le privé ; en outre, 1 mesure ajoutée d'après l'article de Public Sénat du 9 novembre sur son point presse (nouveau livret fusionnant Livret A et LDDS, plafond doublé, taux de 2,5 %), article ajouté en confirmation à 14 mesures déjà saisies le 10 novembre. Jean-Luc Mélenchon : 1 mesure ajoutée (22 Md€ investis dans les services publics dès les premiers mois du quinquennat) ; confirmation sur le baccalauréat professionnel en quatre ans ; la garantie d'une rémunération autour de 1 300 € pour les élèves, dont le public n'est pas précisé par la source, n'est pas saisie. Teddy Riner : l'article de Public Sénat du 10 novembre est ajouté en confirmation à la mesure sur le salaire net. Questionnaire : 8 positions renseignées, 2 dans le test (Éric Zemmour sur les peines planchers ; Marine Tondelier sur la réduction du nombre d'agents publics) et 6 dans la banque (Bruno Retailleau sur le juge de l'application des peines ; Fabien Roussel sur les LBD ; Marine Tondelier sur la régulation de l'installation des médecins ; Éric Zemmour sur le collège unique ; Jean-Luc Mélenchon sur l'investissement dans les services publics ; Raphaël Glucksmann sur Parcoursup, position « plutôt d'accord », la proposition consistant à remplacer la plateforme par un autre logiciel). Rotation de la banque : thèmes finances publiques, éducation, santé et sécurité passés en revue pour les huit candidats du grand oral. Vie de la campagne : aucun fait ajouté ; les propos rapportés lors du grand oral sont pour la plupart des fragments de phrase, aucune déclaration n'est donc publiée, de façon identique pour les huit candidats. Marine Le Pen : aucune date nouvelle de décision de la Cour de cassation trouvée. Parrainages : aucun relevé ajouté, aucune annonce chiffrée nouvelle trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats : outre les huit candidats ci-dessus et Teddy Riner, passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Natacha Polony et François Ruffin (seuls des sites agrégateurs ont été trouvés ; l'article de LCP sur François Ruffin n'a pas pu être ouvert ; rien n'est saisi)."
+    },
     {
       "date": "2026-11-12",
       "text": "Recherche des nouveautés depuis la mise à jour du 11 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés. Sondages : aucune enquête d'intentions de vote nouvelle trouvée depuis l'enquête Toluna Harris Interactive publiée le 9 novembre ; la liste des notices de la Commission des sondages n'a pas pu être consultée ce jour. Mesures : Marine Tondelier, 1 mesure ajoutée (loi sanctionnant le mensonge en politique, de la rectification publique à l'inéligibilité), d'après LCP rapportant sa note de blog du 4 septembre 2026, la note elle-même n'ayant pas pu être ouverte. Jean-Luc Mélenchon : l'article d'Euronews sur le meeting du Bourget du 7 novembre est ajouté en confirmation aux mesures déjà saisies sur le droit de vote à 16 ans et la sortie du nucléaire ; aucune autre mesure nouvelle. Marine Le Pen : la sanction du port du voile par une amende et un référendum sur « l'idéologie islamiste », rapportés par Public Sénat et Euronews le 31 août 2026 d'après des propos de Jean-Philippe Tanguy et de Jordan Bardella, ne sont pas saisis, aucune déclaration de la candidate n'ayant pu être vérifiée. Questionnaire : aucune position renseignée, la mesure ajoutée ne correspondant à aucune question du test ni de la banque. Rotation de la banque : thème institutions passé en revue pour Marine Tondelier uniquement, sans position nouvelle. Vie de la campagne : aucun fait ajouté, aucune citation nouvelle vérifiable n'ayant été trouvée pour les candidats passés en revue. Parrainages : aucun relevé ajouté ; aucune nouvelle annonce chiffrée trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 7 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : David Saforcada, Gilles Platret et Erwan Rohou (seuls des sites agrégateurs ou des pages inaccessibles ont été trouvés ; rien n'est saisi), Gabriel Attal (aucune proposition nouvelle isolable depuis ses dernières mesures ; sa déclaration du 2 novembre sur une primaire de la droite et du centre est déjà saisie), Marine Le Pen (voir ci-dessus), Jean-Luc Mélenchon et Marine Tondelier (voir ci-dessus)."
