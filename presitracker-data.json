@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T05:48:13Z",
+  "updatedAt": "2026-11-14T05:48:23Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -5963,6 +5963,13 @@
       "publisher": "Public Sénat",
       "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-teddy-riner-au-defi-de-transformer-son-capital-sympathie-en-capital-electoral",
       "date": "2026-11-10",
+      "kind": "presse"
+    },
+    "lcp-2026-11-12-retailleau-propose-une-primaire": {
+      "title": "Présidentielle: Bruno Retailleau propose une primaire les 31 janvier et 7 février",
+      "publisher": "LCP",
+      "url": "https://lcp.fr/actualites/presidentielle-bruno-retailleau-propose-une-primaire-les-31-janvier-et-7-fevrier-445008",
+      "date": "2026-11-12",
       "kind": "presse"
     }
   },
@@ -78952,9 +78959,29 @@
         "quartz-2026-11-10-zemmour-confirme-candidature",
         "entrevue-2026-11-10-zemmour-officialise-candidature-tf1"
       ]
+    },
+    {
+      "id": "evt-retailleau-declaration-2026-11-10",
+      "date": "2026-11-10",
+      "type": "declaration",
+      "candidateIds": [
+        "retailleau",
+        "philippe",
+        "attal",
+        "lisnard"
+      ],
+      "text": "Dans une lettre à Édouard Philippe, Gabriel Attal et David Lisnard, rapportée par LCP, propose une primaire de la droite et du centre les 31 janvier et 7 février 2027.",
+      "quote": "« Aucun d'entre nous n'est aujourd'hui en mesure, seul, de créer une dynamique pour convaincre les Français au premier tour et d'empêcher un choc brutal entre le Rassemblement national et la France insoumise »",
+      "sourceIds": [
+        "lcp-2026-11-12-retailleau-propose-une-primaire"
+      ]
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-14",
+      "text": "Recherche des nouveautés depuis la mise à jour du 13 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; selon RFI et LCP (13 novembre), Teddy Riner a effectué le 13 novembre son premier déplacement de campagne, à l'hôpital Delafontaine de Saint-Denis, sans annoncer de proposition : aucune mesure n'est saisie ; un proche cité par La Provence d'après LCP évoque « 585 propositions », non publiées à ce stade. Sondages : un sondage OpinionWay pour CNEWS d'intentions de vote, publié le 12 novembre, a été repéré par son titre ; ni l'article de CNEWS, ni celui du JDD, ni le rapport de l'institut, ni la notice de la Commission des sondages n'ont pu être ouverts : il n'est pas saisi à ce stade et sera recherché les jours suivants. Vie de la campagne : 1 fait ajouté, la déclaration de Bruno Retailleau (lettre du mardi 10 novembre à Édouard Philippe, Gabriel Attal et David Lisnard proposant une primaire de la droite et du centre les 31 janvier et 7 février 2027), d'après LCP du 12 novembre ; la réponse d'Édouard Philippe est rapportée par la voix de son porte-parole et n'est donc pas publiée comme déclaration du candidat. Mesures : aucune mesure ajoutée, modifiée ou abandonnée. Les propos du 13 novembre de François Ruffin (France Inter), Bruno Retailleau (France 2) et Élisabeth Borne (franceinfo) n'ont été trouvés que dans un compte rendu de seconde main (PolitiqueMatin) ; l'article de franceinfo sur Élisabeth Borne n'a pas pu être ouvert : rien n'est saisi ; les propositions de Bruno Retailleau citées (référendum sur l'immigration, examen des demandes d'asile hors de France) sont déjà saisies. Questionnaire : aucune position renseignée ; aucun thème de la banque passé en revue faute de mesure nouvelle. Parrainages : aucun relevé ajouté, aucune annonce chiffrée nouvelle trouvée (l'article de RCF sur les promesses de parrainage de David Lisnard n'a pas pu être ouvert). Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 8 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Mira Markovic, Lydie Massard, Antoine Mikolajczak, Manolo Mlekuz, Sandrine Rousseau, Francis Lalanne, Juan Branco et Bernard Cazeneuve (seuls des sites agrégateurs ou des articles antérieurs ont été trouvés ; rien n'est saisi) ; en avance, Dominique de Villepin, David Lisnard et Florian Philippot (aucune source nouvelle vérifiable trouvée)."
+    },
     {
       "date": "2026-11-13",
       "text": "Recherche des nouveautés depuis la mise à jour du 12 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; la liste publiée par LCP le 10 novembre cite trois candidats déclarés non recensés dans le fichier (Augustin Billetdoux, Joël Chevé, Christian Collovati), sans autre information : faute d'une seconde source permettant de rédiger une notice vérifiée, ils ne sont pas ajoutés à ce stade. Sondages : aucune enquête d'intentions de vote nouvelle trouvée depuis l'enquête Toluna Harris Interactive publiée le 9 novembre. Mesures, d'après le compte rendu par Public Sénat du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, auquel ont participé huit candidats (Marine Le Pen et David Lisnard ayant décliné, selon Public Sénat) ; les pages de franceinfo consacrées à ce grand oral n'ont pas pu être ouvertes. Bruno Retailleau : 5 mesures ajoutées (réduction du nombre d'agences de l'État, à commencer par l'Ademe ; suppression du juge de l'application des peines ; frais de déplacement des médecins retraités dans les zones sous-dotées ; rémunération des étudiants de dernière année de médecine générale ; équivalent de 6 000 postes de médecins dégagés par l'IA à l'hôpital) ; confirmations sur les 400 000 départs non remplacés, l'examen d'entrée en sixième, les groupes de niveau et le référendum sur la politique pénale ; Public Sénat évoque « une centaine » d'écoles publiques autonomes, contre mille dans la mesure déjà saisie d'après son projet : la mesure n'est pas modifiée faute de source primaire. Éric Zemmour : 7 mesures ajoutées (fin du collège unique et orientation professionnelle dès la quatrième ; exonération d'impôt des revenus d'activité des médecins retraités ; suppression du numerus clausus ; missions élargies des infirmiers et pharmaciens ; 40 000 surveillants pénitentiaires ; peines planchers ; suppression des aménagements de peine) et 1 modifiée (les 800 000 suppressions de postes en cinq ans, jusque-là sourcées par le seul plan de Sarah Knafo, sont reprises par le candidat avec la liste des métiers épargnés). Gabriel Attal : 2 mesures ajoutées (premier acte de procédure dans les 48 heures après une plainte pour violences sur enfant ; suppression des réductions automatiques de peine) et 1 modifiée (hausse de 200 à 500 € par mois des enseignants précisée « dès 2028, selon l'ancienneté ») ; confirmation sur les 100 000 postes en moins. Édouard Philippe : 3 mesures ajoutées (interdiction du syndicalisme dans la magistrature ; nouvelles places de prison ; contrôle continu au baccalauréat avec davantage d'épreuves sur table) ; confirmations sur les peines planchers, l'autonomie des établissements et la fusion d'agences. Fabien Roussel : 5 mesures ajoutées (près de 500 000 fonctionnaires recrutés en cinq ans ; abrogation de la réforme Blanquer ; 60 000 recrutements dans la police, la gendarmerie et les douanes ; interdiction des LBD ; opposition à la substitution de la police municipale à la police nationale) et 1 modifiée (point d'indice : 10 % immédiatement puis 20 à 30 % sur le quinquennat) ; confirmation sur le recrutement d'enseignants. Marine Tondelier : 3 mesures ajoutées (250 000 à 350 000 créations de postes ; guichet physique à quinze minutes de chaque Français ; régulation de l'installation des médecins) ; confirmation sur les postes de magistrats et de greffiers. Raphaël Glucksmann : 2 mesures ajoutées (remplacement de Parcoursup ; présence policière continue, notamment dans les quartiers populaires) et 1 modifiée (hausse des salaires des enseignants chiffrée à 10 %, jusqu'à 25 % en milieu de carrière) ; confirmation sur la mixité sociale dans le privé ; en outre, 1 mesure ajoutée d'après l'article de Public Sénat du 9 novembre sur son point presse (nouveau livret fusionnant Livret A et LDDS, plafond doublé, taux de 2,5 %), article ajouté en confirmation à 14 mesures déjà saisies le 10 novembre. Jean-Luc Mélenchon : 1 mesure ajoutée (22 Md€ investis dans les services publics dès les premiers mois du quinquennat) ; confirmation sur le baccalauréat professionnel en quatre ans ; la garantie d'une rémunération autour de 1 300 € pour les élèves, dont le public n'est pas précisé par la source, n'est pas saisie. Teddy Riner : l'article de Public Sénat du 10 novembre est ajouté en confirmation à la mesure sur le salaire net. Questionnaire : 8 positions renseignées, 2 dans le test (Éric Zemmour sur les peines planchers ; Marine Tondelier sur la réduction du nombre d'agents publics) et 6 dans la banque (Bruno Retailleau sur le juge de l'application des peines ; Fabien Roussel sur les LBD ; Marine Tondelier sur la régulation de l'installation des médecins ; Éric Zemmour sur le collège unique ; Jean-Luc Mélenchon sur l'investissement dans les services publics ; Raphaël Glucksmann sur Parcoursup, position « plutôt d'accord », la proposition consistant à remplacer la plateforme par un autre logiciel). Rotation de la banque : thèmes finances publiques, éducation, santé et sécurité passés en revue pour les huit candidats du grand oral. Vie de la campagne : aucun fait ajouté ; les propos rapportés lors du grand oral sont pour la plupart des fragments de phrase, aucune déclaration n'est donc publiée, de façon identique pour les huit candidats. Marine Le Pen : aucune date nouvelle de décision de la Cour de cassation trouvée. Parrainages : aucun relevé ajouté, aucune annonce chiffrée nouvelle trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats : outre les huit candidats ci-dessus et Teddy Riner, passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Natacha Polony et François Ruffin (seuls des sites agrégateurs ont été trouvés ; l'article de LCP sur François Ruffin n'a pas pu être ouvert ; rien n'est saisi)."
