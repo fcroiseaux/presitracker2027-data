@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T05:48:23Z",
+  "updatedAt": "2026-11-15T05:45:43Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -5971,6 +5971,12 @@
       "url": "https://lcp.fr/actualites/presidentielle-bruno-retailleau-propose-une-primaire-les-31-janvier-et-7-fevrier-445008",
       "date": "2026-11-12",
       "kind": "presse"
+    },
+    "elvita2027-2026-09-15-programme-zero-defaut": {
+      "title": "Sylvain-Pierre Durif · Candidat à l'élection présidentielle de 2027",
+      "publisher": "Site de campagne de Sylvain Durif",
+      "url": "https://elvita2027.com/",
+      "kind": "programme"
     }
   },
   "candidates": [
@@ -17336,7 +17342,123 @@
       ],
       "bio": "Sylvain Durif se présente sur les réseaux sociaux sous le nom de « Grand Monarque ». Il avait déjà annoncé une candidature à l'élection présidentielle de 2017, sans obtenir les 500 parrainages requis. Il n'est rattaché à aucun parti selon les sources consultées.",
       "currentRoles": [],
-      "measures": []
+      "measures": [
+        {
+          "id": "durif-def-desarmement-total",
+          "themeKey": "def",
+          "subthemeKey": "def-budget",
+          "title": "Désarmement total",
+          "detail": "Sylvain Durif propose un « désarmement total » et « la médiation comme méthode, en France et dans le monde » (rubrique « Paix »). Rubrique du programme « Zéro Défaut », mis en ligne le 15 septembre 2026 selon son site de campagne, sans chiffre ni calendrier précisés.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-09-15",
+          "lastChanged": "2026-09-15",
+          "sourceIds": [
+            "elvita2027-2026-09-15-programme-zero-defaut"
+          ],
+          "history": [
+            {
+              "date": "2026-09-15",
+              "type": "ajout",
+              "sourceIds": [
+                "elvita2027-2026-09-15-programme-zero-defaut"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "durif-inst-transition-monarchie",
+          "themeKey": "inst",
+          "subthemeKey": "inst-constitution",
+          "title": "Transition de la République vers la monarchie",
+          "detail": "Sylvain Durif propose « une transition de la République vers la monarchie » et un « Royaume de France » (rubrique « Souveraineté »). Rubrique du programme « Zéro Défaut », mis en ligne le 15 septembre 2026 selon son site de campagne, sans chiffre ni calendrier précisés.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-09-15",
+          "lastChanged": "2026-09-15",
+          "sourceIds": [
+            "elvita2027-2026-09-15-programme-zero-defaut"
+          ],
+          "history": [
+            {
+              "date": "2026-09-15",
+              "type": "ajout",
+              "sourceIds": [
+                "elvita2027-2026-09-15-programme-zero-defaut"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "durif-fis-fiscalite-supprimee",
+          "themeKey": "fis",
+          "subthemeKey": "fis-revenu",
+          "title": "Suppression de la fiscalité",
+          "detail": "Sylvain Durif propose une « fiscalité supprimée » (rubrique « Simplification »), sans préciser les impôts concernés ni leur remplacement. Rubrique du programme « Zéro Défaut », mis en ligne le 15 septembre 2026 selon son site de campagne, sans chiffre ni calendrier précisés.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-09-15",
+          "lastChanged": "2026-09-15",
+          "sourceIds": [
+            "elvita2027-2026-09-15-programme-zero-defaut"
+          ],
+          "history": [
+            {
+              "date": "2026-09-15",
+              "type": "ajout",
+              "sourceIds": [
+                "elvita2027-2026-09-15-programme-zero-defaut"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "durif-fin-dettes-effacees",
+          "themeKey": "fin",
+          "subthemeKey": "fin-dette",
+          "title": "Effacement des dettes",
+          "detail": "Sylvain Durif propose des « dettes effacées » (rubrique « Simplification »), sans préciser les dettes concernées. Rubrique du programme « Zéro Défaut », mis en ligne le 15 septembre 2026 selon son site de campagne, sans chiffre ni calendrier précisés.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-09-15",
+          "lastChanged": "2026-09-15",
+          "sourceIds": [
+            "elvita2027-2026-09-15-programme-zero-defaut"
+          ],
+          "history": [
+            {
+              "date": "2026-09-15",
+              "type": "ajout",
+              "sourceIds": [
+                "elvita2027-2026-09-15-programme-zero-defaut"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "durif-agr-ogm-prohibes",
+          "themeKey": "agr",
+          "subthemeKey": "agr-normes",
+          "title": "Interdiction des OGM",
+          "detail": "Sylvain Durif propose que les OGM soient « prohibés » (rubrique « Écologie »). Rubrique du programme « Zéro Défaut », mis en ligne le 15 septembre 2026 selon son site de campagne, sans chiffre ni calendrier précisés.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-09-15",
+          "lastChanged": "2026-09-15",
+          "sourceIds": [
+            "elvita2027-2026-09-15-programme-zero-defaut"
+          ],
+          "history": [
+            {
+              "date": "2026-09-15",
+              "type": "ajout",
+              "sourceIds": [
+                "elvita2027-2026-09-15-programme-zero-defaut"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "egger",
@@ -78978,6 +79100,10 @@
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-15",
+      "text": "Recherche des nouveautés depuis la mise à jour du 14 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés. Sondages : aucune enquête saisie ; un site agrégateur mentionne des enquêtes OpinionWay (10 et 12 novembre) et Cluster 17 (10 novembre), mais ni le rapport des instituts ni la notice de la Commission des sondages n'ont pu être ouverts ce jour (site de la Commission inaccessible) : elles ne sont pas saisies et seront recherchées les jours suivants. Mesures : Sylvain Durif, 5 mesures ajoutées (désarmement total ; transition de la République vers la monarchie ; suppression de la fiscalité ; effacement des dettes ; interdiction des OGM), d'après la sélection de mesures de son programme « Zéro Défaut » publiée sur son site de campagne ; la mention « Dénucléarisation », sans précision sur son objet (énergie ou armement), n'est pas saisie, le programme complet au format PDF n'ayant pas pu être lu. Questionnaire : aucune position renseignée, les mesures ajoutées ne justifiant pas à elles seules une position sur les questions du test ou de la banque ; aucun thème de la banque passé en revue pour d'autres candidats. Vie de la campagne : aucun fait ajouté ; les propos de Teddy Riner publiés sur X sur la santé, rapportés par LCP le 13 novembre, ne sont pas saisis faute de date vérifiable de publication ; les articles de LCP du 13 novembre sur les réactions à sa candidature ne citent ni Édouard Philippe, ni Gabriel Attal, ni Bruno Retailleau, ni David Lisnard directement. Parrainages : aucun relevé ajouté, aucune annonce chiffrée nouvelle d'un candidat trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 9 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : Sylvain Durif (voir ci-dessus) ; passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Jean Lassalle, Benoît Mathieu, Olivier Becht, Emmanuel Dubuisson, Matthieu Pigasse, Bruno Le Maire et Rémi Revillon d'Apreval (seuls des sites agrégateurs ou des articles antérieurs, déjà sourcés, ont été trouvés ; rien n'est saisi)."
+    },
     {
       "date": "2026-11-14",
       "text": "Recherche des nouveautés depuis la mise à jour du 13 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; selon RFI et LCP (13 novembre), Teddy Riner a effectué le 13 novembre son premier déplacement de campagne, à l'hôpital Delafontaine de Saint-Denis, sans annoncer de proposition : aucune mesure n'est saisie ; un proche cité par La Provence d'après LCP évoque « 585 propositions », non publiées à ce stade. Sondages : un sondage OpinionWay pour CNEWS d'intentions de vote, publié le 12 novembre, a été repéré par son titre ; ni l'article de CNEWS, ni celui du JDD, ni le rapport de l'institut, ni la notice de la Commission des sondages n'ont pu être ouverts : il n'est pas saisi à ce stade et sera recherché les jours suivants. Vie de la campagne : 1 fait ajouté, la déclaration de Bruno Retailleau (lettre du mardi 10 novembre à Édouard Philippe, Gabriel Attal et David Lisnard proposant une primaire de la droite et du centre les 31 janvier et 7 février 2027), d'après LCP du 12 novembre ; la réponse d'Édouard Philippe est rapportée par la voix de son porte-parole et n'est donc pas publiée comme déclaration du candidat. Mesures : aucune mesure ajoutée, modifiée ou abandonnée. Les propos du 13 novembre de François Ruffin (France Inter), Bruno Retailleau (France 2) et Élisabeth Borne (franceinfo) n'ont été trouvés que dans un compte rendu de seconde main (PolitiqueMatin) ; l'article de franceinfo sur Élisabeth Borne n'a pas pu être ouvert : rien n'est saisi ; les propositions de Bruno Retailleau citées (référendum sur l'immigration, examen des demandes d'asile hors de France) sont déjà saisies. Questionnaire : aucune position renseignée ; aucun thème de la banque passé en revue faute de mesure nouvelle. Parrainages : aucun relevé ajouté, aucune annonce chiffrée nouvelle trouvée (l'article de RCF sur les promesses de parrainage de David Lisnard n'a pas pu être ouvert). Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 8 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Mira Markovic, Lydie Massard, Antoine Mikolajczak, Manolo Mlekuz, Sandrine Rousseau, Francis Lalanne, Juan Branco et Bernard Cazeneuve (seuls des sites agrégateurs ou des articles antérieurs ont été trouvés ; rien n'est saisi) ; en avance, Dominique de Villepin, David Lisnard et Florian Philippot (aucune source nouvelle vérifiable trouvée)."
