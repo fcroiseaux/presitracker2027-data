@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T05:45:43Z",
+  "updatedAt": "2026-11-16T05:52:27Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -5977,6 +5977,20 @@
       "publisher": "Site de campagne de Sylvain Durif",
       "url": "https://elvita2027.com/",
       "kind": "programme"
+    },
+    "debout-la-france-2026-10-20-communique-20-mesures": {
+      "title": "Communiqué de presse : 20 mesures chocs pour rétablir l’ordre et défendre la justice sociale.",
+      "publisher": "Debout la France",
+      "url": "https://www.debout-la-france.fr/actualite/communique-nicolas-dupont-aignan-a-limoges/",
+      "date": "2026-10-20",
+      "kind": "programme"
+    },
+    "lcp-2026-11-13-face-a-teddy-riner-le-centre-et-la-droite": {
+      "title": "Présidentielle 2027: Face à Teddy Riner, le centre et la droite cherchent la réponse, entre main tendue et scepticisme",
+      "publisher": "LCP",
+      "url": "https://lcp.fr/actualites/presidentielle-2027-face-a-teddy-riner-le-centre-et-la-droite-cherchent-la-reponse-entre",
+      "date": "2026-11-13",
+      "kind": "presse"
     }
   },
   "candidates": [
@@ -15529,7 +15543,8 @@
           "firstSeen": "2026-10-10",
           "lastChanged": "2026-10-10",
           "sourceIds": [
-            "debout-la-france-2026-10-10-projet-economie-et-travail"
+            "debout-la-france-2026-10-10-projet-economie-et-travail",
+            "debout-la-france-2026-10-20-communique-20-mesures"
           ],
           "history": [
             {
@@ -15552,7 +15567,8 @@
           "firstSeen": "2026-10-10",
           "lastChanged": "2026-10-10",
           "sourceIds": [
-            "debout-la-france-2026-10-10-projet-economie-et-travail"
+            "debout-la-france-2026-10-10-projet-economie-et-travail",
+            "debout-la-france-2026-10-20-communique-20-mesures"
           ],
           "history": [
             {
@@ -15772,6 +15788,29 @@
           ]
         },
         {
+          "id": "dupontaignan-edu-bac-egalitaire",
+          "themeKey": "edu",
+          "subthemeKey": "edu-examens",
+          "title": "Rétablissement d'un bac égalitaire",
+          "detail": "Nicolas Dupont-Aignan propose le « rétablissement d'un bac égalitaire ». Figure dans le communiqué de presse « 20 mesures chocs pour rétablir l'ordre et défendre la justice sociale » publié le 20 octobre 2026 sur le site de Debout la France, sans chiffre ni calendrier précisés.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-10-20",
+          "lastChanged": "2026-10-20",
+          "sourceIds": [
+            "debout-la-france-2026-10-20-communique-20-mesures"
+          ],
+          "history": [
+            {
+              "date": "2026-10-20",
+              "type": "ajout",
+              "sourceIds": [
+                "debout-la-france-2026-10-20-communique-20-mesures"
+              ]
+            }
+          ]
+        },
+        {
           "id": "dupontaignan-edu-enseignants-plus-15",
           "themeKey": "edu",
           "subthemeKey": "edu-enseignants",
@@ -15841,6 +15880,52 @@
           ]
         },
         {
+          "id": "dupontaignan-edu-priorite-etudiants-francais",
+          "themeKey": "edu",
+          "subthemeKey": "edu-sup",
+          "title": "Priorité aux étudiants français pour les aides universitaires",
+          "detail": "Nicolas Dupont-Aignan propose une « priorité aux étudiants français pour les aides universitaires ». Figure dans le communiqué de presse « 20 mesures chocs pour rétablir l'ordre et défendre la justice sociale » publié le 20 octobre 2026 sur le site de Debout la France, sans chiffre ni calendrier précisés.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-10-20",
+          "lastChanged": "2026-10-20",
+          "sourceIds": [
+            "debout-la-france-2026-10-20-communique-20-mesures"
+          ],
+          "history": [
+            {
+              "date": "2026-10-20",
+              "type": "ajout",
+              "sourceIds": [
+                "debout-la-france-2026-10-20-communique-20-mesures"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dupontaignan-edu-suppression-parcoursup",
+          "themeKey": "edu",
+          "subthemeKey": "edu-sup",
+          "title": "Suppression de Parcoursup",
+          "detail": "Nicolas Dupont-Aignan propose la « suppression de Parcoursup ». Figure dans le communiqué de presse « 20 mesures chocs pour rétablir l'ordre et défendre la justice sociale » publié le 20 octobre 2026 sur le site de Debout la France, sans chiffre ni calendrier précisés.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-10-20",
+          "lastChanged": "2026-10-20",
+          "sourceIds": [
+            "debout-la-france-2026-10-20-communique-20-mesures"
+          ],
+          "history": [
+            {
+              "date": "2026-10-20",
+              "type": "ajout",
+              "sourceIds": [
+                "debout-la-france-2026-10-20-communique-20-mesures"
+              ]
+            }
+          ]
+        },
+        {
           "id": "dupontaignan-edu-uniforme",
           "themeKey": "edu",
           "subthemeKey": "edu-ecole",
@@ -15905,6 +15990,29 @@
               "type": "ajout",
               "sourceIds": [
                 "debout-la-france-2026-10-10-projet-economie-et-travail"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dupontaignan-ent-exoneration-premier-emploi-jeune",
+          "themeKey": "ent",
+          "subthemeKey": "ent-chomage",
+          "title": "Exonération de charges sociales pendant un an pour le premier emploi d'un jeune de moins de 26 ans",
+          "detail": "Nicolas Dupont-Aignan propose l'« exonération des charges sociales pendant un an pour le premier emploi d'un jeune de moins de 26 ans ». Figure dans le communiqué de presse « 20 mesures chocs pour rétablir l'ordre et défendre la justice sociale » publié le 20 octobre 2026 sur le site de Debout la France.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-10-20",
+          "lastChanged": "2026-10-20",
+          "sourceIds": [
+            "debout-la-france-2026-10-20-communique-20-mesures"
+          ],
+          "history": [
+            {
+              "date": "2026-10-20",
+              "type": "ajout",
+              "sourceIds": [
+                "debout-la-france-2026-10-20-communique-20-mesures"
               ]
             }
           ]
@@ -16043,6 +16151,29 @@
               "type": "ajout",
               "sourceIds": [
                 "info-2026-04-23-yerres-dupont-aignan-officialise-sa-candidat"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dupontaignan-eur-primaute-droit-francais",
+          "themeKey": "eur",
+          "subthemeKey": "eur-traites",
+          "title": "Primauté du droit français sur le droit européen",
+          "detail": "Nicolas Dupont-Aignan propose la « primauté du droit français sur le droit européen ». Figure dans le communiqué de presse « 20 mesures chocs pour rétablir l'ordre et défendre la justice sociale » publié le 20 octobre 2026 sur le site de Debout la France, sans chiffre ni calendrier précisés.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-10-20",
+          "lastChanged": "2026-10-20",
+          "sourceIds": [
+            "debout-la-france-2026-10-20-communique-20-mesures"
+          ],
+          "history": [
+            {
+              "date": "2026-10-20",
+              "type": "ajout",
+              "sourceIds": [
+                "debout-la-france-2026-10-20-communique-20-mesures"
               ]
             }
           ]
@@ -16380,7 +16511,8 @@
           "firstSeen": "2026-03-03",
           "lastChanged": "2026-03-03",
           "sourceIds": [
-            "debout-la-france-2026-03-03-projet-immigration"
+            "debout-la-france-2026-03-03-projet-immigration",
+            "debout-la-france-2026-10-20-communique-20-mesures"
           ],
           "history": [
             {
@@ -16388,6 +16520,52 @@
               "type": "ajout",
               "sourceIds": [
                 "debout-la-france-2026-03-03-projet-immigration"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dupontaignan-imm-expulsion-delinquants-etrangers",
+          "themeKey": "imm",
+          "subthemeKey": "imm-frontieres",
+          "title": "Expulsion des délinquants étrangers",
+          "detail": "Nicolas Dupont-Aignan propose l'« expulsion des délinquants étrangers ». Figure dans le communiqué de presse « 20 mesures chocs pour rétablir l'ordre et défendre la justice sociale » publié le 20 octobre 2026 sur le site de Debout la France, sans chiffre ni calendrier précisés.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-10-20",
+          "lastChanged": "2026-10-20",
+          "sourceIds": [
+            "debout-la-france-2026-10-20-communique-20-mesures"
+          ],
+          "history": [
+            {
+              "date": "2026-10-20",
+              "type": "ajout",
+              "sourceIds": [
+                "debout-la-france-2026-10-20-communique-20-mesures"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dupontaignan-imm-fin-aides-non-contributives",
+          "themeKey": "imm",
+          "subthemeKey": "imm-prestations",
+          "title": "Suppression des aides sociales non contributives aux étrangers",
+          "detail": "Nicolas Dupont-Aignan propose la « suppression des aides sociales non contributives aux étrangers ». Figure dans le communiqué de presse « 20 mesures chocs pour rétablir l'ordre et défendre la justice sociale » publié le 20 octobre 2026 sur le site de Debout la France, sans chiffre ni calendrier précisés.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-10-20",
+          "lastChanged": "2026-10-20",
+          "sourceIds": [
+            "debout-la-france-2026-10-20-communique-20-mesures"
+          ],
+          "history": [
+            {
+              "date": "2026-10-20",
+              "type": "ajout",
+              "sourceIds": [
+                "debout-la-france-2026-10-20-communique-20-mesures"
               ]
             }
           ]
@@ -16956,7 +17134,8 @@
           "lastChanged": "2024-02-05",
           "sourceIds": [
             "debout-la-france-2024-02-05-projet-retraites",
-            "debout-la-france-2026-10-10-projet-economie-et-travail"
+            "debout-la-france-2026-10-10-projet-economie-et-travail",
+            "debout-la-france-2026-10-20-communique-20-mesures"
           ],
           "history": [
             {
@@ -17118,7 +17297,8 @@
           "firstSeen": "2026-02-16",
           "lastChanged": "2026-02-16",
           "sourceIds": [
-            "debout-la-france-2026-02-16-projet-securite"
+            "debout-la-france-2026-02-16-projet-securite",
+            "debout-la-france-2026-10-20-communique-20-mesures"
           ],
           "history": [
             {
@@ -17223,6 +17403,29 @@
           ]
         },
         {
+          "id": "dupontaignan-sec-loi-anti-casseurs",
+          "themeKey": "sec",
+          "subthemeKey": "sec-criminalite",
+          "title": "Loi anti-casseurs",
+          "detail": "Nicolas Dupont-Aignan propose une « loi anti-casseurs ». Figure dans le communiqué de presse « 20 mesures chocs pour rétablir l'ordre et défendre la justice sociale » publié le 20 octobre 2026 sur le site de Debout la France, sans chiffre ni calendrier précisés.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-10-20",
+          "lastChanged": "2026-10-20",
+          "sourceIds": [
+            "debout-la-france-2026-10-20-communique-20-mesures"
+          ],
+          "history": [
+            {
+              "date": "2026-10-20",
+              "type": "ajout",
+              "sourceIds": [
+                "debout-la-france-2026-10-20-communique-20-mesures"
+              ]
+            }
+          ]
+        },
+        {
           "id": "dupontaignan-sec-majorite-penale-16-ans",
           "themeKey": "sec",
           "subthemeKey": "sec-mineurs",
@@ -17233,7 +17436,8 @@
           "firstSeen": "2026-10-12",
           "lastChanged": "2026-10-12",
           "sourceIds": [
-            "debout-la-france-2026-10-12-projet-justice"
+            "debout-la-france-2026-10-12-projet-justice",
+            "debout-la-france-2026-10-20-communique-20-mesures"
           ],
           "history": [
             {
@@ -17256,7 +17460,8 @@
           "firstSeen": "2026-10-12",
           "lastChanged": "2026-10-12",
           "sourceIds": [
-            "debout-la-france-2026-10-12-projet-justice"
+            "debout-la-france-2026-10-12-projet-justice",
+            "debout-la-france-2026-10-20-communique-20-mesures"
           ],
           "history": [
             {
@@ -17287,6 +17492,29 @@
               "type": "ajout",
               "sourceIds": [
                 "debout-la-france-2026-10-12-projet-justice"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dupontaignan-sec-prison-ferme-multirecidivistes",
+          "themeKey": "sec",
+          "subthemeKey": "sec-peines",
+          "title": "Prison ferme pour les multirécidivistes",
+          "detail": "Nicolas Dupont-Aignan propose la « prison ferme pour les multirécidivistes ». Figure dans le communiqué de presse « 20 mesures chocs pour rétablir l'ordre et défendre la justice sociale » publié le 20 octobre 2026 sur le site de Debout la France, sans chiffre ni calendrier précisés.",
+          "kind": "programme",
+          "status": "active",
+          "firstSeen": "2026-10-20",
+          "lastChanged": "2026-10-20",
+          "sourceIds": [
+            "debout-la-france-2026-10-20-communique-20-mesures"
+          ],
+          "history": [
+            {
+              "date": "2026-10-20",
+              "type": "ajout",
+              "sourceIds": [
+                "debout-la-france-2026-10-20-communique-20-mesures"
               ]
             }
           ]
@@ -62636,6 +62864,16 @@
             "sourceIds": [
               "publicsenat-2026-11-12-grand-oral-services-publics"
             ]
+          },
+          "dupontaignan": {
+            "value": 2,
+            "note": "Propose de supprimer Parcoursup.",
+            "measureIds": [
+              "dupontaignan-edu-suppression-parcoursup"
+            ],
+            "sourceIds": [
+              "debout-la-france-2026-10-20-communique-20-mesures"
+            ]
           }
         }
       },
@@ -79097,9 +79335,26 @@
       "sourceIds": [
         "lcp-2026-11-12-retailleau-propose-une-primaire"
       ]
+    },
+    {
+      "id": "evt-riner-declaration-2026-11-13",
+      "date": "2026-11-13",
+      "type": "declaration",
+      "candidateIds": [
+        "riner"
+      ],
+      "text": "Sur son compte X, à l'issue d'un déplacement à l'hôpital Delafontaine de Saint-Denis, se prononce sur la santé, selon LCP.",
+      "quote": "« urgent de replacer la santé au cœur de nos priorités »",
+      "sourceIds": [
+        "lcp-2026-11-13-face-a-teddy-riner-le-centre-et-la-droite"
+      ]
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-16",
+      "text": "Recherche des nouveautés depuis la mise à jour du 15 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; la liste des candidats publiée par LCP, mise à jour le 14 novembre, ne signale aucun changement de statut. Sondages : aucune enquête saisie ; les enquêtes OpinionWay (10 et 12 novembre) et Cluster 17 (10 novembre) signalées les jours précédents n'ont toujours pas pu être vérifiées (site de la Commission des sondages et rapports des instituts non consultables ce jour) ; elles seront recherchées les jours suivants. Mesures : Nicolas Dupont-Aignan, 9 mesures ajoutées (loi anti-casseurs ; prison ferme pour les multirécidivistes ; expulsion des délinquants étrangers ; suppression des aides sociales non contributives aux étrangers ; primauté du droit français sur le droit européen ; suppression de Parcoursup ; rétablissement d'un bac égalitaire ; priorité aux étudiants français pour les aides universitaires ; exonération de charges sociales pendant un an pour le premier emploi d'un jeune de moins de 26 ans), d'après le communiqué « 20 mesures chocs » publié le 20 octobre 2026 sur le site de Debout la France, ajouté en confirmation à 7 mesures déjà saisies (40 000 places de prison, peines planchers, majorité pénale à 16 ans, fin du droit du sol, capital de 10 000 € par nouveau-né, baisse de 40 centimes des carburants, prix de l'électricité divisé par deux) ; les formules « école des savoirs et du mérite » et « retour aux avantages de l'alternance », sans contenu précis, ne sont pas saisies ; la proposition d'inscrire le maintien de l'argent liquide dans la Constitution, vue dans une publication Facebook non datée reprise sur le site de Debout la France, n'est pas saisie faute de date vérifiable. Questionnaire : 1 position renseignée dans la banque (Nicolas Dupont-Aignan, suppression de Parcoursup) ; thèmes de la banque passés en revue pour Nicolas Dupont-Aignan : éducation, immigration, Europe. Vie de la campagne : 1 fait ajouté, la déclaration de Teddy Riner sur la santé publiée sur X le 13 novembre à l'issue de son déplacement à l'hôpital Delafontaine de Saint-Denis, la date étant désormais établie par l'article de LCP du 13 novembre (« dans la foulée » du déplacement). Parrainages : aucun relevé ajouté, aucune annonce chiffrée nouvelle trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 10 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : Nicolas Dupont-Aignan (voir ci-dessus) ; passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Jean-Noël Barrot, Delphine Batho, Karim Bouamrane, Xavier Bertrand, Anasse Kazib, Selma Labib, Nathalie Arthaud, Jean-François Legendre et Philippe Herlin (seuls des sites agrégateurs, des articles antérieurs déjà sourcés ou des pages inaccessibles ont été trouvés ; le site de campagne d'Anasse Kazib et celui de Lutte ouvrière n'ont pas pu être ouverts ; rien n'est saisi)."
+    },
     {
       "date": "2026-11-15",
       "text": "Recherche des nouveautés depuis la mise à jour du 14 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés. Sondages : aucune enquête saisie ; un site agrégateur mentionne des enquêtes OpinionWay (10 et 12 novembre) et Cluster 17 (10 novembre), mais ni le rapport des instituts ni la notice de la Commission des sondages n'ont pu être ouverts ce jour (site de la Commission inaccessible) : elles ne sont pas saisies et seront recherchées les jours suivants. Mesures : Sylvain Durif, 5 mesures ajoutées (désarmement total ; transition de la République vers la monarchie ; suppression de la fiscalité ; effacement des dettes ; interdiction des OGM), d'après la sélection de mesures de son programme « Zéro Défaut » publiée sur son site de campagne ; la mention « Dénucléarisation », sans précision sur son objet (énergie ou armement), n'est pas saisie, le programme complet au format PDF n'ayant pas pu être lu. Questionnaire : aucune position renseignée, les mesures ajoutées ne justifiant pas à elles seules une position sur les questions du test ou de la banque ; aucun thème de la banque passé en revue pour d'autres candidats. Vie de la campagne : aucun fait ajouté ; les propos de Teddy Riner publiés sur X sur la santé, rapportés par LCP le 13 novembre, ne sont pas saisis faute de date vérifiable de publication ; les articles de LCP du 13 novembre sur les réactions à sa candidature ne citent ni Édouard Philippe, ni Gabriel Attal, ni Bruno Retailleau, ni David Lisnard directement. Parrainages : aucun relevé ajouté, aucune annonce chiffrée nouvelle d'un candidat trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 9 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : Sylvain Durif (voir ci-dessus) ; passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Jean Lassalle, Benoît Mathieu, Olivier Becht, Emmanuel Dubuisson, Matthieu Pigasse, Bruno Le Maire et Rémi Revillon d'Apreval (seuls des sites agrégateurs ou des articles antérieurs, déjà sourcés, ont été trouvés ; rien n'est saisi)."
