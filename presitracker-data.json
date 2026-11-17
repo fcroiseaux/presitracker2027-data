@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T05:52:27Z",
+  "updatedAt": "2026-11-17T05:46:28Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -5991,6 +5991,20 @@
       "url": "https://lcp.fr/actualites/presidentielle-2027-face-a-teddy-riner-le-centre-et-la-droite-cherchent-la-reponse-entre",
       "date": "2026-11-13",
       "kind": "presse"
+    },
+    "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite": {
+      "title": "Présidentielle 2027 : pauvreté, pouvoir d’achat, logement… Le Pen, Melenchon, Glucksmann,  Retailleau, Attal  confrontent leurs visions de la solidarité aux Restos du Cœur",
+      "publisher": "Public Sénat",
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-pauvrete-pouvoir-dachat-logement-le-pen-melenchon-glucksmann-retailleau-attal-confrontent-leurs-visions-de-la-solidarite-aux-restos",
+      "date": "2026-11-17",
+      "kind": "presse"
+    },
+    "quartz-2026-11-16-cinq-candidats-debat-restos-du-coeur": {
+      "title": "Cinq candidats à la présidentielle ont débattu de pauvreté et de pouvoir d'achat",
+      "publisher": "Quartz (édition française)",
+      "url": "https://fr.qz.com/candidats-presidentielle-debattent-pouvoir-achat-pauvrete-restos-coeur-111626",
+      "date": "2026-11-16",
+      "kind": "presse"
     }
   },
   "candidates": [
@@ -9410,6 +9424,52 @@
               "type": "ajout",
               "sourceIds": [
                 "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "attal-fis-suppression-csg",
+          "themeKey": "fis",
+          "subthemeKey": "fis-revenu",
+          "title": "Suppression de la CSG",
+          "detail": "Gabriel Attal propose de supprimer la CSG, lors du débat organisé par TF1 et LCI le 16 novembre 2026 dans un entrepôt des Restos du Cœur, selon Public Sénat (17 novembre 2026). La source ne précise ni les revenus concernés ni le calendrier.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-17",
+          "lastChanged": "2026-11-17",
+          "sourceIds": [
+            "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
+          ],
+          "history": [
+            {
+              "date": "2026-11-17",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "attal-log-banque-nationale-logement",
+          "themeKey": "log",
+          "subthemeKey": "log-construction",
+          "title": "Création d'une « banque nationale pour le logement »",
+          "detail": "Gabriel Attal propose de créer une « banque nationale pour le logement » qui financerait une partie de l'acquisition immobilière des ménages, ceux-ci remboursant le solde au moment de la revente, lors du débat organisé par TF1 et LCI le 16 novembre 2026 dans un entrepôt des Restos du Cœur, selon Public Sénat (17 novembre 2026).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-17",
+          "lastChanged": "2026-11-17",
+          "sourceIds": [
+            "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
+          ],
+          "history": [
+            {
+              "date": "2026-11-17",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
               ]
             }
           ]
@@ -18867,7 +18927,8 @@
           "sourceIds": [
             "blick-2026-11-09-glucksmann-200-milliards-ecologie",
             "batiweb-2026-11-09-glucksmann-revolution-ecologique",
-            "publicsenat-2026-11-09-glucksmann-200-milliards"
+            "publicsenat-2026-11-09-glucksmann-200-milliards",
+            "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
           ],
           "history": [
             {
@@ -19021,6 +19082,52 @@
               "type": "ajout",
               "sourceIds": [
                 "publicsenat-2026-11-09-glucksmann-200-milliards"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glucksmann-ret-petites-pensions-au-dela-inflation",
+          "themeKey": "ret",
+          "subthemeKey": "ret-pensions",
+          "title": "Petites pensions revalorisées au-delà de l'inflation",
+          "detail": "Raphaël Glucksmann propose de relever les petites pensions au-delà de l'inflation et de mieux reconnaître les carrières hachées, notamment celles des femmes, dans le cadre du système par répartition, lors du débat organisé par TF1 et LCI le 16 novembre 2026 dans un entrepôt des Restos du Cœur, selon Public Sénat (17 novembre 2026). La source ne donne pas de chiffre.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-17",
+          "lastChanged": "2026-11-17",
+          "sourceIds": [
+            "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
+          ],
+          "history": [
+            {
+              "date": "2026-11-17",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glucksmann-log-logements-sociaux-vacants",
+          "themeKey": "log",
+          "subthemeKey": "log-social",
+          "title": "Relance de la construction de logements sociaux et remise sur le marché des logements vacants",
+          "detail": "Raphaël Glucksmann propose de relancer la construction de logements sociaux et de remettre sur le marché les logements vacants, lors du débat organisé par TF1 et LCI le 16 novembre 2026 dans un entrepôt des Restos du Cœur, selon Public Sénat (17 novembre 2026). La source ne donne pas de chiffre.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-17",
+          "lastChanged": "2026-11-17",
+          "sourceIds": [
+            "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
+          ],
+          "history": [
+            {
+              "date": "2026-11-17",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
               ]
             }
           ]
@@ -22415,7 +22522,8 @@
           "firstSeen": "2025-10-23",
           "lastChanged": "2025-10-23",
           "sourceIds": [
-            "rassemblementnational-2025-10-23-contre-budget-2026"
+            "rassemblementnational-2025-10-23-contre-budget-2026",
+            "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
           ],
           "history": [
             {
@@ -22646,7 +22754,8 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "rassemblementnational-nd-la-france-entreprend"
+            "rassemblementnational-nd-la-france-entreprend",
+            "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
           ],
           "history": [
             {
@@ -23425,7 +23534,9 @@
           "firstSeen": "2026-09-13",
           "lastChanged": "2026-09-13",
           "sourceIds": [
-            "sudradio-2026-09-13-programme-et-communication-que-vaut-la"
+            "sudradio-2026-09-13-programme-et-communication-que-vaut-la",
+            "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite",
+            "quartz-2026-11-16-cinq-candidats-debat-restos-du-coeur"
           ],
           "history": [
             {
@@ -24185,6 +24296,100 @@
               "type": "ajout",
               "sourceIds": [
                 "europe1-2026-10-25-congres-du-rn-a-orleans-ce-qu-il-faut-retenir"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lepen-log-bureaux-vacants-logements",
+          "themeKey": "log",
+          "subthemeKey": "log-construction",
+          "title": "Transformation des bureaux vacants en logements",
+          "detail": "Marine Le Pen propose de transformer des bureaux vacants en logements, lors du débat organisé par TF1 et LCI le 16 novembre 2026 dans un entrepôt des Restos du Cœur, selon Public Sénat (17 novembre 2026).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-17",
+          "lastChanged": "2026-11-17",
+          "sourceIds": [
+            "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
+          ],
+          "history": [
+            {
+              "date": "2026-11-17",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lepen-edu-hausse-remuneration-apprentis",
+          "themeKey": "edu",
+          "subthemeKey": "edu-pro",
+          "title": "Hausse de la rémunération des apprentis",
+          "detail": "Marine Le Pen propose une hausse de la rémunération des apprentis, lors du débat organisé par TF1 et LCI le 16 novembre 2026 dans un entrepôt des Restos du Cœur, selon Public Sénat (17 novembre 2026). La source ne donne pas de chiffre.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-17",
+          "lastChanged": "2026-11-17",
+          "sourceIds": [
+            "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
+          ],
+          "history": [
+            {
+              "date": "2026-11-17",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lepen-ecol-gratuite-trains-heures-creuses",
+          "themeKey": "ecol",
+          "subthemeKey": "ecol-transports",
+          "title": "Gratuité des trains aux heures creuses",
+          "detail": "Marine Le Pen propose la gratuité des trains aux heures creuses, parmi des aides présentées en faveur des jeunes, lors du débat organisé par TF1 et LCI le 16 novembre 2026 dans un entrepôt des Restos du Cœur, selon Public Sénat (17 novembre 2026). La source ne précise pas les bénéficiaires.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-17",
+          "lastChanged": "2026-11-17",
+          "sourceIds": [
+            "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
+          ],
+          "history": [
+            {
+              "date": "2026-11-17",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lepen-inst-subventions-associations-apolitiques",
+          "themeKey": "inst",
+          "subthemeKey": "inst-ethique",
+          "title": "Subventions publiques réservées aux associations apolitiques",
+          "detail": "Marine Le Pen propose que les associations financées par des fonds publics restent apolitiques et de supprimer les subventions aux associations qu'elle juge « politisées » ; « Si elles veulent faire de la politique, c'est tout à fait leur liberté. Mais à ce moment-là, il faut qu'elles se constituent un parti politique », lors du débat organisé par TF1 et LCI le 16 novembre 2026 dans un entrepôt des Restos du Cœur, selon Public Sénat (17 novembre 2026) et Quartz (16 novembre 2026).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-17",
+          "lastChanged": "2026-11-17",
+          "sourceIds": [
+            "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite",
+            "quartz-2026-11-16-cinq-candidats-debat-restos-du-coeur"
+          ],
+          "history": [
+            {
+              "date": "2026-11-17",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite",
+                "quartz-2026-11-16-cinq-candidats-debat-restos-du-coeur"
               ]
             }
           ]
@@ -29240,7 +29445,8 @@
           "firstSeen": "2026-01-22",
           "lastChanged": "2026-01-22",
           "sourceIds": [
-            "melenchon2027-2026-01-22-laec-ch13-s5-souverainete-alimentaire"
+            "melenchon2027-2026-01-22-laec-ch13-s5-souverainete-alimentaire",
+            "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
           ],
           "history": [
             {
@@ -30330,7 +30536,8 @@
           "sourceIds": [
             "melenchon2027-2026-03-23-laec-ch10-s3-construire-lautonomie-des",
             "melenchon2027-2026-10-14-comment-remettre-ordre-comptes-publics",
-            "melenchon-fr-2026-10-15-tirer-les-comptes-publics"
+            "melenchon-fr-2026-10-15-tirer-les-comptes-publics",
+            "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
           ],
           "history": [
             {
@@ -30550,7 +30757,8 @@
           "lastChanged": "2026-01-22",
           "sourceIds": [
             "melenchon2027-2026-01-22-laec-ch5-s3-reconstruire-une-ecole",
-            "melenchon2027-2026-10-14-comment-remettre-ordre-comptes-publics"
+            "melenchon2027-2026-10-14-comment-remettre-ordre-comptes-publics",
+            "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
           ],
           "history": [
             {
@@ -34338,7 +34546,8 @@
           "lastChanged": "2026-01-22",
           "sourceIds": [
             "melenchon2027-2026-01-22-laec-ch8-s8-garantir-une-retraite-digne",
-            "melenchon2027-2026-10-14-comment-remettre-ordre-comptes-publics"
+            "melenchon2027-2026-10-14-comment-remettre-ordre-comptes-publics",
+            "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
           ],
           "history": [
             {
@@ -44232,7 +44441,8 @@
           "lastChanged": "2026-10-19",
           "sourceIds": [
             "avecretailleau-nd-projet-logement",
-            "avecretailleau-nd-projet-famille"
+            "avecretailleau-nd-projet-famille",
+            "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
           ],
           "history": [
             {
@@ -44538,7 +44748,8 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "avecretailleau-nd-projet-de-bruno-retailleau-retraites"
+            "avecretailleau-nd-projet-de-bruno-retailleau-retraites",
+            "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
           ],
           "history": [
             {
@@ -44608,7 +44819,8 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "avecretailleau-nd-projet-de-bruno-retailleau-retraites"
+            "avecretailleau-nd-projet-de-bruno-retailleau-retraites",
+            "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
           ],
           "history": [
             {
@@ -44923,6 +45135,29 @@
               "type": "ajout",
               "sourceIds": [
                 "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "retailleau-edu-selection-universite",
+          "themeKey": "edu",
+          "subthemeKey": "edu-sup",
+          "title": "Sélection à l'université",
+          "detail": "Bruno Retailleau défend une sélection à l'université, lors du débat organisé par TF1 et LCI le 16 novembre 2026 dans un entrepôt des Restos du Cœur, selon Public Sénat (17 novembre 2026). La source ne précise pas les modalités.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-17",
+          "lastChanged": "2026-11-17",
+          "sourceIds": [
+            "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
+          ],
+          "history": [
+            {
+              "date": "2026-11-17",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
               ]
             }
           ]
@@ -79348,9 +79583,65 @@
       "sourceIds": [
         "lcp-2026-11-13-face-a-teddy-riner-le-centre-et-la-droite"
       ]
+    },
+    {
+      "id": "evt-lepen-declaration-2026-11-16",
+      "date": "2026-11-16",
+      "type": "declaration",
+      "candidateIds": [
+        "lepen"
+      ],
+      "text": "Lors du débat organisé par TF1 et LCI dans un entrepôt des Restos du Cœur, se prononce sur le pouvoir d'achat, selon Public Sénat.",
+      "quote": "« Avant, avec un salaire, on faisait vivre une famille. »",
+      "sourceIds": [
+        "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
+      ]
+    },
+    {
+      "id": "evt-glucksmann-declaration-2026-11-16",
+      "date": "2026-11-16",
+      "type": "declaration",
+      "candidateIds": [
+        "glucksmann"
+      ],
+      "text": "Lors du débat organisé par TF1 et LCI dans un entrepôt des Restos du Cœur, se prononce sur la fiscalité, selon Public Sénat.",
+      "quote": "« Cette théorie du ruissellement ne fonctionne pas. »",
+      "sourceIds": [
+        "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
+      ]
+    },
+    {
+      "id": "evt-melenchon-declaration-2026-11-16",
+      "date": "2026-11-16",
+      "type": "declaration",
+      "candidateIds": [
+        "melenchon"
+      ],
+      "text": "Lors du débat organisé par TF1 et LCI dans un entrepôt des Restos du Cœur, se prononce sur la redistribution, selon Public Sénat.",
+      "quote": "« La règle entre nous doit être le partage. »",
+      "sourceIds": [
+        "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
+      ]
+    },
+    {
+      "id": "evt-attal-declaration-2026-11-16",
+      "date": "2026-11-16",
+      "type": "declaration",
+      "candidateIds": [
+        "attal"
+      ],
+      "text": "Lors du débat organisé par TF1 et LCI dans un entrepôt des Restos du Cœur, se prononce sur la priorité nationale pour l'accès au logement social, selon Public Sénat.",
+      "quote": "« Vous faites une différence entre les Français et les étrangers. »",
+      "sourceIds": [
+        "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
+      ]
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-17",
+      "text": "Recherche des nouveautés depuis la mise à jour du 16 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés. Sondages : aucune enquête saisie ; l'enquête créditant Teddy Riner signalée par France 24 le 15 novembre n'a pas pu être vérifiée (page de France 24 non consultable, site de la Commission des sondages inaccessible, rapport de l'institut non trouvé), pas plus que les enquêtes OpinionWay et Cluster 17 signalées les jours précédents ; elles seront recherchées les jours suivants. Mesures, d'après le compte rendu par Public Sénat (17 novembre) du débat « Quelle société pour demain ? » organisé par TF1 et LCI le 16 novembre dans un entrepôt des Restos du Cœur, auquel ont participé cinq candidats (Édouard Philippe, invité, ayant décliné selon Toute l'Europe et Public Sénat) ; les propositions sans contenu précis (refonte des retraites, priorité au travail) ne sont pas saisies. Gabriel Attal : 2 mesures ajoutées (suppression de la CSG ; « banque nationale pour le logement »). Raphaël Glucksmann : 2 mesures ajoutées (petites pensions revalorisées au-delà de l'inflation ; relance de la construction de logements sociaux et remise sur le marché des logements vacants) ; confirmation sur le passe mobilité des moins de 25 ans. Marine Le Pen : 4 mesures ajoutées (transformation des bureaux vacants en logements ; hausse de la rémunération des apprentis ; gratuité des trains aux heures creuses ; subventions publiques réservées aux associations apolitiques, également d'après Quartz du 16 novembre ; le chiffre de 3,7 Md€ d'économies, cité par Quartz et par Gabriel Attal, n'est pas saisi faute de source primaire) ; confirmations sur la TVA des produits de première nécessité, le logement social réservé aux Français et le complément de revenu des étudiants. Jean-Luc Mélenchon : aucune mesure ajoutée ; confirmations sur la gratuité de la cantine, l'encadrement des marges, les pensions au niveau du SMIC et l'allocation d'autonomie de 1 337 € ; Public Sénat évoque la taxation intégrale des « patrimoines » au-delà de 12 M€ et 400 000 « logements sociaux » par an, formulations qui diffèrent des mesures déjà saisies d'après son programme (héritage maximal de 12 M€ ; 400 000 logements abordables dont 200 000 publics) : aucune mesure n'est modifiée faute de source primaire. Bruno Retailleau : 1 mesure ajoutée (sélection à l'université) ; confirmations sur le logement social attribué en priorité aux actifs, le taux plein à 65 ans et le capital retraite. Questionnaire : aucune position renseignée, les mesures ajoutées ne justifiant à elles seules aucune position du test ni de la banque (la revalorisation des seules petites pensions ne correspond pas à l'affirmation sur toutes les pensions). Rotation de la banque : thèmes pouvoir d'achat, logement, retraites et éducation passés en revue pour les cinq candidats du débat. Vie de la campagne : 4 déclarations ajoutées, datées du 16 novembre (Marine Le Pen, Raphaël Glucksmann, Jean-Luc Mélenchon, Gabriel Attal) ; aucune déclaration de Bruno Retailleau, une déclaration du 10 novembre ayant déjà été publiée pour la semaine. Parrainages : aucun relevé ajouté, aucune annonce chiffrée nouvelle trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 11 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Sébastien Bonnal, Élisabeth Borne, Thierry Breton, Manuel Valls, Mélody Delmur, Clara Egger et François Asselineau (seuls des sites agrégateurs ou des articles antérieurs ont été trouvés ; rien n'est saisi)."
+    },
     {
       "date": "2026-11-16",
       "text": "Recherche des nouveautés depuis la mise à jour du 15 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; la liste des candidats publiée par LCP, mise à jour le 14 novembre, ne signale aucun changement de statut. Sondages : aucune enquête saisie ; les enquêtes OpinionWay (10 et 12 novembre) et Cluster 17 (10 novembre) signalées les jours précédents n'ont toujours pas pu être vérifiées (site de la Commission des sondages et rapports des instituts non consultables ce jour) ; elles seront recherchées les jours suivants. Mesures : Nicolas Dupont-Aignan, 9 mesures ajoutées (loi anti-casseurs ; prison ferme pour les multirécidivistes ; expulsion des délinquants étrangers ; suppression des aides sociales non contributives aux étrangers ; primauté du droit français sur le droit européen ; suppression de Parcoursup ; rétablissement d'un bac égalitaire ; priorité aux étudiants français pour les aides universitaires ; exonération de charges sociales pendant un an pour le premier emploi d'un jeune de moins de 26 ans), d'après le communiqué « 20 mesures chocs » publié le 20 octobre 2026 sur le site de Debout la France, ajouté en confirmation à 7 mesures déjà saisies (40 000 places de prison, peines planchers, majorité pénale à 16 ans, fin du droit du sol, capital de 10 000 € par nouveau-né, baisse de 40 centimes des carburants, prix de l'électricité divisé par deux) ; les formules « école des savoirs et du mérite » et « retour aux avantages de l'alternance », sans contenu précis, ne sont pas saisies ; la proposition d'inscrire le maintien de l'argent liquide dans la Constitution, vue dans une publication Facebook non datée reprise sur le site de Debout la France, n'est pas saisie faute de date vérifiable. Questionnaire : 1 position renseignée dans la banque (Nicolas Dupont-Aignan, suppression de Parcoursup) ; thèmes de la banque passés en revue pour Nicolas Dupont-Aignan : éducation, immigration, Europe. Vie de la campagne : 1 fait ajouté, la déclaration de Teddy Riner sur la santé publiée sur X le 13 novembre à l'issue de son déplacement à l'hôpital Delafontaine de Saint-Denis, la date étant désormais établie par l'article de LCP du 13 novembre (« dans la foulée » du déplacement). Parrainages : aucun relevé ajouté, aucune annonce chiffrée nouvelle trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 10 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : Nicolas Dupont-Aignan (voir ci-dessus) ; passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Jean-Noël Barrot, Delphine Batho, Karim Bouamrane, Xavier Bertrand, Anasse Kazib, Selma Labib, Nathalie Arthaud, Jean-François Legendre et Philippe Herlin (seuls des sites agrégateurs, des articles antérieurs déjà sourcés ou des pages inaccessibles ont été trouvés ; le site de campagne d'Anasse Kazib et celui de Lutte ouvrière n'ont pas pu être ouverts ; rien n'est saisi)."
