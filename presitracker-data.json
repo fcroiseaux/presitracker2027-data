@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T05:46:28Z",
+  "updatedAt": "2026-11-18T05:41:40Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -6004,6 +6004,27 @@
       "publisher": "Quartz (édition française)",
       "url": "https://fr.qz.com/candidats-presidentielle-debattent-pouvoir-achat-pauvrete-restos-coeur-111626",
       "date": "2026-11-16",
+      "kind": "presse"
+    },
+    "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat": {
+      "title": "Fin de l’emploi à vie des fonctionnaires, hausse de la TVA et du salaire net, RIC, suppression du département et du 49.3 : le projet de Bruno Le Maire, non-candidat à la présidentielle",
+      "publisher": "Public Sénat",
+      "url": "https://www.publicsenat.fr/actualites/politique/fin-de-lemploi-a-vie-des-fonctionnaires-hausse-de-la-tva-et-du-salaire-net-ric-suppression-du-departement-et-du-49-3-le-projet-de-bruno-le-maire-non-candidat-a-la-presidentielle",
+      "date": "2026-11-12",
+      "kind": "presse"
+    },
+    "quartz-2026-11-13-le-maire-50-propositions": {
+      "title": "Bruno Le Maire a présenté 50 propositions sans se déclarer candidat à la présidentielle",
+      "publisher": "Quartz (édition française)",
+      "url": "https://fr.qz.com/bruno-le-maire-presente-projet-autre-france-candidature-111326",
+      "date": "2026-11-13",
+      "kind": "presse"
+    },
+    "orange-2026-11-17-attal-retailleau-lisnard-negociations-primaire": {
+      "title": "Présidentielle 2027 : Gabriel Attal, Bruno Retailleau et David Lisnard passent aux négociations pour une primaire",
+      "publisher": "Orange Actualités (6Médias, avec L'Express)",
+      "url": "https://actu.orange.fr/politique/presidentielle-2027-gabriel-attal-bruno-retailleau-et-david-lisnard-passent-aux-negociations-pour-une-primaire-l-express-via-6medias-CNT000002tLevK.html",
+      "date": "2026-11-17",
       "kind": "presse"
     }
   },
@@ -22099,7 +22120,9 @@
           "lastChanged": "2026-06-23",
           "sourceIds": [
             "lcp-2026-06-23-le-maire-dira-en-octobre-s-il-est-candidat",
-            "lagazettefrance-2026-08-23-le-maire-manifeste-autre-france"
+            "lagazettefrance-2026-08-23-le-maire-manifeste-autre-france",
+            "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat",
+            "quartz-2026-11-13-le-maire-50-propositions"
           ],
           "history": [
             {
@@ -22207,14 +22230,16 @@
           "id": "lemaire-fis-tva-contre-charges",
           "themeKey": "fis",
           "subthemeKey": "fis-consommation",
-          "title": "Hausse de 2 à 3 points de TVA en contrepartie d'une baisse des charges salariales",
-          "detail": "Bruno Le Maire propose de transférer en partie le financement de la protection sociale du travail vers la consommation : hausse de 2 à 3 points du taux de TVA, en contrepartie d'une baisse des charges salariales et d'une hausse du salaire net. Proposé dans un manifeste d'une soixantaine de pages publié le 23 août 2026, d'après une dépêche AFP reprise par La Gazette France ; le texte du manifeste lui-même n'a pas été consulté.",
+          "title": "Hausse de 3 points de TVA en contrepartie d'une baisse des charges salariales",
+          "detail": "Bruno Le Maire propose de transférer en partie le financement de la protection sociale du travail vers la consommation : hausse de 2 à 3 points du taux de TVA, en contrepartie d'une baisse des charges salariales et d'une hausse du salaire net. Proposé dans un manifeste d'une soixantaine de pages publié le 23 août 2026, d'après une dépêche AFP reprise par La Gazette France ; le texte du manifeste lui-même n'a pas été consulté. Lors de la présentation de son projet « Une autre France » le 12 novembre 2026, il précise « l’augmentation de 3 points du taux de TVA », avec le triplement de la taxe sur les géants du numérique et la hausse des droits de douane sur les produits carbonés, pour « récupérer 50 milliards d’euros pour les salariés, qui auront 200 euros net en plus par mois pour un salaire moyen », selon Public Sénat (12 novembre 2026) ; Quartz (13 novembre 2026) évoque une hausse de 200 euros par mois du salaire médian.",
           "kind": "programme",
           "status": "active",
           "firstSeen": "2026-08-23",
-          "lastChanged": "2026-08-23",
+          "lastChanged": "2026-11-18",
           "sourceIds": [
-            "lagazettefrance-2026-08-23-le-maire-manifeste-autre-france"
+            "lagazettefrance-2026-08-23-le-maire-manifeste-autre-france",
+            "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat",
+            "quartz-2026-11-13-le-maire-50-propositions"
           ],
           "history": [
             {
@@ -22222,6 +22247,17 @@
               "type": "ajout",
               "sourceIds": [
                 "lagazettefrance-2026-08-23-le-maire-manifeste-autre-france"
+              ]
+            },
+            {
+              "date": "2026-11-18",
+              "type": "modification",
+              "before": "Hausse de 2 à 3 points de TVA en contrepartie d'une baisse des charges salariales — Bruno Le Maire propose de transférer en partie le financement de la protection sociale du travail vers la consommation : hausse de 2 à 3 points du taux de TVA, en contrepartie d'une baisse des charges salariales et d'une hausse du salaire net. Proposé dans un manifeste d'une soixantaine de pages publié le 23 août 2026, d'après une dépêche AFP reprise par La Gazette France ; le texte du manifeste lui-même n'a pas été consulté.",
+              "after": "Hausse de 3 points de TVA en contrepartie d'une baisse des charges salariales — Bruno Le Maire propose de transférer en partie le financement de la protection sociale du travail vers la consommation : hausse de 2 à 3 points du taux de TVA, en contrepartie d'une baisse des charges salariales et d'une hausse du salaire net. Proposé dans un manifeste d'une soixantaine de pages publié le 23 août 2026, d'après une dépêche AFP reprise par La Gazette France ; le texte du manifeste lui-même n'a pas été consulté. Lors de la présentation de son projet « Une autre France » le 12 novembre 2026, il précise « l’augmentation de 3 points du taux de TVA », avec le triplement de la taxe sur les géants du numérique et la hausse des droits de douane sur les produits carbonés, pour « récupérer 50 milliards d’euros pour les salariés, qui auront 200 euros net en plus par mois pour un salaire moyen », selon Public Sénat (12 novembre 2026) ; Quartz (13 novembre 2026) évoque une hausse de 200 euros par mois du salaire médian.",
+              "note": "Hausse de TVA précisée à 3 points ; gain de 200 € nets par mois annoncé.",
+              "sourceIds": [
+                "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat",
+                "quartz-2026-11-13-le-maire-50-propositions"
               ]
             }
           ]
@@ -22237,7 +22273,8 @@
           "firstSeen": "2026-08-23",
           "lastChanged": "2026-08-23",
           "sourceIds": [
-            "lagazettefrance-2026-08-23-le-maire-manifeste-autre-france"
+            "lagazettefrance-2026-08-23-le-maire-manifeste-autre-france",
+            "quartz-2026-11-13-le-maire-50-propositions"
           ],
           "history": [
             {
@@ -22268,6 +22305,313 @@
               "type": "ajout",
               "sourceIds": [
                 "lagazettefrance-2026-08-23-le-maire-manifeste-autre-france"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lemaire-fin-fin-emploi-a-vie",
+          "themeKey": "fin",
+          "subthemeKey": "fin-etat",
+          "title": "Fin de l'emploi à vie dans la fonction publique, hors fonctions régaliennes",
+          "detail": "Bruno Le Maire propose de « mettre fin à l’emploi à vie dans la fonction publique, en réservant l’emploi à vie pour les fonctions régaliennes », lors de la présentation de son projet « Une autre France » le 12 novembre 2026, selon Public Sénat (12 novembre 2026).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lemaire-sec-responsabilite-penale-16-ans",
+          "themeKey": "sec",
+          "subthemeKey": "sec-mineurs",
+          "title": "Responsabilité pénale engagée dès 16 ans",
+          "detail": "Bruno Le Maire propose que la responsabilité pénale soit « engagée dès 16 ans », lors de la présentation de son projet « Une autre France » le 12 novembre 2026, selon Public Sénat (12 novembre 2026).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lemaire-ent-chomage-12-mois",
+          "themeKey": "ent",
+          "subthemeKey": "ent-chomage",
+          "title": "Indemnisation du chômage limitée à 12 mois pour les moins de 55 ans",
+          "detail": "Bruno Le Maire propose une « durée maximale d’indemnités chômage de 12 mois pour les moins de 55 ans », lors de la présentation de son projet « Une autre France » le 12 novembre 2026, selon Public Sénat (12 novembre 2026).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lemaire-fis-triplement-taxe-numerique",
+          "themeKey": "fis",
+          "subthemeKey": "fis-entreprises",
+          "title": "Triplement de la taxe sur les géants du numérique",
+          "detail": "Bruno Le Maire propose « le triplement de la taxe sur les géants du numérique », parmi les ressources destinées à financer la baisse des charges sur les salaires, lors de la présentation de son projet « Une autre France » le 12 novembre 2026, selon Public Sénat (12 novembre 2026) ; également rapporté par Quartz (13 novembre 2026).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat",
+            "quartz-2026-11-13-le-maire-50-propositions"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat",
+                "quartz-2026-11-13-le-maire-50-propositions"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lemaire-eur-douanes-produits-carbones",
+          "themeKey": "eur",
+          "subthemeKey": "eur-commerce",
+          "title": "Hausse des droits de douane sur les produits carbonés importés en Europe",
+          "detail": "Bruno Le Maire propose « l’augmentation des tarifs douaniers pour tous les produits carbonés qui viennent en Europe », parmi les ressources destinées à financer la baisse des charges sur les salaires, lors de la présentation de son projet « Une autre France » le 12 novembre 2026, selon Public Sénat (12 novembre 2026) ; également rapporté par Quartz (13 novembre 2026).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat",
+            "quartz-2026-11-13-le-maire-50-propositions"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat",
+                "quartz-2026-11-13-le-maire-50-propositions"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lemaire-inst-suppression-departements",
+          "themeKey": "inst",
+          "subthemeKey": "inst-decentralisation",
+          "title": "Suppression des départements, fusionnés avec les régions",
+          "detail": "Bruno Le Maire propose la « suppression des départements, fusionnés avec les régions », lors de la présentation de son projet « Une autre France » le 12 novembre 2026, selon Public Sénat (12 novembre 2026) ; également rapporté par Quartz (13 novembre 2026).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat",
+            "quartz-2026-11-13-le-maire-50-propositions"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat",
+                "quartz-2026-11-13-le-maire-50-propositions"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lemaire-inst-censure-constructive-fin-49-3",
+          "themeKey": "inst",
+          "subthemeKey": "inst-parlement",
+          "title": "Motion de censure constructive en contrepartie de l'abandon du 49.3",
+          "detail": "Bruno Le Maire propose une « motion de censure constructive », assortie d'« une solution alternative », en contrepartie de « l’abandon du 49.3 », lors de la présentation de son projet « Une autre France » le 12 novembre 2026, selon Public Sénat (12 novembre 2026).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lemaire-fin-veto-ministre-finances",
+          "themeKey": "fin",
+          "subthemeKey": "fin-regles",
+          "title": "Droit de veto du ministre des Finances sur les dépenses publiques",
+          "detail": "Bruno Le Maire propose de donner au ministre des Finances un « droit de véto sur les dépenses publiques », lors de la présentation de son projet « Une autre France » le 12 novembre 2026, selon Public Sénat (12 novembre 2026).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lemaire-inst-reduction-droit-amendement-budget",
+          "themeKey": "inst",
+          "subthemeKey": "inst-parlement",
+          "title": "Réduction du droit d'amendement des parlementaires sur le budget",
+          "detail": "Bruno Le Maire propose de « réduire le droit d’amendement des parlementaires sur le budget », lors de la présentation de son projet « Une autre France » le 12 novembre 2026, selon Public Sénat (12 novembre 2026).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lemaire-inst-gouvernement-10-membres",
+          "themeKey": "inst",
+          "subthemeKey": "inst-constitution",
+          "title": "Gouvernement de 10 membres",
+          "detail": "Bruno Le Maire propose un gouvernement de 10 membres, lors de la présentation de son projet le 12 novembre 2026, selon Quartz (13 novembre 2026), d'après l'AFP.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "quartz-2026-11-13-le-maire-50-propositions"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "quartz-2026-11-13-le-maire-50-propositions"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lemaire-inst-serie-referendums",
+          "themeKey": "inst",
+          "subthemeKey": "inst-referendum",
+          "title": "Série de référendums, dont une « charte de l’immigration »",
+          "detail": "Bruno Le Maire propose « une série de référendums », notamment sur une « charte de l’immigration » et sur « la simplification du Code de l’environnement, du Code du travail et du Code de la construction publique », lors de la présentation de son projet « Une autre France » le 12 novembre 2026, selon Public Sénat (12 novembre 2026) ; Quartz (13 novembre 2026) mentionne « un recours régulier au référendum ».",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat",
+            "quartz-2026-11-13-le-maire-50-propositions"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat",
+                "quartz-2026-11-13-le-maire-50-propositions"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lemaire-inst-ric-un-million-signatures",
+          "themeKey": "inst",
+          "subthemeKey": "inst-referendum",
+          "title": "Référendum d'initiative citoyenne à partir d'un million de signatures",
+          "detail": "Bruno Le Maire se prononce pour le référendum d'initiative citoyenne (RIC), qui permettrait d'organiser un référendum sur un sujet réunissant « un million de signatures », lors de la présentation de son projet « Une autre France » le 12 novembre 2026, selon Public Sénat (12 novembre 2026).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lemaire-log-pret-garanti-moins-30-ans",
+          "themeKey": "log",
+          "subthemeKey": "log-construction",
+          "title": "Prêt immobilier garanti par l'État pour les moins de 30 ans",
+          "detail": "Bruno Le Maire propose un prêt immobilier garanti par l'État pour les moins de 30 ans, lors de la présentation de son projet le 12 novembre 2026, selon Quartz (13 novembre 2026), d'après l'AFP.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-12",
+          "lastChanged": "2026-11-12",
+          "sourceIds": [
+            "quartz-2026-11-13-le-maire-50-propositions"
+          ],
+          "history": [
+            {
+              "date": "2026-11-12",
+              "type": "ajout",
+              "sourceIds": [
+                "quartz-2026-11-13-le-maire-50-propositions"
               ]
             }
           ]
@@ -59141,6 +59485,16 @@
             "sourceIds": [
               "odanie2027-nd-le-manifeste-illustre"
             ]
+          },
+          "lemaire": {
+            "value": 2,
+            "note": "Se prononce pour le référendum d'initiative citoyenne à partir d'un million de signatures.",
+            "measureIds": [
+              "lemaire-inst-ric-un-million-signatures"
+            ],
+            "sourceIds": [
+              "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat"
+            ]
           }
         }
       },
@@ -60542,6 +60896,16 @@
             "sourceIds": [
               "les-patriotes-2026-09-15-projet-pour-la-france-2026",
               "les-patriotes-nd-projet-pour-la-france-2026-2027"
+            ]
+          },
+          "lemaire": {
+            "value": 2,
+            "note": "Propose de limiter à 12 mois l'indemnisation du chômage pour les moins de 55 ans.",
+            "measureIds": [
+              "lemaire-ent-chomage-12-mois"
+            ],
+            "sourceIds": [
+              "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat"
             ]
           }
         }
@@ -62237,6 +62601,16 @@
             ],
             "sourceIds": [
               "fabienroussel2027-2026-10-05-services-publics-notre-richesse"
+            ]
+          },
+          "lemaire": {
+            "value": 2,
+            "note": "Propose de mettre fin à l'emploi à vie dans la fonction publique, en le réservant aux fonctions régaliennes.",
+            "measureIds": [
+              "lemaire-fin-fin-emploi-a-vie"
+            ],
+            "sourceIds": [
+              "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat"
             ]
           }
         }
@@ -65085,6 +65459,17 @@
             "sourceIds": [
               "melenchon2027-2026-01-22-laec-ch9-s2-reindustrialiser-et"
             ]
+          },
+          "lemaire": {
+            "value": 1,
+            "note": "Propose d'augmenter les droits de douane sur tous les produits carbonés importés en Europe.",
+            "measureIds": [
+              "lemaire-eur-douanes-produits-carbones"
+            ],
+            "sourceIds": [
+              "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat",
+              "quartz-2026-11-13-le-maire-50-propositions"
+            ]
           }
         }
       },
@@ -66299,6 +66684,16 @@
             ],
             "sourceIds": [
               "timefrance-2026-08-28-les-visages-des-presidentielles-2027-x"
+            ]
+          },
+          "lemaire": {
+            "value": 1,
+            "note": "Propose que la responsabilité pénale soit « engagée dès 16 ans ».",
+            "measureIds": [
+              "lemaire-sec-responsabilite-penale-16-ans"
+            ],
+            "sourceIds": [
+              "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat"
             ]
           }
         }
@@ -67701,6 +68096,16 @@
             ],
             "sourceIds": [
               "la-convention-2026-07-15-lettre-aux-francais"
+            ]
+          },
+          "lemaire": {
+            "value": 2,
+            "note": "Propose « l’abandon du 49.3 » en contrepartie d'une motion de censure constructive.",
+            "measureIds": [
+              "lemaire-inst-censure-constructive-fin-49-3"
+            ],
+            "sourceIds": [
+              "publicsenat-2026-11-12-projet-bruno-le-maire-non-candidat"
             ]
           }
         }
@@ -79635,9 +80040,26 @@
       "sourceIds": [
         "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite"
       ]
+    },
+    {
+      "id": "evt-philippe-declaration-2026-11-15",
+      "date": "2026-11-15",
+      "type": "declaration",
+      "candidateIds": [
+        "philippe"
+      ],
+      "text": "Dans un entretien au Parisien, se prononce sur la proposition d'une primaire de la droite et du centre, rapporté par 6Médias et L'Express (Orange Actualités) d'après Le Parisien.",
+      "quote": "« Si c'est pour reparler d'une primaire, je ne vois pas l'intérêt »",
+      "sourceIds": [
+        "orange-2026-11-17-attal-retailleau-lisnard-negociations-primaire"
+      ]
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-18",
+      "text": "Recherche des nouveautés depuis la mise à jour du 17 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; la liste des candidats publiée par LCP (mise à jour le 14 novembre) ne signale aucun changement de statut. Sondages : aucune enquête saisie ; les notices de la Commission des sondages des enquêtes OpinionWay pour CNEWS (12 novembre) et OpinionWay « Presitrack » (13 novembre) ont été repérées, mais n'ont pas pu être ouvertes (site de la Commission inaccessible), pas plus que l'article de France 24 du 15 novembre sur l'enquête créditant Teddy Riner ; l'article de Public Sénat du 4 novembre porte sur l'enquête Ifop pour LCI déjà saisie. Ces enquêtes seront recherchées les jours suivants. Mesures : Bruno Le Maire, 13 mesures ajoutées et 1 modifiée, d'après les comptes rendus par Public Sénat (12 novembre) et Quartz (13 novembre) de la présentation de son projet « Une autre France » (50 propositions) le 12 novembre, sans déclaration de candidature ; le document du projet n'a pas été trouvé : mesures ajoutées (fin de l'emploi à vie dans la fonction publique hors fonctions régaliennes ; responsabilité pénale dès 16 ans ; indemnisation du chômage limitée à 12 mois pour les moins de 55 ans ; triplement de la taxe sur les géants du numérique ; hausse des droits de douane sur les produits carbonés importés ; suppression des départements fusionnés avec les régions ; motion de censure constructive en contrepartie de l'abandon du 49.3 ; droit de veto du ministre des Finances sur les dépenses publiques ; réduction du droit d'amendement sur le budget ; gouvernement de 10 membres ; série de référendums ; RIC à partir d'un million de signatures ; prêt immobilier garanti par l'État pour les moins de 30 ans), mesure modifiée (hausse de TVA précisée à 3 points, avec un gain annoncé de 200 € nets par mois) ; confirmations sur la retraite à 65 ans et la fédération de six États européens. La désindexation temporaire des pensions de base décrite par Quartz n'est pas saisie séparément, la mesure de désindexation déjà publiée n'étant pas modifiée faute de source primaire ; la « possibilité de garde collective à partir d’un an » et l'objectif de doublement du salaire médian ne sont pas saisis, faute de contenu précis. Questionnaire : 6 positions renseignées pour Bruno Le Maire, dont 1 du test (référendum d'initiative citoyenne) et 5 de la banque (suppression du 49.3, réduction de la durée d'indemnisation du chômage, recrutement sous contrat hors fonctions régaliennes, majorité pénale à 16 ans, ajustement carbone aux frontières). Rotation de la banque : thèmes institutions, finances publiques, emploi et sécurité passés en revue pour Bruno Le Maire. Vie de la campagne : 1 déclaration ajoutée, celle d'Édouard Philippe dans un entretien au Parisien du 15 novembre sur la proposition de primaire de la droite et du centre, rapportée par 6Médias et L'Express (Orange Actualités, 17 novembre) à défaut de l'article original ; la réunion du 17 novembre des équipes de Gabriel Attal, Bruno Retailleau et David Lisnard sur les modalités d'une primaire n'est pas saisie comme alliance, aucun accord n'étant annoncé ; aucune citation directe de ces trois candidats ni de Jean-Luc Mélenchon (dîner du 17 novembre avec des chefs d'entreprise, selon LCP) n'a été trouvée. Bruno Le Maire n'étant pas déclaré, aucune déclaration n'est publiée pour lui. Parrainages : aucun relevé ajouté, aucune annonce chiffrée nouvelle trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 12 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Natacha Polony, François Hollande, David Saforcada, Erwan Rohou, Gilles Platret et Rémi Revillon d'Apreval (seuls des sites agrégateurs ou des articles antérieurs ont été trouvés ; rien n'est saisi) ; François Hollande, selon LCP, prévoit d'attendre janvier pour décider de sa candidature."
+    },
     {
       "date": "2026-11-17",
       "text": "Recherche des nouveautés depuis la mise à jour du 16 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés. Sondages : aucune enquête saisie ; l'enquête créditant Teddy Riner signalée par France 24 le 15 novembre n'a pas pu être vérifiée (page de France 24 non consultable, site de la Commission des sondages inaccessible, rapport de l'institut non trouvé), pas plus que les enquêtes OpinionWay et Cluster 17 signalées les jours précédents ; elles seront recherchées les jours suivants. Mesures, d'après le compte rendu par Public Sénat (17 novembre) du débat « Quelle société pour demain ? » organisé par TF1 et LCI le 16 novembre dans un entrepôt des Restos du Cœur, auquel ont participé cinq candidats (Édouard Philippe, invité, ayant décliné selon Toute l'Europe et Public Sénat) ; les propositions sans contenu précis (refonte des retraites, priorité au travail) ne sont pas saisies. Gabriel Attal : 2 mesures ajoutées (suppression de la CSG ; « banque nationale pour le logement »). Raphaël Glucksmann : 2 mesures ajoutées (petites pensions revalorisées au-delà de l'inflation ; relance de la construction de logements sociaux et remise sur le marché des logements vacants) ; confirmation sur le passe mobilité des moins de 25 ans. Marine Le Pen : 4 mesures ajoutées (transformation des bureaux vacants en logements ; hausse de la rémunération des apprentis ; gratuité des trains aux heures creuses ; subventions publiques réservées aux associations apolitiques, également d'après Quartz du 16 novembre ; le chiffre de 3,7 Md€ d'économies, cité par Quartz et par Gabriel Attal, n'est pas saisi faute de source primaire) ; confirmations sur la TVA des produits de première nécessité, le logement social réservé aux Français et le complément de revenu des étudiants. Jean-Luc Mélenchon : aucune mesure ajoutée ; confirmations sur la gratuité de la cantine, l'encadrement des marges, les pensions au niveau du SMIC et l'allocation d'autonomie de 1 337 € ; Public Sénat évoque la taxation intégrale des « patrimoines » au-delà de 12 M€ et 400 000 « logements sociaux » par an, formulations qui diffèrent des mesures déjà saisies d'après son programme (héritage maximal de 12 M€ ; 400 000 logements abordables dont 200 000 publics) : aucune mesure n'est modifiée faute de source primaire. Bruno Retailleau : 1 mesure ajoutée (sélection à l'université) ; confirmations sur le logement social attribué en priorité aux actifs, le taux plein à 65 ans et le capital retraite. Questionnaire : aucune position renseignée, les mesures ajoutées ne justifiant à elles seules aucune position du test ni de la banque (la revalorisation des seules petites pensions ne correspond pas à l'affirmation sur toutes les pensions). Rotation de la banque : thèmes pouvoir d'achat, logement, retraites et éducation passés en revue pour les cinq candidats du débat. Vie de la campagne : 4 déclarations ajoutées, datées du 16 novembre (Marine Le Pen, Raphaël Glucksmann, Jean-Luc Mélenchon, Gabriel Attal) ; aucune déclaration de Bruno Retailleau, une déclaration du 10 novembre ayant déjà été publiée pour la semaine. Parrainages : aucun relevé ajouté, aucune annonce chiffrée nouvelle trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 11 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Sébastien Bonnal, Élisabeth Borne, Thierry Breton, Manuel Valls, Mélody Delmur, Clara Egger et François Asselineau (seuls des sites agrégateurs ou des articles antérieurs ont été trouvés ; rien n'est saisi)."
