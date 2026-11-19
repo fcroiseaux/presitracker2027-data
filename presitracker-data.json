@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T05:41:40Z",
+  "updatedAt": "2026-11-19T05:47:50Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -6025,6 +6025,20 @@
       "publisher": "Orange Actualités (6Médias, avec L'Express)",
       "url": "https://actu.orange.fr/politique/presidentielle-2027-gabriel-attal-bruno-retailleau-et-david-lisnard-passent-aux-negociations-pour-une-primaire-l-express-via-6medias-CNT000002tLevK.html",
       "date": "2026-11-17",
+      "kind": "presse"
+    },
+    "publicsenat-2026-11-18-philippe-projet-massif-serieux": {
+      "title": "Capitalisation, suppression de 250.000 postes de fonctionnaires, autonomie des écoles, fin des 35 heures, aides pour les familles : Edouard Philippe présente son projet « massif et sérieux »",
+      "publisher": "Public Sénat",
+      "url": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et",
+      "date": "2026-11-18",
+      "kind": "presse"
+    },
+    "orange-2026-11-18-tondelier-candidature-melenchon": {
+      "title": "Présidentielle 2027 : Marine Tondelier \"prête à travailler autour de la candidature de Jean-Luc Mélenchon\"",
+      "publisher": "Orange Actualités (6Médias, avec L'Express)",
+      "url": "https://actu.orange.fr/politique/presidentielle-2027-marine-tondelier-prete-a-travailler-autour-de-la-candidature-de-jean-luc-melenchon-l-express-via-6medias-CNT000002tNRxL.html",
+      "date": "2026-11-18",
       "kind": "presse"
     }
   },
@@ -36705,7 +36719,8 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus"
+            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus",
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
           ],
           "history": [
             {
@@ -36777,7 +36792,8 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "edouardphilippe-nd-pour-une-france-plus-conquerante"
+            "edouardphilippe-nd-pour-une-france-plus-conquerante",
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
           ],
           "history": [
             {
@@ -36946,7 +36962,8 @@
           "lastChanged": "2026-10-19",
           "sourceIds": [
             "edouardphilippe-nd-pour-une-france-plus-attentive-a",
-            "publicsenat-2026-11-12-grand-oral-services-publics"
+            "publicsenat-2026-11-12-grand-oral-services-publics",
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
           ],
           "history": [
             {
@@ -36994,7 +37011,8 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "edouardphilippe-nd-pour-une-france-plus-attentive-a"
+            "edouardphilippe-nd-pour-une-france-plus-attentive-a",
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
           ],
           "history": [
             {
@@ -37018,7 +37036,8 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "edouardphilippe-nd-pour-une-france-plus-attentive-a"
+            "edouardphilippe-nd-pour-une-france-plus-attentive-a",
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
           ],
           "history": [
             {
@@ -37042,7 +37061,8 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "edouardphilippe-nd-pour-une-france-plus-attentive-a"
+            "edouardphilippe-nd-pour-une-france-plus-attentive-a",
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
           ],
           "history": [
             {
@@ -37066,7 +37086,8 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "edouardphilippe-nd-pour-une-france-plus-attentive-a"
+            "edouardphilippe-nd-pour-une-france-plus-attentive-a",
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
           ],
           "history": [
             {
@@ -37210,7 +37231,8 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus"
+            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus",
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
           ],
           "history": [
             {
@@ -37282,7 +37304,8 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus"
+            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus",
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
           ],
           "history": [
             {
@@ -37330,7 +37353,8 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus"
+            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus",
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
           ],
           "history": [
             {
@@ -37571,7 +37595,8 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus"
+            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus",
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
           ],
           "history": [
             {
@@ -37643,7 +37668,8 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus"
+            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus",
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
           ],
           "history": [
             {
@@ -37667,7 +37693,8 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "edouardphilippe-nd-pour-une-france-plus-attentive-a"
+            "edouardphilippe-nd-pour-une-france-plus-attentive-a",
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
           ],
           "history": [
             {
@@ -37861,7 +37888,8 @@
           "sourceIds": [
             "edouardphilippe-nd-edouard-philippe-pour-une-france-plus-2",
             "orange-2026-10-27-philippe-immigration-legale-par-deux",
-            "21news-2026-10-28-philippe-echec-integration"
+            "21news-2026-10-28-philippe-echec-integration",
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
           ],
           "history": [
             {
@@ -37909,7 +37937,8 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus-2"
+            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus-2",
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
           ],
           "history": [
             {
@@ -37933,7 +37962,8 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus-2"
+            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus-2",
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
           ],
           "history": [
             {
@@ -38224,7 +38254,8 @@
           "lastChanged": "2026-09-30",
           "sourceIds": [
             "lcp-2026-09-30-retraites-edouard-philippe-veut-porter-l",
-            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus"
+            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus",
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
           ],
           "history": [
             {
@@ -38247,7 +38278,8 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "edouardphilippe-nd-pour-une-france-plus-attentive-a"
+            "edouardphilippe-nd-pour-une-france-plus-attentive-a",
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
           ],
           "history": [
             {
@@ -38272,7 +38304,8 @@
           "lastChanged": "2026-09-30",
           "sourceIds": [
             "lcp-2026-09-30-retraites-edouard-philippe-veut-porter-l",
-            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus"
+            "edouardphilippe-nd-edouard-philippe-pour-une-france-plus",
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
           ],
           "history": [
             {
@@ -38343,7 +38376,8 @@
           "firstSeen": "2026-10-19",
           "lastChanged": "2026-10-19",
           "sourceIds": [
-            "edouardphilippe-nd-pour-une-france-plus-attentive-a"
+            "edouardphilippe-nd-pour-une-france-plus-attentive-a",
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
           ],
           "history": [
             {
@@ -38708,7 +38742,8 @@
           "sourceIds": [
             "edouardphilippe-nd-edouard-philippe-pour-une-france-plus-2",
             "21news-2026-10-28-philippe-echec-integration",
-            "publicsenat-2026-11-12-grand-oral-services-publics"
+            "publicsenat-2026-11-12-grand-oral-services-publics",
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
           ],
           "history": [
             {
@@ -38803,7 +38838,8 @@
           "firstSeen": "2026-11-12",
           "lastChanged": "2026-11-12",
           "sourceIds": [
-            "publicsenat-2026-11-12-grand-oral-services-publics"
+            "publicsenat-2026-11-12-grand-oral-services-publics",
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
           ],
           "history": [
             {
@@ -38819,14 +38855,15 @@
           "id": "philippe-sec-nouvelles-places-prison",
           "themeKey": "sec",
           "subthemeKey": "sec-prisons",
-          "title": "Construction de nouvelles places de prison",
-          "detail": "Édouard Philippe propose de construire de nouvelles places de prison, sans nombre précisé par la source. Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+          "title": "Construction de 30 000 places de prison",
+          "detail": "Édouard Philippe propose de construire 30 000 places de prison. Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, sans nombre précisé, selon Public Sénat ; chiffré dans le projet présenté le 18 novembre 2026 à Paris, selon Public Sénat.",
           "kind": "declaration",
           "status": "active",
           "firstSeen": "2026-11-12",
-          "lastChanged": "2026-11-12",
+          "lastChanged": "2026-11-19",
           "sourceIds": [
-            "publicsenat-2026-11-12-grand-oral-services-publics"
+            "publicsenat-2026-11-12-grand-oral-services-publics",
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
           ],
           "history": [
             {
@@ -38834,6 +38871,16 @@
               "type": "ajout",
               "sourceIds": [
                 "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            },
+            {
+              "date": "2026-11-19",
+              "type": "modification",
+              "before": "Construction de nouvelles places de prison — Édouard Philippe propose de construire de nouvelles places de prison, sans nombre précisé par la source. Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, selon Public Sénat.",
+              "after": "Construction de 30 000 places de prison — Édouard Philippe propose de construire 30 000 places de prison. Déclaré lors du grand oral des candidats sur les services publics organisé par Radio France le 12 novembre 2026, sans nombre précisé, selon Public Sénat ; chiffré dans le projet présenté le 18 novembre 2026 à Paris, selon Public Sénat.",
+              "note": "Nombre de places précisé : 30 000.",
+              "sourceIds": [
+                "publicsenat-2026-11-18-philippe-projet-massif-serieux"
               ]
             }
           ]
@@ -38857,6 +38904,190 @@
               "type": "ajout",
               "sourceIds": [
                 "publicsenat-2026-11-12-grand-oral-services-publics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "philippe-ret-pilotage-partenaires-sociaux",
+          "themeKey": "ret",
+          "subthemeKey": "ret-financement",
+          "title": "Pilotage du système de retraite confié aux partenaires sociaux",
+          "detail": "Édouard Philippe propose, après la réforme des retraites, de confier le pilotage du système aux partenaires sociaux, avec une « règle d'or d'équilibre ». Figure dans le projet présenté le 18 novembre 2026 à Paris, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-18",
+          "lastChanged": "2026-11-18",
+          "sourceIds": [
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
+          ],
+          "history": [
+            {
+              "date": "2026-11-18",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-18-philippe-projet-massif-serieux"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "philippe-log-suppression-zan",
+          "themeKey": "log",
+          "subthemeKey": "log-territoires",
+          "title": "Suppression de l'objectif « zéro artificialisation nette »",
+          "detail": "Édouard Philippe propose de supprimer l'objectif de « zéro artificialisation nette » des sols. Figure dans le projet présenté le 18 novembre 2026 à Paris, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-18",
+          "lastChanged": "2026-11-18",
+          "sourceIds": [
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
+          ],
+          "history": [
+            {
+              "date": "2026-11-18",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-18-philippe-projet-massif-serieux"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "philippe-sec-videoprotection-ia",
+          "themeKey": "sec",
+          "subthemeKey": "sec-police",
+          "title": "Vidéoprotection avec intelligence artificielle",
+          "detail": "Édouard Philippe propose d'utiliser la vidéoprotection avec intelligence artificielle « pour identifier les casseurs et les criminels ». Figure dans le projet présenté le 18 novembre 2026 à Paris, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-18",
+          "lastChanged": "2026-11-18",
+          "sourceIds": [
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
+          ],
+          "history": [
+            {
+              "date": "2026-11-18",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-18-philippe-projet-massif-serieux"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "philippe-sec-reconnaissance-faciale-ciblee",
+          "themeKey": "sec",
+          "subthemeKey": "sec-police",
+          "title": "Reconnaissance faciale autorisée de façon ciblée",
+          "detail": "Édouard Philippe propose d'« autoriser la reconnaissance faciale de façon ciblée et strictement encadrée ». Figure dans le projet présenté le 18 novembre 2026 à Paris, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-18",
+          "lastChanged": "2026-11-18",
+          "sourceIds": [
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
+          ],
+          "history": [
+            {
+              "date": "2026-11-18",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-18-philippe-projet-massif-serieux"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "philippe-eco-rsa-moins-30-pct",
+          "themeKey": "eco",
+          "subthemeKey": "eco-prestations",
+          "title": "Nombre d'allocataires du RSA réduit de 30 %",
+          "detail": "Édouard Philippe fixe l'objectif de réduire de 30 % le nombre d'allocataires du RSA. Figure dans le projet présenté le 18 novembre 2026 à Paris, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-18",
+          "lastChanged": "2026-11-18",
+          "sourceIds": [
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
+          ],
+          "history": [
+            {
+              "date": "2026-11-18",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-18-philippe-projet-massif-serieux"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "philippe-log-frais-notaire-moins-35-ans",
+          "themeKey": "log",
+          "subthemeKey": "log-construction",
+          "title": "Suppression des frais de notaire pour les moins de 35 ans sur la première résidence principale",
+          "detail": "Édouard Philippe propose de supprimer les frais de notaire pour l'achat d'une première résidence principale par les moins de 35 ans, soit, selon le projet, « une réduction de 7.000 euros pour une maison de 100.000 euros ». Figure dans le projet présenté le 18 novembre 2026 à Paris, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-18",
+          "lastChanged": "2026-11-18",
+          "sourceIds": [
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
+          ],
+          "history": [
+            {
+              "date": "2026-11-18",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-18-philippe-projet-massif-serieux"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "philippe-edu-selection-universite",
+          "themeKey": "edu",
+          "subthemeKey": "edu-sup",
+          "title": "Sélection à l'université",
+          "detail": "Édouard Philippe propose d'« assumer la sélection à l'université » en laissant chaque université décider de son mode de sélection. Figure dans le projet présenté le 18 novembre 2026 à Paris, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-18",
+          "lastChanged": "2026-11-18",
+          "sourceIds": [
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
+          ],
+          "history": [
+            {
+              "date": "2026-11-18",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-18-philippe-projet-massif-serieux"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "philippe-edu-fermeture-formations-faible-insertion",
+          "themeKey": "edu",
+          "subthemeKey": "edu-sup",
+          "title": "Fermeture des formations du supérieur aux faibles taux de diplomation et d'insertion",
+          "detail": "Édouard Philippe propose de fermer les formations de l'enseignement supérieur aux faibles taux de diplomation et d'insertion, sans les désigner. Figure dans le projet présenté le 18 novembre 2026 à Paris, selon Public Sénat.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-18",
+          "lastChanged": "2026-11-18",
+          "sourceIds": [
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
+          ],
+          "history": [
+            {
+              "date": "2026-11-18",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-18-philippe-projet-massif-serieux"
               ]
             }
           ]
@@ -59869,6 +60100,16 @@
             "sourceIds": [
               "mei-2026-10-05-livre-blanc-protection-environnement"
             ]
+          },
+          "philippe": {
+            "value": 2,
+            "note": "Propose de supprimer l'objectif « zéro artificialisation nette ».",
+            "measureIds": [
+              "philippe-log-suppression-zan"
+            ],
+            "sourceIds": [
+              "publicsenat-2026-11-18-philippe-projet-massif-serieux"
+            ]
           }
         }
       },
@@ -66798,6 +67039,16 @@
             ],
             "sourceIds": [
               "attalpresident-2026-08-02-jdd-reforme-institutionnelle"
+            ]
+          },
+          "philippe": {
+            "value": 2,
+            "note": "Propose de construire 30 000 places de prison.",
+            "measureIds": [
+              "philippe-sec-nouvelles-places-prison"
+            ],
+            "sourceIds": [
+              "publicsenat-2026-11-18-philippe-projet-massif-serieux"
             ]
           }
         }
@@ -78573,6 +78824,252 @@
           ]
         }
       ]
+    },
+    {
+      "id": "cluster17-2026-11-10",
+      "institute": "Cluster17",
+      "sponsors": [
+        "Politico"
+      ],
+      "fieldworkStart": "2026-11-09",
+      "fieldworkEnd": "2026-11-10",
+      "publishedAt": "2026-11-11",
+      "population": "Échantillon de 1 164 personnes inscrites sur les listes électorales, issu d'un échantillon de 1 242 personnes représentatif de la population française âgée de 18 ans et plus",
+      "sampleSize": 1164,
+      "method": "Questionnaire auto-administré en ligne ; méthode des quotas (genre, âge, catégorie socioprofessionnelle, type de commune, région de résidence)",
+      "margin": "Entre 1,2 et 2,8 points pour 1 164 personnes selon les pourcentages",
+      "reportUrl": "https://cluster17.com/wp-content/uploads/2026/11/Sondage_Cluster17_ITV_P2027-Politico.pdf",
+      "round": 1,
+      "hypotheses": [
+        {
+          "id": "h1",
+          "label": "Hypothèse 1 (Édouard Philippe)",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 20
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 1.5
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 11
+            },
+            {
+              "candidateId": "philippe",
+              "value": 13.5
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 10
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 5
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 3
+            },
+            {
+              "candidateId": "lepen",
+              "value": 30.5
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": "h2",
+          "label": "Hypothèse 2 (Gabriel Attal)",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 20.5
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 1.5
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 11.5
+            },
+            {
+              "candidateId": "attal",
+              "value": 11
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 10
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 6
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 3
+            },
+            {
+              "candidateId": "lepen",
+              "value": 31
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": "h3",
+          "label": "Hypothèse 3 (Christine Lagarde)",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 20.5
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2.5
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 1.5
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 10
+            },
+            {
+              "candidateId": "lagarde",
+              "value": 14
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 10
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 5.5
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2
+            },
+            {
+              "candidateId": "lepen",
+              "value": 30.5
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": "h4",
+          "label": "Hypothèse 4 (18 candidats)",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 19
+            },
+            {
+              "candidateId": "ruffin",
+              "value": 1.5
+            },
+            {
+              "candidateId": "roussel",
+              "value": 1.5
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 1
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 8
+            },
+            {
+              "candidateId": "villepin",
+              "value": 1
+            },
+            {
+              "candidateId": "philippe",
+              "value": 8
+            },
+            {
+              "candidateId": "attal",
+              "value": 2
+            },
+            {
+              "candidateId": "lagarde",
+              "value": 8
+            },
+            {
+              "candidateId": "polony",
+              "value": 2.5
+            },
+            {
+              "candidateId": "riner",
+              "value": 2
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 8
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 5
+            },
+            {
+              "candidateId": "asselineau",
+              "value": 1
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2
+            },
+            {
+              "candidateId": "lepen",
+              "value": 27
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 2
+            }
+          ]
+        }
+      ]
     }
   ],
   "agenda": [
@@ -80053,9 +80550,27 @@
       "sourceIds": [
         "orange-2026-11-17-attal-retailleau-lisnard-negociations-primaire"
       ]
+    },
+    {
+      "id": "evt-tondelier-declaration-2026-11-18",
+      "date": "2026-11-18",
+      "type": "declaration",
+      "candidateIds": [
+        "tondelier",
+        "melenchon"
+      ],
+      "text": "Au journal de 20 heures de France 2, se dit « prête à travailler autour de la candidature de Jean-Luc Mélenchon » et propose aux insoumis une semaine de travail en vue d'un accord, rapporté par 6Médias et L'Express (Orange Actualités).",
+      "quote": "« Si les insoumis ont la volonté d'ouvrir un travail de coalition […] alors il y a un chemin possible »",
+      "sourceIds": [
+        "orange-2026-11-18-tondelier-candidature-melenchon"
+      ]
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-19",
+      "text": "Recherche des nouveautés depuis la mise à jour du 18 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; la liste des candidats publiée par LCP n'a pas été mise à jour depuis le 14 novembre. Sondages : 1 enquête ajoutée, Cluster17 pour Politico (terrain du 9 au 10 novembre, 1 164 inscrits, quatre hypothèses de premier tour, dont une avec Christine Lagarde et une avec 18 candidats), d'après le rapport de l'institut ; la date de publication (11 novembre) est établie par la dépêche Reuters du 12 novembre faisant état d'une publication « mercredi » ; la notice de la Commission des sondages n'a pas pu être consultée (site inaccessible) et sera ajoutée ultérieurement. Une enquête Elabe de novembre, signalée par un site agrégateur, n'a pas pu être vérifiée (rapport de l'institut non trouvé) ; les enquêtes OpinionWay signalées les jours précédents restent à vérifier. Mesures : Édouard Philippe, 8 mesures ajoutées et 1 modifiée, d'après le compte rendu par Public Sénat (18 novembre) de la présentation à Paris, le 18 novembre, d'un projet de 142 mesures, dont le document n'a pas été trouvé : mesures ajoutées (pilotage du système de retraite confié aux partenaires sociaux avec une règle d'or d'équilibre ; suppression de l'objectif « zéro artificialisation nette » ; vidéoprotection avec intelligence artificielle ; reconnaissance faciale ciblée et encadrée ; nombre d'allocataires du RSA réduit de 30 % ; suppression des frais de notaire pour les moins de 35 ans sur la première résidence principale ; sélection à l'université ; fermeture des formations du supérieur aux faibles taux de diplomation et d'insertion), mesure modifiée (places de prison chiffrées à 30 000) ; l'article est ajouté en confirmation à 22 mesures déjà saisies (notamment retraite à 65 ans, capitalisation, sortie des 35 heures, non-remplacement d'un départ de fonctionnaire sur trois, huit EPR supplémentaires, quotas d'immigration, suspension du regroupement familial, allocation familiale de 350 €, autonomie des établissements, hausse de 20 % de la rémunération des enseignants). L'objectif de déficit, cité à « 2 ou 2,5 % » par Public Sénat, n'est pas modifié faute de source primaire ; la réduction des postes de fonctionnaires par des gains de productivité liés à l'intelligence artificielle, la revalorisation des filières scientifiques et le meilleur accompagnement des élèves handicapés ne sont pas saisis, faute de formulation précise attribuée au candidat. Questionnaire : 2 positions renseignées pour Édouard Philippe, 1 du test (abandon du « zéro artificialisation nette ») et 1 de la banque (places de prison supplémentaires). Rotation de la banque : thèmes retraites, logement, sécurité et éducation passés en revue pour Édouard Philippe. Vie de la campagne : 1 déclaration ajoutée, celle de Marine Tondelier au journal de 20 heures de France 2 le 18 novembre, rapportée par 6Médias et L'Express (Orange Actualités), où elle se dit prête à travailler autour de la candidature de Jean-Luc Mélenchon ; aucun retrait ni ralliement n'est saisi, la stratégie des Écologistes devant être tranchée par un vote des adhérents du 10 au 13 décembre selon cette source. La réunion du 17 novembre des directeurs de campagne de Gabriel Attal, Bruno Retailleau et David Lisnard sur une primaire ouverte en janvier, rapportée par Public Sénat et i24NEWS, n'est pas saisie comme alliance, aucun accord n'ayant été conclu selon le communiqué de Nouvelle Énergie cité par Public Sénat ; Édouard Philippe ayant déjà une déclaration publiée cette semaine (15 novembre), ses propos du 18 novembre sur la primaire ne sont pas publiés. Parrainages : aucun relevé ajouté, aucune annonce chiffrée nouvelle trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 13 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : Édouard Philippe et Marine Tondelier (voir ci-dessus) ; passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Teddy Riner, Éric Zemmour, Fabien Roussel et François Ruffin (seuls des sites agrégateurs ou des articles antérieurs déjà sourcés ont été trouvés ; rien n'est saisi)."
+    },
     {
       "date": "2026-11-18",
       "text": "Recherche des nouveautés depuis la mise à jour du 17 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; la liste des candidats publiée par LCP (mise à jour le 14 novembre) ne signale aucun changement de statut. Sondages : aucune enquête saisie ; les notices de la Commission des sondages des enquêtes OpinionWay pour CNEWS (12 novembre) et OpinionWay « Presitrack » (13 novembre) ont été repérées, mais n'ont pas pu être ouvertes (site de la Commission inaccessible), pas plus que l'article de France 24 du 15 novembre sur l'enquête créditant Teddy Riner ; l'article de Public Sénat du 4 novembre porte sur l'enquête Ifop pour LCI déjà saisie. Ces enquêtes seront recherchées les jours suivants. Mesures : Bruno Le Maire, 13 mesures ajoutées et 1 modifiée, d'après les comptes rendus par Public Sénat (12 novembre) et Quartz (13 novembre) de la présentation de son projet « Une autre France » (50 propositions) le 12 novembre, sans déclaration de candidature ; le document du projet n'a pas été trouvé : mesures ajoutées (fin de l'emploi à vie dans la fonction publique hors fonctions régaliennes ; responsabilité pénale dès 16 ans ; indemnisation du chômage limitée à 12 mois pour les moins de 55 ans ; triplement de la taxe sur les géants du numérique ; hausse des droits de douane sur les produits carbonés importés ; suppression des départements fusionnés avec les régions ; motion de censure constructive en contrepartie de l'abandon du 49.3 ; droit de veto du ministre des Finances sur les dépenses publiques ; réduction du droit d'amendement sur le budget ; gouvernement de 10 membres ; série de référendums ; RIC à partir d'un million de signatures ; prêt immobilier garanti par l'État pour les moins de 30 ans), mesure modifiée (hausse de TVA précisée à 3 points, avec un gain annoncé de 200 € nets par mois) ; confirmations sur la retraite à 65 ans et la fédération de six États européens. La désindexation temporaire des pensions de base décrite par Quartz n'est pas saisie séparément, la mesure de désindexation déjà publiée n'étant pas modifiée faute de source primaire ; la « possibilité de garde collective à partir d’un an » et l'objectif de doublement du salaire médian ne sont pas saisis, faute de contenu précis. Questionnaire : 6 positions renseignées pour Bruno Le Maire, dont 1 du test (référendum d'initiative citoyenne) et 5 de la banque (suppression du 49.3, réduction de la durée d'indemnisation du chômage, recrutement sous contrat hors fonctions régaliennes, majorité pénale à 16 ans, ajustement carbone aux frontières). Rotation de la banque : thèmes institutions, finances publiques, emploi et sécurité passés en revue pour Bruno Le Maire. Vie de la campagne : 1 déclaration ajoutée, celle d'Édouard Philippe dans un entretien au Parisien du 15 novembre sur la proposition de primaire de la droite et du centre, rapportée par 6Médias et L'Express (Orange Actualités, 17 novembre) à défaut de l'article original ; la réunion du 17 novembre des équipes de Gabriel Attal, Bruno Retailleau et David Lisnard sur les modalités d'une primaire n'est pas saisie comme alliance, aucun accord n'étant annoncé ; aucune citation directe de ces trois candidats ni de Jean-Luc Mélenchon (dîner du 17 novembre avec des chefs d'entreprise, selon LCP) n'a été trouvée. Bruno Le Maire n'étant pas déclaré, aucune déclaration n'est publiée pour lui. Parrainages : aucun relevé ajouté, aucune annonce chiffrée nouvelle trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 12 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Natacha Polony, François Hollande, David Saforcada, Erwan Rohou, Gilles Platret et Rémi Revillon d'Apreval (seuls des sites agrégateurs ou des articles antérieurs ont été trouvés ; rien n'est saisi) ; François Hollande, selon LCP, prévoit d'attendre janvier pour décider de sa candidature."
