@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T05:47:50Z",
+  "updatedAt": "2026-11-20T05:41:29Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -6039,6 +6039,20 @@
       "publisher": "Orange Actualités (6Médias, avec L'Express)",
       "url": "https://actu.orange.fr/politique/presidentielle-2027-marine-tondelier-prete-a-travailler-autour-de-la-candidature-de-jean-luc-melenchon-l-express-via-6medias-CNT000002tNRxL.html",
       "date": "2026-11-18",
+      "kind": "presse"
+    },
+    "lcp-2026-11-18-philippe-reformes-radicales": {
+      "title": "Présidentielle 2027: Édouard Philippe promet \"des réformes radicales\" pour relancer sa campagne, loin des discussions sur la primaire",
+      "publisher": "LCP",
+      "url": "https://lcp.fr/actualites/presidentielle-2027-edouard-philippe-promet-des-reformes-radicales-pour-relancer-sa",
+      "date": "2026-11-18",
+      "kind": "presse"
+    },
+    "publicsenat-2026-11-19-lisnard-primaire-zemmour": {
+      "title": "Primaire : en incluant Eric Zemmour, David Lisnard cherche-t-il à « planter le processus » ou à en faire un « pré-premier tour » de la présidentielle ?",
+      "publisher": "Public Sénat",
+      "url": "https://www.publicsenat.fr/actualites/politique/primaire-en-incluant-eric-zemmour-david-lisnard-cherche-t-il-a-planter-le-processus-ou-a-en-faire-un-pre-premier-tour-de-la-presidentielle",
+      "date": "2026-11-19",
       "kind": "presse"
     }
   },
@@ -36963,7 +36977,8 @@
           "sourceIds": [
             "edouardphilippe-nd-pour-une-france-plus-attentive-a",
             "publicsenat-2026-11-12-grand-oral-services-publics",
-            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux",
+            "lcp-2026-11-18-philippe-reformes-radicales"
           ],
           "history": [
             {
@@ -37062,7 +37077,8 @@
           "lastChanged": "2026-10-19",
           "sourceIds": [
             "edouardphilippe-nd-pour-une-france-plus-attentive-a",
-            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux",
+            "lcp-2026-11-18-philippe-reformes-radicales"
           ],
           "history": [
             {
@@ -37889,7 +37905,8 @@
             "edouardphilippe-nd-edouard-philippe-pour-une-france-plus-2",
             "orange-2026-10-27-philippe-immigration-legale-par-deux",
             "21news-2026-10-28-philippe-echec-integration",
-            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux",
+            "lcp-2026-11-18-philippe-reformes-radicales"
           ],
           "history": [
             {
@@ -37963,7 +37980,8 @@
           "lastChanged": "2026-10-19",
           "sourceIds": [
             "edouardphilippe-nd-edouard-philippe-pour-une-france-plus-2",
-            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux",
+            "lcp-2026-11-18-philippe-reformes-radicales"
           ],
           "history": [
             {
@@ -38743,7 +38761,8 @@
             "edouardphilippe-nd-edouard-philippe-pour-une-france-plus-2",
             "21news-2026-10-28-philippe-echec-integration",
             "publicsenat-2026-11-12-grand-oral-services-publics",
-            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux",
+            "lcp-2026-11-18-philippe-reformes-radicales"
           ],
           "history": [
             {
@@ -38863,7 +38882,8 @@
           "lastChanged": "2026-11-19",
           "sourceIds": [
             "publicsenat-2026-11-12-grand-oral-services-publics",
-            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux",
+            "lcp-2026-11-18-philippe-reformes-radicales"
           ],
           "history": [
             {
@@ -39057,7 +39077,8 @@
           "firstSeen": "2026-11-18",
           "lastChanged": "2026-11-18",
           "sourceIds": [
-            "publicsenat-2026-11-18-philippe-projet-massif-serieux"
+            "publicsenat-2026-11-18-philippe-projet-massif-serieux",
+            "lcp-2026-11-18-philippe-reformes-radicales"
           ],
           "history": [
             {
@@ -39088,6 +39109,52 @@
               "type": "ajout",
               "sourceIds": [
                 "publicsenat-2026-11-18-philippe-projet-massif-serieux"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "philippe-sec-suspension-rsa-delinquants",
+          "themeKey": "sec",
+          "subthemeKey": "sec-peines",
+          "title": "Suspension automatique du RSA pour les délinquants condamnés",
+          "detail": "Édouard Philippe propose la suspension automatique du revenu de solidarité active (RSA) pour les délinquants condamnés. Figure dans le projet présenté le 18 novembre 2026 à Paris, selon LCP.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-18",
+          "lastChanged": "2026-11-18",
+          "sourceIds": [
+            "lcp-2026-11-18-philippe-reformes-radicales"
+          ],
+          "history": [
+            {
+              "date": "2026-11-18",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-18-philippe-reformes-radicales"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "philippe-sec-prevention-terrorisme-casseurs",
+          "themeKey": "sec",
+          "subthemeKey": "sec-police",
+          "title": "Application aux casseurs des mesures de prévention du terrorisme",
+          "detail": "Édouard Philippe propose d'utiliser contre les casseurs les mêmes mesures de prévention que contre le terrorisme. Figure dans le projet présenté le 18 novembre 2026 à Paris, selon LCP.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-18",
+          "lastChanged": "2026-11-18",
+          "sourceIds": [
+            "lcp-2026-11-18-philippe-reformes-radicales"
+          ],
+          "history": [
+            {
+              "date": "2026-11-18",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-18-philippe-reformes-radicales"
               ]
             }
           ]
@@ -80564,9 +80631,27 @@
       "sourceIds": [
         "orange-2026-11-18-tondelier-candidature-melenchon"
       ]
+    },
+    {
+      "id": "evt-lisnard-declaration-2026-11-18",
+      "date": "2026-11-18",
+      "type": "declaration",
+      "candidateIds": [
+        "lisnard",
+        "zemmour"
+      ],
+      "text": "Sur TF1, se prononce pour une primaire de la droite et du centre ouverte à Éric Zemmour, rapporté par Public Sénat.",
+      "quote": "« […] on soit offusqué par Eric Zemmour ou pas, il est habilité à être candidat à la présidentielle »",
+      "sourceIds": [
+        "publicsenat-2026-11-19-lisnard-primaire-zemmour"
+      ]
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-20",
+      "text": "Recherche des nouveautés depuis la mise à jour du 19 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; la liste des candidats publiée par LCP n'a pas été mise à jour depuis le 14 novembre. Sondages : aucune enquête ajoutée ; les notices de la Commission des sondages consultées ce jour concernent des enquêtes antérieures déjà connues ou hors intentions de vote ; la notice de l'enquête Cluster17 pour Politico du 11 novembre n'a pas été trouvée et sera recherchée les jours suivants. Mesures : Édouard Philippe, 2 mesures ajoutées d'après le compte rendu par LCP (18 novembre) de la présentation du projet du 18 novembre (suspension automatique du RSA pour les délinquants condamnés ; application aux casseurs des mesures de prévention du terrorisme) ; l'article est ajouté en confirmation à 7 mesures déjà saisies (peines planchers, 30 000 places de prison, immigration divisée par deux, suspension du regroupement familial, autonomie des établissements, hausse de 20 % de la rémunération des enseignants, sélection à l'université). L'objectif de déficit, décrit par LCP comme un « retour du déficit sous 2,5 % de la richesse nationale en 2032 », n'est pas modifié faute de source primaire, la mesure en vigueur (2 % du PIB) provenant du site de campagne ; le « recentrage sur l'apprentissage du français et des mathématiques », proche de la mesure déjà saisie sur le primaire, n'est pas saisi séparément faute de précision. Questionnaire : aucune position renseignée ; aucun thème de la banque passé en revue faute de mesure nouvelle hors sécurité (thème sécurité revu pour Édouard Philippe, sans position nouvelle). Vie de la campagne : 1 déclaration ajoutée, celle de David Lisnard sur TF1 le 18 novembre, rapportée par Public Sénat (19 novembre), sur une primaire de la droite et du centre ouverte à Éric Zemmour ; aucune alliance n'est saisie, le périmètre de la primaire restant non tranché selon cette source. Les propos de Marine Tondelier du 18 novembre (« Je suis toujours candidate à la présidentielle »), rapportés par Public Sénat le 19 novembre, ne sont pas publiés, une déclaration du même jour étant déjà saisie ; selon cet article, le conseil fédéral des Écologistes arrêtera le 26 novembre les scénarios soumis au vote des adhérents (rien n'est saisi à l'agenda, cette échéance n'étant pas officielle). Parrainages : aucun relevé ajouté, aucune annonce chiffrée nouvelle trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 13 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Mira Markovic, Lydie Massard, Antoine Mikolajczak, Manolo Mlekuz, Sandrine Rousseau, Francis Lalanne, Bernard Cazeneuve, Florian Philippot, Rémi Revillon d'Apreval, Juan Branco et Dominique de Villepin (seuls des sites agrégateurs ou des articles antérieurs déjà sourcés ont été trouvés ; rien n'est saisi) ; David Lisnard (voir ci-dessus)."
+    },
     {
       "date": "2026-11-19",
       "text": "Recherche des nouveautés depuis la mise à jour du 18 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; la liste des candidats publiée par LCP n'a pas été mise à jour depuis le 14 novembre. Sondages : 1 enquête ajoutée, Cluster17 pour Politico (terrain du 9 au 10 novembre, 1 164 inscrits, quatre hypothèses de premier tour, dont une avec Christine Lagarde et une avec 18 candidats), d'après le rapport de l'institut ; la date de publication (11 novembre) est établie par la dépêche Reuters du 12 novembre faisant état d'une publication « mercredi » ; la notice de la Commission des sondages n'a pas pu être consultée (site inaccessible) et sera ajoutée ultérieurement. Une enquête Elabe de novembre, signalée par un site agrégateur, n'a pas pu être vérifiée (rapport de l'institut non trouvé) ; les enquêtes OpinionWay signalées les jours précédents restent à vérifier. Mesures : Édouard Philippe, 8 mesures ajoutées et 1 modifiée, d'après le compte rendu par Public Sénat (18 novembre) de la présentation à Paris, le 18 novembre, d'un projet de 142 mesures, dont le document n'a pas été trouvé : mesures ajoutées (pilotage du système de retraite confié aux partenaires sociaux avec une règle d'or d'équilibre ; suppression de l'objectif « zéro artificialisation nette » ; vidéoprotection avec intelligence artificielle ; reconnaissance faciale ciblée et encadrée ; nombre d'allocataires du RSA réduit de 30 % ; suppression des frais de notaire pour les moins de 35 ans sur la première résidence principale ; sélection à l'université ; fermeture des formations du supérieur aux faibles taux de diplomation et d'insertion), mesure modifiée (places de prison chiffrées à 30 000) ; l'article est ajouté en confirmation à 22 mesures déjà saisies (notamment retraite à 65 ans, capitalisation, sortie des 35 heures, non-remplacement d'un départ de fonctionnaire sur trois, huit EPR supplémentaires, quotas d'immigration, suspension du regroupement familial, allocation familiale de 350 €, autonomie des établissements, hausse de 20 % de la rémunération des enseignants). L'objectif de déficit, cité à « 2 ou 2,5 % » par Public Sénat, n'est pas modifié faute de source primaire ; la réduction des postes de fonctionnaires par des gains de productivité liés à l'intelligence artificielle, la revalorisation des filières scientifiques et le meilleur accompagnement des élèves handicapés ne sont pas saisis, faute de formulation précise attribuée au candidat. Questionnaire : 2 positions renseignées pour Édouard Philippe, 1 du test (abandon du « zéro artificialisation nette ») et 1 de la banque (places de prison supplémentaires). Rotation de la banque : thèmes retraites, logement, sécurité et éducation passés en revue pour Édouard Philippe. Vie de la campagne : 1 déclaration ajoutée, celle de Marine Tondelier au journal de 20 heures de France 2 le 18 novembre, rapportée par 6Médias et L'Express (Orange Actualités), où elle se dit prête à travailler autour de la candidature de Jean-Luc Mélenchon ; aucun retrait ni ralliement n'est saisi, la stratégie des Écologistes devant être tranchée par un vote des adhérents du 10 au 13 décembre selon cette source. La réunion du 17 novembre des directeurs de campagne de Gabriel Attal, Bruno Retailleau et David Lisnard sur une primaire ouverte en janvier, rapportée par Public Sénat et i24NEWS, n'est pas saisie comme alliance, aucun accord n'ayant été conclu selon le communiqué de Nouvelle Énergie cité par Public Sénat ; Édouard Philippe ayant déjà une déclaration publiée cette semaine (15 novembre), ses propos du 18 novembre sur la primaire ne sont pas publiés. Parrainages : aucun relevé ajouté, aucune annonce chiffrée nouvelle trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 13 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : Édouard Philippe et Marine Tondelier (voir ci-dessus) ; passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Teddy Riner, Éric Zemmour, Fabien Roussel et François Ruffin (seuls des sites agrégateurs ou des articles antérieurs déjà sourcés ont été trouvés ; rien n'est saisi)."
