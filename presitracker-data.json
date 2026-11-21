@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T05:41:29Z",
+  "updatedAt": "2026-11-21T05:46:04Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -6053,6 +6053,13 @@
       "publisher": "Public Sénat",
       "url": "https://www.publicsenat.fr/actualites/politique/primaire-en-incluant-eric-zemmour-david-lisnard-cherche-t-il-a-planter-le-processus-ou-a-en-faire-un-pre-premier-tour-de-la-presidentielle",
       "date": "2026-11-19",
+      "kind": "presse"
+    },
+    "lagazettefrance-2026-11-18-lisnard-retailleau-primaire-perimetre": {
+      "title": "Lisnard et Retailleau appellent Philippe à rejoindre la primaire mais se divisent sur son périmètre",
+      "publisher": "La Gazette France (AFP)",
+      "url": "https://www.lagazettefrance.fr/article/lisnard-et-retailleau-appellent-philippe-a-rejoindre-la-primaire-mais-se-divisent-sur-son-perimetre",
+      "date": "2026-11-18",
       "kind": "presse"
     }
   },
@@ -80645,9 +80652,29 @@
       "sourceIds": [
         "publicsenat-2026-11-19-lisnard-primaire-zemmour"
       ]
+    },
+    {
+      "id": "evt-retailleau-declaration-2026-11-18",
+      "date": "2026-11-18",
+      "type": "declaration",
+      "candidateIds": [
+        "retailleau",
+        "philippe",
+        "lisnard",
+        "zemmour"
+      ],
+      "text": "Sur Sud Radio, se prononce sur une primaire de la droite et du centre et sur la participation d'Éric Zemmour, rapporté par l'AFP (La Gazette France).",
+      "quote": "« si on ne fait rien, ce qui nous départagera, ce sera le premier tour »",
+      "sourceIds": [
+        "lagazettefrance-2026-11-18-lisnard-retailleau-primaire-perimetre"
+      ]
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-21",
+      "text": "Recherche des nouveautés depuis la mise à jour du 20 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés. Sondages : aucune enquête ajoutée. Une vague du baromètre Ifop-Fiducial (terrain du 13 au 16 novembre, 1 690 inscrits extraits d'un échantillon de 1 823 personnes), publiée le 18 novembre selon Sud Radio, n'est pas saisie : l'article ne donne que des fourchettes, et ni le rapport de l'institut ni la notice de la Commission des sondages n'ont pu être consultés ; un second article de Sud Radio du 20 novembre consacré à une enquête Ifop-Fiducial n'a pas pu être ouvert. Ces enquêtes, ainsi que la notice de l'enquête Cluster17 pour Politico du 11 novembre, seront recherchées les jours suivants. Mesures : aucune mesure ajoutée, modifiée ou abandonnée. Questionnaire : aucune position renseignée ; aucun thème de la banque passé en revue faute de mesure nouvelle. Vie de la campagne : 1 déclaration ajoutée, celle de Bruno Retailleau sur Sud Radio le 18 novembre sur une primaire de la droite et du centre, rapportée par l'AFP (La Gazette France, 18 novembre). La réunion du 17 novembre des équipes de Gabriel Attal, Bruno Retailleau et David Lisnard, décrite par Public Sénat et LCP (scénarios de vote en janvier, participation de 2 euros), n'est pas saisie comme alliance, Nouvelle Énergie indiquant qu'« aucun accord n'a été conclu à ce stade ». Parrainages : aucun relevé ajouté, aucune annonce chiffrée nouvelle trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 15 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Sylvain Durif, Jean Lassalle, Benoît Mathieu, Olivier Becht, Emmanuel Dubuisson et Matthieu Pigasse (seuls des sites agrégateurs ou des articles antérieurs ont été trouvés ; rien n'est saisi)."
+    },
     {
       "date": "2026-11-20",
       "text": "Recherche des nouveautés depuis la mise à jour du 19 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés ; la liste des candidats publiée par LCP n'a pas été mise à jour depuis le 14 novembre. Sondages : aucune enquête ajoutée ; les notices de la Commission des sondages consultées ce jour concernent des enquêtes antérieures déjà connues ou hors intentions de vote ; la notice de l'enquête Cluster17 pour Politico du 11 novembre n'a pas été trouvée et sera recherchée les jours suivants. Mesures : Édouard Philippe, 2 mesures ajoutées d'après le compte rendu par LCP (18 novembre) de la présentation du projet du 18 novembre (suspension automatique du RSA pour les délinquants condamnés ; application aux casseurs des mesures de prévention du terrorisme) ; l'article est ajouté en confirmation à 7 mesures déjà saisies (peines planchers, 30 000 places de prison, immigration divisée par deux, suspension du regroupement familial, autonomie des établissements, hausse de 20 % de la rémunération des enseignants, sélection à l'université). L'objectif de déficit, décrit par LCP comme un « retour du déficit sous 2,5 % de la richesse nationale en 2032 », n'est pas modifié faute de source primaire, la mesure en vigueur (2 % du PIB) provenant du site de campagne ; le « recentrage sur l'apprentissage du français et des mathématiques », proche de la mesure déjà saisie sur le primaire, n'est pas saisi séparément faute de précision. Questionnaire : aucune position renseignée ; aucun thème de la banque passé en revue faute de mesure nouvelle hors sécurité (thème sécurité revu pour Édouard Philippe, sans position nouvelle). Vie de la campagne : 1 déclaration ajoutée, celle de David Lisnard sur TF1 le 18 novembre, rapportée par Public Sénat (19 novembre), sur une primaire de la droite et du centre ouverte à Éric Zemmour ; aucune alliance n'est saisie, le périmètre de la primaire restant non tranché selon cette source. Les propos de Marine Tondelier du 18 novembre (« Je suis toujours candidate à la présidentielle »), rapportés par Public Sénat le 19 novembre, ne sont pas publiés, une déclaration du même jour étant déjà saisie ; selon cet article, le conseil fédéral des Écologistes arrêtera le 26 novembre les scénarios soumis au vote des adhérents (rien n'est saisi à l'agenda, cette échéance n'étant pas officielle). Parrainages : aucun relevé ajouté, aucune annonce chiffrée nouvelle trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 13 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Mira Markovic, Lydie Massard, Antoine Mikolajczak, Manolo Mlekuz, Sandrine Rousseau, Francis Lalanne, Bernard Cazeneuve, Florian Philippot, Rémi Revillon d'Apreval, Juan Branco et Dominique de Villepin (seuls des sites agrégateurs ou des articles antérieurs déjà sourcés ont été trouvés ; rien n'est saisi) ; David Lisnard (voir ci-dessus)."
