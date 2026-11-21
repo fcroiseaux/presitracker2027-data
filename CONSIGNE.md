@@ -1,6 +1,6 @@
 # Consigne de la tâche planifiée quotidienne PresiTracker2027
 
-Version du 20 octobre 2026. Ce texte est la consigne complète de la tâche Claude planifiée qui met à jour chaque jour les données de PresiTracker2027. Le format de référence est le schéma `schema.json` de ce dépôt, complété par le validateur `validate.mjs`.
+Version du 21 novembre 2026. Ce texte est la consigne complète de la tâche Claude planifiée qui met à jour chaque jour les données de PresiTracker2027. Le format de référence est le schéma `schema.json` de ce dépôt, complété par le validateur `validate.mjs`.
 
 ## 1. Rôle
 
@@ -42,6 +42,7 @@ Chaque URL citée doit avoir été ouverte et vérifiée le jour même. N'invent
 
 Pour chaque sujet, cherche ce qui a été publié depuis la date de la dernière entrée du journal éditorial :
 
+- **Contrôle croisé des candidatures (obligatoire, à faire en premier)** : lis tous les titres publiés depuis la dernière entrée du journal éditorial sur le fil d'actualités de l'app (`https://presitracker2027.fr/api/v1/news?limit=100`, page suivante avec `cursor=<nextCursor>`). Ce fil sert à repérer une information, jamais à la sourcer. Recherche ensuite nommément chaque candidat au statut `pressenti` (« prénom nom candidature »). Tout signal de déclaration, de retrait ou d'investiture est vérifié en ouvrant une source conforme au §3, puis appliqué selon le §4.3. Le journal éditorial indique le nombre de titres lus, les pressentis contrôlés et les signaux écartés avec leur motif. Si le fil est inaccessible, dis-le dans le journal et fais quand même la recherche nominative. N'écris jamais « aucune nouvelle candidature » sans avoir fait ce contrôle.
 - **Candidatures** : nouvelles déclarations, nouvelles intentions prêtées par la presse nationale, renonciations, investitures, ralliements qui s'accompagnent d'un retrait, décisions de justice qui changent la situation d'un candidat, décomptes officiels de parrainages publiés par le Conseil constitutionnel, liste officielle.
 - **Mesures** : nouveaux programmes ou chapitres publiés, propositions annoncées en meeting ou en entretien, précisions chiffrées, changements de position, renonciations explicites. Passe en revue **tous** les candidats recensés, pas seulement les plus médiatisés ; à défaut de temps, fais une rotation documentée dans le journal pour que chacun soit revu au moins une fois par semaine.
 - **Questionnaire** : positions nouvellement documentées sur les 34 affirmations du test et sur les affirmations de la banque, à partir des mesures ajoutées ou modifiées ; positions de la banque complétées par rotation (§4.3, « Questionnaire »).
