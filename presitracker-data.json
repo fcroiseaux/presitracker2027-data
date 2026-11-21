@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T05:46:04Z",
+  "updatedAt": "2026-11-21T07:23:04Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -6061,6 +6061,20 @@
       "url": "https://www.lagazettefrance.fr/article/lisnard-et-retailleau-appellent-philippe-a-rejoindre-la-primaire-mais-se-divisent-sur-son-perimetre",
       "date": "2026-11-18",
       "kind": "presse"
+    },
+    "lcp-2026-11-20-villepin-officiellement-candidat": {
+      "title": "Présidentielle 2027: Dominique de Villepin est officiellement candidat à l'Élysée",
+      "publisher": "LCP",
+      "url": "https://lcp.fr/actualites/presidentielle-2027-dominique-de-villepin-officiellement-candidat-a-l-elysee-445372",
+      "date": "2026-11-20",
+      "kind": "presse"
+    },
+    "villepin-2026-11-20-lettre-aux-francaises-et-aux-francais": {
+      "title": "Dominique de Villepin, candidat à l'élection présidentielle 2027",
+      "publisher": "Site de campagne de Dominique de Villepin",
+      "url": "https://villepin.fr/",
+      "date": "2026-11-20",
+      "kind": "officiel"
     }
   },
   "candidates": [
@@ -54177,11 +54191,11 @@
       "sortName": "villepin",
       "party": "La France humaniste",
       "partyShort": "LFH",
-      "status": "pressenti",
-      "statusDate": "2026-03-29",
+      "status": "declare",
+      "statusDate": "2026-11-20",
       "statusSourceIds": [
-        "lcp-2026-10-14-presidentielle-2027-la-liste-des-candidats",
-        "lefigaro-2026-08-17-en-septembre-tout-sera-pret-dominique"
+        "villepin-2026-11-20-lettre-aux-francaises-et-aux-francais",
+        "lcp-2026-11-20-villepin-officiellement-candidat"
       ],
       "statusHistory": [
         {
@@ -54190,6 +54204,15 @@
           "note": "Présenté comme n'étant pas encore officiellement candidat, sa candidature étant décrite comme « se précisant ».",
           "sourceIds": [
             "huffingtonpost-2026-03-29-pourquoi-villepin-ne-croit-pas-que"
+          ]
+        },
+        {
+          "date": "2026-11-20",
+          "status": "declare",
+          "note": "Dominique de Villepin annonce sa candidature lors d'une conférence de presse à la Maison de l'Amérique latine.",
+          "sourceIds": [
+            "villepin-2026-11-20-lettre-aux-francaises-et-aux-francais",
+            "lcp-2026-11-20-villepin-officiellement-candidat"
           ]
         }
       ],
@@ -80668,9 +80691,27 @@
       "sourceIds": [
         "lagazettefrance-2026-11-18-lisnard-retailleau-primaire-perimetre"
       ]
+    },
+    {
+      "id": "evt-villepin-candidature-2026-11-20",
+      "date": "2026-11-20",
+      "type": "candidature",
+      "candidateIds": [
+        "villepin"
+      ],
+      "text": "Annonce sa candidature lors d'une conférence de presse à la Maison de l'Amérique latine et publie une « Lettre aux Françaises et aux Français » sur son site de campagne.",
+      "quote": "« Je suis candidat à l'élection présidentielle de 2027. »",
+      "sourceIds": [
+        "lcp-2026-11-20-villepin-officiellement-candidat",
+        "villepin-2026-11-20-lettre-aux-francaises-et-aux-francais"
+      ]
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-21",
+      "text": "Correction de la mise à jour du 21 novembre, qui n'avait pas relevé la déclaration de candidature de Dominique de Villepin du 20 novembre. Candidatures : Dominique de Villepin passe de pressenti à déclaré au 20 novembre, d'après LCP (20 novembre) et son site de campagne (lettre datée du 20 novembre). Vie de la campagne : 1 fait de candidature ajouté. Aucune mesure, position, sondage ni relevé de parrainages n'est modifié par cette correction."
+    },
     {
       "date": "2026-11-21",
       "text": "Recherche des nouveautés depuis la mise à jour du 20 novembre. Candidatures : aucune nouvelle candidature et aucun retrait relevés. Sondages : aucune enquête ajoutée. Une vague du baromètre Ifop-Fiducial (terrain du 13 au 16 novembre, 1 690 inscrits extraits d'un échantillon de 1 823 personnes), publiée le 18 novembre selon Sud Radio, n'est pas saisie : l'article ne donne que des fourchettes, et ni le rapport de l'institut ni la notice de la Commission des sondages n'ont pu être consultés ; un second article de Sud Radio du 20 novembre consacré à une enquête Ifop-Fiducial n'a pas pu être ouvert. Ces enquêtes, ainsi que la notice de l'enquête Cluster17 pour Politico du 11 novembre, seront recherchées les jours suivants. Mesures : aucune mesure ajoutée, modifiée ou abandonnée. Questionnaire : aucune position renseignée ; aucun thème de la banque passé en revue faute de mesure nouvelle. Vie de la campagne : 1 déclaration ajoutée, celle de Bruno Retailleau sur Sud Radio le 18 novembre sur une primaire de la droite et du centre, rapportée par l'AFP (La Gazette France, 18 novembre). La réunion du 17 novembre des équipes de Gabriel Attal, Bruno Retailleau et David Lisnard, décrite par Public Sénat et LCP (scénarios de vote en janvier, participation de 2 euros), n'est pas saisie comme alliance, Nouvelle Énergie indiquant qu'« aucun accord n'a été conclu à ce stade ». Parrainages : aucun relevé ajouté, aucune annonce chiffrée nouvelle trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 15 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable : Sylvain Durif, Jean Lassalle, Benoît Mathieu, Olivier Becht, Emmanuel Dubuisson et Matthieu Pigasse (seuls des sites agrégateurs ou des articles antérieurs ont été trouvés ; rien n'est saisi)."
