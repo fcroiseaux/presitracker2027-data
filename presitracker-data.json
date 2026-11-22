@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T07:23:04Z",
+  "updatedAt": "2026-11-22T05:48:00Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -6075,6 +6075,20 @@
       "url": "https://villepin.fr/",
       "date": "2026-11-20",
       "kind": "officiel"
+    },
+    "lcp-2026-11-20-villepin-258-propositions": {
+      "title": "Présidentielle 2027: que retenir des 258 propositions du programme de Dominique de Villepin?",
+      "publisher": "LCP",
+      "url": "https://lcp.fr/actualites/presidentielle-2027-que-retenir-des-258-propositions-du-programme-de-dominique-de",
+      "date": "2026-11-20",
+      "kind": "presse"
+    },
+    "lagazettefrance-2026-09-27-villepin-negociation-sociale": {
+      "title": "Villepin veut inscrire le principe de la négociation sociale dans la Constitution",
+      "publisher": "La Gazette France (AFP)",
+      "url": "https://www.lagazettefrance.fr/article/villepin-veut-inscrire-le-principe-de-la-negociation-sociale-dans-la-constitution",
+      "date": "2026-09-27",
+      "kind": "presse"
     }
   },
   "candidates": [
@@ -55103,7 +55117,8 @@
             "lafrancehumaniste-2026-08-28-big-bang-la-regle-republicaine",
             "lcp-2026-08-28-villepin-nouvelle-abolition-des-privileges",
             "lafrancehumaniste-nd-programme-economique-20-propositions",
-            "linfodurable-2026-10-21-villepin-plateforme-commune-anticrise"
+            "linfodurable-2026-10-21-villepin-plateforme-commune-anticrise",
+            "lcp-2026-11-20-villepin-258-propositions"
           ],
           "history": [
             {
@@ -55200,7 +55215,8 @@
           "sourceIds": [
             "lafrancehumaniste-2026-08-28-big-bang-la-regle-republicaine",
             "lcp-2026-08-28-villepin-nouvelle-abolition-des-privileges",
-            "lafrancehumaniste-nd-programme-economique-20-propositions"
+            "lafrancehumaniste-nd-programme-economique-20-propositions",
+            "lcp-2026-11-20-villepin-258-propositions"
           ],
           "history": [
             {
@@ -55417,7 +55433,8 @@
           "firstSeen": "2026-03-27",
           "lastChanged": "2026-03-27",
           "sourceIds": [
-            "lafrancehumaniste-2026-03-27-le-moment-francais-sorbonne"
+            "lafrancehumaniste-2026-03-27-le-moment-francais-sorbonne",
+            "lcp-2026-11-20-villepin-258-propositions"
           ],
           "history": [
             {
@@ -55747,6 +55764,282 @@
               "type": "ajout",
               "sourceIds": [
                 "linfodurable-2026-10-21-villepin-plateforme-commune-anticrise"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "villepin-inst-droit-de-vote-16-ans",
+          "themeKey": "inst",
+          "subthemeKey": "inst-scrutin",
+          "title": "Droit de vote à 16 ans",
+          "detail": "Dominique de Villepin propose d'« abaisser le droit de vote à 16 ans ». Proposé dans le programme de 258 propositions publié le 20 novembre 2026, selon le compte rendu de LCP du 20 novembre ; le document du programme n'a pas pu être consulté.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-20",
+          "lastChanged": "2026-11-20",
+          "sourceIds": [
+            "lcp-2026-11-20-villepin-258-propositions"
+          ],
+          "history": [
+            {
+              "date": "2026-11-20",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-20-villepin-258-propositions"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "villepin-inst-vote-obligatoire-sans-sanction",
+          "themeKey": "inst",
+          "subthemeKey": "inst-scrutin",
+          "title": "Vote obligatoire sans sanction et vote blanc comptabilisé",
+          "detail": "Dominique de Villepin propose de « formuler le principe de l'obligation de vote, sans sanction », « assorti d'une reconnaissance et d'une comptabilisation du vote blanc ». Proposé dans le programme de 258 propositions publié le 20 novembre 2026, selon le compte rendu de LCP du 20 novembre ; le document du programme n'a pas pu être consulté.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-20",
+          "lastChanged": "2026-11-20",
+          "sourceIds": [
+            "lcp-2026-11-20-villepin-258-propositions"
+          ],
+          "history": [
+            {
+              "date": "2026-11-20",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-20-villepin-258-propositions"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "villepin-inst-conseil-des-communes",
+          "themeKey": "inst",
+          "subthemeKey": "inst-decentralisation",
+          "title": "Création d'un Conseil des communes mensuel et d'une Assemblée générale des maires annuelle",
+          "detail": "Dominique de Villepin propose « la création d'un Conseil des communes mensuel et d'une Assemblée générale des maires annuelle ». Proposé dans le programme de 258 propositions publié le 20 novembre 2026, selon le compte rendu de LCP du 20 novembre ; le document du programme n'a pas pu être consulté.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-20",
+          "lastChanged": "2026-11-20",
+          "sourceIds": [
+            "lcp-2026-11-20-villepin-258-propositions"
+          ],
+          "history": [
+            {
+              "date": "2026-11-20",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-20-villepin-258-propositions"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "villepin-fin-commission-enquete-comptes-publics",
+          "themeKey": "fin",
+          "subthemeKey": "fin-etat",
+          "title": "Création d'une commission d'enquête sur la dégradation des comptes publics",
+          "detail": "Dominique de Villepin propose une « commission d'enquête exceptionnelle sur la dégradation des comptes publics depuis dix ans ». Proposé dans le programme de 258 propositions publié le 20 novembre 2026, selon le compte rendu de LCP du 20 novembre ; le document du programme n'a pas pu être consulté.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-20",
+          "lastChanged": "2026-11-20",
+          "sourceIds": [
+            "lcp-2026-11-20-villepin-258-propositions"
+          ],
+          "history": [
+            {
+              "date": "2026-11-20",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-20-villepin-258-propositions"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "villepin-inst-commission-aides-presse",
+          "themeKey": "inst",
+          "subthemeKey": "inst-ethique",
+          "title": "Création d'une commission citoyenne chargée de réformer les aides à la presse",
+          "detail": "Dominique de Villepin propose une « commission citoyenne chargée de réformer les aides à la presse ». Proposé dans le programme de 258 propositions publié le 20 novembre 2026, selon le compte rendu de LCP du 20 novembre ; le document du programme n'a pas pu être consulté.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-20",
+          "lastChanged": "2026-11-20",
+          "sourceIds": [
+            "lcp-2026-11-20-villepin-258-propositions"
+          ],
+          "history": [
+            {
+              "date": "2026-11-20",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-20-villepin-258-propositions"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "villepin-inst-audit-audiovisuel-public",
+          "themeKey": "inst",
+          "subthemeKey": "inst-ethique",
+          "title": "Création d'une commission d'audit des politiques éditoriales de l'audiovisuel public",
+          "detail": "Dominique de Villepin propose une commission « pour auditer les politiques éditoriales de Radio France, de France Télévisions et de l'audiovisuel extérieur ». Proposé dans le programme de 258 propositions publié le 20 novembre 2026, selon le compte rendu de LCP du 20 novembre ; le document du programme n'a pas pu être consulté.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-20",
+          "lastChanged": "2026-11-20",
+          "sourceIds": [
+            "lcp-2026-11-20-villepin-258-propositions"
+          ],
+          "history": [
+            {
+              "date": "2026-11-20",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-20-villepin-258-propositions"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "villepin-inst-commission-sages-discriminations",
+          "themeKey": "inst",
+          "subthemeKey": "inst-ethique",
+          "title": "Création d'une commission des sages contre l'antisémitisme, le racisme et l'islamophobie",
+          "detail": "Dominique de Villepin propose « une commission des sages sur le modèle de la commission Stasi consacrée à la lutte contre l'antisémitisme, le racisme et l'islamophobie ». Proposé dans le programme de 258 propositions publié le 20 novembre 2026, selon le compte rendu de LCP du 20 novembre ; le document du programme n'a pas pu être consulté.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-20",
+          "lastChanged": "2026-11-20",
+          "sourceIds": [
+            "lcp-2026-11-20-villepin-258-propositions"
+          ],
+          "history": [
+            {
+              "date": "2026-11-20",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-20-villepin-258-propositions"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "villepin-imm-livre-blanc-loi-programmation",
+          "themeKey": "imm",
+          "subthemeKey": "imm-integration",
+          "title": "« Livre blanc de l'immigration » et loi de programmation pluriannuelle",
+          "detail": "Dominique de Villepin propose une politique migratoire issue d'un « livre blanc de l'immigration », conçu après une « conférence d'experts, une conférence sociale des partenaires sociaux, une convention citoyenne et un débat parlementaire », débouchant sur une loi de programmation pluriannuelle. Proposé dans le programme de 258 propositions publié le 20 novembre 2026, selon le compte rendu de LCP du 20 novembre ; le document du programme n'a pas pu être consulté.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-20",
+          "lastChanged": "2026-11-20",
+          "sourceIds": [
+            "lcp-2026-11-20-villepin-258-propositions"
+          ],
+          "history": [
+            {
+              "date": "2026-11-20",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-20-villepin-258-propositions"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "villepin-ret-plan-aidants",
+          "themeKey": "ret",
+          "subthemeKey": "ret-dependance",
+          "title": "Plan de reconnaissance et de soutien aux aidants",
+          "detail": "Dominique de Villepin propose « un plan de reconnaissance et de soutien aux 11 millions d'aidants », sans montant précisé par la source. Proposé dans le programme de 258 propositions publié le 20 novembre 2026, selon le compte rendu de LCP du 20 novembre ; le document du programme n'a pas pu être consulté.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-20",
+          "lastChanged": "2026-11-20",
+          "sourceIds": [
+            "lcp-2026-11-20-villepin-258-propositions"
+          ],
+          "history": [
+            {
+              "date": "2026-11-20",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-20-villepin-258-propositions"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "villepin-eco-loi-cadre-pauvrete",
+          "themeKey": "eco",
+          "subthemeKey": "eco-prestations",
+          "title": "Loi-cadre contre la pauvreté et les exclusions",
+          "detail": "Dominique de Villepin propose « une loi-cadre contre la pauvreté et les exclusions », sans contenu détaillé par la source. Proposé dans le programme de 258 propositions publié le 20 novembre 2026, selon le compte rendu de LCP du 20 novembre ; le document du programme n'a pas pu être consulté.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-20",
+          "lastChanged": "2026-11-20",
+          "sourceIds": [
+            "lcp-2026-11-20-villepin-258-propositions"
+          ],
+          "history": [
+            {
+              "date": "2026-11-20",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-20-villepin-258-propositions"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "villepin-log-accessibilite-batiments-publics",
+          "themeKey": "log",
+          "subthemeKey": "log-territoires",
+          "title": "Accessibilité des bâtiments publics d'ici 2035",
+          "detail": "Dominique de Villepin propose « l'accessibilité des bâtiments des services publics essentiels d'ici 2029 et de tous les bâtiments publics d'ici 2035 ». Proposé dans le programme de 258 propositions publié le 20 novembre 2026, selon le compte rendu de LCP du 20 novembre ; le document du programme n'a pas pu être consulté.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-20",
+          "lastChanged": "2026-11-20",
+          "sourceIds": [
+            "lcp-2026-11-20-villepin-258-propositions"
+          ],
+          "history": [
+            {
+              "date": "2026-11-20",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-20-villepin-258-propositions"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "villepin-ent-negociation-sociale-constitution",
+          "themeKey": "ent",
+          "subthemeKey": "ent-dialogue",
+          "title": "Obligation de négociation sociale inscrite dans la loi et la Constitution",
+          "detail": "Dominique de Villepin déclare : « Je veux inscrire dans la loi et même la Constitution la nécessité de passer par la négociation », sans calendrier précisé par la source. Déclaré dans l'émission de RTL, M6, Public Sénat et Ouest-France du 27 septembre 2026, selon une dépêche AFP publiée par La Gazette France.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-09-27",
+          "lastChanged": "2026-09-27",
+          "sourceIds": [
+            "lagazettefrance-2026-09-27-villepin-negociation-sociale"
+          ],
+          "history": [
+            {
+              "date": "2026-09-27",
+              "type": "ajout",
+              "sourceIds": [
+                "lagazettefrance-2026-09-27-villepin-negociation-sociale"
               ]
             }
           ]
@@ -68551,6 +68844,16 @@
             "sourceIds": [
               "lesecologistes-2026-07-13-programme-pour-une-prosperite-ecol"
             ]
+          },
+          "villepin": {
+            "value": 2,
+            "note": "Propose le droit de vote à 16 ans.",
+            "measureIds": [
+              "villepin-inst-droit-de-vote-16-ans"
+            ],
+            "sourceIds": [
+              "lcp-2026-11-20-villepin-258-propositions"
+            ]
           }
         }
       },
@@ -80708,6 +81011,10 @@
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-22",
+      "text": "Recherche des nouveautés depuis la mise à jour (corrigée) du 21 novembre. Contrôle croisé des candidatures : le fil d'actualités de l'app (presitracker2027.fr/api/v1/news) n'a pas pu être lu ce jour (accès refusé par l'environnement d'exécution), aucun titre n'a donc été lu ; la recherche nominative a été faite pour chacun des candidats au statut pressenti (Jean-Noël Barrot, Xavier Bertrand, Élisabeth Borne, Thierry Breton, Bernard Cazeneuve, François Hollande, Jean Lassalle, Bruno Le Maire, Lydie Massard, Matthieu Pigasse, Sandrine Rousseau, Manuel Valls) : aucune déclaration, aucun retrait ni aucune investiture postérieurs au 21 novembre. Signaux écartés : la liste de LCP mise à jour le 20 novembre range Jean Lassalle parmi les candidats déclarés, mais aucune annonce de candidature de sa part n'a été trouvée (statut inchangé) ; selon la même liste, François Hollande attendrait désormais janvier pour se prononcer (aucune source primaire, rien n'est saisi) ; les articles de LCP, Sud Radio, Public Sénat et i24NEWS des 17 et 18 novembre sur la primaire envisagée par les équipes de Gabriel Attal, Bruno Retailleau et David Lisnard ne font état d'aucun accord conclu (Nouvelle Énergie : « aucun accord n'a été conclu à ce stade ») : aucune alliance saisie. Candidatures : aucun changement de statut. Mesures : Dominique de Villepin, 12 mesures ajoutées. Onze d'après le compte rendu par LCP (20 novembre) du programme de 258 propositions publié avec sa déclaration de candidature, dont le document n'a pas pu être consulté (droit de vote à 16 ans ; vote obligatoire sans sanction avec comptabilisation du vote blanc ; Conseil des communes mensuel et Assemblée générale des maires annuelle ; commission d'enquête sur la dégradation des comptes publics ; commission citoyenne sur les aides à la presse ; commission d'audit des politiques éditoriales de l'audiovisuel public ; commission des sages contre l'antisémitisme, le racisme et l'islamophobie ; « livre blanc de l'immigration » et loi de programmation ; plan pour les aidants ; loi-cadre contre la pauvreté et les exclusions ; accessibilité des bâtiments publics d'ici 2035), et une d'après une dépêche AFP du 27 septembre publiée par La Gazette France (obligation de négociation sociale inscrite dans la loi et la Constitution). Le compte rendu de LCP est ajouté en confirmation à 3 mesures déjà saisies (déficit sous 3 % en 2031, niches fiscales, référendum d'initiative citoyenne). Ne sont pas saisis faute de précision : un « grand plan » pour l'égalité entre les femmes et les hommes et le renforcement de l'aide sociale à l'enfance ; le calendrier des retraites décrit par LCP (débat parlementaire « jusqu'en avril 2028 » puis référendum), proche de la mesure déjà saisie, sera vérifié sur le document du programme ; la retraite par points évoquée dans la dépêche du 27 septembre n'est pas saisie, faute de pouvoir la rapprocher avec certitude de la mesure en vigueur (suppression de l'âge légal au profit d'une durée de cotisation). Questionnaire : 1 position renseignée dans la banque (Dominique de Villepin, droit de vote à 16 ans) ; thèmes de la banque passés en revue : institutions (vote blanc non renseigné, la source ne précisant pas s'il serait compté parmi les suffrages exprimés). Sondages : aucune enquête ajoutée ; la vague Ifop-Fiducial (terrain du 13 au 16 novembre) n'est toujours pas saisie, Sud Radio (18 novembre) et La Libre (18 novembre) ne donnant que des fourchettes, et ni le rapport de l'institut ni les notices de la Commission des sondages (dont celle de l'enquête Cluster17 pour Politico du 11 novembre) n'ont pu être consultés ce jour. Vie de la campagne : aucun fait ajouté. Parrainages : aucun relevé ajouté. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 16 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable (seuls des sites agrégateurs ou des articles antérieurs ont été trouvés) : Jean-Noël Barrot, Delphine Batho, Karim Bouamrane, Xavier Bertrand, Anasse Kazib, Selma Labib, Nathalie Arthaud, Jean-François Legendre, Philippe Herlin et Nicolas Dupont-Aignan ; Dominique de Villepin (voir ci-dessus)."
+    },
     {
       "date": "2026-11-21",
       "text": "Correction de la mise à jour du 21 novembre, qui n'avait pas relevé la déclaration de candidature de Dominique de Villepin du 20 novembre. Candidatures : Dominique de Villepin passe de pressenti à déclaré au 20 novembre, d'après LCP (20 novembre) et son site de campagne (lettre datée du 20 novembre). Vie de la campagne : 1 fait de candidature ajouté. Aucune mesure, position, sondage ni relevé de parrainages n'est modifié par cette correction."
