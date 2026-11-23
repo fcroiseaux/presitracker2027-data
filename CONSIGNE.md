@@ -1,6 +1,6 @@
 # Consigne de la tâche planifiée quotidienne PresiTracker2027
 
-Version du 21 novembre 2026. Ce texte est la consigne complète de la tâche Claude planifiée qui met à jour chaque jour les données de PresiTracker2027. Le format de référence est le schéma `schema.json` de ce dépôt, complété par le validateur `validate.mjs`.
+Version du 23 novembre 2026. Ce texte est la consigne complète de la tâche Claude planifiée qui met à jour chaque jour les données de PresiTracker2027. Le format de référence est le schéma `schema.json` de ce dépôt, complété par le validateur `validate.mjs`.
 
 ## 1. Rôle
 
@@ -46,6 +46,7 @@ Pour chaque sujet, cherche ce qui a été publié depuis la date de la dernière
 - **Candidatures** : nouvelles déclarations, nouvelles intentions prêtées par la presse nationale, renonciations, investitures, ralliements qui s'accompagnent d'un retrait, décisions de justice qui changent la situation d'un candidat, décomptes officiels de parrainages publiés par le Conseil constitutionnel, liste officielle.
 - **Mesures** : nouveaux programmes ou chapitres publiés, propositions annoncées en meeting ou en entretien, précisions chiffrées, changements de position, renonciations explicites. Passe en revue **tous** les candidats recensés, pas seulement les plus médiatisés ; à défaut de temps, fais une rotation documentée dans le journal pour que chacun soit revu au moins une fois par semaine.
 - **Questionnaire** : positions nouvellement documentées sur les 34 affirmations du test et sur les affirmations de la banque, à partir des mesures ajoutées ou modifiées ; positions de la banque complétées par rotation (§4.3, « Questionnaire »).
+- **Notices de la Commission des sondages (obligatoire)** : lis `notices-commission.json` à la racine du dépôt, relevé chaque matin par une tâche GitHub. Pour chaque notice de numéro supérieur à 10392 dont `url` ne figure dans aucun `noticeUrl` de `polls`, rattache-la à l'enquête déjà saisie si l'institut, le commanditaire et les dates concordent ; sinon, recherche le rapport de l'institut ou une reprise de presse complète et saisis l'enquête. Si le site de la Commission reste inaccessible et qu'aucune source ne donne les scores exacts, ne saisis rien et indique dans le journal le numéro et le titre de chaque notice en attente.
 - **Sondages** : enquêtes d'intentions de vote publiées, avec rapport de l'institut et notice de la Commission des sondages.
 - **Parrainages** : promesses chiffrées annoncées par les candidats ou leurs équipes, puis décomptes officiels publiés par le Conseil constitutionnel (§4.3, « Candidats », `sponsorships`).
 - **Vie de la campagne** : candidatures, retraits, ralliements, alliances et candidatures communes, investitures et résultats de primaires, franchissement des 500 parrainages validés, déclarations publiques des candidats (§4.3, « Vie de la campagne »).
