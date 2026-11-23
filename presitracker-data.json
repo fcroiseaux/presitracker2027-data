@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T08:56:00Z",
+  "updatedAt": "2026-11-23T10:52:17Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -84116,6 +84116,10 @@
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-23",
+      "text": "Passage complémentaire en fin de matinée. Notices de la Commission des sondages : la notice n° 10393 (« Pres IV Vague 10 TOLUNA HARRIS INTERACTIVE 23 novembre ») correspond selon son titre à l'enquête Toluna Harris Interactive pour M6, RTL et L'Express (terrain des 18 et 19 novembre) déjà saisie d'après le rapport de l'institut ; elle n'a pas pu être ouverte ce jour (accès aux pages web impossible depuis l'environnement d'exécution) et sera rattachée les jours suivants. Le fil d'actualités de l'app n'a pas pu être lu ; deux recherches complémentaires n'ont fait apparaître aucune candidature, aucun retrait ni aucune investiture postérieurs au passage précédent du jour. Aucune autre modification."
+    },
     {
       "date": "2026-11-23",
       "text": "Second rattrapage des sondages, à partir des notices de la Commission des sondages. Enquêtes ajoutées : OpinionWay pour Le Journal du Dimanche (terrain des 10 et 11 juin), Toluna Harris Interactive pour M6 et RTL (7-8 juillet, deux tours), OpinionWay pour Les Echos et Radio Classique (8-9 juillet), Verian pour L'Hémicycle (8-10 juillet), Ifop-Fiducial pour LCI, Le Figaro et Sud Radio (24-25 août, deux tours). La notice n° 10351 porte sur la même enquête Ifop pour LCI que la notice n° 10352 déjà citée, avec les mêmes résultats : aucune enquête n'est ajoutée à ce titre. Les hypothèses sont reprises une par une, sans fusion ni moyenne."
