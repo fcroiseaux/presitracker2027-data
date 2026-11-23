@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T10:52:17Z",
+  "updatedAt": "2026-11-23T12:49:00Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -81270,6 +81270,7 @@
       "population": "Échantillon de 2 088 personnes inscrites sur les listes électorales, issu d'un échantillon de 2 378 personnes représentatif de la population française âgée de 18 ans et plus",
       "sampleSize": 2378,
       "method": "Méthode des quotas et redressement (sexe, âge, CSP, région, comportement électoral antérieur) ; questionnaire en ligne",
+      "noticeUrl": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10393-pres-iv-vague-10-toluna-harris-interactive-23-novembre.pdf",
       "reportUrl": "https://tolunacorporate.com/wp-content/uploads/2026/11/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-10-M6-RTL-LExpress-23-novembre-2026.pdf",
       "margin": "Entre 1,4 et 2,9 points au 1er tour",
       "round": 1,
@@ -81468,6 +81469,7 @@
       "population": "Échantillon de 2 088 personnes inscrites sur les listes électorales, issu d'un échantillon de 2 378 personnes représentatif de la population française âgée de 18 ans et plus",
       "sampleSize": 2378,
       "method": "Méthode des quotas et redressement (sexe, âge, CSP, région, comportement électoral antérieur) ; questionnaire en ligne",
+      "noticeUrl": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10393-pres-iv-vague-10-toluna-harris-interactive-23-novembre.pdf",
       "reportUrl": "https://tolunacorporate.com/wp-content/uploads/2026/11/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-10-M6-RTL-LExpress-23-novembre-2026.pdf",
       "margin": "Entre 2,9 et 3,0 points au 2nd tour",
       "round": 2,
@@ -84116,6 +84118,10 @@
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-23",
+      "text": "Sondages : notice de la Commission des sondages n° 10393 ajoutée aux deux fiches de l'enquête Toluna Harris Interactive pour M6, RTL et L'Express (terrain des 18 et 19 novembre, 2 088 inscrits issus d'un échantillon de 2 378 personnes), après contrôle de la concordance avec le rapport de l'institut. Aucun score modifié."
+    },
     {
       "date": "2026-11-23",
       "text": "Passage complémentaire en fin de matinée. Notices de la Commission des sondages : la notice n° 10393 (« Pres IV Vague 10 TOLUNA HARRIS INTERACTIVE 23 novembre ») correspond selon son titre à l'enquête Toluna Harris Interactive pour M6, RTL et L'Express (terrain des 18 et 19 novembre) déjà saisie d'après le rapport de l'institut ; elle n'a pas pu être ouverte ce jour (accès aux pages web impossible depuis l'environnement d'exécution) et sera rattachée les jours suivants. Le fil d'actualités de l'app n'a pas pu être lu ; deux recherches complémentaires n'ont fait apparaître aucune candidature, aucun retrait ni aucune investiture postérieurs au passage précédent du jour. Aucune autre modification."
