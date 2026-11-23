@@ -1,0 +1,37 @@
+name: Relevé des notices de sondages
+
+on:
+  schedule:
+    - cron: "20 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: notices
+
+jobs:
+  releve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Relever les notices
+        run: node scripts/notices.mjs
+      - name: Publier le relevé s'il a changé
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add -N notices-commission.json
+          if git diff --quiet -- notices-commission.json; then
+            echo "Aucun changement"
+            exit 0
+          fi
+          gh api graphql \
+            -f query='mutation($repo:String!,$branch:String!,$head:GitObjectID!,$contents:Base64String!){createCommitOnBranch(input:{branch:{repositoryNameWithOwner:$repo,branchName:$branch},expectedHeadOid:$head,message:{headline:"Relevé des notices de la Commission des sondages"},fileChanges:{additions:[{path:"notices-commission.json",contents:$contents}]}}){commit{oid}}}' \
+            -f repo="$GITHUB_REPOSITORY" -f branch="$GITHUB_REF_NAME" -f head="$(git rev-parse HEAD)" \
+            -f contents="$(base64 -w0 notices-commission.json)"
