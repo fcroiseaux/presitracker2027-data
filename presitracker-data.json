@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T05:43:02Z",
+  "updatedAt": "2026-11-23T08:30:00Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -79437,6 +79437,7 @@
       "sampleSize": 1164,
       "method": "Questionnaire auto-administré en ligne ; méthode des quotas (genre, âge, catégorie socioprofessionnelle, type de commune, région de résidence)",
       "margin": "Entre 1,2 et 2,8 points pour 1 164 personnes selon les pourcentages",
+      "noticeUrl": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10368-pres-iv-cluster17-politico-11-novembre.pdf",
       "reportUrl": "https://cluster17.com/wp-content/uploads/2026/11/Sondage_Cluster17_ITV_P2027-Politico.pdf",
       "round": 1,
       "hypotheses": [
@@ -79682,6 +79683,7 @@
       "population": "1 030 personnes représentatives de la population nationale française âgée de 18 ans et plus, dont 952 inscrites sur les listes électorales ; intentions calculées sur les votants décidés (bases brutes 668 à 722 au 1er tour, 473 à 648 au 2nd tour)",
       "sampleSize": 1030,
       "method": "En ligne, panel propriétaire YouGov France",
+      "noticeUrl": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10382-pres-iv-yougov-le-huffpost-19-novembre.pdf",
       "reportUrl": "https://ygo-assets-websites-editorial-emea.yougov.net/documents/R%C3%A9sultats_YouGov_pour_le_HuffPost_Intentions_de_vote_Novembre_2026_17.11.2026.pdf",
       "round": 1,
       "hypotheses": [
@@ -79953,6 +79955,7 @@
       "population": "1 030 personnes représentatives de la population nationale française âgée de 18 ans et plus, dont 952 inscrites sur les listes électorales ; intentions calculées sur les votants décidés (bases brutes 668 à 722 au 1er tour, 473 à 648 au 2nd tour)",
       "sampleSize": 1030,
       "method": "En ligne, panel propriétaire YouGov France",
+      "noticeUrl": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10382-pres-iv-yougov-le-huffpost-19-novembre.pdf",
       "reportUrl": "https://ygo-assets-websites-editorial-emea.yougov.net/documents/R%C3%A9sultats_YouGov_pour_le_HuffPost_Intentions_de_vote_Novembre_2026_17.11.2026.pdf",
       "round": 2,
       "hypotheses": [
@@ -80023,6 +80026,1463 @@
             {
               "candidateId": "melenchon",
               "value": 39
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ifop-2026-11-04-sud-radio",
+      "institute": "Ifop-Fiducial",
+      "sponsors": [
+        "Sud Radio"
+      ],
+      "fieldworkStart": "2026-11-02",
+      "fieldworkEnd": "2026-11-04",
+      "publishedAt": "2026-11-20",
+      "population": "Échantillon de 1 834 personnes inscrites sur les listes électorales, extrait d'un échantillon de 1 978 personnes représentatif de la population française âgée de 18 ans et plus",
+      "sampleSize": 1978,
+      "method": "Questionnaire auto-administré en ligne, méthode des quotas ; redressement sociodémographique et politique",
+      "noticeUrl": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10392-pres-iv-ifop-sud-radio-20-novembre.pdf",
+      "margin": "Entre 1,3 et 3,0 points selon les pourcentages, pour 1 100 personnes",
+      "round": 1,
+      "hypotheses": [
+        {
+          "id": "h1",
+          "label": "Édouard Philippe candidat unique de la droite et du centre",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 18
+            },
+            {
+              "candidateId": "roussel",
+              "value": 3
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 13
+            },
+            {
+              "candidateId": "philippe",
+              "value": 19
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 1.5
+            },
+            {
+              "candidateId": "lepen",
+              "value": 37
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "id": "h2",
+          "label": "Bruno Retailleau candidat unique de la droite et du centre",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 18
+            },
+            {
+              "candidateId": "roussel",
+              "value": 3
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3.5
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 17
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 14
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2
+            },
+            {
+              "candidateId": "lepen",
+              "value": 38
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "id": "h3",
+          "label": "David Lisnard candidat unique de la droite et du centre",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 1
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 17
+            },
+            {
+              "candidateId": "roussel",
+              "value": 3.5
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3.5
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 18
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 14
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2
+            },
+            {
+              "candidateId": "lepen",
+              "value": 37
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "id": "h4",
+          "label": "Gabriel Attal candidat unique de la droite et du centre",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 1
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 18
+            },
+            {
+              "candidateId": "roussel",
+              "value": 3
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 16
+            },
+            {
+              "candidateId": "attal",
+              "value": 13
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 3
+            },
+            {
+              "candidateId": "lepen",
+              "value": 38
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opinionway-2026-11-10-les-echos",
+      "institute": "OpinionWay",
+      "sponsors": [
+        "Les Echos",
+        "Radio Classique"
+      ],
+      "fieldworkStart": "2026-11-09",
+      "fieldworkEnd": "2026-11-10",
+      "publishedAt": "2026-11-13",
+      "population": "Échantillon de 982 personnes inscrites sur les listes électorales, issu d'un échantillon de 1 017 personnes représentatif de la population française",
+      "sampleSize": 1017,
+      "method": "Questionnaire auto-administré en ligne (CAWI), méthode des quotas ; redressement sociodémographique et politique (présidentielle 2022 T1, législatives 2024 T1)",
+      "noticeUrl": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10372-pres-presitrack-opinionway-13-novembre.pdf",
+      "margin": "Entre 1,4 et 4,0 points selon l'effectif et le pourcentage",
+      "round": 1,
+      "hypotheses": [
+        {
+          "id": "h1",
+          "label": "Hypothèse 1 : Gabriel Attal et Édouard Philippe candidats du centre",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 1
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 17
+            },
+            {
+              "candidateId": "roussel",
+              "value": 1
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 11
+            },
+            {
+              "candidateId": "attal",
+              "value": 4
+            },
+            {
+              "candidateId": "philippe",
+              "value": 11
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 4
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 10
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 1
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3
+            },
+            {
+              "candidateId": "lepen",
+              "value": 34
+            }
+          ]
+        },
+        {
+          "id": "h2",
+          "label": "Hypothèse 2 : Gabriel Attal candidat du centre",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 1
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 16
+            },
+            {
+              "candidateId": "roussel",
+              "value": 1
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 13
+            },
+            {
+              "candidateId": "attal",
+              "value": 10
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 6
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 12
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 1
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3
+            },
+            {
+              "candidateId": "lepen",
+              "value": 34
+            }
+          ]
+        },
+        {
+          "id": "h3",
+          "label": "Hypothèse 3 : Édouard Philippe candidat du centre",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 1
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 16
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 12
+            },
+            {
+              "candidateId": "philippe",
+              "value": 12
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 4
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 11
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3
+            },
+            {
+              "candidateId": "lepen",
+              "value": 34
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opinionway-2026-11-12-cnews",
+      "institute": "OpinionWay",
+      "sponsors": [
+        "CNews"
+      ],
+      "fieldworkStart": "2026-11-10",
+      "fieldworkEnd": "2026-11-12",
+      "publishedAt": "2026-11-12",
+      "population": "Échantillon de 964 personnes inscrites sur les listes électorales, issu d'un échantillon de 1 001 personnes représentatif de la population française âgée de 18 ans et plus",
+      "sampleSize": 1001,
+      "method": "Questionnaire auto-administré en ligne (CAWI), méthode des quotas ; redressement sociodémographique et politique (présidentielle 2022 T1, législatives 2024 T1)",
+      "noticeUrl": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10371-pres-iv-opinionway-cnews-12-novembre.pdf",
+      "margin": "Entre 1,4 et 4,4 points selon l'effectif et le pourcentage",
+      "round": 1,
+      "hypotheses": [
+        {
+          "id": "h1",
+          "label": "Hypothèse 1 : avec Teddy Riner (moins de 1 % : Karim Bouamrane)",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 1
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 16
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 10
+            },
+            {
+              "candidateId": "attal",
+              "value": 3
+            },
+            {
+              "candidateId": "philippe",
+              "value": 12
+            },
+            {
+              "candidateId": "riner",
+              "value": 4
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 4
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 9
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3
+            },
+            {
+              "candidateId": "lepen",
+              "value": 31
+            }
+          ]
+        },
+        {
+          "id": "h2",
+          "label": "Hypothèse 2 : sans Teddy Riner",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 1
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 16
+            },
+            {
+              "candidateId": "roussel",
+              "value": 1
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 11
+            },
+            {
+              "candidateId": "bouamrane",
+              "value": 1
+            },
+            {
+              "candidateId": "attal",
+              "value": 4
+            },
+            {
+              "candidateId": "philippe",
+              "value": 12
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 5
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 10
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 2
+            },
+            {
+              "candidateId": "lepen",
+              "value": 32
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opinionway-2026-11-12-cnews-t2",
+      "institute": "OpinionWay",
+      "sponsors": [
+        "CNews"
+      ],
+      "fieldworkStart": "2026-11-10",
+      "fieldworkEnd": "2026-11-12",
+      "publishedAt": "2026-11-12",
+      "population": "Échantillon de 964 personnes inscrites sur les listes électorales, issu d'un échantillon de 1 001 personnes représentatif de la population française âgée de 18 ans et plus",
+      "sampleSize": 1001,
+      "method": "Questionnaire auto-administré en ligne (CAWI), méthode des quotas ; redressement sociodémographique et politique (présidentielle 2022 T1, législatives 2024 T1)",
+      "noticeUrl": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10371-pres-iv-opinionway-cnews-12-novembre.pdf",
+      "margin": "Entre 1,4 et 4,4 points selon l'effectif et le pourcentage",
+      "round": 2,
+      "hypotheses": [
+        {
+          "id": "h1",
+          "label": "Hypothèse 1 : Édouard Philippe contre Marine Le Pen",
+          "results": [
+            {
+              "candidateId": "philippe",
+              "value": 44
+            },
+            {
+              "candidateId": "lepen",
+              "value": 56
+            }
+          ]
+        },
+        {
+          "id": "h2",
+          "label": "Hypothèse 2 : Jean-Luc Mélenchon contre Marine Le Pen",
+          "results": [
+            {
+              "candidateId": "melenchon",
+              "value": 32
+            },
+            {
+              "candidateId": "lepen",
+              "value": 68
+            }
+          ]
+        },
+        {
+          "id": "h3",
+          "label": "Hypothèse 3 : Raphaël Glucksmann contre Marine Le Pen",
+          "results": [
+            {
+              "candidateId": "glucksmann",
+              "value": 42
+            },
+            {
+              "candidateId": "lepen",
+              "value": 58
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elabe-2026-11-13",
+      "institute": "Elabe",
+      "sponsors": [
+        "BFMTV",
+        "La Tribune Dimanche"
+      ],
+      "fieldworkStart": "2026-11-12",
+      "fieldworkEnd": "2026-11-13",
+      "publishedAt": "2026-11-14",
+      "population": "Échantillon de 1 500 personnes, représentatif des résidents de France métropolitaine âgés de 18 ans et plus, dont 1 391 inscrits sur les listes électorales",
+      "sampleSize": 1500,
+      "method": "Questionnaire en ligne, méthode des quotas (sexe, âge, profession, région, catégorie d'agglomération) ; redressement sociodémographique et politique (législatives 2024 T1, présidentielle 2022 T1 et T2)",
+      "noticeUrl": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10375-pres-iv-elabe-14-novembre.pdf",
+      "reportUrl": "https://elabe.fr/fichier-pdf/13399-les-francais-et-lelection-presidentielle-2027/",
+      "margin": "Entre 1,1 et 3,5 points",
+      "round": 1,
+      "hypotheses": [
+        {
+          "id": "h1",
+          "label": "Configuration 1 : Édouard Philippe et Dominique de Villepin candidats",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 17
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 13.5
+            },
+            {
+              "candidateId": "philippe",
+              "value": 15
+            },
+            {
+              "candidateId": "villepin",
+              "value": 2.5
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 6
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 3
+            },
+            {
+              "candidateId": "lepen",
+              "value": 33
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 4.5
+            }
+          ]
+        },
+        {
+          "id": "h2",
+          "label": "Configuration 2 : Gabriel Attal et Dominique de Villepin candidats",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 1
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 17.5
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 14
+            },
+            {
+              "candidateId": "attal",
+              "value": 10
+            },
+            {
+              "candidateId": "villepin",
+              "value": 3
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 9
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2.5
+            },
+            {
+              "candidateId": "lepen",
+              "value": 33
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 4.5
+            }
+          ]
+        },
+        {
+          "id": "h3",
+          "label": "Configuration 3 : Édouard Philippe et Gabriel Attal candidats",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 17.5
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3.5
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 13
+            },
+            {
+              "candidateId": "philippe",
+              "value": 12
+            },
+            {
+              "candidateId": "attal",
+              "value": 5.5
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 6
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 3
+            },
+            {
+              "candidateId": "lepen",
+              "value": 33
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "id": "h4",
+          "label": "Configuration 4 : François Ruffin, Gabriel Attal et David Lisnard candidats",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "roussel",
+              "value": 1.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 17.5
+            },
+            {
+              "candidateId": "ruffin",
+              "value": 3
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 14
+            },
+            {
+              "candidateId": "attal",
+              "value": 8.5
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 6
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 10.5
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2.5
+            },
+            {
+              "candidateId": "lepen",
+              "value": 32
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "id": "h5",
+          "label": "Configuration 5 : Édouard Philippe et David Lisnard candidats",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 18.5
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 13.5
+            },
+            {
+              "candidateId": "philippe",
+              "value": 13
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 4
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 9
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 3
+            },
+            {
+              "candidateId": "lepen",
+              "value": 32.5
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3.5
+            }
+          ]
+        },
+        {
+          "id": "h6",
+          "label": "Configuration 6 : avec Natacha Polony et Teddy Riner",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "roussel",
+              "value": 1.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 17
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 3
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 10.5
+            },
+            {
+              "candidateId": "polony",
+              "value": 1.5
+            },
+            {
+              "candidateId": "riner",
+              "value": 4.5
+            },
+            {
+              "candidateId": "philippe",
+              "value": 9.5
+            },
+            {
+              "candidateId": "attal",
+              "value": 4
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 4
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 8
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2
+            },
+            {
+              "candidateId": "lepen",
+              "value": 31
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elabe-2026-11-13-t2",
+      "institute": "Elabe",
+      "sponsors": [
+        "BFMTV",
+        "La Tribune Dimanche"
+      ],
+      "fieldworkStart": "2026-11-12",
+      "fieldworkEnd": "2026-11-13",
+      "publishedAt": "2026-11-14",
+      "population": "Échantillon de 1 500 personnes, représentatif des résidents de France métropolitaine âgés de 18 ans et plus, dont 1 391 inscrits sur les listes électorales",
+      "sampleSize": 1500,
+      "method": "Questionnaire en ligne, méthode des quotas (sexe, âge, profession, région, catégorie d'agglomération) ; redressement sociodémographique et politique (législatives 2024 T1, présidentielle 2022 T1 et T2)",
+      "noticeUrl": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10375-pres-iv-elabe-14-novembre.pdf",
+      "reportUrl": "https://elabe.fr/fichier-pdf/13399-les-francais-et-lelection-presidentielle-2027/",
+      "margin": "Entre 1,1 et 3,5 points",
+      "round": 2,
+      "hypotheses": [
+        {
+          "id": "h1",
+          "label": "2nd tour : Mélenchon / Le Pen",
+          "results": [
+            {
+              "candidateId": "melenchon",
+              "value": 31.5
+            },
+            {
+              "candidateId": "lepen",
+              "value": 68.5
+            }
+          ]
+        },
+        {
+          "id": "h2",
+          "label": "2nd tour : Glucksmann / Le Pen",
+          "results": [
+            {
+              "candidateId": "glucksmann",
+              "value": 45
+            },
+            {
+              "candidateId": "lepen",
+              "value": 55
+            }
+          ]
+        },
+        {
+          "id": "h3",
+          "label": "2nd tour : Philippe / Le Pen",
+          "results": [
+            {
+              "candidateId": "philippe",
+              "value": 45
+            },
+            {
+              "candidateId": "lepen",
+              "value": 55
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ifop-2026-11-16",
+      "institute": "Ifop-Fiducial",
+      "sponsors": [
+        "TF1-LCI",
+        "Le Figaro",
+        "Sud Radio"
+      ],
+      "fieldworkStart": "2026-11-13",
+      "fieldworkEnd": "2026-11-16",
+      "publishedAt": "2026-11-18",
+      "population": "Échantillon de 1 690 personnes inscrites sur les listes électorales, extrait d'un échantillon de 1 823 personnes représentatif de la population française âgée de 18 ans et plus",
+      "sampleSize": 1823,
+      "method": "Questionnaire auto-administré en ligne, méthode des quotas (sexe, âge, profession) après stratification par région et catégorie d'agglomération ; redressement sociodémographique et politique (présidentielle 2022 T1, européennes 2024, législatives 2024 T1)",
+      "noticeUrl": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10384-pres-iv-ifop-18-novembre.pdf",
+      "margin": "Entre 1,3 et 3,0 points selon les pourcentages, pour 1 100 personnes",
+      "round": 1,
+      "hypotheses": [
+        {
+          "id": "h1",
+          "label": "Hypothèse élargie avec Teddy Riner (Nathalie Arthaud : tiret dans la notice)",
+          "results": [
+            {
+              "candidateId": "melenchon",
+              "value": 17
+            },
+            {
+              "candidateId": "roussel",
+              "value": 1.5
+            },
+            {
+              "candidateId": "ruffin",
+              "value": 2
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 2
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 8
+            },
+            {
+              "candidateId": "attal",
+              "value": 4.5
+            },
+            {
+              "candidateId": "philippe",
+              "value": 10
+            },
+            {
+              "candidateId": "villepin",
+              "value": 1.5
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 4
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 8
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 1.5
+            },
+            {
+              "candidateId": "lepen",
+              "value": 32
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3
+            },
+            {
+              "candidateId": "polony",
+              "value": 1
+            },
+            {
+              "candidateId": "riner",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "id": "h2",
+          "label": "Hypothèse avec quatre candidats de la droite et/ou du centre",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 19
+            },
+            {
+              "candidateId": "roussel",
+              "value": 1.5
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 2.5
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 10
+            },
+            {
+              "candidateId": "attal",
+              "value": 4
+            },
+            {
+              "candidateId": "philippe",
+              "value": 11
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 4
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 9
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 1.5
+            },
+            {
+              "candidateId": "lepen",
+              "value": 34
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": "h3",
+          "label": "Hypothèse Édouard Philippe, Bruno Retailleau et David Lisnard (Nathalie Arthaud : tiret dans la notice)",
+          "results": [
+            {
+              "candidateId": "melenchon",
+              "value": 19.5
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2.5
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 2.5
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 10
+            },
+            {
+              "candidateId": "philippe",
+              "value": 12
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 4
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 10
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 1.5
+            },
+            {
+              "candidateId": "lepen",
+              "value": 35
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": "h4",
+          "label": "Hypothèse Gabriel Attal, Bruno Retailleau et David Lisnard",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 19
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 2.5
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 11
+            },
+            {
+              "candidateId": "attal",
+              "value": 9
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 5
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 11
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2
+            },
+            {
+              "candidateId": "lepen",
+              "value": 35
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": "h5",
+          "label": "Hypothèse Édouard Philippe et David Lisnard",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 0.5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 19.5
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 2.5
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 11
+            },
+            {
+              "candidateId": "philippe",
+              "value": 14
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 12
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 1.5
+            },
+            {
+              "candidateId": "lepen",
+              "value": 34
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toluna-harris-interactive-2026-11-19",
+      "institute": "Toluna Harris Interactive",
+      "sponsors": [
+        "M6",
+        "RTL",
+        "L'Express"
+      ],
+      "fieldworkStart": "2026-11-18",
+      "fieldworkEnd": "2026-11-19",
+      "publishedAt": "2026-11-23",
+      "population": "Échantillon de 2 088 personnes inscrites sur les listes électorales, issu d'un échantillon de 2 378 personnes représentatif de la population française âgée de 18 ans et plus",
+      "sampleSize": 2378,
+      "method": "Méthode des quotas et redressement (sexe, âge, CSP, région, comportement électoral antérieur) ; questionnaire en ligne",
+      "reportUrl": "https://tolunacorporate.com/wp-content/uploads/2026/11/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-10-M6-RTL-LExpress-23-novembre-2026.pdf",
+      "margin": "Entre 1,4 et 2,9 points au 1er tour",
+      "round": 1,
+      "hypotheses": [
+        {
+          "id": "h1",
+          "label": "Hypothèse Gabriel Attal et Édouard Philippe",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 1
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 18
+            },
+            {
+              "candidateId": "roussel",
+              "value": 1
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 1
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 11
+            },
+            {
+              "candidateId": "attal",
+              "value": 4
+            },
+            {
+              "candidateId": "philippe",
+              "value": 9
+            },
+            {
+              "candidateId": "villepin",
+              "value": 1
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 11
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 4
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 1
+            },
+            {
+              "candidateId": "lepen",
+              "value": 31
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3
+            },
+            {
+              "candidateId": "riner",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "id": "h2",
+          "label": "Hypothèse Édouard Philippe candidat unique du centre",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 1
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 19
+            },
+            {
+              "candidateId": "roussel",
+              "value": 1
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 1
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 11
+            },
+            {
+              "candidateId": "philippe",
+              "value": 10
+            },
+            {
+              "candidateId": "villepin",
+              "value": 2
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 11
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 4
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 1
+            },
+            {
+              "candidateId": "lepen",
+              "value": 31
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 4
+            },
+            {
+              "candidateId": "riner",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "id": "h3",
+          "label": "Hypothèse Gabriel Attal candidat unique du centre",
+          "results": [
+            {
+              "candidateId": "arthaud",
+              "value": 1
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 19
+            },
+            {
+              "candidateId": "roussel",
+              "value": 1
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 2
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 11
+            },
+            {
+              "candidateId": "attal",
+              "value": 7
+            },
+            {
+              "candidateId": "villepin",
+              "value": 2
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 12
+            },
+            {
+              "candidateId": "retailleau",
+              "value": 5
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 1
+            },
+            {
+              "candidateId": "lepen",
+              "value": 30
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 4
+            },
+            {
+              "candidateId": "riner",
+              "value": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toluna-harris-interactive-2026-11-19-t2",
+      "institute": "Toluna Harris Interactive",
+      "sponsors": [
+        "M6",
+        "RTL",
+        "L'Express"
+      ],
+      "fieldworkStart": "2026-11-18",
+      "fieldworkEnd": "2026-11-19",
+      "publishedAt": "2026-11-23",
+      "population": "Échantillon de 2 088 personnes inscrites sur les listes électorales, issu d'un échantillon de 2 378 personnes représentatif de la population française âgée de 18 ans et plus",
+      "sampleSize": 2378,
+      "method": "Méthode des quotas et redressement (sexe, âge, CSP, région, comportement électoral antérieur) ; questionnaire en ligne",
+      "reportUrl": "https://tolunacorporate.com/wp-content/uploads/2026/11/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-10-M6-RTL-LExpress-23-novembre-2026.pdf",
+      "margin": "Entre 2,9 et 3,0 points au 2nd tour",
+      "round": 2,
+      "hypotheses": [
+        {
+          "id": "h1",
+          "label": "Hypothèse Marine Le Pen et Jean-Luc Mélenchon",
+          "results": [
+            {
+              "candidateId": "melenchon",
+              "value": 35
+            },
+            {
+              "candidateId": "lepen",
+              "value": 65
             }
           ]
         }
@@ -81568,6 +83028,10 @@
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-23",
+      "text": "Rattrapage des sondages de novembre, à partir des notices de la Commission des sondages et des rapports des instituts. Enquêtes ajoutées : Ifop-Fiducial pour Sud Radio (terrain du 2 au 4 novembre), OpinionWay pour Les Echos et Radio Classique (9-10 novembre), OpinionWay pour CNews (10-12 novembre, deux tours), Elabe pour BFMTV et La Tribune Dimanche (12-13 novembre, deux tours), Ifop-Fiducial pour TF1-LCI, Le Figaro et Sud Radio (13-16 novembre), Toluna Harris Interactive pour M6, RTL et L'Express (18-19 novembre, deux tours ; notice pas encore en ligne, rapport de l'institut cité). Notices ajoutées aux enquêtes YouGov pour Le HuffPost et Cluster17 pour Politico. Les hypothèses sont reprises une par une, sans fusion ni moyenne."
+    },
     {
       "date": "2026-11-23",
       "text": "Recherche des nouveautés depuis la mise à jour du 22 novembre. Contrôle croisé des candidatures : le fil d'actualités de l'app (presitracker2027.fr/api/v1/news) n'a pas pu être lu ce jour (connexion impossible depuis l'environnement d'exécution), aucun titre n'a donc été lu ; la recherche nominative a été faite pour chacun des candidats au statut pressenti (Jean-Noël Barrot, Xavier Bertrand, Élisabeth Borne, Thierry Breton, Bernard Cazeneuve, François Hollande, Jean Lassalle, Bruno Le Maire, Lydie Massard, Matthieu Pigasse, Sandrine Rousseau, Manuel Valls) : aucune déclaration, aucun retrait ni aucune investiture postérieurs au 22 novembre. Signal écarté : un article d'Europe 1 du 29 avril 2026 titre sur l'annonce de la candidature de Bernard Cazeneuve dans un entretien au Figaro, sans citer de déclaration formelle ; il est antérieur à l'entrée du 19 mai qui fonde son statut (« volonté pleine et entière », sans annonce formelle) et le statut reste inchangé ; Bruno Le Maire a déclaré sur France 2 le 12 novembre ne pas être candidat (« on verra demain », selon Public Sénat), source déjà connue, statut inchangé. Candidatures : aucun changement de statut. Sondages : 1 enquête ajoutée, YouGov pour Le HuffPost (terrain du 12 au 17 novembre, 1 030 personnes dont 952 inscrites), 5 hypothèses de premier tour et 5 duels de second tour, d'après le rapport de l'institut ; la date de publication retenue (17 novembre) est celle qui figure dans le nom du fichier du rapport, faute de date dans le document ; aucune marge d'erreur n'y figure ; la notice de la Commission des sondages (n° 10382) a été repérée mais n'a pas pu être ouverte et sera ajoutée les jours suivants. La vague Ifop-Fiducial (terrain du 13 au 16 novembre) n'est toujours pas saisie : Sud Radio et La Libre (18 novembre) ne donnent que des fourchettes, et ni le rapport de l'institut ni la notice n'ont été trouvés ; la notice de l'enquête Cluster17 pour Politico du 11 novembre n'a pas été trouvée. Mesures : Marine Le Pen, 6 mesures ajoutées et 1 modifiée, d'après la présentation de sa réforme des retraites en conférence de presse le 17 novembre (Public Sénat, Euronews, Sud Radio d'après l'AFP) : âge du taux plein en cinq paliers de 60 à 62 ans selon l'âge du premier emploi stable ; abrogation de la réforme de 2023 au 1er janvier 2028 ; validation d'un trimestre pour un travail au moins à mi-temps sans critère de salaire ; limitation à quatre des trimestres de chômage validés ; majoration de pension des mères portée à 12 % ; référendum sur la réforme sans majorité absolue ; la mesure « pilier de capitalisation » est modifiée (pilier obligatoire et universel, ouvert d'abord aux 52 ans et moins, fonds visé de près de 900 milliards d'euros) ; les nouvelles sources confirment la mesure de retraite à 62 ans. Ne sont pas saisis : la décote, chiffrée à 5 % par trimestre manquant par Public Sénat et à 2,5 % par Sud Radio (AFP) ; la suspension de l'APA et de l'Aspa au-delà de 3 000 euros de pension et l'affectation de la moitié des excédents de l'Unédic, présentées comme des financements ; le remplacement des critères de pénibilité, rapporté par une seule source. Questionnaire : 1 position modifiée dans le test (Marine Le Pen, capitalisation, de +1 à +2, la mesure étant désormais précisée) ; thèmes de la banque passés en revue : retraites (aucune position nouvelle renseignée). Vie de la campagne : aucun fait ajouté (une déclaration de Marine Le Pen est déjà publiée pour la semaine, le 16 novembre). Parrainages : aucun relevé ajouté, aucune annonce chiffrée nouvelle trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 17 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable (seuls des sites agrégateurs ou des articles antérieurs ont été trouvés) : Sébastien Bonnal, Mélody Delmur, Clara Egger, François Asselineau, Rémi Revillon d'Apreval et Raphaël Glucksmann ; Marine Le Pen (voir ci-dessus)."
