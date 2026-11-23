@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T05:48:00Z",
+  "updatedAt": "2026-11-23T05:43:02Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -6088,6 +6088,34 @@
       "publisher": "La Gazette France (AFP)",
       "url": "https://www.lagazettefrance.fr/article/villepin-veut-inscrire-le-principe-de-la-negociation-sociale-dans-la-constitution",
       "date": "2026-09-27",
+      "kind": "presse"
+    },
+    "publicsenat-2026-11-17-reforme-retraites-le-pen": {
+      "title": "Présidentielle 2027 : que contient la réforme des retraites présentée par Marine Le Pen ?",
+      "publisher": "Public Sénat",
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-contient-la-reforme-des-retraites-presentee-par-marine-le-pen",
+      "date": "2026-11-17",
+      "kind": "presse"
+    },
+    "euronews-2026-11-17-le-pen-reforme-retraites": {
+      "title": "Dose de capitalisation, départ de 60 à 62 ans... Marine Le Pen dévoile sa réforme des retraites",
+      "publisher": "Euronews",
+      "url": "https://fr.euronews.com/2026/11/17/dose-de-capitalisation-depart-de-60-a-62-ans-marine-le-pen-devoile-sa-reforme-des-retraite",
+      "date": "2026-11-17",
+      "kind": "presse"
+    },
+    "sudradio-2026-11-17-le-pen-retraites-1er-janvier-2028": {
+      "title": "Le Pen affirme que sa réforme des retraites sera \"engagée dès (son) arrivée au pouvoir\" et sera appliquée au 1er janvier 2028",
+      "publisher": "Sud Radio (AFP)",
+      "url": "https://www.sudradio.fr/societe/le-pen-affirme-que-sa-reforme-des-retraites-sera-engagee-des-son-arrivee-au-pouvoir-et-sera-appliquee-au-1er-janvier-2028",
+      "date": "2026-11-17",
+      "kind": "presse"
+    },
+    "sudradio-2026-11-17-le-pen-devoile-reforme-retraites": {
+      "title": "Marine Le Pen dévoile sa réforme des retraites à un an de l'élection",
+      "publisher": "Sud Radio (AFP)",
+      "url": "https://www.sudradio.fr/societe/travailler-plus-partir-plus-tot-le-pen-promet-de-reformer-les-retraites-des-son-arrivee-au-pouvoir",
+      "date": "2026-11-17",
       "kind": "presse"
     }
   },
@@ -24521,16 +24549,19 @@
           "id": "lepen-ret-pilier-capitalisation",
           "themeKey": "ret",
           "subthemeKey": "ret-financement",
-          "title": "Pilier de capitalisation pour les retraites",
-          "detail": "Marine Le Pen propose de créer un « véritable pilier de capitalisation » dans le système de retraite, sans chiffrage publié. Présenté le 6 octobre 2026, selon Public Sénat et Sud Radio.",
+          "title": "Pilier de retraite par capitalisation obligatoire et universel",
+          "detail": "Marine Le Pen propose un second pilier de retraite par capitalisation, obligatoire et universel, s'ajoutant au système par répartition, ouvert d'abord aux travailleurs de 52 ans au plus au 1er janvier 2028, avec un fonds visant « quasi 900 milliards d'euros en une génération ». Selon Euronews, il serait alimenté par la réorientation des cotisations du 1 % logement, de celles du FNAL et de la moitié des cotisations de formation professionnelle, soit au moins 12 milliards d'euros par an, dans un fonds individuel géré par la Caisse des dépôts. Présenté une première fois le 6 octobre 2026 sans chiffrage, puis détaillé en conférence de presse à Paris le 17 novembre 2026, selon Public Sénat, Euronews et Sud Radio (AFP).",
           "kind": "declaration",
           "status": "active",
           "firstSeen": "2026-10-06",
-          "lastChanged": "2026-10-06",
+          "lastChanged": "2026-11-23",
           "sourceIds": [
             "publicsenat-2026-10-06-140-milliards-d-euros-d-economies",
             "sudradio-2026-10-06-le-pen-promet-un-effort-radical",
-            "senioractu-2026-10-25-le-pen-lance-campagne-orleans"
+            "senioractu-2026-10-25-le-pen-lance-campagne-orleans",
+            "publicsenat-2026-11-17-reforme-retraites-le-pen",
+            "euronews-2026-11-17-le-pen-reforme-retraites",
+            "sudradio-2026-11-17-le-pen-retraites-1er-janvier-2028"
           ],
           "history": [
             {
@@ -24538,6 +24569,18 @@
               "type": "ajout",
               "sourceIds": [
                 "publicsenat-2026-10-06-140-milliards-d-euros-d-economies"
+              ]
+            },
+            {
+              "date": "2026-11-23",
+              "type": "modification",
+              "before": "Pilier de capitalisation pour les retraites — Marine Le Pen propose de créer un « véritable pilier de capitalisation » dans le système de retraite, sans chiffrage publié. Présenté le 6 octobre 2026, selon Public Sénat et Sud Radio.",
+              "after": "Pilier de retraite par capitalisation obligatoire et universel — Marine Le Pen propose un second pilier de retraite par capitalisation, obligatoire et universel, s'ajoutant au système par répartition, ouvert d'abord aux travailleurs de 52 ans au plus au 1er janvier 2028, avec un fonds visant « quasi 900 milliards d'euros en une génération ». Selon Euronews, il serait alimenté par la réorientation des cotisations du 1 % logement, de celles du FNAL et de la moitié des cotisations de formation professionnelle, soit au moins 12 milliards d'euros par an, dans un fonds individuel géré par la Caisse des dépôts. Présenté une première fois le 6 octobre 2026 sans chiffrage, puis détaillé en conférence de presse à Paris le 17 novembre 2026, selon Public Sénat, Euronews et Sud Radio (AFP).",
+              "note": "Pilier précisé : obligatoire et universel, ouvert d'abord aux 52 ans et moins, fonds visé de près de 900 milliards d'euros et mode de financement.",
+              "sourceIds": [
+                "publicsenat-2026-11-17-reforme-retraites-le-pen",
+                "euronews-2026-11-17-le-pen-reforme-retraites",
+                "sudradio-2026-11-17-le-pen-retraites-1er-janvier-2028"
               ]
             }
           ]
@@ -24554,7 +24597,9 @@
           "lastChanged": "2026-08-27",
           "sourceIds": [
             "sudradio-2026-08-27-marine-le-pen-defend-ses-reformes",
-            "senioractu-2026-10-25-le-pen-lance-campagne-orleans"
+            "senioractu-2026-10-25-le-pen-lance-campagne-orleans",
+            "publicsenat-2026-11-17-reforme-retraites-le-pen",
+            "euronews-2026-11-17-le-pen-reforme-retraites"
           ],
           "history": [
             {
@@ -24797,6 +24842,160 @@
               "sourceIds": [
                 "publicsenat-2026-11-17-restos-du-coeur-debat-solidarite",
                 "quartz-2026-11-16-cinq-candidats-debat-restos-du-coeur"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lepen-ret-paliers-60-62-ans",
+          "themeKey": "ret",
+          "subthemeKey": "ret-age",
+          "title": "Âge du taux plein en cinq paliers de 60 à 62 ans selon l'âge du premier emploi stable",
+          "detail": "Marine Le Pen propose cinq paliers d'âge de départ à taux plein, de 60 à 62 ans par tranches de six mois, selon l'âge d'entrée dans un premier emploi stable (avant 20 ans, de 20 à 21 ans, de 21 à 22 ans, de 22 à 23 ans, après 23 ans), avec de 160 à 168 trimestres selon le palier : 40 ans de cotisation pour un départ à 60 ans en cas de début avant 20 ans, 42 ans pour un départ à 62 ans en cas de début après 23 ans. Le départ à taux plein à 67 ans resterait possible. Présenté en conférence de presse à Paris le 17 novembre 2026, selon Public Sénat et Euronews.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-17",
+          "lastChanged": "2026-11-17",
+          "sourceIds": [
+            "publicsenat-2026-11-17-reforme-retraites-le-pen",
+            "euronews-2026-11-17-le-pen-reforme-retraites"
+          ],
+          "history": [
+            {
+              "date": "2026-11-17",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-17-reforme-retraites-le-pen",
+                "euronews-2026-11-17-le-pen-reforme-retraites"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lepen-ret-abrogation-reforme-2023",
+          "themeKey": "ret",
+          "subthemeKey": "ret-age",
+          "title": "Abrogation de la réforme des retraites de 2023 au 1er janvier 2028",
+          "detail": "Marine Le Pen propose d'abroger la réforme des retraites de 2023 au 1er janvier 2028, la nouvelle réforme étant « engagée dès (son) arrivée au pouvoir » et déployée progressivement jusqu'en 2032. Présenté en conférence de presse à Paris le 17 novembre 2026, selon Public Sénat, Euronews et Sud Radio (AFP).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-17",
+          "lastChanged": "2026-11-17",
+          "sourceIds": [
+            "publicsenat-2026-11-17-reforme-retraites-le-pen",
+            "euronews-2026-11-17-le-pen-reforme-retraites",
+            "sudradio-2026-11-17-le-pen-retraites-1er-janvier-2028"
+          ],
+          "history": [
+            {
+              "date": "2026-11-17",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-17-reforme-retraites-le-pen",
+                "euronews-2026-11-17-le-pen-reforme-retraites",
+                "sudradio-2026-11-17-le-pen-retraites-1er-janvier-2028"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lepen-ret-validation-trimestre-mi-temps",
+          "themeKey": "ret",
+          "subthemeKey": "ret-age",
+          "title": "Validation d'un trimestre pour un travail au moins à mi-temps, sans critère de salaire",
+          "detail": "Marine Le Pen propose de valider un trimestre de retraite pour un travail « au moins à mi-temps pendant un trimestre, sans critère de salaire », au lieu de la règle actuelle de 150 heures rémunérées au SMIC. Présenté en conférence de presse à Paris le 17 novembre 2026, selon Euronews et Sud Radio (AFP).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-17",
+          "lastChanged": "2026-11-17",
+          "sourceIds": [
+            "euronews-2026-11-17-le-pen-reforme-retraites",
+            "sudradio-2026-11-17-le-pen-devoile-reforme-retraites"
+          ],
+          "history": [
+            {
+              "date": "2026-11-17",
+              "type": "ajout",
+              "sourceIds": [
+                "euronews-2026-11-17-le-pen-reforme-retraites",
+                "sudradio-2026-11-17-le-pen-devoile-reforme-retraites"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lepen-ret-trimestres-chomage-quatre",
+          "themeKey": "ret",
+          "subthemeKey": "ret-age",
+          "title": "Limitation à quatre des trimestres de chômage validés sur l'ensemble de la carrière",
+          "detail": "Marine Le Pen propose de limiter à quatre sur l'ensemble de la carrière les trimestres validés sans cotisation au titre du chômage. Présenté en conférence de presse à Paris le 17 novembre 2026, selon Sud Radio (AFP) ; Public Sénat indique une réduction des droits liés aux périodes de chômage, sans chiffre.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-17",
+          "lastChanged": "2026-11-17",
+          "sourceIds": [
+            "sudradio-2026-11-17-le-pen-devoile-reforme-retraites",
+            "publicsenat-2026-11-17-reforme-retraites-le-pen"
+          ],
+          "history": [
+            {
+              "date": "2026-11-17",
+              "type": "ajout",
+              "sourceIds": [
+                "sudradio-2026-11-17-le-pen-devoile-reforme-retraites",
+                "publicsenat-2026-11-17-reforme-retraites-le-pen"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lepen-ret-majoration-meres-12",
+          "themeKey": "ret",
+          "subthemeKey": "ret-famille",
+          "title": "Majoration de pension des mères portée à 12 %",
+          "detail": "Marine Le Pen propose de porter à 12 % la majoration de pension des mères et de supprimer progressivement la majoration de 10 % des pères de trois enfants ou plus ; les huit trimestres accordés aux mères à l'arrivée d'un enfant seraient maintenus. Présenté en conférence de presse à Paris le 17 novembre 2026, selon Public Sénat et Sud Radio (AFP).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-17",
+          "lastChanged": "2026-11-17",
+          "sourceIds": [
+            "publicsenat-2026-11-17-reforme-retraites-le-pen",
+            "sudradio-2026-11-17-le-pen-devoile-reforme-retraites"
+          ],
+          "history": [
+            {
+              "date": "2026-11-17",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-17-reforme-retraites-le-pen",
+                "sudradio-2026-11-17-le-pen-devoile-reforme-retraites"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lepen-inst-referendum-retraites",
+          "themeKey": "inst",
+          "subthemeKey": "inst-referendum",
+          "title": "Référendum sur la réforme des retraites sans majorité absolue",
+          "detail": "Marine Le Pen propose de soumettre sa réforme des retraites à référendum si elle ne dispose pas d'une majorité absolue à l'Assemblée nationale, après dialogue social et débat parlementaire. Présenté en conférence de presse à Paris le 17 novembre 2026, selon Public Sénat, Euronews et Sud Radio (AFP).",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-17",
+          "lastChanged": "2026-11-17",
+          "sourceIds": [
+            "publicsenat-2026-11-17-reforme-retraites-le-pen",
+            "euronews-2026-11-17-le-pen-reforme-retraites",
+            "sudradio-2026-11-17-le-pen-retraites-1er-janvier-2028"
+          ],
+          "history": [
+            {
+              "date": "2026-11-17",
+              "type": "ajout",
+              "sourceIds": [
+                "publicsenat-2026-11-17-reforme-retraites-le-pen",
+                "euronews-2026-11-17-le-pen-reforme-retraites",
+                "sudradio-2026-11-17-le-pen-retraites-1er-janvier-2028"
               ]
             }
           ]
@@ -58064,14 +58263,14 @@
             ]
           },
           "lepen": {
-            "value": 1,
-            "note": "Propose un « pilier de capitalisation », sans chiffrage publié.",
+            "value": 2,
+            "note": "Propose un pilier de retraite par capitalisation obligatoire et universel, en complément de la répartition.",
             "measureIds": [
               "lepen-ret-pilier-capitalisation"
             ],
             "sourceIds": [
-              "publicsenat-2026-10-06-140-milliards-d-euros-d-economies",
-              "sudradio-2026-10-06-le-pen-promet-un-effort-radical"
+              "publicsenat-2026-11-17-reforme-retraites-le-pen",
+              "euronews-2026-11-17-le-pen-reforme-retraites"
             ]
           },
           "labib": {
@@ -79470,6 +79669,364 @@
           ]
         }
       ]
+    },
+    {
+      "id": "yougov-2026-11-17",
+      "institute": "YouGov",
+      "sponsors": [
+        "Le HuffPost"
+      ],
+      "fieldworkStart": "2026-11-12",
+      "fieldworkEnd": "2026-11-17",
+      "publishedAt": "2026-11-17",
+      "population": "1 030 personnes représentatives de la population nationale française âgée de 18 ans et plus, dont 952 inscrites sur les listes électorales ; intentions calculées sur les votants décidés (bases brutes 668 à 722 au 1er tour, 473 à 648 au 2nd tour)",
+      "sampleSize": 1030,
+      "method": "En ligne, panel propriétaire YouGov France",
+      "reportUrl": "https://ygo-assets-websites-editorial-emea.yougov.net/documents/R%C3%A9sultats_YouGov_pour_le_HuffPost_Intentions_de_vote_Novembre_2026_17.11.2026.pdf",
+      "round": 1,
+      "hypotheses": [
+        {
+          "id": "h1",
+          "label": "Hypothèse 1 (Édouard Philippe et Gabriel Attal candidats)",
+          "results": [
+            {
+              "candidateId": "retailleau",
+              "value": 6
+            },
+            {
+              "candidateId": "philippe",
+              "value": 8
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "attal",
+              "value": 5
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 19
+            },
+            {
+              "candidateId": "lepen",
+              "value": 32
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 4
+            },
+            {
+              "candidateId": "arthaud",
+              "value": 1
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 9
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 9
+            }
+          ]
+        },
+        {
+          "id": "h2",
+          "label": "Hypothèse 2 – G. Attal",
+          "results": [
+            {
+              "candidateId": "retailleau",
+              "value": 8
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "attal",
+              "value": 7
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 19
+            },
+            {
+              "candidateId": "lepen",
+              "value": 34
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 6
+            },
+            {
+              "candidateId": "arthaud",
+              "value": 1
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 1
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 10
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "id": "h3",
+          "label": "Hypothèse 3 – E. Philippe",
+          "results": [
+            {
+              "candidateId": "retailleau",
+              "value": 7
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3
+            },
+            {
+              "candidateId": "roussel",
+              "value": 3
+            },
+            {
+              "candidateId": "philippe",
+              "value": 9
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 19
+            },
+            {
+              "candidateId": "lepen",
+              "value": 33
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 4
+            },
+            {
+              "candidateId": "arthaud",
+              "value": 1
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 10
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "id": "h4",
+          "label": "Hypothèse 4 – E. Philippe seul candidat de la droite et du centre",
+          "results": [
+            {
+              "candidateId": "zemmour",
+              "value": 4
+            },
+            {
+              "candidateId": "roussel",
+              "value": 3
+            },
+            {
+              "candidateId": "philippe",
+              "value": 16
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 22
+            },
+            {
+              "candidateId": "lepen",
+              "value": 40
+            },
+            {
+              "candidateId": "arthaud",
+              "value": 1
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 12
+            }
+          ]
+        },
+        {
+          "id": "h5",
+          "label": "Hypothèse 5 (avec Dominique de Villepin et Teddy Riner)",
+          "results": [
+            {
+              "candidateId": "retailleau",
+              "value": 6
+            },
+            {
+              "candidateId": "philippe",
+              "value": 7
+            },
+            {
+              "candidateId": "zemmour",
+              "value": 3
+            },
+            {
+              "candidateId": "roussel",
+              "value": 2
+            },
+            {
+              "candidateId": "attal",
+              "value": 4
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 17
+            },
+            {
+              "candidateId": "lepen",
+              "value": 32
+            },
+            {
+              "candidateId": "tondelier",
+              "value": 5
+            },
+            {
+              "candidateId": "arthaud",
+              "value": 1
+            },
+            {
+              "candidateId": "dupontaignan",
+              "value": 2
+            },
+            {
+              "candidateId": "glucksmann",
+              "value": 9
+            },
+            {
+              "candidateId": "lisnard",
+              "value": 9
+            },
+            {
+              "candidateId": "villepin",
+              "value": 2
+            },
+            {
+              "candidateId": "riner",
+              "value": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yougov-2026-11-17-t2",
+      "institute": "YouGov",
+      "sponsors": [
+        "Le HuffPost"
+      ],
+      "fieldworkStart": "2026-11-12",
+      "fieldworkEnd": "2026-11-17",
+      "publishedAt": "2026-11-17",
+      "population": "1 030 personnes représentatives de la population nationale française âgée de 18 ans et plus, dont 952 inscrites sur les listes électorales ; intentions calculées sur les votants décidés (bases brutes 668 à 722 au 1er tour, 473 à 648 au 2nd tour)",
+      "sampleSize": 1030,
+      "method": "En ligne, panel propriétaire YouGov France",
+      "reportUrl": "https://ygo-assets-websites-editorial-emea.yougov.net/documents/R%C3%A9sultats_YouGov_pour_le_HuffPost_Intentions_de_vote_Novembre_2026_17.11.2026.pdf",
+      "round": 2,
+      "hypotheses": [
+        {
+          "id": "h1",
+          "label": "Hypothèse 1 : Philippe / Le Pen",
+          "results": [
+            {
+              "candidateId": "philippe",
+              "value": 46
+            },
+            {
+              "candidateId": "lepen",
+              "value": 54
+            }
+          ]
+        },
+        {
+          "id": "h2",
+          "label": "Hypothèse 2 : Glucksmann / Le Pen",
+          "results": [
+            {
+              "candidateId": "glucksmann",
+              "value": 42
+            },
+            {
+              "candidateId": "lepen",
+              "value": 58
+            }
+          ]
+        },
+        {
+          "id": "h3",
+          "label": "Hypothèse 3 : Mélenchon / Le Pen",
+          "results": [
+            {
+              "candidateId": "melenchon",
+              "value": 37
+            },
+            {
+              "candidateId": "lepen",
+              "value": 63
+            }
+          ]
+        },
+        {
+          "id": "h4",
+          "label": "Hypothèse 4 : Attal / Le Pen",
+          "results": [
+            {
+              "candidateId": "attal",
+              "value": 45
+            },
+            {
+              "candidateId": "lepen",
+              "value": 55
+            }
+          ]
+        },
+        {
+          "id": "h5",
+          "label": "Hypothèse 5 : Philippe / Mélenchon",
+          "results": [
+            {
+              "candidateId": "philippe",
+              "value": 61
+            },
+            {
+              "candidateId": "melenchon",
+              "value": 39
+            }
+          ]
+        }
+      ]
     }
   ],
   "agenda": [
@@ -81011,6 +81568,10 @@
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-23",
+      "text": "Recherche des nouveautés depuis la mise à jour du 22 novembre. Contrôle croisé des candidatures : le fil d'actualités de l'app (presitracker2027.fr/api/v1/news) n'a pas pu être lu ce jour (connexion impossible depuis l'environnement d'exécution), aucun titre n'a donc été lu ; la recherche nominative a été faite pour chacun des candidats au statut pressenti (Jean-Noël Barrot, Xavier Bertrand, Élisabeth Borne, Thierry Breton, Bernard Cazeneuve, François Hollande, Jean Lassalle, Bruno Le Maire, Lydie Massard, Matthieu Pigasse, Sandrine Rousseau, Manuel Valls) : aucune déclaration, aucun retrait ni aucune investiture postérieurs au 22 novembre. Signal écarté : un article d'Europe 1 du 29 avril 2026 titre sur l'annonce de la candidature de Bernard Cazeneuve dans un entretien au Figaro, sans citer de déclaration formelle ; il est antérieur à l'entrée du 19 mai qui fonde son statut (« volonté pleine et entière », sans annonce formelle) et le statut reste inchangé ; Bruno Le Maire a déclaré sur France 2 le 12 novembre ne pas être candidat (« on verra demain », selon Public Sénat), source déjà connue, statut inchangé. Candidatures : aucun changement de statut. Sondages : 1 enquête ajoutée, YouGov pour Le HuffPost (terrain du 12 au 17 novembre, 1 030 personnes dont 952 inscrites), 5 hypothèses de premier tour et 5 duels de second tour, d'après le rapport de l'institut ; la date de publication retenue (17 novembre) est celle qui figure dans le nom du fichier du rapport, faute de date dans le document ; aucune marge d'erreur n'y figure ; la notice de la Commission des sondages (n° 10382) a été repérée mais n'a pas pu être ouverte et sera ajoutée les jours suivants. La vague Ifop-Fiducial (terrain du 13 au 16 novembre) n'est toujours pas saisie : Sud Radio et La Libre (18 novembre) ne donnent que des fourchettes, et ni le rapport de l'institut ni la notice n'ont été trouvés ; la notice de l'enquête Cluster17 pour Politico du 11 novembre n'a pas été trouvée. Mesures : Marine Le Pen, 6 mesures ajoutées et 1 modifiée, d'après la présentation de sa réforme des retraites en conférence de presse le 17 novembre (Public Sénat, Euronews, Sud Radio d'après l'AFP) : âge du taux plein en cinq paliers de 60 à 62 ans selon l'âge du premier emploi stable ; abrogation de la réforme de 2023 au 1er janvier 2028 ; validation d'un trimestre pour un travail au moins à mi-temps sans critère de salaire ; limitation à quatre des trimestres de chômage validés ; majoration de pension des mères portée à 12 % ; référendum sur la réforme sans majorité absolue ; la mesure « pilier de capitalisation » est modifiée (pilier obligatoire et universel, ouvert d'abord aux 52 ans et moins, fonds visé de près de 900 milliards d'euros) ; les nouvelles sources confirment la mesure de retraite à 62 ans. Ne sont pas saisis : la décote, chiffrée à 5 % par trimestre manquant par Public Sénat et à 2,5 % par Sud Radio (AFP) ; la suspension de l'APA et de l'Aspa au-delà de 3 000 euros de pension et l'affectation de la moitié des excédents de l'Unédic, présentées comme des financements ; le remplacement des critères de pénibilité, rapporté par une seule source. Questionnaire : 1 position modifiée dans le test (Marine Le Pen, capitalisation, de +1 à +2, la mesure étant désormais précisée) ; thèmes de la banque passés en revue : retraites (aucune position nouvelle renseignée). Vie de la campagne : aucun fait ajouté (une déclaration de Marine Le Pen est déjà publiée pour la semaine, le 16 novembre). Parrainages : aucun relevé ajouté, aucune annonce chiffrée nouvelle trouvée. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 17 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable (seuls des sites agrégateurs ou des articles antérieurs ont été trouvés) : Sébastien Bonnal, Mélody Delmur, Clara Egger, François Asselineau, Rémi Revillon d'Apreval et Raphaël Glucksmann ; Marine Le Pen (voir ci-dessus)."
+    },
     {
       "date": "2026-11-22",
       "text": "Recherche des nouveautés depuis la mise à jour (corrigée) du 21 novembre. Contrôle croisé des candidatures : le fil d'actualités de l'app (presitracker2027.fr/api/v1/news) n'a pas pu être lu ce jour (accès refusé par l'environnement d'exécution), aucun titre n'a donc été lu ; la recherche nominative a été faite pour chacun des candidats au statut pressenti (Jean-Noël Barrot, Xavier Bertrand, Élisabeth Borne, Thierry Breton, Bernard Cazeneuve, François Hollande, Jean Lassalle, Bruno Le Maire, Lydie Massard, Matthieu Pigasse, Sandrine Rousseau, Manuel Valls) : aucune déclaration, aucun retrait ni aucune investiture postérieurs au 21 novembre. Signaux écartés : la liste de LCP mise à jour le 20 novembre range Jean Lassalle parmi les candidats déclarés, mais aucune annonce de candidature de sa part n'a été trouvée (statut inchangé) ; selon la même liste, François Hollande attendrait désormais janvier pour se prononcer (aucune source primaire, rien n'est saisi) ; les articles de LCP, Sud Radio, Public Sénat et i24NEWS des 17 et 18 novembre sur la primaire envisagée par les équipes de Gabriel Attal, Bruno Retailleau et David Lisnard ne font état d'aucun accord conclu (Nouvelle Énergie : « aucun accord n'a été conclu à ce stade ») : aucune alliance saisie. Candidatures : aucun changement de statut. Mesures : Dominique de Villepin, 12 mesures ajoutées. Onze d'après le compte rendu par LCP (20 novembre) du programme de 258 propositions publié avec sa déclaration de candidature, dont le document n'a pas pu être consulté (droit de vote à 16 ans ; vote obligatoire sans sanction avec comptabilisation du vote blanc ; Conseil des communes mensuel et Assemblée générale des maires annuelle ; commission d'enquête sur la dégradation des comptes publics ; commission citoyenne sur les aides à la presse ; commission d'audit des politiques éditoriales de l'audiovisuel public ; commission des sages contre l'antisémitisme, le racisme et l'islamophobie ; « livre blanc de l'immigration » et loi de programmation ; plan pour les aidants ; loi-cadre contre la pauvreté et les exclusions ; accessibilité des bâtiments publics d'ici 2035), et une d'après une dépêche AFP du 27 septembre publiée par La Gazette France (obligation de négociation sociale inscrite dans la loi et la Constitution). Le compte rendu de LCP est ajouté en confirmation à 3 mesures déjà saisies (déficit sous 3 % en 2031, niches fiscales, référendum d'initiative citoyenne). Ne sont pas saisis faute de précision : un « grand plan » pour l'égalité entre les femmes et les hommes et le renforcement de l'aide sociale à l'enfance ; le calendrier des retraites décrit par LCP (débat parlementaire « jusqu'en avril 2028 » puis référendum), proche de la mesure déjà saisie, sera vérifié sur le document du programme ; la retraite par points évoquée dans la dépêche du 27 septembre n'est pas saisie, faute de pouvoir la rapprocher avec certitude de la mesure en vigueur (suppression de l'âge légal au profit d'une durée de cotisation). Questionnaire : 1 position renseignée dans la banque (Dominique de Villepin, droit de vote à 16 ans) ; thèmes de la banque passés en revue : institutions (vote blanc non renseigné, la source ne précisant pas s'il serait compté parmi les suffrages exprimés). Sondages : aucune enquête ajoutée ; la vague Ifop-Fiducial (terrain du 13 au 16 novembre) n'est toujours pas saisie, Sud Radio (18 novembre) et La Libre (18 novembre) ne donnant que des fourchettes, et ni le rapport de l'institut ni les notices de la Commission des sondages (dont celle de l'enquête Cluster17 pour Politico du 11 novembre) n'ont pu être consultés ce jour. Vie de la campagne : aucun fait ajouté. Parrainages : aucun relevé ajouté. Agenda : aucune échéance nouvelle. Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 16 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable (seuls des sites agrégateurs ou des articles antérieurs ont été trouvés) : Jean-Noël Barrot, Delphine Batho, Karim Bouamrane, Xavier Bertrand, Anasse Kazib, Selma Labib, Nathalie Arthaud, Jean-François Legendre, Philippe Herlin et Nicolas Dupont-Aignan ; Dominique de Villepin (voir ci-dessus)."
