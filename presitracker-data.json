@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T12:49:00Z",
+  "updatedAt": "2026-11-24T05:46:45Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -6116,6 +6116,27 @@
       "publisher": "Sud Radio (AFP)",
       "url": "https://www.sudradio.fr/societe/travailler-plus-partir-plus-tot-le-pen-promet-de-reformer-les-retraites-des-son-arrivee-au-pouvoir",
       "date": "2026-11-17",
+      "kind": "presse"
+    },
+    "lcp-2026-11-21-ruffin-se-retire-presidentielle": {
+      "title": "François Ruffin se retire de la présidentielle 2027 sans soutenir aucun des candidats de gauche encore en lice",
+      "publisher": "LCP (avec AFP)",
+      "url": "https://lcp.fr/actualites/francois-ruffin-se-retire-de-la-presidentielle-2027-sans-soutenir-aucun-des-candidats-de",
+      "date": "2026-11-21",
+      "kind": "presse"
+    },
+    "orange-2026-11-21-ruffin-retrait-candidature": {
+      "title": "Présidentielle 2027 : François Ruffin annonce le retrait de sa candidature",
+      "publisher": "Orange Actualités (6Médias, avec L'Express)",
+      "url": "https://actu.orange.fr/politique/presidentielle-2027-francois-ruffin-annonce-le-retrait-de-sa-candidature-l-express-via-6medias-CNT000002tWgKp.html",
+      "date": "2026-11-21",
+      "kind": "presse"
+    },
+    "lcp-2026-11-20-autain-soutien-melenchon": {
+      "title": "Présidentielle: Clémentine Autain appelle à soutenir la candidature de Jean-Luc Mélenchon",
+      "publisher": "LCP (avec AFP)",
+      "url": "https://lcp.fr/actualites/presidentielle-clementine-autain-appelle-a-soutenir-la-candidature-de-jean-luc-melenchon",
+      "date": "2026-11-20",
       "kind": "presse"
     }
   },
@@ -49349,12 +49370,14 @@
       "sortName": "ruffin",
       "party": "Debout !",
       "partyShort": "Debout !",
-      "status": "declare",
-      "statusDate": "2026-01-26",
+      "status": "retire",
+      "statusDate": "2026-11-21",
       "statusSourceIds": [
         "sudradio-2026-01-27-presidentielle-2027-francois-ruffin-un-o",
         "lcp-2026-05-12-presidentielle-2027-s-il-n-y",
-        "lyoncapitale-2026-04-09-a-lyon-francois-ruffin-passera-un"
+        "lyoncapitale-2026-04-09-a-lyon-francois-ruffin-passera-un",
+        "orange-2026-11-21-ruffin-retrait-candidature",
+        "lcp-2026-11-21-ruffin-se-retire-presidentielle"
       ],
       "statusHistory": [
         {
@@ -49364,6 +49387,15 @@
           "sourceIds": [
             "sudradio-2026-01-27-presidentielle-2027-francois-ruffin-un-o",
             "lcp-2026-05-12-presidentielle-2027-s-il-n-y"
+          ]
+        },
+        {
+          "date": "2026-11-21",
+          "status": "retire",
+          "note": "Annonce dans un communiqué publié sur X le retrait de sa candidature à l'élection présidentielle, sans appeler à soutenir un autre candidat.",
+          "sourceIds": [
+            "orange-2026-11-21-ruffin-retrait-candidature",
+            "lcp-2026-11-21-ruffin-se-retire-presidentielle"
           ]
         }
       ],
@@ -84115,9 +84147,41 @@
         "lcp-2026-11-20-villepin-officiellement-candidat",
         "villepin-2026-11-20-lettre-aux-francaises-et-aux-francais"
       ]
+    },
+    {
+      "id": "evt-ruffin-retrait-2026-11-21",
+      "date": "2026-11-21",
+      "type": "retrait",
+      "candidateIds": [
+        "ruffin"
+      ],
+      "text": "Annonce dans un communiqué publié sur X le retrait de sa candidature à l'élection présidentielle, sans appeler à soutenir un autre candidat.",
+      "quote": "« Face au risque du pire, je retire ma candidature à l'élection présidentielle »",
+      "sourceIds": [
+        "orange-2026-11-21-ruffin-retrait-candidature",
+        "lcp-2026-11-21-ruffin-se-retire-presidentielle"
+      ]
+    },
+    {
+      "id": "evt-autain-ralliement-2026-11-19",
+      "date": "2026-11-19",
+      "type": "ralliement",
+      "candidateIds": [
+        "autain",
+        "melenchon"
+      ],
+      "text": "Dans une note publiée sur son blog, appelle les membres de L'Après à soutenir la candidature de Jean-Luc Mélenchon ; le mouvement doit se prononcer lors de son Parlement des 12 et 13 décembre, selon LCP.",
+      "quote": "« Dans ce cadre, je défends l'appel au vote pour la candidature de Jean-Luc Mélenchon »",
+      "sourceIds": [
+        "lcp-2026-11-20-autain-soutien-melenchon"
+      ]
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-24",
+      "text": "Recherche des nouveautés depuis la mise à jour du 23 novembre, avec correction des mises à jour des 22 et 23 novembre, qui n'avaient pas relevé le retrait de François Ruffin. Contrôle croisé des candidatures : le fil d'actualités de l'app (presitracker2027.fr/api/v1/news) n'a pas pu être lu ce jour (connexion refusée par l'environnement d'exécution), aucun titre n'a donc été lu ; les listes d'articles de LCP (rubrique « Actualités » et dossier « Présidentielle 2027 ») ont été lues pour les 20 au 24 novembre, et la recherche nominative a été faite pour chacun des candidats au statut pressenti (Jean-Noël Barrot, Xavier Bertrand, Élisabeth Borne, Thierry Breton, Bernard Cazeneuve, François Hollande, Jean Lassalle, Bruno Le Maire, Lydie Massard, Matthieu Pigasse, Sandrine Rousseau, Manuel Valls) : aucune déclaration, aucun retrait ni aucune investiture nouveaux. Candidatures : François Ruffin passe de déclaré à retiré au 21 novembre, d'après LCP (avec AFP) et Orange Actualités (6Médias, avec L'Express) du 21 novembre, qui rapportent un communiqué publié sur X ; il n'appelle à soutenir aucun candidat. Ses mesures et ses positions restent dans le fichier. Vie de la campagne : 2 faits ajoutés, le retrait de François Ruffin (21 novembre) et le ralliement de Clémentine Autain, retirée depuis juillet, à la candidature de Jean-Luc Mélenchon (note de blog du jeudi 19 novembre, rapportée par LCP le 20 novembre). Signaux écartés : le soutien de Génération.s à Jean-Luc Mélenchon, annoncé par communiqué le 23 novembre (LCP), est celui d'une formation et n'est pas saisi comme ralliement d'un candidat recensé ; une page de direct de franceinfo signalant un entretien de Dominique de Villepin et une réaction de Raphaël Glucksmann au retrait de François Ruffin, ainsi qu'une page de direct d'Ouest-France sur le congrès des maires, n'ont pas pu être ouvertes (accès refusé) : aucune déclaration n'en est tirée ; un article d'Europe 1 repéré lors de la recherche nominative n'a pas pu être ouvert. Notices de la Commission des sondages : aucune notice de numéro supérieur à 10393 dans le relevé ; aucune notice en attente. Sondages : aucune enquête nouvelle trouvée (la dernière enquête Ifop-Fiducial pour Sud Radio reprise par 20 Minutes le 20 novembre, terrain du 2 au 4 novembre, est déjà saisie). Rotation : Antoine Mikolajczak, Mira Markovic, Sylvain Durif et Sébastien Bonnal passés en revue (aucune source primaire ni article de presse nouveau trouvé, seulement des agrégateurs) ; Jean-Luc Mélenchon : l'article de LCP du 21 novembre sur le chiffrage du programme ne contient pas de mesure nouvelle. Aucune mesure, position, relevé de parrainages ni échéance modifiés."
+    },
     {
       "date": "2026-11-23",
       "text": "Sondages : notice de la Commission des sondages n° 10393 ajoutée aux deux fiches de l'enquête Toluna Harris Interactive pour M6, RTL et L'Express (terrain des 18 et 19 novembre, 2 088 inscrits issus d'un échantillon de 2 378 personnes), après contrôle de la concordance avec le rapport de l'institut. Aucun score modifié."
