@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T05:43:24Z",
+  "updatedAt": "2026-11-26T05:46:45Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -6144,6 +6144,20 @@
       "publisher": "LCP",
       "url": "https://lcp.fr/actualites/eradiquer-le-cancer-du-col-de-l-uterus-edouard-philippe-veut-rendre-obligatoire-la",
       "date": "2026-11-24",
+      "kind": "presse"
+    },
+    "lcp-2026-11-25-recolte-500-parrainages": {
+      "title": "Présidentielle 2027: où en sont les candidats dans leur récolte des 500 parrainages?",
+      "publisher": "LCP",
+      "url": "https://lcp.fr/actualites/presidentielle-2027-ou-en-sont-les-candidats-dans-leur-recolte-des-500-parrainages",
+      "date": "2026-11-25",
+      "kind": "presse"
+    },
+    "lcp-2026-11-25-riner-ukraine-pas-notre-guerre": {
+      "title": "Présidentielle 2027: l'Ukraine \"ce n'est pas notre guerre\", déclare Teddy Riner",
+      "publisher": "LCP (avec AFP)",
+      "url": "https://lcp.fr/actualites/presidentielle-2027-l-ukraine-ce-n-est-pas-notre-guerre-declare-teddy-riner-445612",
+      "date": "2026-11-25",
       "kind": "presse"
     }
   },
@@ -25026,6 +25040,16 @@
                 "sudradio-2026-11-17-le-pen-retraites-1er-janvier-2028"
               ]
             }
+          ]
+        }
+      ],
+      "sponsorships": [
+        {
+          "date": "2026-11-25",
+          "count": 400,
+          "kind": "annonce",
+          "sourceIds": [
+            "lcp-2026-11-25-recolte-500-parrainages"
           ]
         }
       ]
@@ -84228,9 +84252,26 @@
       "sourceIds": [
         "lcp-2026-11-24-philippe-vaccination-papillomavirus"
       ]
+    },
+    {
+      "id": "evt-riner-declaration-2026-11-25",
+      "date": "2026-11-25",
+      "type": "declaration",
+      "candidateIds": [
+        "riner"
+      ],
+      "text": "Interrogé au Salon des maires, à Paris, s'exprime sur la présence de soldats français en Ukraine, selon des propos filmés par le journaliste Paul Larrouturou et rapportés par LCP.",
+      "quote": "« Je ne comprends pas qu'on envoie des troupes en Ukraine, alors que ce n'est pas notre guerre. »",
+      "sourceIds": [
+        "lcp-2026-11-25-riner-ukraine-pas-notre-guerre"
+      ]
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-26",
+      "text": "Recherche des nouveautés depuis la mise à jour du 25 novembre. Contrôle croisé des candidatures : le fil d'actualités de l'app (presitracker2027.fr/api/v1/news) n'a pas pu être lu ce jour (connexion refusée par l'environnement d'exécution), aucun titre n'a donc été lu ; la première page de la rubrique « Actualités » de LCP a été lue pour les 24 au 26 novembre (16 titres) ainsi que le dossier « Présidentielle 2027 » de LCP et sa liste des candidats (mise à jour le 23 novembre), et la recherche nominative a été faite pour chacun des candidats au statut pressenti (Jean-Noël Barrot, Xavier Bertrand, Élisabeth Borne, Thierry Breton, Bernard Cazeneuve, François Hollande, Jean Lassalle, Bruno Le Maire, Lydie Massard, Matthieu Pigasse, Sandrine Rousseau, Manuel Valls) : aucune déclaration, aucun retrait ni aucune investiture nouveaux. Signaux écartés : les articles de LCP du 25 novembre sur le refus d'Édouard Philippe de participer à une primaire et sur les positions de plusieurs responsables en cas de second tour entre Marine Le Pen et Jean-Luc Mélenchon ne font état d'aucun changement de statut (Édouard Philippe a déjà une déclaration publiée cette semaine ; Jean-Noël Barrot, cité, est au statut pressenti) ; la réélection de David Lisnard à la présidence de l'Association des maires de France ne relève d'aucun type de fait de campagne ; deux pages d'Europe 1 repérées lors de la recherche nominative n'ont pas pu être ouvertes. Parrainages : 1 relevé ajouté pour Marine Le Pen (400 « soutiens assurés », selon Edwige Diaz, chargée du dossier, d'après LCP du 25 novembre). Dans le même article, le chiffre de 500 revendiqué par Éric Zemmour n'est pas saisi, faute de préciser s'il s'agit de promesses et à quelle date il a été annoncé ; les indications de Natacha Polony (« la moitié des parrainages nécessaires ») et de l'équipe de Jean-Luc Mélenchon (« un peu plus de la moitié ») ne sont pas saisies, faute de nombre ; le chiffre de 300 promesses de Dominique de Villepin est déjà saisi. Vie de la campagne : 1 déclaration ajoutée (Teddy Riner, 25 novembre, sur la présence de soldats français en Ukraine) ; aucune position du questionnaire n'en est tirée, les propos ne portant pas sur l'aide militaire. Notices de la Commission des sondages : aucune notice de numéro supérieur à 10393 dans le relevé ; aucune notice en attente. Sondages : aucune enquête nouvelle trouvée. Rotation hebdomadaire des candidats, en commençant par ceux qui n'avaient pas été revus depuis le plus longtemps et dont la position est connue sur le moins de questions du test : Rémi Revillon d'Apreval, Manolo Mlekuz, Benoît Mathieu, Olivier Becht, Emmanuel Dubuisson, Florian Philippot et Juan Branco passés en revue sans mesure nouvelle (seuls des agrégateurs ou des articles antérieurs déjà exploités ont été trouvés ; les sites de campagne de Rémi Revillon d'Apreval, Manolo Mlekuz, Emmanuel Dubuisson et Juan Branco n'ont pas pu être ouverts) ; Teddy Riner : l'article de LCP du 25 novembre sur sa campagne ne contient pas de mesure nouvelle. Rotation de la banque : thèmes politique étrangère et défense passés en revue à partir des mesures déjà saisies, sans position nouvelle justifiée. Aucun changement de statut, aucune mesure ni échéance modifiées."
+    },
     {
       "date": "2026-11-25",
       "text": "Recherche des nouveautés depuis la mise à jour du 24 novembre. Contrôle croisé des candidatures : le fil d'actualités de l'app (presitracker2027.fr/api/v1/news) n'a pas pu être lu ce jour (connexion refusée par l'environnement d'exécution), aucun titre n'a donc été lu ; la liste d'articles du dossier « Présidentielle 2027 » de LCP a été lue jusqu'au 24 novembre (36 titres, du 5 au 24 novembre) et la recherche nominative a été faite pour chacun des candidats au statut pressenti (Jean-Noël Barrot, Xavier Bertrand, Élisabeth Borne, Thierry Breton, Bernard Cazeneuve, François Hollande, Jean Lassalle, Bruno Le Maire, Lydie Massard, Matthieu Pigasse, Sandrine Rousseau, Manuel Valls) : aucune déclaration, aucun retrait ni aucune investiture nouveaux. Signaux écartés : la liste des candidats de LCP mise à jour le 23 novembre ne signale pas de changement postérieur à la candidature de Dominique de Villepin ; les articles sur la préparation d'une primaire entre les équipes de Gabriel Attal, Bruno Retailleau et David Lisnard (Public Sénat et Sud Radio, 17 novembre) ne font état d'aucune date arrêtée ni d'aucun retrait ; le vote interne des Écologistes sur leur candidature (10 au 13 décembre, selon Public Sénat du 19 novembre) relève d'un parti et n'est pas inscrit à l'agenda ; un article de Public Sénat du 24 novembre sur Édouard Philippe et la primaire n'a pas été lu en entier et n'est pas exploité. Mesures : 1 mesure ajoutée pour Édouard Philippe (vaccination obligatoire contre les papillomavirus, annoncée le 24 novembre devant la Convention nationale des centres de lutte contre le cancer, d'après LCP). Questionnaire : position d'Édouard Philippe renseignée sur la question de la banque relative aux vaccinations obligatoires des enfants, à partir de cette mesure. Vie de la campagne : 1 déclaration ajoutée (Édouard Philippe, 24 novembre). Notices de la Commission des sondages : aucune notice de numéro supérieur à 10393 dans le relevé ; aucune notice en attente. Sondages : aucune enquête nouvelle trouvée (les enquêtes Ifop pour LCI du 27 au 29 octobre et Ifop-Fiducial du 13 au 16 novembre repérées dans la presse sont déjà saisies). Rotation hebdomadaire des candidats, parmi ceux qui n'avaient pas été revus depuis le 18 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : passés en revue sans mesure nouvelle, faute de source nouvelle vérifiable (seuls des sites agrégateurs ou des articles antérieurs déjà sourcés ont été trouvés ; une page de RCF sur le Mouvement écologiste indépendant n'a pas pu être ouverte) : Teddy Riner, Natacha Polony, Gilles Platret, David Saforcada, Erwan Rohou, Éric Zemmour, Fabien Roussel et Marine Tondelier ; Édouard Philippe (voir ci-dessus). Rotation de la banque : thème santé passé en revue pour Édouard Philippe. Aucun changement de statut, relevé de parrainages ni échéance."
