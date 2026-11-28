@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T06:22:13Z",
+  "updatedAt": "2026-11-28T05:40:03Z",
   "election": {
     "name": "Élection présidentielle 2027",
     "round1": "2027-04-18",
@@ -6158,6 +6158,20 @@
       "publisher": "LCP (avec AFP)",
       "url": "https://lcp.fr/actualites/presidentielle-2027-l-ukraine-ce-n-est-pas-notre-guerre-declare-teddy-riner-445612",
       "date": "2026-11-25",
+      "kind": "presse"
+    },
+    "lcp-2026-11-27-ce-que-promet-marine-le-pen-aux-outre-mer": {
+      "title": "Pouvoir d'achat, sécurité, aller-retour dans l'Hexagone: Ce que promet Marine Le Pen aux outre-mer pour 2027",
+      "publisher": "LCP",
+      "url": "https://lcp.fr/actualites/pouvoir-d-achat-securite-aller-retour-dans-l-hexagone-ce-que-promet-marine-le-pen-aux",
+      "date": "2026-11-27",
+      "kind": "presse"
+    },
+    "lcp-2026-11-27-le-pen-secret-de-l-instruction": {
+      "title": "Si elle est élue, Marine Le Pen veut obliger les journalistes à respecter le secret de l'instruction",
+      "publisher": "LCP",
+      "url": "https://lcp.fr/actualites/si-elle-est-elue-marine-le-pen-veut-obliger-les-journalistes-a-respecter-le-secret-de-l",
+      "date": "2026-11-27",
       "kind": "presse"
     }
   },
@@ -25038,6 +25052,121 @@
                 "publicsenat-2026-11-17-reforme-retraites-le-pen",
                 "euronews-2026-11-17-le-pen-reforme-retraites",
                 "sudradio-2026-11-17-le-pen-retraites-1er-janvier-2028"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lepen-log-loi-programmation-outre-mer",
+          "themeKey": "log",
+          "subthemeKey": "log-outre-mer",
+          "title": "Loi de programmation pour les outre-mer sur douze ans",
+          "detail": "Marine Le Pen propose de faire voter par le Parlement, dans les premiers mois de son mandat, une loi de programmation dédiée aux outre-mer, « pensée sur douze ans, avec des objectifs chiffrés », pour « bâtir l'autonomie économique » de ces territoires et viser leur « autosuffisance alimentaire et énergétique » ; le texte détaillé n'a pas encore été publié. Présenté en conférence de presse consacrée aux outre-mer, au siège du Rassemblement national, le 27 novembre 2026, selon LCP.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-27",
+          "lastChanged": "2026-11-27",
+          "sourceIds": [
+            "lcp-2026-11-27-ce-que-promet-marine-le-pen-aux-outre-mer"
+          ],
+          "history": [
+            {
+              "date": "2026-11-27",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-27-ce-que-promet-marine-le-pen-aux-outre-mer"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lepen-log-aller-retour-hexagone-prix-plafonne",
+          "themeKey": "log",
+          "subthemeKey": "log-outre-mer",
+          "title": "Aller-retour annuel vers l'Hexagone à prix plafonné pour les habitants des outre-mer",
+          "detail": "Marine Le Pen propose un « bouclier tarifaire » garantissant à chaque habitant des outre-mer un aller-retour par an vers l'Hexagone « à un prix contraint » ; le prix et la date d'entrée en vigueur ne sont pas précisés. Présenté en conférence de presse consacrée aux outre-mer, au siège du Rassemblement national, le 27 novembre 2026, selon LCP.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-27",
+          "lastChanged": "2026-11-27",
+          "sourceIds": [
+            "lcp-2026-11-27-ce-que-promet-marine-le-pen-aux-outre-mer"
+          ],
+          "history": [
+            {
+              "date": "2026-11-27",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-27-ce-que-promet-marine-le-pen-aux-outre-mer"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lepen-log-ministere-etat-outre-mer",
+          "themeKey": "log",
+          "subthemeKey": "log-outre-mer",
+          "title": "Création d'un ministère d'État des Outre-mer",
+          "detail": "Marine Le Pen propose de créer un « grand ministère d'État, ministère des Outre-mer », dont le périmètre couvrirait aussi le domaine maritime et la mise en valeur des zones économiques exclusives. Présenté en conférence de presse consacrée aux outre-mer, au siège du Rassemblement national, le 27 novembre 2026, selon LCP.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-27",
+          "lastChanged": "2026-11-27",
+          "sourceIds": [
+            "lcp-2026-11-27-ce-que-promet-marine-le-pen-aux-outre-mer"
+          ],
+          "history": [
+            {
+              "date": "2026-11-27",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-27-ce-que-promet-marine-le-pen-aux-outre-mer"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lepen-log-base-interarmees-noumea",
+          "themeKey": "log",
+          "subthemeKey": "log-outre-mer",
+          "title": "Création d'une base interarmées renforcée à Nouméa",
+          "detail": "Marine Le Pen propose de créer « une base interarmées renforcée à Nouméa » ; ni le coût ni le calendrier ne sont précisés. Présenté en conférence de presse consacrée aux outre-mer, au siège du Rassemblement national, le 27 novembre 2026, selon LCP.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-27",
+          "lastChanged": "2026-11-27",
+          "sourceIds": [
+            "lcp-2026-11-27-ce-que-promet-marine-le-pen-aux-outre-mer"
+          ],
+          "history": [
+            {
+              "date": "2026-11-27",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-27-ce-que-promet-marine-le-pen-aux-outre-mer"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lepen-sec-peines-recel-secret-instruction",
+          "themeKey": "sec",
+          "subthemeKey": "sec-justice",
+          "title": "Aggravation des peines pour recel de violation du secret de l'enquête et de l'instruction",
+          "detail": "Marine Le Pen propose d'« aggraver les peines qui existent » afin que les médias ne puissent plus commettre « en toute impunité » le recel de violation du secret de l'enquête et de l'instruction ; elle ne précise ni les peines visées ni leur niveau. Déclaré en réponse à une question lors d'une conférence de presse au siège du Rassemblement national, le 27 novembre 2026, selon LCP.",
+          "kind": "declaration",
+          "status": "active",
+          "firstSeen": "2026-11-27",
+          "lastChanged": "2026-11-27",
+          "sourceIds": [
+            "lcp-2026-11-27-le-pen-secret-de-l-instruction"
+          ],
+          "history": [
+            {
+              "date": "2026-11-27",
+              "type": "ajout",
+              "sourceIds": [
+                "lcp-2026-11-27-le-pen-secret-de-l-instruction"
               ]
             }
           ]
@@ -80692,6 +80821,7 @@
       "population": "Échantillon de 912 personnes inscrites sur les listes électorales, issu d'un échantillon de 1 020 personnes représentatif de la population française âgée de 18 ans et plus",
       "sampleSize": 1020,
       "method": "Questionnaire auto-administré en ligne (CAWI), méthode des quotas (sexe, âge, catégorie socioprofessionnelle, catégorie d'agglomération, région de résidence)",
+      "noticeUrl": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10400-pres-iv-vague-5-opinionway-26-novembre.pdf",
       "reportUrl": "https://www.opinion-way.com/wp-content/uploads/2026/11/OpinionWay-pour-CNEWS-Les-intentions-de-vote-a-lelection-presidentielle-2027-26-novembre-2026.pdf",
       "margin": "Entre 1,4 et 3,1 points au plus pour un échantillon de 1 000 répondants",
       "round": 1,
@@ -80772,6 +80902,7 @@
       "population": "Échantillon de 912 personnes inscrites sur les listes électorales, issu d'un échantillon de 1 020 personnes représentatif de la population française âgée de 18 ans et plus",
       "sampleSize": 1020,
       "method": "Questionnaire auto-administré en ligne (CAWI), méthode des quotas (sexe, âge, catégorie socioprofessionnelle, catégorie d'agglomération, région de résidence)",
+      "noticeUrl": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10400-pres-iv-vague-5-opinionway-26-novembre.pdf",
       "reportUrl": "https://www.opinion-way.com/wp-content/uploads/2026/11/OpinionWay-pour-CNEWS-Les-intentions-de-vote-a-lelection-presidentielle-2027-26-novembre-2026.pdf",
       "margin": "Entre 1,4 et 3,1 points au plus pour un échantillon de 1 000 répondants",
       "round": 2,
@@ -84419,9 +84550,26 @@
       "sourceIds": [
         "lcp-2026-11-25-riner-ukraine-pas-notre-guerre"
       ]
+    },
+    {
+      "id": "evt-lepen-declaration-2026-11-27",
+      "date": "2026-11-27",
+      "type": "declaration",
+      "candidateIds": [
+        "lepen"
+      ],
+      "text": "Lors d'une conférence de presse au siège du Rassemblement national, se prononce sur le secret de l'enquête et de l'instruction, selon LCP.",
+      "quote": "« Les médias ne pourront plus, en toute impunité, effectuer des recels de violation du secret de l'enquête et de l'instruction. »",
+      "sourceIds": [
+        "lcp-2026-11-27-le-pen-secret-de-l-instruction"
+      ]
     }
   ],
   "editorialLog": [
+    {
+      "date": "2026-11-28",
+      "text": "Recherche des nouveautés depuis la mise à jour du 27 novembre. Contrôle croisé des candidatures : le fil d'actualités de l'app (presitracker2027.fr/api/v1/news) n'a pas pu être lu ce jour (connexion refusée par l'environnement d'exécution), aucun titre n'a donc été lu ; ont été lus la première page de la rubrique « Actualités » de LCP (16 titres, dont 5 datés du 27 novembre et aucun du 28 novembre), la première page du dossier « Présidentielle 2027 » de LCP (16 titres, dont 7 datés des 25 et 26 novembre) et sa liste des candidats déclarés et potentiels (mise à jour le 23 novembre, sans élément nouveau) ; la recherche nominative a été faite pour chacun des candidats au statut pressenti (Jean-Noël Barrot, Xavier Bertrand, Élisabeth Borne, Thierry Breton, Bernard Cazeneuve, François Hollande, Jean Lassalle, Bruno Le Maire, Lydie Massard, Matthieu Pigasse, Sandrine Rousseau, Manuel Valls) : aucune déclaration, aucun retrait ni aucune investiture nouveaux. Signaux écartés : l'article de LCP sur la confirmation par Xavier Bertrand qu'il sera candidat date du 27 août 2026 et est déjà couvert par son statut actuel ; le soutien de huit députés Les Républicains à David Lisnard (LCP, 27 novembre) émane de personnes non candidates et ne relève d'aucun type de fait de campagne ; les annonces de Jordan Bardella, retiré, lors de la conférence de presse de Marine Le Pen du 27 novembre (hausse de 10 % de l'effort de l'État dans les outre-mer, réforme de l'octroi de mer) ne sont pas attribuées à la candidate et ne sont pas saisies. Mesures : 5 mesures ajoutées pour Marine Le Pen, présentées lors de sa conférence de presse consacrée aux outre-mer le 27 novembre (d'après LCP) : loi de programmation pour les outre-mer sur douze ans, aller-retour annuel vers l'Hexagone à prix plafonné pour les habitants des outre-mer, création d'un ministère d'État des Outre-mer, création d'une base interarmées renforcée à Nouméa, aggravation des peines pour recel de violation du secret de l'enquête et de l'instruction. Ne sont pas saisis, faute de précision suffisante dans la source : le plan d'action pluriannuel (eau potable, sécurité), le conseil interministériel consacré aux outre-mer (périodicité « biannuel » ambiguë) et les mesures d'immigration en Guyane et à Mayotte (formulation de l'article qui ne permet pas d'attribuer avec certitude le périmètre ; la suppression du droit du sol figure déjà dans le fichier). Aucune position du questionnaire n'en est tirée, aucune question du test ni de la banque ne portant sur ces mesures. Vie de la campagne : 1 déclaration ajoutée (Marine Le Pen, 27 novembre, sur le secret de l'enquête et de l'instruction). Notices de la Commission des sondages : notice n° 10400 (« Pres IV Vague 5 OPINIONWAY 26 novembre ») ajoutée comme noticeUrl aux deux fiches de l'enquête OpinionWay pour CNews du 25 au 26 novembre (même institut, mêmes dates de terrain, mêmes effectifs : 912 inscrits sur 1 020 personnes) ; aucune notice en attente. Sondages : aucune enquête nouvelle trouvée. Rotation hebdomadaire des candidats, parmi ceux revus pour la dernière fois le 22 novembre, en commençant par ceux dont la position est connue sur le moins de questions du test : Delphine Batho, Karim Bouamrane, Anasse Kazib, Selma Labib, Nathalie Arthaud, Jean-François Legendre, Philippe Herlin, Nicolas Dupont-Aignan et Dominique de Villepin passés en revue sans mesure nouvelle ni annonce chiffrée de parrainages (seuls des sites agrégateurs ou des articles antérieurs déjà exploités ont été trouvés) ; Marine Le Pen (voir ci-dessus). Rotation de la banque : thèmes logement et territoires (outre-mer) et sécurité et justice passés en revue à partir des mesures ajoutées ce jour, sans position nouvelle justifiée. Aucun changement de statut, aucun relevé de parrainages ni aucune échéance modifiés."
+    },
     {
       "date": "2026-11-27",
       "text": "Sondages : ajout de l'enquête OpinionWay pour CNews réalisée du 25 au 26 novembre 2026 et publiée le 26 novembre (912 personnes inscrites sur les listes électorales, issues d'un échantillon de 1 020 personnes), signalée en attente dans l'entrée précédente du jour. Premier tour : une hypothèse unique, reprise telle que publiée (moins de 1 % : Karim Bouamrane). Second tour : quatre hypothèses, Jean-Luc Mélenchon, David Lisnard, Raphaël Glucksmann et Édouard Philippe face à Marine Le Pen. Les scores sont tirés du rapport complet de l'institut ; la notice de la Commission des sondages n'est pas encore en ligne et sera ajoutée comme noticeUrl à sa publication. Aucun autre changement."
